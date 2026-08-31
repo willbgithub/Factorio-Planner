@@ -4,7 +4,7 @@ public class Prototype
 {
     public Prototype(string name)
     {
-        Debug.Log("Prototype constructor: \"" + name + "\"");
+        Debug.Log("PROTOTYPE: Constructor on \"" + name + "\"");
         this.name = name;
     }
     public void SetName(string name)
