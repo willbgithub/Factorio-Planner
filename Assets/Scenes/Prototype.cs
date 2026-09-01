@@ -1,3 +1,8 @@
+// Prototype.cs
+// A Factorio prototype. Parent class to items and recipes.
+// 31 August 2026
+// will b. gaming
+
 using UnityEngine;
 
 public class Prototype
