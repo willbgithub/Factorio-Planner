@@ -5,20 +5,53 @@
 
 using UnityEngine;
 
-public class Prototype
+public abstract class Prototype
 {
-    public Prototype(string name)
+    // Constructor
+    public Prototype(string prefabName, string englishName, string typeName, Sprite icon)
     {
-        Debug.Log("PROTOTYPE: Constructor on \"" + name + "\"");
-        this.name = name;
+        this.prefabName = prefabName;
+        this.englishName = englishName;
+        this.typeName = typeName;
+        this.icon = icon;
     }
-    public void SetName(string name)
+    // Mutators
+    public void SetPrefabName(string prefabName)
     {
-        this.name = name;
+        this.prefabName = prefabName;
     }
-    public string GetName()
+    public void SetEnglishName(string englishName)
     {
-        return name;
+        this.englishName = englishName;
     }
-    string name;
+    public void SetType(string typeName)
+    {
+        this.typeName = typeName;
+    }
+    public void SetIcon(Sprite icon)
+    {
+        this.icon = icon;
+    }
+    // Accessors
+    public string GetPrefabName()
+    {
+        return prefabName;
+    }
+    public string GetEnglishName()
+    {
+        return englishName;
+    }
+    public string GetTypeName()
+    {
+        return typeName;
+    }
+    public Sprite GetIcon()
+    {
+        return icon;
+    }
+    // Member data
+    protected string prefabName;
+    protected string englishName;
+    protected string typeName;
+    protected Sprite icon;
 }
