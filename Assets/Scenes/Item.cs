@@ -36,7 +36,7 @@ public class Item : Prototype
     // Mutators
     public void SetCraftedIn(List<Recipe> craftedIn)
     {
-        this.craftedIn = new List<Recipe();
+        this.craftedIn = new List<Recipe>();
         for (int i = 0; i < craftedIn.Count; i++)
         {
             this.craftedIn[i] = craftedIn[i];
