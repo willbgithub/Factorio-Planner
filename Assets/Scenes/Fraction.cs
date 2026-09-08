@@ -4,6 +4,8 @@
 // will b. gaming
 
 using System;
+using System.Text.RegularExpressions;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Fraction
@@ -124,6 +126,21 @@ public class Fraction
     public static implicit operator Fraction(int numerator)
     {
         return new Fraction(numerator);
+    }
+    // Explicit conversion from string to Fraction
+    public Fraction(string str)
+    {
+        if (!str.Contains('/'))
+        {
+            numerator = int.Parse(str);
+            denominator = 1;
+        }
+        else
+        {
+            numerator = int.Parse(Regex.Match(str, "\\d+").Value);
+            denominator = int.Parse(Regex.Match(str, "/(\\d+)").Groups[1].Value);
+            Simplify();
+        }
     }
     // Mutators
     public void SetValue(int n, int d)
