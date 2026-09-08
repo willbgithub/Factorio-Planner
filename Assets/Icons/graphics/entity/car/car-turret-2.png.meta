@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 5f695e888771fcd43bc6e89bcce93276
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5573419477476345319
+    second: car-turret-2_0
+  - first:
+      213: -7178348736365211462
+    second: car-turret-2_1
+  - first:
+      213: -7649664477209322211
+    second: car-turret-2_2
+  - first:
+      213: -171943496769980058
+    second: car-turret-2_3
+  - first:
+      213: -7640509551334259541
+    second: car-turret-2_4
+  - first:
+      213: 2061775915363742426
+    second: car-turret-2_5
+  - first:
+      213: -5771969009991108991
+    second: car-turret-2_6
+  - first:
+      213: -7949178690858018418
+    second: car-turret-2_7
+  - first:
+      213: -3602442003257989782
+    second: car-turret-2_8
+  - first:
+      213: -2997779258614942718
+    second: car-turret-2_9
+  - first:
+      213: -4995437445088856591
+    second: car-turret-2_10
+  - first:
+      213: 2955882301652946965
+    second: car-turret-2_11
+  - first:
+      213: 6903131229061181018
+    second: car-turret-2_12
+  - first:
+      213: -5264151876831383723
+    second: car-turret-2_13
+  - first:
+      213: -6280792026154376303
+    second: car-turret-2_14
+  - first:
+      213: 4146730385917612882
+    second: car-turret-2_15
+  - first:
+      213: 2695864760477865957
+    second: car-turret-2_16
+  - first:
+      213: -3844030397570197821
+    second: car-turret-2_17
+  - first:
+      213: -669883156283161859
+    second: car-turret-2_18
+  - first:
+      213: -2134829278378899763
+    second: car-turret-2_19
+  - first:
+      213: -5077347824267615097
+    second: car-turret-2_20
+  - first:
+      213: -399359841569311273
+    second: car-turret-2_21
+  - first:
+      213: 7423567533763227150
+    second: car-turret-2_22
+  - first:
+      213: -7748318630689173713
+    second: car-turret-2_23
+  - first:
+      213: 8712650549781130970
+    second: car-turret-2_24
+  - first:
+      213: -1358070199817217753
+    second: car-turret-2_25
+  - first:
+      213: -1329179488979777053
+    second: car-turret-2_26
+  - first:
+      213: -4083475973199158422
+    second: car-turret-2_27
+  - first:
+      213: 4325415831544191412
+    second: car-turret-2_28
+  - first:
+      213: 6642078858768639109
+    second: car-turret-2_29
+  - first:
+      213: -6468784974038620347
+    second: car-turret-2_30
+  - first:
+      213: 3230309399021020939
+    second: car-turret-2_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: car-turret-2_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1772
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5883b4c73c85d40800000000000000
+      internalID: 5573419477476345319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1715
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0d3175bd1616c90800000000000000
+      internalID: -7178348736365211462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1657
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d930900bee6d590800000000000000
+      internalID: -7649664477209322211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1600
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6693699fc422d9df0800000000000000
+      internalID: -171943496769980058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_4
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1543
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba40eb15b0577f590800000000000000
+      internalID: -7640509551334259541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1486
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad236b17546ec9c10800000000000000
+      internalID: 2061775915363742426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1429
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186bae044c8d5efa0800000000000000
+      internalID: -5771969009991108991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1372
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e899d43e818dea190800000000000000
+      internalID: -7949178690858018418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1315
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a656cd7a51e810ec0800000000000000
+      internalID: -3602442003257989782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1259
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204f83fa5afb566d0800000000000000
+      internalID: -2997779258614942718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_10
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1202
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f53bc35c14acaab0800000000000000
+      internalID: -4995437445088856591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1145
+        width: 57
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51053ebda47650920800000000000000
+      internalID: 2955882301652946965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1089
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ee81a4749dccf50800000000000000
+      internalID: 6903131229061181018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_13
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1032
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f62c932c9f1f6b0800000000000000
+      internalID: -5264151876831383723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 975
+        width: 60
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19366f4ede426d8a0800000000000000
+      internalID: -6280792026154376303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 918
+        width: 61
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25310ffc0552c8930800000000000000
+      internalID: 4146730385917612882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 861
+        width: 61
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7d6c267b2a96520800000000000000
+      internalID: 2695864760477865957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 804
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6560f48b247aac0800000000000000
+      internalID: -3844030397570197821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 747
+        width: 61
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df289bc81d814b6f0800000000000000
+      internalID: -669883156283161859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_19
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 690
+        width: 60
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc64f1605109f52e0800000000000000
+      internalID: -2134829278378899763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 633
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7842d650e03a989b0800000000000000
+      internalID: -5077347824267615097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_21
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 575
+        width: 57
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d574b90750357af0800000000000000
+      internalID: -399359841569311273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_22
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 518
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e6418175fc50760800000000000000
+      internalID: 7423567533763227150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_23
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 461
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f0b3bf141787490800000000000000
+      internalID: -7748318630689173713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 403
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adee0df638d89e870800000000000000
+      internalID: 8712650549781130970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_25
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 344
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729d9df395a272de0800000000000000
+      internalID: -1358070199817217753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_26
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 286
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e900ac0c4ecd8de0800000000000000
+      internalID: -1329179488979777053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 229
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a632f90dc349457c0800000000000000
+      internalID: -4083475973199158422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 171
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9da0128c6f60c30800000000000000
+      internalID: 4325415831544191412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_29
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 113
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5846903e7876d2c50800000000000000
+      internalID: 6642078858768639109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_30
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 56
+        width: 35
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5472b06d6524a36a0800000000000000
+      internalID: -6468784974038620347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-turret-2_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b07e043984d54dc20800000000000000
+      internalID: 3230309399021020939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      car-turret-2_0: 5573419477476345319
+      car-turret-2_1: -7178348736365211462
+      car-turret-2_10: -4995437445088856591
+      car-turret-2_11: 2955882301652946965
+      car-turret-2_12: 6903131229061181018
+      car-turret-2_13: -5264151876831383723
+      car-turret-2_14: -6280792026154376303
+      car-turret-2_15: 4146730385917612882
+      car-turret-2_16: 2695864760477865957
+      car-turret-2_17: -3844030397570197821
+      car-turret-2_18: -669883156283161859
+      car-turret-2_19: -2134829278378899763
+      car-turret-2_2: -7649664477209322211
+      car-turret-2_20: -5077347824267615097
+      car-turret-2_21: -399359841569311273
+      car-turret-2_22: 7423567533763227150
+      car-turret-2_23: -7748318630689173713
+      car-turret-2_24: 8712650549781130970
+      car-turret-2_25: -1358070199817217753
+      car-turret-2_26: -1329179488979777053
+      car-turret-2_27: -4083475973199158422
+      car-turret-2_28: 4325415831544191412
+      car-turret-2_29: 6642078858768639109
+      car-turret-2_3: -171943496769980058
+      car-turret-2_30: -6468784974038620347
+      car-turret-2_31: 3230309399021020939
+      car-turret-2_4: -7640509551334259541
+      car-turret-2_5: 2061775915363742426
+      car-turret-2_6: -5771969009991108991
+      car-turret-2_7: -7949178690858018418
+      car-turret-2_8: -3602442003257989782
+      car-turret-2_9: -2997779258614942718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

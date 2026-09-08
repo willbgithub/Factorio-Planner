@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 35105b85a206b1a4281c57cfbd8c7ab9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6920300318011099234
+    second: small-explosion-2_0
+  - first:
+      213: 7537726604015984908
+    second: small-explosion-2_1
+  - first:
+      213: -8285464070748308741
+    second: small-explosion-2_2
+  - first:
+      213: 7916488703309657172
+    second: small-explosion-2_3
+  - first:
+      213: -8792752703393685197
+    second: small-explosion-2_4
+  - first:
+      213: 9119717562666551483
+    second: small-explosion-2_5
+  - first:
+      213: -6678196961313981507
+    second: small-explosion-2_6
+  - first:
+      213: 2582045260217861396
+    second: small-explosion-2_7
+  - first:
+      213: 6769925370775476958
+    second: small-explosion-2_8
+  - first:
+      213: -3545679934308818521
+    second: small-explosion-2_9
+  - first:
+      213: 8537904179233346860
+    second: small-explosion-2_10
+  - first:
+      213: -5902339022847593561
+    second: small-explosion-2_11
+  - first:
+      213: 7484379965152062954
+    second: small-explosion-2_12
+  - first:
+      213: 4198965143709310435
+    second: small-explosion-2_13
+  - first:
+      213: -7972215290462408051
+    second: small-explosion-2_14
+  - first:
+      213: 2202071946853348870
+    second: small-explosion-2_15
+  - first:
+      213: 6485285769235888876
+    second: small-explosion-2_16
+  - first:
+      213: 5445640449064166553
+    second: small-explosion-2_17
+  - first:
+      213: -2966787456013920473
+    second: small-explosion-2_18
+  - first:
+      213: -2754153196593711756
+    second: small-explosion-2_19
+  - first:
+      213: 1928828727254726397
+    second: small-explosion-2_20
+  - first:
+      213: -8094020403657365533
+    second: small-explosion-2_21
+  - first:
+      213: -406393554170583052
+    second: small-explosion-2_22
+  - first:
+      213: 5478075259163117609
+    second: small-explosion-2_23
+  - first:
+      213: 3586657430183876745
+    second: small-explosion-2_24
+  - first:
+      213: -1249231063107820946
+    second: small-explosion-2_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: small-explosion-2_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 497
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97fceda68726ff90800000000000000
+      internalID: -6920300318011099234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 495
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c016266e8626b9860800000000000000
+      internalID: 7537726604015984908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 491
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfaf8cf635e140d80800000000000000
+      internalID: -8285464070748308741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 487
+        width: 72
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4543a2548840ddd60800000000000000
+      internalID: 7916488703309657172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 487
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3312d54900ed9f580800000000000000
+      internalID: -8792752703393685197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_5
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 486
+        width: 82
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb881ae0ecebf8e70800000000000000
+      internalID: 9119717562666551483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 83
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb79cc0f374253a0800000000000000
+      internalID: -6678196961313981507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_7
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 331
+        width: 86
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4154441eb7445d320800000000000000
+      internalID: 2582045260217861396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_8
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 328
+        width: 84
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda1af0914b93fd50800000000000000
+      internalID: 6769925370775476958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_9
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 326
+        width: 82
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a1ea44b2e63bcec0800000000000000
+      internalID: -3545679934308818521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_10
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 323
+        width: 83
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25d6818d9abc7670800000000000000
+      internalID: 8537904179233346860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_11
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 321
+        width: 84
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a33e3f3eeda61ea0800000000000000
+      internalID: -5902339022847593561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 167
+        width: 82
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed60f2acebddd760800000000000000
+      internalID: 7484379965152062954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 166
+        width: 82
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed5a071d88b54a30800000000000000
+      internalID: 4198965143709310435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 165
+        width: 83
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82fc039e600d5190800000000000000
+      internalID: -7972215290462408051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_15
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 165
+        width: 85
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606fb02c4c45f8e10800000000000000
+      internalID: 2202071946853348870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_16
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 164
+        width: 87
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea733eeb0d500a50800000000000000
+      internalID: 6485285769235888876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 163
+        width: 89
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994e7fcd22dc29b40800000000000000
+      internalID: 5445640449064166553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 11
+        width: 88
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7279438078ad3d6d0800000000000000
+      internalID: -2966787456013920473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 12
+        width: 87
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4757604824847c9d0800000000000000
+      internalID: -2754153196593711756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_20
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 6
+        width: 88
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df63690128394ca10800000000000000
+      internalID: 1928828727254726397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_21
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 11
+        width: 87
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e72d3ba3534caf80800000000000000
+      internalID: -8094020403657365533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_22
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 57
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f767a437333c5af0800000000000000
+      internalID: -406393554170583052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_23
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 6
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92806439c68060c40800000000000000
+      internalID: 5478075259163117609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_24
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 0
+        width: 71
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98810290eed56c130800000000000000
+      internalID: 3586657430183876745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small-explosion-2_25
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 7
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62231187f6d9aee0800000000000000
+      internalID: -1249231063107820946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      small-explosion-2_0: -6920300318011099234
+      small-explosion-2_1: 7537726604015984908
+      small-explosion-2_10: 8537904179233346860
+      small-explosion-2_11: -5902339022847593561
+      small-explosion-2_12: 7484379965152062954
+      small-explosion-2_13: 4198965143709310435
+      small-explosion-2_14: -7972215290462408051
+      small-explosion-2_15: 2202071946853348870
+      small-explosion-2_16: 6485285769235888876
+      small-explosion-2_17: 5445640449064166553
+      small-explosion-2_18: -2966787456013920473
+      small-explosion-2_19: -2754153196593711756
+      small-explosion-2_2: -8285464070748308741
+      small-explosion-2_20: 1928828727254726397
+      small-explosion-2_21: -8094020403657365533
+      small-explosion-2_22: -406393554170583052
+      small-explosion-2_23: 5478075259163117609
+      small-explosion-2_24: 3586657430183876745
+      small-explosion-2_25: -1249231063107820946
+      small-explosion-2_3: 7916488703309657172
+      small-explosion-2_4: -8792752703393685197
+      small-explosion-2_5: 9119717562666551483
+      small-explosion-2_6: -6678196961313981507
+      small-explosion-2_7: 2582045260217861396
+      small-explosion-2_8: 6769925370775476958
+      small-explosion-2_9: -3545679934308818521
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

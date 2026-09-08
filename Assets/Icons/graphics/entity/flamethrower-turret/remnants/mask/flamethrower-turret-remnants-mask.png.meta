@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: bf32dc35308cb6b45a03e78c312422c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -512733629207587098
+    second: flamethrower-turret-remnants-mask_0
+  - first:
+      213: 4328821248091635349
+    second: flamethrower-turret-remnants-mask_1
+  - first:
+      213: 4371747599248632584
+    second: flamethrower-turret-remnants-mask_2
+  - first:
+      213: 3057062807598801493
+    second: flamethrower-turret-remnants-mask_3
+  - first:
+      213: 3026843455839277493
+    second: flamethrower-turret-remnants-mask_4
+  - first:
+      213: 3724527284380563072
+    second: flamethrower-turret-remnants-mask_5
+  - first:
+      213: 181210127713003948
+    second: flamethrower-turret-remnants-mask_6
+  - first:
+      213: -4128021676799027476
+    second: flamethrower-turret-remnants-mask_7
+  - first:
+      213: 4749502074162187079
+    second: flamethrower-turret-remnants-mask_8
+  - first:
+      213: -3979870209729208883
+    second: flamethrower-turret-remnants-mask_9
+  - first:
+      213: -4641895190328910307
+    second: flamethrower-turret-remnants-mask_10
+  - first:
+      213: 5059043563978641355
+    second: flamethrower-turret-remnants-mask_11
+  - first:
+      213: -9162882063381268365
+    second: flamethrower-turret-remnants-mask_12
+  - first:
+      213: 3399374621964653658
+    second: flamethrower-turret-remnants-mask_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 589
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e65fa61b7762e8f0800000000000000
+      internalID: -512733629207587098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 561
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e3aa47dff031c30800000000000000
+      internalID: 4328821248091635349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 553
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ba1ec67419bac30800000000000000
+      internalID: 4371747599248632584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_3
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 492
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5522cfe2d6edc6a20800000000000000
+      internalID: 3057062807598801493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b114001612810a20800000000000000
+      internalID: 3026843455839277493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_5
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 383
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086f0cde4dd20b330800000000000000
+      internalID: 3724527284380563072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_6
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 301
+        width: 59
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9690ca6a9c38200800000000000000
+      internalID: 181210127713003948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 231
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce61849f72256b6c0800000000000000
+      internalID: -4128021676799027476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 230
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b0b66f8fe99e140800000000000000
+      internalID: 4749502074162187079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_9
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 190
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd5ee86129a4c8c0800000000000000
+      internalID: -3979870209729208883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 62
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ed9df0beca49fb0800000000000000
+      internalID: -4641895190328910307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 77
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf4c264155553640800000000000000
+      internalID: 5059043563978641355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 57
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3787c557f47e6d080800000000000000
+      internalID: -9162882063381268365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flamethrower-turret-remnants-mask_13
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 57
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a545ea045310d2f20800000000000000
+      internalID: 3399374621964653658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flamethrower-turret-remnants-mask_0: -512733629207587098
+      flamethrower-turret-remnants-mask_1: 4328821248091635349
+      flamethrower-turret-remnants-mask_10: -4641895190328910307
+      flamethrower-turret-remnants-mask_11: 5059043563978641355
+      flamethrower-turret-remnants-mask_12: -9162882063381268365
+      flamethrower-turret-remnants-mask_13: 3399374621964653658
+      flamethrower-turret-remnants-mask_2: 4371747599248632584
+      flamethrower-turret-remnants-mask_3: 3057062807598801493
+      flamethrower-turret-remnants-mask_4: 3026843455839277493
+      flamethrower-turret-remnants-mask_5: 3724527284380563072
+      flamethrower-turret-remnants-mask_6: 181210127713003948
+      flamethrower-turret-remnants-mask_7: -4128021676799027476
+      flamethrower-turret-remnants-mask_8: 4749502074162187079
+      flamethrower-turret-remnants-mask_9: -3979870209729208883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 5193a287437b42140adba87523c66fd9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7557495174307891018
+    second: dark-mud-decal-04_0
+  - first:
+      213: -2981945999302918039
+    second: dark-mud-decal-04_1
+  - first:
+      213: -8432207053978390085
+    second: dark-mud-decal-04_2
+  - first:
+      213: 5985022125641499959
+    second: dark-mud-decal-04_3
+  - first:
+      213: -7729318733800388299
+    second: dark-mud-decal-04_4
+  - first:
+      213: -6731693999783607506
+    second: dark-mud-decal-04_5
+  - first:
+      213: -3104491227438200922
+    second: dark-mud-decal-04_6
+  - first:
+      213: -2846466046200712396
+    second: dark-mud-decal-04_7
+  - first:
+      213: -7439318323284479158
+    second: dark-mud-decal-04_8
+  - first:
+      213: 5484817965153803635
+    second: dark-mud-decal-04_9
+  - first:
+      213: 2190330594421417535
+    second: dark-mud-decal-04_10
+  - first:
+      213: -1822923165195678785
+    second: dark-mud-decal-04_11
+  - first:
+      213: -106034104511345650
+    second: dark-mud-decal-04_12
+  - first:
+      213: -1945855117832122099
+    second: dark-mud-decal-04_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dark-mud-decal-04_0
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 321
+        width: 161
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47c958d1dd91e860800000000000000
+      internalID: 7557495174307891018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_1
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 419
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9600724a9effd96d0800000000000000
+      internalID: -2981945999302918039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 309
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb133133c58cafa80800000000000000
+      internalID: -8432207053978390085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 344
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73507bbc9e11f0350800000000000000
+      internalID: 5985022125641499959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 346
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5394e043091fbb490800000000000000
+      internalID: -7729318733800388299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_5
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 347
+        width: 63
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23054629f73492a0800000000000000
+      internalID: -6731693999783607506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 215
+        width: 253
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7ca3c4da1aae4d0800000000000000
+      internalID: -3104491227438200922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_7
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 39
+        width: 284
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433fef256325f78d0800000000000000
+      internalID: -2846466046200712396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_8
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 273
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43f291766b32c890800000000000000
+      internalID: -7439318323284479158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_9
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 140
+        width: 266
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d5ca621ecfd1c40800000000000000
+      internalID: 5484817965153803635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 225
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36a82d121e956e10800000000000000
+      internalID: 2190330594421417535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_11
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 183
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb4ead1a0da3b6e0800000000000000
+      internalID: -1822923165195678785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 105
+        width: 85
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c46823b8a478ef0800000000000000
+      internalID: -106034104511345650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark-mud-decal-04_13
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 77
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d019d35741feef4e0800000000000000
+      internalID: -1945855117832122099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dark-mud-decal-04_0: 7557495174307891018
+      dark-mud-decal-04_1: -2981945999302918039
+      dark-mud-decal-04_10: 2190330594421417535
+      dark-mud-decal-04_11: -1822923165195678785
+      dark-mud-decal-04_12: -106034104511345650
+      dark-mud-decal-04_13: -1945855117832122099
+      dark-mud-decal-04_2: -8432207053978390085
+      dark-mud-decal-04_3: 5985022125641499959
+      dark-mud-decal-04_4: -7729318733800388299
+      dark-mud-decal-04_5: -6731693999783607506
+      dark-mud-decal-04_6: -3104491227438200922
+      dark-mud-decal-04_7: -2846466046200712396
+      dark-mud-decal-04_8: -7439318323284479158
+      dark-mud-decal-04_9: 5484817965153803635
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

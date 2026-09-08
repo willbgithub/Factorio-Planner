@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 3c6382bc70c80fb489b11b05e909bc18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5175772166943635296
+    second: gate-rail-horizontal-left_0
+  - first:
+      213: -4650705050012697628
+    second: gate-rail-horizontal-left_1
+  - first:
+      213: 6644987201329053601
+    second: gate-rail-horizontal-left_2
+  - first:
+      213: -4026080124816023399
+    second: gate-rail-horizontal-left_3
+  - first:
+      213: 5797999492451531365
+    second: gate-rail-horizontal-left_4
+  - first:
+      213: 7193282361117769120
+    second: gate-rail-horizontal-left_5
+  - first:
+      213: -2814274684930333639
+    second: gate-rail-horizontal-left_6
+  - first:
+      213: 7205260250088636327
+    second: gate-rail-horizontal-left_7
+  - first:
+      213: 9222950040582037229
+    second: gate-rail-horizontal-left_8
+  - first:
+      213: -3086769197665423321
+    second: gate-rail-horizontal-left_9
+  - first:
+      213: -5614140246246661561
+    second: gate-rail-horizontal-left_10
+  - first:
+      213: 6825910751486196155
+    second: gate-rail-horizontal-left_11
+  - first:
+      213: -5465047286907538555
+    second: gate-rail-horizontal-left_12
+  - first:
+      213: 7219898700027343418
+    second: gate-rail-horizontal-left_13
+  - first:
+      213: 5654792346378260796
+    second: gate-rail-horizontal-left_14
+  - first:
+      213: 889658175734553585
+    second: gate-rail-horizontal-left_15
+  - first:
+      213: 160323435086581632
+    second: gate-rail-horizontal-left_16
+  - first:
+      213: -310674209832191234
+    second: gate-rail-horizontal-left_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 73
+        width: 27
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a888f6f2a6fb28b0800000000000000
+      internalID: -5175772166943635296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 73
+        width: 60
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebb0e2c560657fb0800000000000000
+      internalID: -4650705050012697628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 73
+        width: 60
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af3c3827acb73c50800000000000000
+      internalID: 6644987201329053601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_3
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 73
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990a413257d7028c0800000000000000
+      internalID: -4026080124816023399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 73
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56af77bb1d1a67050800000000000000
+      internalID: 5797999492451531365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 73
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adf18f123ca3d360800000000000000
+      internalID: 7193282361117769120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 73
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9346a50b510b1f8d0800000000000000
+      internalID: -2814274684930333639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_7
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 73
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af76c8b50a3ef360800000000000000
+      internalID: 7205260250088636327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_8
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 76
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee111652308eff70800000000000000
+      internalID: 9222950040582037229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720f885e4c79925d0800000000000000
+      internalID: -3086769197665423321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7426e37e0319612b0800000000000000
+      internalID: -5614140246246661561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9badac9a18abe50800000000000000
+      internalID: 6825910751486196155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_12
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583f92792704824b0800000000000000
+      internalID: -5465047286907538555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_13
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 0
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a323f617d9b323460800000000000000
+      internalID: 7219898700027343418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_14
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 0
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31597cbdabd97e40800000000000000
+      internalID: 5654792346378260796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_15
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb1e20b563b85c00800000000000000
+      internalID: 889658175734553585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_16
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 0
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f81859055993200800000000000000
+      internalID: 160323435086581632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-horizontal-left_17
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 6
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efab312c37340bbf0800000000000000
+      internalID: -310674209832191234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gate-rail-horizontal-left_0: -5175772166943635296
+      gate-rail-horizontal-left_1: -4650705050012697628
+      gate-rail-horizontal-left_10: -5614140246246661561
+      gate-rail-horizontal-left_11: 6825910751486196155
+      gate-rail-horizontal-left_12: -5465047286907538555
+      gate-rail-horizontal-left_13: 7219898700027343418
+      gate-rail-horizontal-left_14: 5654792346378260796
+      gate-rail-horizontal-left_15: 889658175734553585
+      gate-rail-horizontal-left_16: 160323435086581632
+      gate-rail-horizontal-left_17: -310674209832191234
+      gate-rail-horizontal-left_2: 6644987201329053601
+      gate-rail-horizontal-left_3: -4026080124816023399
+      gate-rail-horizontal-left_4: 5797999492451531365
+      gate-rail-horizontal-left_5: 7193282361117769120
+      gate-rail-horizontal-left_6: -2814274684930333639
+      gate-rail-horizontal-left_7: 7205260250088636327
+      gate-rail-horizontal-left_8: 9222950040582037229
+      gate-rail-horizontal-left_9: -3086769197665423321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

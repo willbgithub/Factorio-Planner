@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 4b63c06ba4534d14890ffb1bf9b778a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 174749236398348862
+    second: light-mud-decal-12_0
+  - first:
+      213: -574266487516748066
+    second: light-mud-decal-12_1
+  - first:
+      213: -7732323557178558236
+    second: light-mud-decal-12_2
+  - first:
+      213: 370966114529920595
+    second: light-mud-decal-12_3
+  - first:
+      213: -4860637727085606710
+    second: light-mud-decal-12_4
+  - first:
+      213: -4021201865871680013
+    second: light-mud-decal-12_5
+  - first:
+      213: 2118783281479711615
+    second: light-mud-decal-12_6
+  - first:
+      213: 4217150207624351463
+    second: light-mud-decal-12_7
+  - first:
+      213: -7903038025954773547
+    second: light-mud-decal-12_8
+  - first:
+      213: 4245174568814135465
+    second: light-mud-decal-12_9
+  - first:
+      213: -5418489364990319051
+    second: light-mud-decal-12_10
+  - first:
+      213: -7290560319623541487
+    second: light-mud-decal-12_11
+  - first:
+      213: 8040711600142331931
+    second: light-mud-decal-12_12
+  - first:
+      213: 6243575674158016684
+    second: light-mud-decal-12_13
+  - first:
+      213: 4046335668142083852
+    second: light-mud-decal-12_14
+  - first:
+      213: 3367490529985285688
+    second: light-mud-decal-12_15
+  - first:
+      213: 3697226956690725353
+    second: light-mud-decal-12_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: light-mud-decal-12_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 115
+        width: 131
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a5b403185dc6200800000000000000
+      internalID: 174749236398348862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1
+        width: 216
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed627251cabc708f0800000000000000
+      internalID: -574266487516748066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 179
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8bcfd31b441b490800000000000000
+      internalID: -7732323557178558236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_3
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 150
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356434837bfe52500800000000000000
+      internalID: 370966114529920595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_4
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 142
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8433f6dbb8b8cb0800000000000000
+      internalID: -4860637727085606710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd949e4532d138c0800000000000000
+      internalID: -4021201865871680013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 132
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b72a03b2e676d10800000000000000
+      internalID: 2118783281479711615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 122
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee0ae935c3568a30800000000000000
+      internalID: 4217150207624351463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_8
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 122
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5bf8899c4c25290800000000000000
+      internalID: -7903038025954773547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_9
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 92
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a840b747c3e9ea30800000000000000
+      internalID: 4245174568814135465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 60
+        width: 103
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536258481a8adc4b0800000000000000
+      internalID: -5418489364990319051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_11
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 103
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dc74f240ab2da90800000000000000
+      internalID: -7290560319623541487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 57
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10b8db4998569f60800000000000000
+      internalID: 8040711600142331931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_13
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 40
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8657aeef2a5a650800000000000000
+      internalID: 6243575674158016684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_14
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 41
+        width: 64
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f0a9d0ad8772830800000000000000
+      internalID: 4046335668142083852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_15
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 18
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ec3489bcabbbe20800000000000000
+      internalID: 3367490529985285688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: light-mud-decal-12_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 36
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e99c8f04503f4330800000000000000
+      internalID: 3697226956690725353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      light-mud-decal-12_0: 174749236398348862
+      light-mud-decal-12_1: -574266487516748066
+      light-mud-decal-12_10: -5418489364990319051
+      light-mud-decal-12_11: -7290560319623541487
+      light-mud-decal-12_12: 8040711600142331931
+      light-mud-decal-12_13: 6243575674158016684
+      light-mud-decal-12_14: 4046335668142083852
+      light-mud-decal-12_15: 3367490529985285688
+      light-mud-decal-12_16: 3697226956690725353
+      light-mud-decal-12_2: -7732323557178558236
+      light-mud-decal-12_3: 370966114529920595
+      light-mud-decal-12_4: -4860637727085606710
+      light-mud-decal-12_5: -4021201865871680013
+      light-mud-decal-12_6: 2118783281479711615
+      light-mud-decal-12_7: 4217150207624351463
+      light-mud-decal-12_8: -7903038025954773547
+      light-mud-decal-12_9: 4245174568814135465
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

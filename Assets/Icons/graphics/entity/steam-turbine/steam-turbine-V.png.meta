@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 3b3ef12eeb6248f4d88e6c8964837f18
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8957040298552777579
+    second: steam-turbine-V_0
+  - first:
+      213: 9129762107427634370
+    second: steam-turbine-V_1
+  - first:
+      213: 2425816459686085161
+    second: steam-turbine-V_2
+  - first:
+      213: 2340591763411432804
+    second: steam-turbine-V_3
+  - first:
+      213: 2832213495162483099
+    second: steam-turbine-V_4
+  - first:
+      213: -4934348735728634929
+    second: steam-turbine-V_5
+  - first:
+      213: -6258665504307459893
+    second: steam-turbine-V_6
+  - first:
+      213: -9039933237349277541
+    second: steam-turbine-V_7
+  - first:
+      213: 537445747119465265
+    second: steam-turbine-V_8
+  - first:
+      213: -8312822569165181415
+    second: steam-turbine-V_9
+  - first:
+      213: -3678335001395599103
+    second: steam-turbine-V_10
+  - first:
+      213: 1089911390145798205
+    second: steam-turbine-V_11
+  - first:
+      213: -6610792002709672749
+    second: steam-turbine-V_12
+  - first:
+      213: -3602081344410471216
+    second: steam-turbine-V_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: steam-turbine-V_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 373
+        width: 220
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59427ed0e4332b380800000000000000
+      internalID: -8957040298552777579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 574
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ccbb01e34e63be70800000000000000
+      internalID: 9129762107427634370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_2
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 373
+        width: 221
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92282e1b73b3aa120800000000000000
+      internalID: 2425816459686085161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 574
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465f75ecec37b7020800000000000000
+      internalID: 2340591763411432804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_4
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 373
+        width: 221
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b913a3b0b2b0e4720800000000000000
+      internalID: 2832213495162483099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_5
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 574
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc33ff8d7fba58bb0800000000000000
+      internalID: -4934348735728634929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_6
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 373
+        width: 218
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc843c732e0c429a0800000000000000
+      internalID: -6258665504307459893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 220
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90ac82cd94bb8280800000000000000
+      internalID: -9039933237349277541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_8
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 200
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133a91b3f04657700800000000000000
+      internalID: 537445747119465265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 221
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e2f04aaebe2ac80800000000000000
+      internalID: -8312822569165181415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 200
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109edec0ecde3fcc0800000000000000
+      internalID: -3678335001395599103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 0
+        width: 221
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30ea4e72a4202f00800000000000000
+      internalID: 1089911390145798205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_12
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 200
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc2f72f2bfb144a0800000000000000
+      internalID: -6610792002709672749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: steam-turbine-V_13
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 0
+        width: 218
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d43a561a16d20ec0800000000000000
+      internalID: -3602081344410471216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      steam-turbine-V_0: -8957040298552777579
+      steam-turbine-V_1: 9129762107427634370
+      steam-turbine-V_10: -3678335001395599103
+      steam-turbine-V_11: 1089911390145798205
+      steam-turbine-V_12: -6610792002709672749
+      steam-turbine-V_13: -3602081344410471216
+      steam-turbine-V_2: 2425816459686085161
+      steam-turbine-V_3: 2340591763411432804
+      steam-turbine-V_4: 2832213495162483099
+      steam-turbine-V_5: -4934348735728634929
+      steam-turbine-V_6: -6258665504307459893
+      steam-turbine-V_7: -9039933237349277541
+      steam-turbine-V_8: 537445747119465265
+      steam-turbine-V_9: -8312822569165181415
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

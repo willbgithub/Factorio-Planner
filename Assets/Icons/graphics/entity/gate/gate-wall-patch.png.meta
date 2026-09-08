@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: bb1a332c7e56a9042806b846a68d3aa1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3746500231881158375
+    second: gate-wall-patch_0
+  - first:
+      213: 6699802983658744038
+    second: gate-wall-patch_1
+  - first:
+      213: 3574974548055474846
+    second: gate-wall-patch_2
+  - first:
+      213: 8383823394006288022
+    second: gate-wall-patch_3
+  - first:
+      213: -6048305133968381956
+    second: gate-wall-patch_4
+  - first:
+      213: -4737429577593582628
+    second: gate-wall-patch_5
+  - first:
+      213: -86590791422143266
+    second: gate-wall-patch_6
+  - first:
+      213: 3340434355622671143
+    second: gate-wall-patch_7
+  - first:
+      213: -5694427283064051664
+    second: gate-wall-patch_8
+  - first:
+      213: 8641463023527696223
+    second: gate-wall-patch_9
+  - first:
+      213: 5931642398645616471
+    second: gate-wall-patch_10
+  - first:
+      213: 4915321302216978564
+    second: gate-wall-patch_11
+  - first:
+      213: 122596413770077361
+    second: gate-wall-patch_12
+  - first:
+      213: 1312256210674448912
+    second: gate-wall-patch_13
+  - first:
+      213: -2229043285182935592
+    second: gate-wall-patch_14
+  - first:
+      213: -8373319593437991219
+    second: gate-wall-patch_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gate-wall-patch_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 93
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eee1307c1e3ef330800000000000000
+      internalID: 3746500231881158375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 93
+        width: 70
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8e41a015b7afc50800000000000000
+      internalID: 6699802983658744038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 93
+        width: 70
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92c8e1196cdc9130800000000000000
+      internalID: 3574974548055474846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 93
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696ca5b15f2595470800000000000000
+      internalID: 8383823394006288022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 93
+        width: 70
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7a4a4a68a101ca0800000000000000
+      internalID: -6048305133968381956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_5
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 93
+        width: 70
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb0b1f26e4414eb0800000000000000
+      internalID: -4737429577593582628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_6
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 93
+        width: 70
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4967c422e5ccef0800000000000000
+      internalID: -86590791422143266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_7
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 93
+        width: 69
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723766a195b9b5e20800000000000000
+      internalID: 3340434355622671143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 70
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038aca17e8459f0b0800000000000000
+      internalID: -5694427283064051664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f579a01e5d4ace770800000000000000
+      internalID: 8641463023527696223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ffae9955d615250800000000000000
+      internalID: 5931642398645616471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_11
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 70
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480bd8f8eaab63440800000000000000
+      internalID: 4915321302216978564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_12
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4908de9cc83b100800000000000000
+      internalID: 122596413770077361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 70
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01afc8b2212163210800000000000000
+      internalID: 1312256210674448912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_14
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd83bd21f8d011e0800000000000000
+      internalID: -2229043285182935592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-wall-patch_15
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce6f4a813efbcb80800000000000000
+      internalID: -8373319593437991219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gate-wall-patch_0: 3746500231881158375
+      gate-wall-patch_1: 6699802983658744038
+      gate-wall-patch_10: 5931642398645616471
+      gate-wall-patch_11: 4915321302216978564
+      gate-wall-patch_12: 122596413770077361
+      gate-wall-patch_13: 1312256210674448912
+      gate-wall-patch_14: -2229043285182935592
+      gate-wall-patch_15: -8373319593437991219
+      gate-wall-patch_2: 3574974548055474846
+      gate-wall-patch_3: 8383823394006288022
+      gate-wall-patch_4: -6048305133968381956
+      gate-wall-patch_5: -4737429577593582628
+      gate-wall-patch_6: -86590791422143266
+      gate-wall-patch_7: 3340434355622671143
+      gate-wall-patch_8: -5694427283064051664
+      gate-wall-patch_9: 8641463023527696223
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

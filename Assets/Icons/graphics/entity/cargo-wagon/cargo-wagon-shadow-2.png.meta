@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: e5b95d83211633e488739f9fe680f9ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5230427357234576300
+    second: cargo-wagon-shadow-2_0
+  - first:
+      213: -16766094057873523
+    second: cargo-wagon-shadow-2_1
+  - first:
+      213: 4010832981900921519
+    second: cargo-wagon-shadow-2_2
+  - first:
+      213: -3132023937101336941
+    second: cargo-wagon-shadow-2_3
+  - first:
+      213: 576960151595084423
+    second: cargo-wagon-shadow-2_4
+  - first:
+      213: 8588616310324473178
+    second: cargo-wagon-shadow-2_5
+  - first:
+      213: 4104280822050869429
+    second: cargo-wagon-shadow-2_6
+  - first:
+      213: -8142532556750244876
+    second: cargo-wagon-shadow-2_7
+  - first:
+      213: -9176850670731084019
+    second: cargo-wagon-shadow-2_8
+  - first:
+      213: 2713137355620894473
+    second: cargo-wagon-shadow-2_9
+  - first:
+      213: 7807685430178006411
+    second: cargo-wagon-shadow-2_10
+  - first:
+      213: -8431894217057615330
+    second: cargo-wagon-shadow-2_11
+  - first:
+      213: -8429966688107687622
+    second: cargo-wagon-shadow-2_12
+  - first:
+      213: -3712781466480627043
+    second: cargo-wagon-shadow-2_13
+  - first:
+      213: -6610778776173257230
+    second: cargo-wagon-shadow-2_14
+  - first:
+      213: -8631397681411465957
+    second: cargo-wagon-shadow-2_15
+  - first:
+      213: -951969443639292596
+    second: cargo-wagon-shadow-2_16
+  - first:
+      213: -3151580968522303908
+    second: cargo-wagon-shadow-2_17
+  - first:
+      213: 656392009689846124
+    second: cargo-wagon-shadow-2_18
+  - first:
+      213: 2661550969144761629
+    second: cargo-wagon-shadow-2_19
+  - first:
+      213: 2731680601495892612
+    second: cargo-wagon-shadow-2_20
+  - first:
+      213: -179626968038810866
+    second: cargo-wagon-shadow-2_21
+  - first:
+      213: -8555654818160600491
+    second: cargo-wagon-shadow-2_22
+  - first:
+      213: 6075103341897491286
+    second: cargo-wagon-shadow-2_23
+  - first:
+      213: -4209152328318580968
+    second: cargo-wagon-shadow-2_24
+  - first:
+      213: 888114259855903504
+    second: cargo-wagon-shadow-2_25
+  - first:
+      213: 4391032946581999309
+    second: cargo-wagon-shadow-2_26
+  - first:
+      213: 5794464501387112274
+    second: cargo-wagon-shadow-2_27
+  - first:
+      213: 3527323972449778654
+    second: cargo-wagon-shadow-2_28
+  - first:
+      213: -8517032906821099035
+    second: cargo-wagon-shadow-2_29
+  - first:
+      213: -6933818401795481564
+    second: cargo-wagon-shadow-2_30
+  - first:
+      213: 4980130832056609187
+    second: cargo-wagon-shadow-2_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2852
+        width: 418
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabb37b28f5369840800000000000000
+      internalID: 5230427357234576300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_1
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 2855
+        width: 422
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fd867835f64cff0800000000000000
+      internalID: -16766094057873523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_2
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 2858
+        width: 426
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa00a3c85759a730800000000000000
+      internalID: 4010832981900921519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_3
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 2861
+        width: 430
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39eed09c2d0d884d0800000000000000
+      internalID: -3132023937101336941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2464
+        width: 433
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a61657336c10800800000000000000
+      internalID: 576960151595084423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_5
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2467
+        width: 436
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d2401a705e03770800000000000000
+      internalID: 8588616310324473178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_6
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 2470
+        width: 438
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b05ac889a555f830800000000000000
+      internalID: 4104280822050869429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_7
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 2474
+        width: 442
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f339d6d7c9effe80800000000000000
+      internalID: -8142532556750244876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2077
+        width: 444
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fb44e9fe645a080800000000000000
+      internalID: -9176850670731084019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_9
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 2080
+        width: 447
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90740a4dc0007a520800000000000000
+      internalID: 2713137355620894473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_10
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 2084
+        width: 448
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85c0c728887a5c60800000000000000
+      internalID: 7807685430178006411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_11
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 2087
+        width: 451
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e124c9832e4ebfa80800000000000000
+      internalID: -8431894217057615330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 453
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3117f606fdb20b80800000000000000
+      internalID: -8429966688107687622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_13
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1694
+        width: 454
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92b4c96dec897cc0800000000000000
+      internalID: -3712781466480627043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_14
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 1697
+        width: 456
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd508d7abbc144a0800000000000000
+      internalID: -6610778776173257230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_15
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1700
+        width: 458
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1dd6543a8d173880800000000000000
+      internalID: -8631397681411465957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1303
+        width: 457
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d8ad2b5dce9c2f0800000000000000
+      internalID: -951969443639292596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_17
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1306
+        width: 459
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56b8529ec55344d0800000000000000
+      internalID: -3151580968522303908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_18
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 1308
+        width: 460
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61d7fa1e09fb1900800000000000000
+      internalID: 656392009689846124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_19
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1311
+        width: 460
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d5873418abfe420800000000000000
+      internalID: 2661550969144761629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 914
+        width: 460
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482fcf3b801e8e520800000000000000
+      internalID: 2731680601495892612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 917
+        width: 461
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b57f96936d18df0800000000000000
+      internalID: -179626968038810866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_22
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 920
+        width: 460
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a9daec545344980800000000000000
+      internalID: -8555654818160600491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_23
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 923
+        width: 460
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653a69b5d4a1f4450800000000000000
+      internalID: 6075103341897491286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 526
+        width: 459
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817001922461695c0800000000000000
+      internalID: -4209152328318580968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_25
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 529
+        width: 459
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b8ba2c637335c00800000000000000
+      internalID: 888114259855903504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_26
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 532
+        width: 459
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce8e02433510fc30800000000000000
+      internalID: 4391032946581999309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_27
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 535
+        width: 458
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f2acc73c21a6050800000000000000
+      internalID: 5794464501387112274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 138
+        width: 457
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbb691e67293f030800000000000000
+      internalID: 3527323972449778654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 141
+        width: 455
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1ad9842bb6dc980800000000000000
+      internalID: -8517032906821099035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_30
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 144
+        width: 455
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 420e9e786e026cf90800000000000000
+      internalID: -6933818401795481564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-shadow-2_31
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 147
+        width: 455
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a964bb1b9afc1540800000000000000
+      internalID: 4980130832056609187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cargo-wagon-shadow-2_0: 5230427357234576300
+      cargo-wagon-shadow-2_1: -16766094057873523
+      cargo-wagon-shadow-2_10: 7807685430178006411
+      cargo-wagon-shadow-2_11: -8431894217057615330
+      cargo-wagon-shadow-2_12: -8429966688107687622
+      cargo-wagon-shadow-2_13: -3712781466480627043
+      cargo-wagon-shadow-2_14: -6610778776173257230
+      cargo-wagon-shadow-2_15: -8631397681411465957
+      cargo-wagon-shadow-2_16: -951969443639292596
+      cargo-wagon-shadow-2_17: -3151580968522303908
+      cargo-wagon-shadow-2_18: 656392009689846124
+      cargo-wagon-shadow-2_19: 2661550969144761629
+      cargo-wagon-shadow-2_2: 4010832981900921519
+      cargo-wagon-shadow-2_20: 2731680601495892612
+      cargo-wagon-shadow-2_21: -179626968038810866
+      cargo-wagon-shadow-2_22: -8555654818160600491
+      cargo-wagon-shadow-2_23: 6075103341897491286
+      cargo-wagon-shadow-2_24: -4209152328318580968
+      cargo-wagon-shadow-2_25: 888114259855903504
+      cargo-wagon-shadow-2_26: 4391032946581999309
+      cargo-wagon-shadow-2_27: 5794464501387112274
+      cargo-wagon-shadow-2_28: 3527323972449778654
+      cargo-wagon-shadow-2_29: -8517032906821099035
+      cargo-wagon-shadow-2_3: -3132023937101336941
+      cargo-wagon-shadow-2_30: -6933818401795481564
+      cargo-wagon-shadow-2_31: 4980130832056609187
+      cargo-wagon-shadow-2_4: 576960151595084423
+      cargo-wagon-shadow-2_5: 8588616310324473178
+      cargo-wagon-shadow-2_6: 4104280822050869429
+      cargo-wagon-shadow-2_7: -8142532556750244876
+      cargo-wagon-shadow-2_8: -9176850670731084019
+      cargo-wagon-shadow-2_9: 2713137355620894473
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

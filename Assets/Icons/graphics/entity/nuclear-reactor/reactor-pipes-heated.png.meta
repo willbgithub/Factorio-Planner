@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 312e8bff5408b2c46bff4fc8adfd738c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6458596803084330178
+    second: reactor-pipes-heated_0
+  - first:
+      213: 3223279387496057595
+    second: reactor-pipes-heated_1
+  - first:
+      213: 2629674399427061744
+    second: reactor-pipes-heated_2
+  - first:
+      213: -1121653874133202373
+    second: reactor-pipes-heated_3
+  - first:
+      213: -8710564695235984846
+    second: reactor-pipes-heated_4
+  - first:
+      213: -7254795064514953629
+    second: reactor-pipes-heated_5
+  - first:
+      213: -8968220657234858905
+    second: reactor-pipes-heated_6
+  - first:
+      213: 3416759300948201747
+    second: reactor-pipes-heated_7
+  - first:
+      213: 4104122881707291880
+    second: reactor-pipes-heated_8
+  - first:
+      213: 3013924395788054866
+    second: reactor-pipes-heated_9
+  - first:
+      213: -7400249960498349700
+    second: reactor-pipes-heated_10
+  - first:
+      213: -6190084336973481453
+    second: reactor-pipes-heated_11
+  - first:
+      213: -1687153447064991966
+    second: reactor-pipes-heated_12
+  - first:
+      213: 1058766151824764850
+    second: reactor-pipes-heated_13
+  - first:
+      213: -38190346505618201
+    second: reactor-pipes-heated_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reactor-pipes-heated_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 305
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b5fac3d647e56a0800000000000000
+      internalID: -6458596803084330178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 290
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa8a8776836bbc20800000000000000
+      internalID: 3223279387496057595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 306
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7e9c40fea7e7420800000000000000
+      internalID: 2629674399427061744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_3
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 301
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a89578eb51f60f0800000000000000
+      internalID: -1121653874133202373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232866b6f8bdd1780800000000000000
+      internalID: -8710564695235984846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 234
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e345d835ac15b90800000000000000
+      internalID: -7254795064514953629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_6
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 229
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c2232f3da7a8380800000000000000
+      internalID: -8968220657234858905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 249
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31197004b74ca6f20800000000000000
+      internalID: 3416759300948201747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 218
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e437be2406c4f830800000000000000
+      internalID: 4104122881707291880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251b4def44c93d920800000000000000
+      internalID: 3013924395788054866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 129
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79b56f7ed70d4990800000000000000
+      internalID: -7400249960498349700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_11
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 135
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a7cfc8717681aa0800000000000000
+      internalID: -6190084336973481453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_12
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2278d1af0e60698e0800000000000000
+      internalID: -1687153447064991966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_13
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfe8bb943e71be00800000000000000
+      internalID: 1058766151824764850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-pipes-heated_14
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 73
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecfeaa0512587ff0800000000000000
+      internalID: -38190346505618201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      reactor-pipes-heated_0: -6458596803084330178
+      reactor-pipes-heated_1: 3223279387496057595
+      reactor-pipes-heated_10: -7400249960498349700
+      reactor-pipes-heated_11: -6190084336973481453
+      reactor-pipes-heated_12: -1687153447064991966
+      reactor-pipes-heated_13: 1058766151824764850
+      reactor-pipes-heated_14: -38190346505618201
+      reactor-pipes-heated_2: 2629674399427061744
+      reactor-pipes-heated_3: -1121653874133202373
+      reactor-pipes-heated_4: -8710564695235984846
+      reactor-pipes-heated_5: -7254795064514953629
+      reactor-pipes-heated_6: -8968220657234858905
+      reactor-pipes-heated_7: 3416759300948201747
+      reactor-pipes-heated_8: 4104122881707291880
+      reactor-pipes-heated_9: 3013924395788054866
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

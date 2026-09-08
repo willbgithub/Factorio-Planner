@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: d27feeefa885e85468b6c18d6d4bc451
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7187201910892107017
+    second: splitter-west-top_patch_0
+  - first:
+      213: 1531279909652089269
+    second: splitter-west-top_patch_1
+  - first:
+      213: 226044578127132212
+    second: splitter-west-top_patch_2
+  - first:
+      213: 5307106865558919219
+    second: splitter-west-top_patch_3
+  - first:
+      213: -1113563302990280133
+    second: splitter-west-top_patch_4
+  - first:
+      213: 5148439875249560669
+    second: splitter-west-top_patch_5
+  - first:
+      213: -8480248689651466880
+    second: splitter-west-top_patch_6
+  - first:
+      213: 5336271341077414344
+    second: splitter-west-top_patch_7
+  - first:
+      213: 2321695152097580465
+    second: splitter-west-top_patch_8
+  - first:
+      213: 593596882502318942
+    second: splitter-west-top_patch_9
+  - first:
+      213: 1710436595684050213
+    second: splitter-west-top_patch_10
+  - first:
+      213: -8727764899429242481
+    second: splitter-west-top_patch_11
+  - first:
+      213: -1120918961407785368
+    second: splitter-west-top_patch_12
+  - first:
+      213: -8242507951595210177
+    second: splitter-west-top_patch_13
+  - first:
+      213: 9093508122856583250
+    second: splitter-west-top_patch_14
+  - first:
+      213: -2256966924743446227
+    second: splitter-west-top_patch_15
+  - first:
+      213: 5232979680686200580
+    second: splitter-west-top_patch_16
+  - first:
+      213: -3616247233688276045
+    second: splitter-west-top_patch_17
+  - first:
+      213: -8512905093753968070
+    second: splitter-west-top_patch_18
+  - first:
+      213: -2904195837026653757
+    second: splitter-west-top_patch_19
+  - first:
+      213: 8936527505097591730
+    second: splitter-west-top_patch_20
+  - first:
+      213: 7850580282074299295
+    second: splitter-west-top_patch_21
+  - first:
+      213: -4965820967149014437
+    second: splitter-west-top_patch_22
+  - first:
+      213: 1783022014467798563
+    second: splitter-west-top_patch_23
+  - first:
+      213: -2948530862374087086
+    second: splitter-west-top_patch_24
+  - first:
+      213: -2123852107688982090
+    second: splitter-west-top_patch_25
+  - first:
+      213: -2323066100656351039
+    second: splitter-west-top_patch_26
+  - first:
+      213: 3458544442791967149
+    second: splitter-west-top_patch_27
+  - first:
+      213: -8390338930933221049
+    second: splitter-west-top_patch_28
+  - first:
+      213: 595511034571915940
+    second: splitter-west-top_patch_29
+  - first:
+      213: 8479354134827491828
+    second: splitter-west-top_patch_30
+  - first:
+      213: -5696672975795631990
+    second: splitter-west-top_patch_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: splitter-west-top_patch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 287
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa644401fde14c90800000000000000
+      internalID: -7187201910892107017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9418af6f2304510800000000000000
+      internalID: 1531279909652089269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 287
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436bbae9852132300800000000000000
+      internalID: 226044578127132212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_3
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 191
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3381da27391a6a940800000000000000
+      internalID: 5307106865558919219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 287
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a8a5a6314db80f0800000000000000
+      internalID: -1113563302990280133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 191
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cd4b7f9cee27740800000000000000
+      internalID: 5148439875249560669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_6
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 287
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d3a5e3fba105a80800000000000000
+      internalID: -8480248689651466880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_7
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 191
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1440e038e3e0a40800000000000000
+      internalID: 5336271341077414344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_8
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 287
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5d581a071583020800000000000000
+      internalID: 2321695152097580465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 191
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b74593831ec3800800000000000000
+      internalID: 593596882502318942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_10
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 287
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52583908501bcb710800000000000000
+      internalID: 1710436595684050213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 191
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89a56ec010c0e680800000000000000
+      internalID: -8727764899429242481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_12
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 287
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8660a4bb422b170f0800000000000000
+      internalID: -1120918961407785368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_13
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 191
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ab5de40babc9d80800000000000000
+      internalID: -8242507951595210177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_14
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 287
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250fef05571a23e70800000000000000
+      internalID: 9093508122856583250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_15
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 191
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d217cd43a84ada0e0800000000000000
+      internalID: -2256966924743446227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40753284b474f9840800000000000000
+      internalID: 5232979680686200580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 88
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b37508fc4280ddc0800000000000000
+      internalID: -3616247233688276045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_18
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 95
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a6e28abe51cd980800000000000000
+      internalID: -8512905093753968070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_19
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9abd7f54932b7d0800000000000000
+      internalID: -2904195837026653757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_20
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 95
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb89da0b6ce40c70800000000000000
+      internalID: 8936527505097591730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b79b12c2dd2fc60800000000000000
+      internalID: 7850580282074299295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_22
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 95
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5275e2f32cd51bb0800000000000000
+      internalID: -4965820967149014437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_23
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326fd0743119eb810800000000000000
+      internalID: 1783022014467798563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_24
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 95
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2569aea7dc6b417d0800000000000000
+      internalID: -2948530862374087086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9cbbdb2cf8682e0800000000000000
+      internalID: -2123852107688982090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_26
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 95
+        width: 89
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c850a880bfc2cfd0800000000000000
+      internalID: -2323066100656351039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 0
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da93488b8d73fff20800000000000000
+      internalID: 3458544442791967149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_28
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 95
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749389c32378f8b80800000000000000
+      internalID: -8390338930933221049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_29
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a20c7b712ea34800800000000000000
+      internalID: 595511034571915940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_30
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 95
+        width: 89
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1e12bf8a7bca570800000000000000
+      internalID: 8479354134827491828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west-top_patch_31
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 0
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88422c5c1a51f0b0800000000000000
+      internalID: -5696672975795631990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      splitter-west-top_patch_0: -7187201910892107017
+      splitter-west-top_patch_1: 1531279909652089269
+      splitter-west-top_patch_10: 1710436595684050213
+      splitter-west-top_patch_11: -8727764899429242481
+      splitter-west-top_patch_12: -1120918961407785368
+      splitter-west-top_patch_13: -8242507951595210177
+      splitter-west-top_patch_14: 9093508122856583250
+      splitter-west-top_patch_15: -2256966924743446227
+      splitter-west-top_patch_16: 5232979680686200580
+      splitter-west-top_patch_17: -3616247233688276045
+      splitter-west-top_patch_18: -8512905093753968070
+      splitter-west-top_patch_19: -2904195837026653757
+      splitter-west-top_patch_2: 226044578127132212
+      splitter-west-top_patch_20: 8936527505097591730
+      splitter-west-top_patch_21: 7850580282074299295
+      splitter-west-top_patch_22: -4965820967149014437
+      splitter-west-top_patch_23: 1783022014467798563
+      splitter-west-top_patch_24: -2948530862374087086
+      splitter-west-top_patch_25: -2123852107688982090
+      splitter-west-top_patch_26: -2323066100656351039
+      splitter-west-top_patch_27: 3458544442791967149
+      splitter-west-top_patch_28: -8390338930933221049
+      splitter-west-top_patch_29: 595511034571915940
+      splitter-west-top_patch_3: 5307106865558919219
+      splitter-west-top_patch_30: 8479354134827491828
+      splitter-west-top_patch_31: -5696672975795631990
+      splitter-west-top_patch_4: -1113563302990280133
+      splitter-west-top_patch_5: 5148439875249560669
+      splitter-west-top_patch_6: -8480248689651466880
+      splitter-west-top_patch_7: 5336271341077414344
+      splitter-west-top_patch_8: 2321695152097580465
+      splitter-west-top_patch_9: 593596882502318942
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

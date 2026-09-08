@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 8c243cb21ed3d1147b42bbbf7cef62be
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -687536861176439312
+    second: fluid-wagon-1_0
+  - first:
+      213: 4743697351913115849
+    second: fluid-wagon-1_1
+  - first:
+      213: 7285305279729378661
+    second: fluid-wagon-1_2
+  - first:
+      213: 2275731681824105181
+    second: fluid-wagon-1_3
+  - first:
+      213: 6721621705722107271
+    second: fluid-wagon-1_4
+  - first:
+      213: -8783742538189713053
+    second: fluid-wagon-1_5
+  - first:
+      213: -5310056728529191098
+    second: fluid-wagon-1_6
+  - first:
+      213: 803459826374725332
+    second: fluid-wagon-1_7
+  - first:
+      213: -4236726441806178580
+    second: fluid-wagon-1_8
+  - first:
+      213: 6066801789439496833
+    second: fluid-wagon-1_9
+  - first:
+      213: 6768065845463404542
+    second: fluid-wagon-1_10
+  - first:
+      213: -8567603342540734454
+    second: fluid-wagon-1_11
+  - first:
+      213: -7236951891079507827
+    second: fluid-wagon-1_12
+  - first:
+      213: 9044590624384232077
+    second: fluid-wagon-1_13
+  - first:
+      213: 9033335283086466198
+    second: fluid-wagon-1_14
+  - first:
+      213: 4360629725250007547
+    second: fluid-wagon-1_15
+  - first:
+      213: 5289491608640336262
+    second: fluid-wagon-1_16
+  - first:
+      213: 411506259600294933
+    second: fluid-wagon-1_17
+  - first:
+      213: 7073431165297518303
+    second: fluid-wagon-1_18
+  - first:
+      213: -2334113712295034130
+    second: fluid-wagon-1_19
+  - first:
+      213: -2907011421825216236
+    second: fluid-wagon-1_20
+  - first:
+      213: 8875697312902290137
+    second: fluid-wagon-1_21
+  - first:
+      213: 8364175372900000018
+    second: fluid-wagon-1_22
+  - first:
+      213: -6852489304852900932
+    second: fluid-wagon-1_23
+  - first:
+      213: 1714888127344183543
+    second: fluid-wagon-1_24
+  - first:
+      213: -9044974607804713798
+    second: fluid-wagon-1_25
+  - first:
+      213: -8016386478376773129
+    second: fluid-wagon-1_26
+  - first:
+      213: 2675392202069148833
+    second: fluid-wagon-1_27
+  - first:
+      213: -7554045254025362140
+    second: fluid-wagon-1_28
+  - first:
+      213: 4452017997229179158
+    second: fluid-wagon-1_29
+  - first:
+      213: 6276534750538490209
+    second: fluid-wagon-1_30
+  - first:
+      213: -5348106602379193122
+    second: fluid-wagon-1_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fluid-wagon-1_0
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 2521
+        width: 172
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd57931ed06576f0800000000000000
+      internalID: -687536861176439312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 2941
+        width: 138
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c01ebebb9ff4d140800000000000000
+      internalID: 4743697351913115849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_2
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 2521
+        width: 180
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5652c8e7d8a9a1560800000000000000
+      internalID: 7285305279729378661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_3
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 2941
+        width: 146
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd26a3348e5059f10800000000000000
+      internalID: 2275731681824105181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_4
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 2521
+        width: 188
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7851f14245ff74d50800000000000000
+      internalID: 6721621705722107271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_5
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2940
+        width: 154
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 361d6b423b0e91680800000000000000
+      internalID: -8783742538189713053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_6
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 2522
+        width: 198
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f38de0a83ee46b0800000000000000
+      internalID: -5310056728529191098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_7
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 2941
+        width: 162
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4decc568476762b00800000000000000
+      internalID: 803459826374725332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2102
+        width: 208
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce653a19fbf1435c0800000000000000
+      internalID: -4236726441806178580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2103
+        width: 218
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182de3e851c913450800000000000000
+      internalID: 6066801789439496833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_10
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 2104
+        width: 228
+        height: 415
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effcc4717000ded50800000000000000
+      internalID: 6768065845463404542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_11
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 2106
+        width: 238
+        height: 413
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00096f2722c91980800000000000000
+      internalID: -8567603342540734454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1687
+        width: 246
+        height: 411
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d805d9b199e219b90800000000000000
+      internalID: -7236951891079507827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_13
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1688
+        width: 256
+        height: 409
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a2049a047d48d70800000000000000
+      internalID: 9044590624384232077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_14
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1690
+        width: 264
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c1f5d449adc5d70800000000000000
+      internalID: 9033335283086466198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_15
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1691
+        width: 274
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1398aa1a1148c30800000000000000
+      internalID: 4360629725250007547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_16
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1273
+        width: 282
+        height: 399
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681ba67d79c086940800000000000000
+      internalID: 5289491608640336262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_17
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1275
+        width: 291
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514435a43c6f5b500800000000000000
+      internalID: 411506259600294933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_18
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1277
+        width: 300
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd66cbe0b20e92260800000000000000
+      internalID: 7073431165297518303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_19
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1279
+        width: 308
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2494102ff8b9fd0800000000000000
+      internalID: -2334113712295034130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 861
+        width: 316
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411da1c838838a7d0800000000000000
+      internalID: -2907011421825216236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_21
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 863
+        width: 324
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da1e6d3eafcc2b70800000000000000
+      internalID: 8875697312902290137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_22
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 865
+        width: 332
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21166c4bf25831470800000000000000
+      internalID: 8364175372900000018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_23
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 867
+        width: 338
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb35415884117e0a0800000000000000
+      internalID: -6852489304852900932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_24
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 449
+        width: 346
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f882eb7aa18cc710800000000000000
+      internalID: 1714888127344183543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 451
+        width: 352
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab43f5b348bc97280800000000000000
+      internalID: -9044974607804713798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_26
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 452
+        width: 358
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f99b1678f210c090800000000000000
+      internalID: -8016386478376773129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_27
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 455
+        width: 364
+        height: 353
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a48e2f6807e02520800000000000000
+      internalID: 2675392202069148833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_28
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 37
+        width: 370
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425c7905dd3aa2790800000000000000
+      internalID: -7554045254025362140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_29
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 39
+        width: 374
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611cd7ad7ceb8cd30800000000000000
+      internalID: 4452017997229179158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_30
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 41
+        width: 380
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161ed32e91bba1750800000000000000
+      internalID: 6276534750538490209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fluid-wagon-1_31
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 43
+        width: 384
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed454407165b7c5b0800000000000000
+      internalID: -5348106602379193122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fluid-wagon-1_0: -687536861176439312
+      fluid-wagon-1_1: 4743697351913115849
+      fluid-wagon-1_10: 6768065845463404542
+      fluid-wagon-1_11: -8567603342540734454
+      fluid-wagon-1_12: -7236951891079507827
+      fluid-wagon-1_13: 9044590624384232077
+      fluid-wagon-1_14: 9033335283086466198
+      fluid-wagon-1_15: 4360629725250007547
+      fluid-wagon-1_16: 5289491608640336262
+      fluid-wagon-1_17: 411506259600294933
+      fluid-wagon-1_18: 7073431165297518303
+      fluid-wagon-1_19: -2334113712295034130
+      fluid-wagon-1_2: 7285305279729378661
+      fluid-wagon-1_20: -2907011421825216236
+      fluid-wagon-1_21: 8875697312902290137
+      fluid-wagon-1_22: 8364175372900000018
+      fluid-wagon-1_23: -6852489304852900932
+      fluid-wagon-1_24: 1714888127344183543
+      fluid-wagon-1_25: -9044974607804713798
+      fluid-wagon-1_26: -8016386478376773129
+      fluid-wagon-1_27: 2675392202069148833
+      fluid-wagon-1_28: -7554045254025362140
+      fluid-wagon-1_29: 4452017997229179158
+      fluid-wagon-1_3: 2275731681824105181
+      fluid-wagon-1_30: 6276534750538490209
+      fluid-wagon-1_31: -5348106602379193122
+      fluid-wagon-1_4: 6721621705722107271
+      fluid-wagon-1_5: -8783742538189713053
+      fluid-wagon-1_6: -5310056728529191098
+      fluid-wagon-1_7: 803459826374725332
+      fluid-wagon-1_8: -4236726441806178580
+      fluid-wagon-1_9: 6066801789439496833
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

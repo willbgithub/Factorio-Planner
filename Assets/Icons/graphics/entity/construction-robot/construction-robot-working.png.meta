@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 963153edda7e95e4f9fd9a2db18f8465
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1239820483187556473
+    second: construction-robot-working_0
+  - first:
+      213: 4665438474349193754
+    second: construction-robot-working_1
+  - first:
+      213: -9084464701237047701
+    second: construction-robot-working_2
+  - first:
+      213: 7114534395988903886
+    second: construction-robot-working_3
+  - first:
+      213: -4463686018884471228
+    second: construction-robot-working_4
+  - first:
+      213: 884231523996114406
+    second: construction-robot-working_5
+  - first:
+      213: 1443938535164837700
+    second: construction-robot-working_6
+  - first:
+      213: 7557676898129838614
+    second: construction-robot-working_7
+  - first:
+      213: -7841094359719289696
+    second: construction-robot-working_8
+  - first:
+      213: 6274225082456996826
+    second: construction-robot-working_9
+  - first:
+      213: -777224741923460313
+    second: construction-robot-working_10
+  - first:
+      213: -6468451227334525739
+    second: construction-robot-working_11
+  - first:
+      213: -4065226348576278060
+    second: construction-robot-working_12
+  - first:
+      213: 4682363258885166544
+    second: construction-robot-working_13
+  - first:
+      213: 4559507606242528109
+    second: construction-robot-working_14
+  - first:
+      213: 8225965621361139390
+    second: construction-robot-working_15
+  - first:
+      213: 8723197224288165770
+    second: construction-robot-working_16
+  - first:
+      213: -5974951708814536291
+    second: construction-robot-working_17
+  - first:
+      213: -5097112170681025809
+    second: construction-robot-working_18
+  - first:
+      213: -1088187483681004847
+    second: construction-robot-working_19
+  - first:
+      213: 3059947603297086346
+    second: construction-robot-working_20
+  - first:
+      213: -7351712931766906406
+    second: construction-robot-working_21
+  - first:
+      213: -131728135212301594
+    second: construction-robot-working_22
+  - first:
+      213: -3860863757968335690
+    second: construction-robot-working_23
+  - first:
+      213: -705790237300840664
+    second: construction-robot-working_24
+  - first:
+      213: 198236647061302449
+    second: construction-robot-working_25
+  - first:
+      213: 6898795159756491156
+    second: construction-robot-working_26
+  - first:
+      213: -2002281604087302450
+    second: construction-robot-working_27
+  - first:
+      213: 2071580921508792488
+    second: construction-robot-working_28
+  - first:
+      213: 1503189678677499408
+    second: construction-robot-working_29
+  - first:
+      213: -5725156276158143392
+    second: construction-robot-working_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: construction-robot-working_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1115
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970c5ad192ab43110800000000000000
+      internalID: 1239820483187556473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1115
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a2609e297feb040800000000000000
+      internalID: 4665438474349193754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1041
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ec03c5c7f7de180800000000000000
+      internalID: -9084464701237047701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_3
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1041
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec78737b657ebb260800000000000000
+      internalID: 7114534395988903886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 967
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4467387273dcd02c0800000000000000
+      internalID: -4463686018884471228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 967
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9dfed2eb654c00800000000000000
+      internalID: 884231523996114406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 894
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f7ff98276e90410800000000000000
+      internalID: 1443938535164837700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_7
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 894
+        width: 55
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6128438b81342e860800000000000000
+      internalID: 7557676898129838614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 821
+        width: 58
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acdc964936de2390800000000000000
+      internalID: -7841094359719289696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 821
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbf1b06876821750800000000000000
+      internalID: 6274225082456996826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 745
+        width: 56
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72be103173eb635f0800000000000000
+      internalID: -777224741923460313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_11
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 745
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc39cb41e17b36a0800000000000000
+      internalID: -6468451227334525739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 669
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d97d89ac2a6597c0800000000000000
+      internalID: -4065226348576278060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_13
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 669
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5d03363981bf040800000000000000
+      internalID: 4682363258885166544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 592
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b07c4b200a64f30800000000000000
+      internalID: 4559507606242528109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_15
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 592
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe5ecb4620882270800000000000000
+      internalID: 8225965621361139390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 517
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f9e5378a50f0970800000000000000
+      internalID: 8723197224288165770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 517
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d911ff5d315b41da0800000000000000
+      internalID: -5974951708814536291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 444
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feabc368c7b6349b0800000000000000
+      internalID: -5097112170681025809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_19
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 444
+        width: 54
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2ea22cf3bf5e0f0800000000000000
+      internalID: -1088187483681004847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 373
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ba4d5022e177a20800000000000000
+      internalID: 3059947603297086346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_21
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 373
+        width: 55
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad153632a0879f990800000000000000
+      internalID: -7351712931766906406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e20fbd75f10c2ef0800000000000000
+      internalID: -131728135212301594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 300
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc1e1c2ed47b6ac0800000000000000
+      internalID: -3860863757968335690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 229
+        width: 114
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827aeb3c4878436f0800000000000000
+      internalID: -705790237300840664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bcad812e2740c200800000000000000
+      internalID: 198236647061302449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_26
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 154
+        width: 56
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499487b75a17dbf50800000000000000
+      internalID: 6898795159756491156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 80
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6b3185d777634e0800000000000000
+      internalID: -2002281604087302450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_28
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 80
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a802065fdbbfbc10800000000000000
+      internalID: 2071580921508792488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_29
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e1b9b6c076cd410800000000000000
+      internalID: 1503189678677499408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-working_30
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 5
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064eef333b82c80b0800000000000000
+      internalID: -5725156276158143392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      construction-robot-working_0: 1239820483187556473
+      construction-robot-working_1: 4665438474349193754
+      construction-robot-working_10: -777224741923460313
+      construction-robot-working_11: -6468451227334525739
+      construction-robot-working_12: -4065226348576278060
+      construction-robot-working_13: 4682363258885166544
+      construction-robot-working_14: 4559507606242528109
+      construction-robot-working_15: 8225965621361139390
+      construction-robot-working_16: 8723197224288165770
+      construction-robot-working_17: -5974951708814536291
+      construction-robot-working_18: -5097112170681025809
+      construction-robot-working_19: -1088187483681004847
+      construction-robot-working_2: -9084464701237047701
+      construction-robot-working_20: 3059947603297086346
+      construction-robot-working_21: -7351712931766906406
+      construction-robot-working_22: -131728135212301594
+      construction-robot-working_23: -3860863757968335690
+      construction-robot-working_24: -705790237300840664
+      construction-robot-working_25: 198236647061302449
+      construction-robot-working_26: 6898795159756491156
+      construction-robot-working_27: -2002281604087302450
+      construction-robot-working_28: 2071580921508792488
+      construction-robot-working_29: 1503189678677499408
+      construction-robot-working_3: 7114534395988903886
+      construction-robot-working_30: -5725156276158143392
+      construction-robot-working_4: -4463686018884471228
+      construction-robot-working_5: 884231523996114406
+      construction-robot-working_6: 1443938535164837700
+      construction-robot-working_7: 7557676898129838614
+      construction-robot-working_8: -7841094359719289696
+      construction-robot-working_9: 6274225082456996826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

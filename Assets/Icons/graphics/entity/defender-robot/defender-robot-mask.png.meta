@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: dc695d3092f65fe4099394a9a35e09b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2410850947293383288
+    second: defender-robot-mask_0
+  - first:
+      213: 5811624689578228565
+    second: defender-robot-mask_1
+  - first:
+      213: -2695489287766253263
+    second: defender-robot-mask_2
+  - first:
+      213: 2983364204276511316
+    second: defender-robot-mask_3
+  - first:
+      213: 6132342329406803190
+    second: defender-robot-mask_4
+  - first:
+      213: 2135922020841942737
+    second: defender-robot-mask_5
+  - first:
+      213: -1245362323590548923
+    second: defender-robot-mask_6
+  - first:
+      213: 1808017322479957540
+    second: defender-robot-mask_7
+  - first:
+      213: -3700475147353195856
+    second: defender-robot-mask_8
+  - first:
+      213: -7075295466992248839
+    second: defender-robot-mask_9
+  - first:
+      213: 2953354113128821026
+    second: defender-robot-mask_10
+  - first:
+      213: -6619305288698933440
+    second: defender-robot-mask_11
+  - first:
+      213: -3080814971609971063
+    second: defender-robot-mask_12
+  - first:
+      213: 8751227685660157371
+    second: defender-robot-mask_13
+  - first:
+      213: -5029237291989660574
+    second: defender-robot-mask_14
+  - first:
+      213: 1741198067385358957
+    second: defender-robot-mask_15
+  - first:
+      213: 3475091218821009169
+    second: defender-robot-mask_16
+  - first:
+      213: -5452459662515663420
+    second: defender-robot-mask_17
+  - first:
+      213: -8033094529538264558
+    second: defender-robot-mask_18
+  - first:
+      213: -7228727780912610011
+    second: defender-robot-mask_19
+  - first:
+      213: 7657653369141655087
+    second: defender-robot-mask_20
+  - first:
+      213: 966588443828408601
+    second: defender-robot-mask_21
+  - first:
+      213: 416880316570756282
+    second: defender-robot-mask_22
+  - first:
+      213: 1479827820512906524
+    second: defender-robot-mask_23
+  - first:
+      213: 2334755741850686527
+    second: defender-robot-mask_24
+  - first:
+      213: -4174210182984791301
+    second: defender-robot-mask_25
+  - first:
+      213: -5046446551579198602
+    second: defender-robot-mask_26
+  - first:
+      213: 5923210781631607602
+    second: defender-robot-mask_27
+  - first:
+      213: 8591160363795938205
+    second: defender-robot-mask_28
+  - first:
+      213: 4489619920479420321
+    second: defender-robot-mask_29
+  - first:
+      213: -6869716689672749951
+    second: defender-robot-mask_30
+  - first:
+      213: 6998131776940276011
+    second: defender-robot-mask_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: defender-robot-mask_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a06dfc920157120800000000000000
+      internalID: 2410850947293383288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b33362dd907a050800000000000000
+      internalID: 5811624689578228565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_2
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13162da26c2b79ad0800000000000000
+      internalID: -2695489287766253263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 25
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452748fefe9076920800000000000000
+      internalID: 2983364204276511316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_4
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 25
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc4269abd47a1550800000000000000
+      internalID: 6132342329406803190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dee738e2c154ad10800000000000000
+      internalID: 2135922020841942737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_6
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542fabd909597bee0800000000000000
+      internalID: -1245362323590548923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426bb2eec2e571910800000000000000
+      internalID: 1808017322479957540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baf9dd957545acc0800000000000000
+      internalID: -3700475147353195856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7def062408fcd90800000000000000
+      internalID: -7075295466992248839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_10
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2217bf81beb6cf820800000000000000
+      internalID: 2953354113128821026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_11
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f4c3719e08324a0800000000000000
+      internalID: -6619305288698933440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_12
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 25
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9868b7e2b1fbe35d0800000000000000
+      internalID: -3080814971609971063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_13
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 25
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb56650d63b927970800000000000000
+      internalID: 8751227685660157371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c0fc7345f843ab0800000000000000
+      internalID: -5029237291989660574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_15
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 25
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ad912ca6af92810800000000000000
+      internalID: 1741198067385358957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 9
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fc7eb3d010a3030800000000000000
+      internalID: 3475091218821009169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_17
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 9
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd8b9743d8f454b0800000000000000
+      internalID: -5452459662515663420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 7
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 212fcb72617b48090800000000000000
+      internalID: -8033094529538264558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_19
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 5
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525c4b8f1666eab90800000000000000
+      internalID: -7228727780912610011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 4
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26f2c0da23754a60800000000000000
+      internalID: 7657653369141655087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_21
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 2
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911d36681130a6d00800000000000000
+      internalID: 966588443828408601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_22
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab46d0f607e09c500800000000000000
+      internalID: 416880316570756282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d8962ff87698410800000000000000
+      internalID: 1479827820512906524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_24
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3450562af7b66020800000000000000
+      internalID: 2334755741850686527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_25
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 0
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa8f5954f93216c0800000000000000
+      internalID: -4174210182984791301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_26
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b702b399b67f9b0800000000000000
+      internalID: -5046446551579198602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_27
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 2
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2337ae8c2d8733250800000000000000
+      internalID: 5923210781631607602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_28
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 3
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9bf87c35dee93770800000000000000
+      internalID: 8591160363795938205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_29
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 5
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af71b8d7855e4e30800000000000000
+      internalID: 4489619920479420321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_30
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 7
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18cbb7c611dd9a0a0800000000000000
+      internalID: -6869716689672749951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-mask_31
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 9
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29f5eff5cb5e1160800000000000000
+      internalID: 6998131776940276011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      defender-robot-mask_0: 2410850947293383288
+      defender-robot-mask_1: 5811624689578228565
+      defender-robot-mask_10: 2953354113128821026
+      defender-robot-mask_11: -6619305288698933440
+      defender-robot-mask_12: -3080814971609971063
+      defender-robot-mask_13: 8751227685660157371
+      defender-robot-mask_14: -5029237291989660574
+      defender-robot-mask_15: 1741198067385358957
+      defender-robot-mask_16: 3475091218821009169
+      defender-robot-mask_17: -5452459662515663420
+      defender-robot-mask_18: -8033094529538264558
+      defender-robot-mask_19: -7228727780912610011
+      defender-robot-mask_2: -2695489287766253263
+      defender-robot-mask_20: 7657653369141655087
+      defender-robot-mask_21: 966588443828408601
+      defender-robot-mask_22: 416880316570756282
+      defender-robot-mask_23: 1479827820512906524
+      defender-robot-mask_24: 2334755741850686527
+      defender-robot-mask_25: -4174210182984791301
+      defender-robot-mask_26: -5046446551579198602
+      defender-robot-mask_27: 5923210781631607602
+      defender-robot-mask_28: 8591160363795938205
+      defender-robot-mask_29: 4489619920479420321
+      defender-robot-mask_3: 2983364204276511316
+      defender-robot-mask_30: -6869716689672749951
+      defender-robot-mask_31: 6998131776940276011
+      defender-robot-mask_4: 6132342329406803190
+      defender-robot-mask_5: 2135922020841942737
+      defender-robot-mask_6: -1245362323590548923
+      defender-robot-mask_7: 1808017322479957540
+      defender-robot-mask_8: -3700475147353195856
+      defender-robot-mask_9: -7075295466992248839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

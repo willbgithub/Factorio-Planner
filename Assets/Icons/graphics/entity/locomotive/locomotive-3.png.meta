@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 03edfbecd68aa9f4183b31c4e0fc71ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4622362276087245170
+    second: locomotive-3_0
+  - first:
+      213: 964340151028418624
+    second: locomotive-3_1
+  - first:
+      213: -2406929040375240694
+    second: locomotive-3_2
+  - first:
+      213: 4697556338144435002
+    second: locomotive-3_3
+  - first:
+      213: -3498188984695808746
+    second: locomotive-3_4
+  - first:
+      213: 6222897202217529928
+    second: locomotive-3_5
+  - first:
+      213: 4610084193901116789
+    second: locomotive-3_6
+  - first:
+      213: -6538473280195718139
+    second: locomotive-3_7
+  - first:
+      213: 7966098436706613897
+    second: locomotive-3_8
+  - first:
+      213: 4884029887904375701
+    second: locomotive-3_9
+  - first:
+      213: -1874094070764044761
+    second: locomotive-3_10
+  - first:
+      213: 8291981037740016476
+    second: locomotive-3_11
+  - first:
+      213: -7115224424226579908
+    second: locomotive-3_12
+  - first:
+      213: -2063548568543697613
+    second: locomotive-3_13
+  - first:
+      213: -840476477751692803
+    second: locomotive-3_14
+  - first:
+      213: -4442231407331038131
+    second: locomotive-3_15
+  - first:
+      213: -5772685882939892350
+    second: locomotive-3_16
+  - first:
+      213: -3079222782710575889
+    second: locomotive-3_17
+  - first:
+      213: 6643333857632372575
+    second: locomotive-3_18
+  - first:
+      213: 4742819370275598158
+    second: locomotive-3_19
+  - first:
+      213: 8653920661260009171
+    second: locomotive-3_20
+  - first:
+      213: 4380968835331142365
+    second: locomotive-3_21
+  - first:
+      213: 2616802696930958142
+    second: locomotive-3_22
+  - first:
+      213: -5770768980496447692
+    second: locomotive-3_23
+  - first:
+      213: -2319022467588810761
+    second: locomotive-3_24
+  - first:
+      213: -2311161084123831305
+    second: locomotive-3_25
+  - first:
+      213: -6675065949763807718
+    second: locomotive-3_26
+  - first:
+      213: 5525070209164821687
+    second: locomotive-3_27
+  - first:
+      213: -1082692877579613535
+    second: locomotive-3_28
+  - first:
+      213: 7535677845294814876
+    second: locomotive-3_29
+  - first:
+      213: -4580264926007577101
+    second: locomotive-3_30
+  - first:
+      213: 8457393651158364441
+    second: locomotive-3_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: locomotive-3_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 3371
+        width: 450
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8657ae00021adfb0800000000000000
+      internalID: -4622362276087245170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_1
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 3368
+        width: 451
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04802b01246026d00800000000000000
+      internalID: 964340151028418624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_2
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 3365
+        width: 451
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08acdc4aced89ed0800000000000000
+      internalID: -2406929040375240694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_3
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 3361
+        width: 452
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bdb7fc992113140800000000000000
+      internalID: 4697556338144435002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_4
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 2900
+        width: 453
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d950217afe37fc0800000000000000
+      internalID: -3498188984695808746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 2896
+        width: 454
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842b2fbf80c2c5650800000000000000
+      internalID: 6222897202217529928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_6
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 2893
+        width: 454
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d7e1a262f4aff30800000000000000
+      internalID: 4610084193901116789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_7
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2889
+        width: 455
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5041d88a13da245a0800000000000000
+      internalID: -6538473280195718139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_8
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2428
+        width: 455
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a31bd62544d8e60800000000000000
+      internalID: 7966098436706613897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_9
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 2425
+        width: 454
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5936eec6e4f87c340800000000000000
+      internalID: 4884029887904375701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_10
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 2421
+        width: 454
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e717c3f51edf5e0800000000000000
+      internalID: -1874094070764044761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_11
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 2418
+        width: 454
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53c4ce22d8031370800000000000000
+      internalID: 8291981037740016476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1957
+        width: 454
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a9ac09515a14d90800000000000000
+      internalID: -7115224424226579908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_13
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1953
+        width: 453
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335ef23928dcc53e0800000000000000
+      internalID: -2063548568543697613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_14
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1950
+        width: 451
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1f985b8170654f0800000000000000
+      internalID: -840476477751692803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_15
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 1947
+        width: 450
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c23fb22160a52c0800000000000000
+      internalID: -4442231407331038131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1486
+        width: 449
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d947346cc43efa0800000000000000
+      internalID: -5772685882939892350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_17
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1482
+        width: 447
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec0f3c81376445d0800000000000000
+      internalID: -3079222782710575889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_18
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1479
+        width: 446
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57c08412fcd13c50800000000000000
+      internalID: 6643333857632372575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_19
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1476
+        width: 444
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f6e17b611e1d140800000000000000
+      internalID: 4742819370275598158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1015
+        width: 443
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3def0d0bdf6e81870800000000000000
+      internalID: 8653920661260009171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_21
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1012
+        width: 441
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd238f1c1f35ccc30800000000000000
+      internalID: 4380968835331142365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_22
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1008
+        width: 440
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b9add3030c05420800000000000000
+      internalID: 2616802696930958142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_23
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1005
+        width: 438
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4378aa4ef2c1aefa0800000000000000
+      internalID: -5770768980496447692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_24
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 544
+        width: 436
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f718393a5d21dfd0800000000000000
+      internalID: -2319022467588810761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_25
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 541
+        width: 434
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3a7123d3b1defd0800000000000000
+      internalID: -2311161084123831305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_26
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 538
+        width: 430
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16d50c72e66d53a0800000000000000
+      internalID: -6675065949763807718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_27
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 535
+        width: 428
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4cc58051efcac40800000000000000
+      internalID: 5525070209164821687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_28
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 74
+        width: 425
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa850f609089f0f0800000000000000
+      internalID: -1082692877579613535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_29
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 71
+        width: 422
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c961496131b149860800000000000000
+      internalID: 7535677845294814876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_30
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 68
+        width: 418
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5332c2151af60c0800000000000000
+      internalID: -4580264926007577101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-3_31
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 65
+        width: 415
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91130fe67b2be5570800000000000000
+      internalID: 8457393651158364441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      locomotive-3_0: -4622362276087245170
+      locomotive-3_1: 964340151028418624
+      locomotive-3_10: -1874094070764044761
+      locomotive-3_11: 8291981037740016476
+      locomotive-3_12: -7115224424226579908
+      locomotive-3_13: -2063548568543697613
+      locomotive-3_14: -840476477751692803
+      locomotive-3_15: -4442231407331038131
+      locomotive-3_16: -5772685882939892350
+      locomotive-3_17: -3079222782710575889
+      locomotive-3_18: 6643333857632372575
+      locomotive-3_19: 4742819370275598158
+      locomotive-3_2: -2406929040375240694
+      locomotive-3_20: 8653920661260009171
+      locomotive-3_21: 4380968835331142365
+      locomotive-3_22: 2616802696930958142
+      locomotive-3_23: -5770768980496447692
+      locomotive-3_24: -2319022467588810761
+      locomotive-3_25: -2311161084123831305
+      locomotive-3_26: -6675065949763807718
+      locomotive-3_27: 5525070209164821687
+      locomotive-3_28: -1082692877579613535
+      locomotive-3_29: 7535677845294814876
+      locomotive-3_3: 4697556338144435002
+      locomotive-3_30: -4580264926007577101
+      locomotive-3_31: 8457393651158364441
+      locomotive-3_4: -3498188984695808746
+      locomotive-3_5: 6222897202217529928
+      locomotive-3_6: 4610084193901116789
+      locomotive-3_7: -6538473280195718139
+      locomotive-3_8: 7966098436706613897
+      locomotive-3_9: 4884029887904375701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

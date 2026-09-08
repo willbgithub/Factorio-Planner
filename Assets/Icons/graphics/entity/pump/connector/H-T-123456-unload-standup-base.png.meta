@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: cdd085c827d28a243b51771952e7aada
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -103717093621254108
+    second: H-T-123456-unload-standup-base_0
+  - first:
+      213: -2687318522081360575
+    second: H-T-123456-unload-standup-base_1
+  - first:
+      213: 4455073107877967016
+    second: H-T-123456-unload-standup-base_2
+  - first:
+      213: 2671789246578364917
+    second: H-T-123456-unload-standup-base_3
+  - first:
+      213: -8046705590848861401
+    second: H-T-123456-unload-standup-base_4
+  - first:
+      213: -9089935271329111771
+    second: H-T-123456-unload-standup-base_5
+  - first:
+      213: 9138142588226698358
+    second: H-T-123456-unload-standup-base_6
+  - first:
+      213: 7561623083529273297
+    second: H-T-123456-unload-standup-base_7
+  - first:
+      213: -5532687002855892811
+    second: H-T-123456-unload-standup-base_8
+  - first:
+      213: -3986398353134353369
+    second: H-T-123456-unload-standup-base_9
+  - first:
+      213: 4390343894440655735
+    second: H-T-123456-unload-standup-base_10
+  - first:
+      213: 6633888657500450820
+    second: H-T-123456-unload-standup-base_11
+  - first:
+      213: -3956870574340294230
+    second: H-T-123456-unload-standup-base_12
+  - first:
+      213: -3533095894958742389
+    second: H-T-123456-unload-standup-base_13
+  - first:
+      213: 2595992306891610183
+    second: H-T-123456-unload-standup-base_14
+  - first:
+      213: 5125480093812883106
+    second: H-T-123456-unload-standup-base_15
+  - first:
+      213: -4637058852044415934
+    second: H-T-123456-unload-standup-base_16
+  - first:
+      213: 7189347362520751875
+    second: H-T-123456-unload-standup-base_17
+  - first:
+      213: 3296651104401094624
+    second: H-T-123456-unload-standup-base_18
+  - first:
+      213: 3966455825763959691
+    second: H-T-123456-unload-standup-base_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2032
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428b1955ad58f8ef0800000000000000
+      internalID: -103717093621254108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1925
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145430dca0ab4bad0800000000000000
+      internalID: -2687318522081360575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1818
+        width: 91
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4367b336993dd30800000000000000
+      internalID: 4455073107877967016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1711
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1130df92a141520800000000000000
+      internalID: 2671789246578364917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1604
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bcd4df5eb545090800000000000000
+      internalID: -8046705590848861401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1497
+        width: 91
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521622108001ad180800000000000000
+      internalID: -9089935271329111771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1390
+        width: 91
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cfe1e944431de70800000000000000
+      internalID: 9138142588226698358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1283
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dff72b912840f860800000000000000
+      internalID: 7561623083529273297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1176
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b89a5dfb72f733b0800000000000000
+      internalID: -5532687002855892811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1069
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724893491d77da8c0800000000000000
+      internalID: -3986398353134353369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 962
+        width: 91
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bb0fdc282adec30800000000000000
+      internalID: 4390343894440655735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400becd069e401c50800000000000000
+      internalID: 6633888657500450820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 91
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa930425d2f5619c0800000000000000
+      internalID: -3956870574340294230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 641
+        width: 91
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84e79fa00ce7fec0800000000000000
+      internalID: -3533095894958742389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534
+        width: 91
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748dbebbf31d60420800000000000000
+      internalID: 2595992306891610183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 427
+        width: 91
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae7d074dfc512740800000000000000
+      internalID: 5125480093812883106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cdf41da8bd5afb0800000000000000
+      internalID: -4637058852044415934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 213
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fd0fdd551b5c360800000000000000
+      internalID: 7189347362520751875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 91
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7f93a86be00cd20800000000000000
+      internalID: 3296651104401094624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-123456-unload-standup-base_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 91
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8380ffee8eab0730800000000000000
+      internalID: 3966455825763959691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      H-T-123456-unload-standup-base_0: -103717093621254108
+      H-T-123456-unload-standup-base_1: -2687318522081360575
+      H-T-123456-unload-standup-base_10: 4390343894440655735
+      H-T-123456-unload-standup-base_11: 6633888657500450820
+      H-T-123456-unload-standup-base_12: -3956870574340294230
+      H-T-123456-unload-standup-base_13: -3533095894958742389
+      H-T-123456-unload-standup-base_14: 2595992306891610183
+      H-T-123456-unload-standup-base_15: 5125480093812883106
+      H-T-123456-unload-standup-base_16: -4637058852044415934
+      H-T-123456-unload-standup-base_17: 7189347362520751875
+      H-T-123456-unload-standup-base_18: 3296651104401094624
+      H-T-123456-unload-standup-base_19: 3966455825763959691
+      H-T-123456-unload-standup-base_2: 4455073107877967016
+      H-T-123456-unload-standup-base_3: 2671789246578364917
+      H-T-123456-unload-standup-base_4: -8046705590848861401
+      H-T-123456-unload-standup-base_5: -9089935271329111771
+      H-T-123456-unload-standup-base_6: 9138142588226698358
+      H-T-123456-unload-standup-base_7: 7561623083529273297
+      H-T-123456-unload-standup-base_8: -5532687002855892811
+      H-T-123456-unload-standup-base_9: -3986398353134353369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: d130d674c6c276a47b9c276ebf1a650d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3701746328837196803
+    second: worm-die-burrowed-01_0
+  - first:
+      213: -5525101663727267382
+    second: worm-die-burrowed-01_1
+  - first:
+      213: -4433182839690240624
+    second: worm-die-burrowed-01_2
+  - first:
+      213: -4409897596576661647
+    second: worm-die-burrowed-01_3
+  - first:
+      213: -7513421017569384190
+    second: worm-die-burrowed-01_4
+  - first:
+      213: -7723537434651749742
+    second: worm-die-burrowed-01_5
+  - first:
+      213: 8311955881135260878
+    second: worm-die-burrowed-01_6
+  - first:
+      213: -8999859787026169159
+    second: worm-die-burrowed-01_7
+  - first:
+      213: -7513584964521650689
+    second: worm-die-burrowed-01_8
+  - first:
+      213: -2504338175016431932
+    second: worm-die-burrowed-01_9
+  - first:
+      213: -1780324226884159497
+    second: worm-die-burrowed-01_10
+  - first:
+      213: 8539905675232793042
+    second: worm-die-burrowed-01_11
+  - first:
+      213: 1633546745026154808
+    second: worm-die-burrowed-01_12
+  - first:
+      213: -8248716660515422015
+    second: worm-die-burrowed-01_13
+  - first:
+      213: -7710880397672115015
+    second: worm-die-burrowed-01_14
+  - first:
+      213: -7444647819070486199
+    second: worm-die-burrowed-01_15
+  - first:
+      213: -672889063067882692
+    second: worm-die-burrowed-01_16
+  - first:
+      213: 8486479045157972611
+    second: worm-die-burrowed-01_17
+  - first:
+      213: -7555555537139703428
+    second: worm-die-burrowed-01_18
+  - first:
+      213: 1384384476653558425
+    second: worm-die-burrowed-01_19
+  - first:
+      213: -4045161117564971826
+    second: worm-die-burrowed-01_20
+  - first:
+      213: 6572816283174441074
+    second: worm-die-burrowed-01_21
+  - first:
+      213: -6246536365099167089
+    second: worm-die-burrowed-01_22
+  - first:
+      213: -1358747456289230223
+    second: worm-die-burrowed-01_23
+  - first:
+      213: -2127067798735702035
+    second: worm-die-burrowed-01_24
+  - first:
+      213: -7142340144435836112
+    second: worm-die-burrowed-01_25
+  - first:
+      213: 7719224323514922030
+    second: worm-die-burrowed-01_26
+  - first:
+      213: -323615123956027755
+    second: worm-die-burrowed-01_27
+  - first:
+      213: -7222651515518441401
+    second: worm-die-burrowed-01_28
+  - first:
+      213: -7872597862984264426
+    second: worm-die-burrowed-01_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_0
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1242
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c82f26cae3f5330800000000000000
+      internalID: 3701746328837196803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_1
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1128
+        width: 58
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1dd916f45e253b0800000000000000
+      internalID: -5525101663727267382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_2
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1255
+        width: 60
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dd7eff1bb2a72c0800000000000000
+      internalID: -4433182839690240624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_3
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 1186
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ff2342085ecc2c0800000000000000
+      internalID: -4409897596576661647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_4
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1051
+        width: 202
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209a2df6467fab790800000000000000
+      internalID: -7513421017569384190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_5
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1051
+        width: 196
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292962ecf9b70d490800000000000000
+      internalID: -7723537434651749742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_6
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1051
+        width: 234
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec449c3d5dff95370800000000000000
+      internalID: 8311955881135260878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1051
+        width: 129
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b28bfdf4331a1380800000000000000
+      internalID: -8999859787026169159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1051
+        width: 199
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff598ff88426ab790800000000000000
+      internalID: -7513584964521650689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_9
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1051
+        width: 189
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce02b8c2bdce3dd0800000000000000
+      internalID: -2504338175016431932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_10
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1159
+        width: 74
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f73c875c840b47e0800000000000000
+      internalID: -1780324226884159497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_11
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 723
+        width: 242
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1d79b17f6d38670800000000000000
+      internalID: 8539905675232793042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 698
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83197451c168ba610800000000000000
+      internalID: 1633546745026154808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_13
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 690
+        width: 248
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0c12d96eba68d80800000000000000
+      internalID: -8248716660515422015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_14
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 670
+        width: 231
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b41b3fd1237df490800000000000000
+      internalID: -7710880397672115015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_15
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 675
+        width: 213
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949ca62804c4fa890800000000000000
+      internalID: -7444647819070486199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_16
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 658
+        width: 211
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3be79656fa69a6f0800000000000000
+      internalID: -672889063067882692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_17
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 658
+        width: 211
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aef607ab706c570800000000000000
+      internalID: 8486479045157972611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_18
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 330
+        width: 211
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c716d002546452790800000000000000
+      internalID: -7555555537139703428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_19
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 330
+        width: 211
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a1083c852563310800000000000000
+      internalID: 1384384476653558425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_20
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 330
+        width: 211
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec451505563bcd7c0800000000000000
+      internalID: -4045161117564971826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_21
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 330
+        width: 211
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2701484d595573b50800000000000000
+      internalID: 6572816283174441074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_22
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 330
+        width: 240
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8254b18548df49a0800000000000000
+      internalID: -6246536365099167089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_23
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 330
+        width: 264
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1723a603362c42de0800000000000000
+      internalID: -1358747456289230223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 2
+        width: 266
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7bf235b132b72e0800000000000000
+      internalID: -2127067798735702035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_25
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 2
+        width: 266
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bc3e9fa7f41ec90800000000000000
+      internalID: -7142340144435836112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_26
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 2
+        width: 268
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2479a0cf91302b60800000000000000
+      internalID: 7719224323514922030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_27
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 2
+        width: 270
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e28a462c9428bf0800000000000000
+      internalID: -323615123956027755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_28
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 0
+        width: 271
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7482611c6bcf3cb90800000000000000
+      internalID: -7222651515518441401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-burrowed-01_29
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 0
+        width: 271
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615d25554f9eeb290800000000000000
+      internalID: -7872597862984264426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      worm-die-burrowed-01_0: 3701746328837196803
+      worm-die-burrowed-01_1: -5525101663727267382
+      worm-die-burrowed-01_10: -1780324226884159497
+      worm-die-burrowed-01_11: 8539905675232793042
+      worm-die-burrowed-01_12: 1633546745026154808
+      worm-die-burrowed-01_13: -8248716660515422015
+      worm-die-burrowed-01_14: -7710880397672115015
+      worm-die-burrowed-01_15: -7444647819070486199
+      worm-die-burrowed-01_16: -672889063067882692
+      worm-die-burrowed-01_17: 8486479045157972611
+      worm-die-burrowed-01_18: -7555555537139703428
+      worm-die-burrowed-01_19: 1384384476653558425
+      worm-die-burrowed-01_2: -4433182839690240624
+      worm-die-burrowed-01_20: -4045161117564971826
+      worm-die-burrowed-01_21: 6572816283174441074
+      worm-die-burrowed-01_22: -6246536365099167089
+      worm-die-burrowed-01_23: -1358747456289230223
+      worm-die-burrowed-01_24: -2127067798735702035
+      worm-die-burrowed-01_25: -7142340144435836112
+      worm-die-burrowed-01_26: 7719224323514922030
+      worm-die-burrowed-01_27: -323615123956027755
+      worm-die-burrowed-01_28: -7222651515518441401
+      worm-die-burrowed-01_29: -7872597862984264426
+      worm-die-burrowed-01_3: -4409897596576661647
+      worm-die-burrowed-01_4: -7513421017569384190
+      worm-die-burrowed-01_5: -7723537434651749742
+      worm-die-burrowed-01_6: 8311955881135260878
+      worm-die-burrowed-01_7: -8999859787026169159
+      worm-die-burrowed-01_8: -7513584964521650689
+      worm-die-burrowed-01_9: -2504338175016431932
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

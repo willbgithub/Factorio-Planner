@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 6f37fe9caf0a0cd4488817b595cf0480
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8944955229186692664
+    second: smoke-fast_0
+  - first:
+      213: 3122567563231366907
+    second: smoke-fast_1
+  - first:
+      213: -1182432467368868026
+    second: smoke-fast_2
+  - first:
+      213: 3155341271520921351
+    second: smoke-fast_3
+  - first:
+      213: -2836944811146952902
+    second: smoke-fast_4
+  - first:
+      213: -1024495598483415886
+    second: smoke-fast_5
+  - first:
+      213: -3243365072455950663
+    second: smoke-fast_6
+  - first:
+      213: -8491720061009899810
+    second: smoke-fast_7
+  - first:
+      213: 1121687468836654244
+    second: smoke-fast_8
+  - first:
+      213: -5689601729582024659
+    second: smoke-fast_9
+  - first:
+      213: 8202506038130357194
+    second: smoke-fast_10
+  - first:
+      213: -204078834745747201
+    second: smoke-fast_11
+  - first:
+      213: 6060840745038983576
+    second: smoke-fast_12
+  - first:
+      213: 3974787837908871201
+    second: smoke-fast_13
+  - first:
+      213: 4907130802296061592
+    second: smoke-fast_14
+  - first:
+      213: 807938776112676602
+    second: smoke-fast_15
+  - first:
+      213: -8899619957039875562
+    second: smoke-fast_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smoke-fast_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 9
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8361277736dd22c70800000000000000
+      internalID: 8944955229186692664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 5
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe009997a6955b20800000000000000
+      internalID: 3122567563231366907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647079b8fe7279fe0800000000000000
+      internalID: -1182432467368868026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 3
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70742223b260acb20800000000000000
+      internalID: 3155341271520921351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 3
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fb23c99b521a8d0800000000000000
+      internalID: -2836944811146952902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_5
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcd1726ea248c1f0800000000000000
+      internalID: -1024495598483415886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be9a5396a04df2d0800000000000000
+      internalID: -3243365072455950663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_7
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 4
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede42777899572a80800000000000000
+      internalID: -8491720061009899810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_8
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 4
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac04095fc8019f00800000000000000
+      internalID: 1121687468836654244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_9
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 4
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28b0da2f597a01b0800000000000000
+      internalID: -5689601729582024659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_10
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 5
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3b1ce68c725d170800000000000000
+      internalID: 8202506038130357194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_11
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 6
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8ddcc8167fa2df0800000000000000
+      internalID: -204078834745747201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_12
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 5
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8913340cb8e6c1450800000000000000
+      internalID: 6060840745038983576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_13
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 5
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128e910ba78492730800000000000000
+      internalID: 3974787837908871201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_14
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 6
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89efb313771a91440800000000000000
+      internalID: 4907130802296061592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_15
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 7
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afeb5764900663b00800000000000000
+      internalID: 807938776112676602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smoke-fast_16
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 8
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a39a02dc23e7480800000000000000
+      internalID: -8899619957039875562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      smoke-fast_0: 8944955229186692664
+      smoke-fast_1: 3122567563231366907
+      smoke-fast_10: 8202506038130357194
+      smoke-fast_11: -204078834745747201
+      smoke-fast_12: 6060840745038983576
+      smoke-fast_13: 3974787837908871201
+      smoke-fast_14: 4907130802296061592
+      smoke-fast_15: 807938776112676602
+      smoke-fast_16: -8899619957039875562
+      smoke-fast_2: -1182432467368868026
+      smoke-fast_3: 3155341271520921351
+      smoke-fast_4: -2836944811146952902
+      smoke-fast_5: -1024495598483415886
+      smoke-fast_6: -3243365072455950663
+      smoke-fast_7: -8491720061009899810
+      smoke-fast_8: 1121687468836654244
+      smoke-fast_9: -5689601729582024659
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

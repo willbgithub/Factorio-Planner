@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 8dfd6679f33fb0c409299d230ea48ce2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1219496458858031589
+    second: brown-carpet-grass-05_0
+  - first:
+      213: 2536708713382747103
+    second: brown-carpet-grass-05_1
+  - first:
+      213: -759992853885828137
+    second: brown-carpet-grass-05_2
+  - first:
+      213: 1103746476361508070
+    second: brown-carpet-grass-05_3
+  - first:
+      213: 2304097108157692852
+    second: brown-carpet-grass-05_4
+  - first:
+      213: 5687213230974296798
+    second: brown-carpet-grass-05_5
+  - first:
+      213: -3097990227106499790
+    second: brown-carpet-grass-05_6
+  - first:
+      213: 8772407577738302724
+    second: brown-carpet-grass-05_7
+  - first:
+      213: -5156130556842564914
+    second: brown-carpet-grass-05_8
+  - first:
+      213: -3780673755212227491
+    second: brown-carpet-grass-05_9
+  - first:
+      213: 6649668256429892916
+    second: brown-carpet-grass-05_10
+  - first:
+      213: -4342280868858592096
+    second: brown-carpet-grass-05_11
+  - first:
+      213: 6962497055784136797
+    second: brown-carpet-grass-05_12
+  - first:
+      213: 8744441278463221436
+    second: brown-carpet-grass-05_13
+  - first:
+      213: 1706912838321294827
+    second: brown-carpet-grass-05_14
+  - first:
+      213: 3763944666442698272
+    second: brown-carpet-grass-05_15
+  - first:
+      213: -8448196159590806250
+    second: brown-carpet-grass-05_16
+  - first:
+      213: 539478435399159162
+    second: brown-carpet-grass-05_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 123
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b169bec8e6a731fe0800000000000000
+      internalID: -1219496458858031589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 200
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb11df7223343320800000000000000
+      internalID: 2536708713382747103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 6
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3cc48a686f375f0800000000000000
+      internalID: -759992853885828137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 90
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4ed95829b415f00800000000000000
+      internalID: 1103746476361508070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb7ebbbc1cc9ff10800000000000000
+      internalID: 2304097108157692852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 64
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2ef1a2d4a0dee40800000000000000
+      internalID: 5687213230974296798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 64
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2337fa36d4ab105d0800000000000000
+      internalID: -3097990227106499790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_7
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 62
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4055908b63addb970800000000000000
+      internalID: 8772407577738302724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 40
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2acdfa39eb178b0800000000000000
+      internalID: -5156130556842564914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_9
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 48
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cdee02049588bc0800000000000000
+      internalID: -3780673755212227491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 43
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435e1ba3c0e584c50800000000000000
+      internalID: 6649668256429892916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_11
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 26
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a485b06e8e1db3c0800000000000000
+      internalID: -4342280868858592096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_12
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 20
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5077bfee22cf9060800000000000000
+      internalID: 6962497055784136797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 25
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe1012430f7a5970800000000000000
+      internalID: 8744441278463221436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_14
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 18
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedc1bece2c20b710800000000000000
+      internalID: 1706912838321294827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_15
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e0b8d5bb73c3430800000000000000
+      internalID: 3763944666442698272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d45c27a5af1ca80800000000000000
+      internalID: -8448196159590806250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: brown-carpet-grass-05_17
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d43f957cc9c7700800000000000000
+      internalID: 539478435399159162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      brown-carpet-grass-05_0: -1219496458858031589
+      brown-carpet-grass-05_1: 2536708713382747103
+      brown-carpet-grass-05_10: 6649668256429892916
+      brown-carpet-grass-05_11: -4342280868858592096
+      brown-carpet-grass-05_12: 6962497055784136797
+      brown-carpet-grass-05_13: 8744441278463221436
+      brown-carpet-grass-05_14: 1706912838321294827
+      brown-carpet-grass-05_15: 3763944666442698272
+      brown-carpet-grass-05_16: -8448196159590806250
+      brown-carpet-grass-05_17: 539478435399159162
+      brown-carpet-grass-05_2: -759992853885828137
+      brown-carpet-grass-05_3: 1103746476361508070
+      brown-carpet-grass-05_4: 2304097108157692852
+      brown-carpet-grass-05_5: 5687213230974296798
+      brown-carpet-grass-05_6: -3097990227106499790
+      brown-carpet-grass-05_7: 8772407577738302724
+      brown-carpet-grass-05_8: -5156130556842564914
+      brown-carpet-grass-05_9: -3780673755212227491
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

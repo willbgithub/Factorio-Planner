@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 8b7dcf4d6d926354ab3801a58e50a39f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3830574492045931856
+    second: worm-die-02-mask_0
+  - first:
+      213: 3680540491349569782
+    second: worm-die-02-mask_1
+  - first:
+      213: -379938529504912724
+    second: worm-die-02-mask_2
+  - first:
+      213: -7646838274535865459
+    second: worm-die-02-mask_3
+  - first:
+      213: -4776413884639520384
+    second: worm-die-02-mask_4
+  - first:
+      213: 9161501509857901274
+    second: worm-die-02-mask_5
+  - first:
+      213: 1663762720146092951
+    second: worm-die-02-mask_6
+  - first:
+      213: 5398598889863174880
+    second: worm-die-02-mask_7
+  - first:
+      213: 4867074000781612670
+    second: worm-die-02-mask_8
+  - first:
+      213: 3411561061205661952
+    second: worm-die-02-mask_9
+  - first:
+      213: -4862839394033555464
+    second: worm-die-02-mask_10
+  - first:
+      213: -443317654057733508
+    second: worm-die-02-mask_11
+  - first:
+      213: -37910026348528590
+    second: worm-die-02-mask_12
+  - first:
+      213: 6536635142803267579
+    second: worm-die-02-mask_13
+  - first:
+      213: -209005405381762346
+    second: worm-die-02-mask_14
+  - first:
+      213: -6624317249263939934
+    second: worm-die-02-mask_15
+  - first:
+      213: -5130548711969601729
+    second: worm-die-02-mask_16
+  - first:
+      213: 8116001997250156868
+    second: worm-die-02-mask_17
+  - first:
+      213: 465511045547855891
+    second: worm-die-02-mask_18
+  - first:
+      213: 4377032348997072722
+    second: worm-die-02-mask_19
+  - first:
+      213: 6051961640019722220
+    second: worm-die-02-mask_20
+  - first:
+      213: -6327727024527825046
+    second: worm-die-02-mask_21
+  - first:
+      213: -1263198344386565759
+    second: worm-die-02-mask_22
+  - first:
+      213: -6855925184548049270
+    second: worm-die-02-mask_23
+  - first:
+      213: 3313987229264831375
+    second: worm-die-02-mask_24
+  - first:
+      213: 8271094416127514134
+    second: worm-die-02-mask_25
+  - first:
+      213: 2071805974561097905
+    second: worm-die-02-mask_26
+  - first:
+      213: -649036619743128734
+    second: worm-die-02-mask_27
+  - first:
+      213: 3023791306806092176
+    second: worm-die-02-mask_28
+  - first:
+      213: 8647547720752584502
+    second: worm-die-02-mask_29
+  - first:
+      213: -2734973231862948635
+    second: worm-die-02-mask_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: worm-die-02-mask_0
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1109
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055f11c843fe82530800000000000000
+      internalID: 3830574492045931856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 1095
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f035589318e31330800000000000000
+      internalID: 3680540491349569782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_2
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 863
+        width: 219
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa1060abef2abaf0800000000000000
+      internalID: -379938529504912724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_3
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 863
+        width: 245
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83cd6f9a19f0e590800000000000000
+      internalID: -7646838274535865459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_4
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 863
+        width: 260
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08951d1e0e4c6bdb0800000000000000
+      internalID: -4776413884639520384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_5
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 866
+        width: 278
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaf8406511342f70800000000000000
+      internalID: 9161501509857901274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_6
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 863
+        width: 177
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79378d4016fd61710800000000000000
+      internalID: 1663762720146092951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_7
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 863
+        width: 176
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eadc1b561dabea40800000000000000
+      internalID: 5398598889863174880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 577
+        width: 285
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76902054025b8340800000000000000
+      internalID: 4867074000781612670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 578
+        width: 288
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009d7beb5bc485f20800000000000000
+      internalID: 3411561061205661952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_10
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 574
+        width: 277
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7aad6e559b38cb0800000000000000
+      internalID: -4862839394033555464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_11
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 571
+        width: 282
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72ba3341f409d9f0800000000000000
+      internalID: -443317654057733508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_12
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 574
+        width: 290
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cf11a2801597ff0800000000000000
+      internalID: -37910026348528590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_13
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 647
+        width: 131
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff9f11a70bc6ba50800000000000000
+      internalID: 6536635142803267579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_14
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 576
+        width: 295
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d26510f0b6791df0800000000000000
+      internalID: -209005405381762346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 290
+        width: 296
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae41261f82b114a0800000000000000
+      internalID: -6624317249263939934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_16
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 290
+        width: 297
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37c6381121acc8b0800000000000000
+      internalID: -5130548711969601729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_17
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 290
+        width: 298
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 449d47ae0d4d1a070800000000000000
+      internalID: 8116001997250156868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_18
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 289
+        width: 303
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31096ec54d3d57600800000000000000
+      internalID: 465511045547855891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_19
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 287
+        width: 288
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2573d5c1bb75ebc30800000000000000
+      internalID: 4377032348997072722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_20
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 291
+        width: 176
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef7aa30c03ecf350800000000000000
+      internalID: 6051961640019722220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_21
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 287
+        width: 290
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6721630cc56f28a0800000000000000
+      internalID: -6327727024527825046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_22
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 298
+        width: 94
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1892af96cc7387ee0800000000000000
+      internalID: -1263198344386565759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 293
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8eeb507e5cdad0a0800000000000000
+      internalID: -6855925184548049270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_24
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 12
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83e286a3d5adfd20800000000000000
+      internalID: 3313987229264831375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_25
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 3
+        width: 302
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6165ff0ac84d8c270800000000000000
+      internalID: 8271094416127514134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_26
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 11
+        width: 101
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b80f359e8880cc10800000000000000
+      internalID: 2071805974561097905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_27
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 3
+        width: 303
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2639df112a82ef6f0800000000000000
+      internalID: -649036619743128734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_28
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 3
+        width: 302
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091671d3c2aa6f920800000000000000
+      internalID: 3023791306806092176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_29
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2
+        width: 301
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63752b9d5d2420870800000000000000
+      internalID: 8647547720752584502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-02-mask_30
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 2
+        width: 301
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec5b9c065c6b0ad0800000000000000
+      internalID: -2734973231862948635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      worm-die-02-mask_0: 3830574492045931856
+      worm-die-02-mask_1: 3680540491349569782
+      worm-die-02-mask_10: -4862839394033555464
+      worm-die-02-mask_11: -443317654057733508
+      worm-die-02-mask_12: -37910026348528590
+      worm-die-02-mask_13: 6536635142803267579
+      worm-die-02-mask_14: -209005405381762346
+      worm-die-02-mask_15: -6624317249263939934
+      worm-die-02-mask_16: -5130548711969601729
+      worm-die-02-mask_17: 8116001997250156868
+      worm-die-02-mask_18: 465511045547855891
+      worm-die-02-mask_19: 4377032348997072722
+      worm-die-02-mask_2: -379938529504912724
+      worm-die-02-mask_20: 6051961640019722220
+      worm-die-02-mask_21: -6327727024527825046
+      worm-die-02-mask_22: -1263198344386565759
+      worm-die-02-mask_23: -6855925184548049270
+      worm-die-02-mask_24: 3313987229264831375
+      worm-die-02-mask_25: 8271094416127514134
+      worm-die-02-mask_26: 2071805974561097905
+      worm-die-02-mask_27: -649036619743128734
+      worm-die-02-mask_28: 3023791306806092176
+      worm-die-02-mask_29: 8647547720752584502
+      worm-die-02-mask_3: -7646838274535865459
+      worm-die-02-mask_30: -2734973231862948635
+      worm-die-02-mask_4: -4776413884639520384
+      worm-die-02-mask_5: 9161501509857901274
+      worm-die-02-mask_6: 1663762720146092951
+      worm-die-02-mask_7: 5398598889863174880
+      worm-die-02-mask_8: 4867074000781612670
+      worm-die-02-mask_9: 3411561061205661952
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: f96f21f53a473654591b1c21a8102831
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7770064732376302729
+    second: wooden-particle-shadow-14_0
+  - first:
+      213: 8549226178473806903
+    second: wooden-particle-shadow-14_1
+  - first:
+      213: 8016486044020263462
+    second: wooden-particle-shadow-14_2
+  - first:
+      213: 3860106106092429562
+    second: wooden-particle-shadow-14_3
+  - first:
+      213: -9129739292941741910
+    second: wooden-particle-shadow-14_4
+  - first:
+      213: -320989792206274906
+    second: wooden-particle-shadow-14_5
+  - first:
+      213: 6210699312967067392
+    second: wooden-particle-shadow-14_6
+  - first:
+      213: 9069115676231353104
+    second: wooden-particle-shadow-14_7
+  - first:
+      213: -1916098122416561709
+    second: wooden-particle-shadow-14_8
+  - first:
+      213: 3490499500708678827
+    second: wooden-particle-shadow-14_9
+  - first:
+      213: 5168474666098394335
+    second: wooden-particle-shadow-14_10
+  - first:
+      213: 5837908227729310499
+    second: wooden-particle-shadow-14_11
+  - first:
+      213: 6625757794518933558
+    second: wooden-particle-shadow-14_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 72
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b7be02b4f2b2490800000000000000
+      internalID: -7770064732376302729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 72
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cc660e9e3f4a670800000000000000
+      internalID: 8549226178473806903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 48
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a44b87597404f60800000000000000
+      internalID: 8016486044020263462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_3
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 47
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0a4f04d0ad19530800000000000000
+      internalID: 3860106106092429562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 47
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa018480c76ac4180800000000000000
+      internalID: -9129739292941741910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aeb4031c7d9b8bf0800000000000000
+      internalID: -320989792206274906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0072a249e16d03650800000000000000
+      internalID: 6210699312967067392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_7
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 23
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01342b448a8fbdd70800000000000000
+      internalID: 9069115676231353104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 25
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1619ad8e6a865e0800000000000000
+      internalID: -1916098122416561709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac4b6c6dceb07030800000000000000
+      internalID: 3490499500708678827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd48667335c1ab740800000000000000
+      internalID: 5168474666098394335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323c2214a9a640150800000000000000
+      internalID: 5837908227729310499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wooden-particle-shadow-14_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 4
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630a31efb9b63fb50800000000000000
+      internalID: 6625757794518933558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wooden-particle-shadow-14_0: -7770064732376302729
+      wooden-particle-shadow-14_1: 8549226178473806903
+      wooden-particle-shadow-14_10: 5168474666098394335
+      wooden-particle-shadow-14_11: 5837908227729310499
+      wooden-particle-shadow-14_12: 6625757794518933558
+      wooden-particle-shadow-14_2: 8016486044020263462
+      wooden-particle-shadow-14_3: 3860106106092429562
+      wooden-particle-shadow-14_4: -9129739292941741910
+      wooden-particle-shadow-14_5: -320989792206274906
+      wooden-particle-shadow-14_6: 6210699312967067392
+      wooden-particle-shadow-14_7: 9069115676231353104
+      wooden-particle-shadow-14_8: -1916098122416561709
+      wooden-particle-shadow-14_9: 3490499500708678827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

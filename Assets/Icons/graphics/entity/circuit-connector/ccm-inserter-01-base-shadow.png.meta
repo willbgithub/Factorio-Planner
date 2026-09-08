@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 1111f8af0f52fb54aaf97b2795ab7c1d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3120993161822684454
+    second: ccm-inserter-01-base-shadow_0
+  - first:
+      213: -3010970932548920946
+    second: ccm-inserter-01-base-shadow_1
+  - first:
+      213: 1169482185624226581
+    second: ccm-inserter-01-base-shadow_2
+  - first:
+      213: 298192781252031047
+    second: ccm-inserter-01-base-shadow_3
+  - first:
+      213: -7665572399689310707
+    second: ccm-inserter-01-base-shadow_4
+  - first:
+      213: 7858060119918095688
+    second: ccm-inserter-01-base-shadow_5
+  - first:
+      213: 6449312386808394649
+    second: ccm-inserter-01-base-shadow_6
+  - first:
+      213: 1930337997609809322
+    second: ccm-inserter-01-base-shadow_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ccm-inserter-01-base-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6254dd4bebeff4b20800000000000000
+      internalID: 3120993161822684454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-inserter-01-base-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 16
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e891560c3e1e636d0800000000000000
+      internalID: -3010970932548920946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-inserter-01-base-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 22
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b87450ad5da3010800000000000000
+      internalID: 1169482185624226581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-inserter-01-base-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 22
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742fc1131c4632400800000000000000
+      internalID: 298192781252031047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-inserter-01-base-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eda74348a6e9590800000000000000
+      internalID: -7665572399689310707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-inserter-01-base-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84da1679b007d0d60800000000000000
+      internalID: 7858060119918095688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-inserter-01-base-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993bd35227f808950800000000000000
+      internalID: 6449312386808394649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-inserter-01-base-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5b8f37e20f9ca10800000000000000
+      internalID: 1930337997609809322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ccm-inserter-01-base-shadow_0: 3120993161822684454
+      ccm-inserter-01-base-shadow_1: -3010970932548920946
+      ccm-inserter-01-base-shadow_2: 1169482185624226581
+      ccm-inserter-01-base-shadow_3: 298192781252031047
+      ccm-inserter-01-base-shadow_4: -7665572399689310707
+      ccm-inserter-01-base-shadow_5: 7858060119918095688
+      ccm-inserter-01-base-shadow_6: 6449312386808394649
+      ccm-inserter-01-base-shadow_7: 1930337997609809322
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

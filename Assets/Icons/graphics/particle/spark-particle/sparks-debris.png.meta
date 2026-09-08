@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2f6c16d8753d4bb4f89a0a2e213b831e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1581247616369856667
+    second: sparks-debris_0
+  - first:
+      213: 5557136706882689995
+    second: sparks-debris_1
+  - first:
+      213: -1410041120545140063
+    second: sparks-debris_2
+  - first:
+      213: -1072033485173182289
+    second: sparks-debris_3
+  - first:
+      213: -5092248899096834900
+    second: sparks-debris_4
+  - first:
+      213: -3358609055618837877
+    second: sparks-debris_5
+  - first:
+      213: 2565503252557062859
+    second: sparks-debris_6
+  - first:
+      213: 3138252887649132261
+    second: sparks-debris_7
+  - first:
+      213: -5575483832107990601
+    second: sparks-debris_8
+  - first:
+      213: -1829972160336622462
+    second: sparks-debris_9
+  - first:
+      213: -7862229845480451715
+    second: sparks-debris_10
+  - first:
+      213: -9125919284113421773
+    second: sparks-debris_11
+  - first:
+      213: 8110373580871763884
+    second: sparks-debris_12
+  - first:
+      213: 1201078141964528256
+    second: sparks-debris_13
+  - first:
+      213: 803329614114443131
+    second: sparks-debris_14
+  - first:
+      213: 5720456210706860478
+    second: sparks-debris_15
+  - first:
+      213: 8819195253094606303
+    second: sparks-debris_16
+  - first:
+      213: -2150422443305664732
+    second: sparks-debris_17
+  - first:
+      213: -3557692843045506472
+    second: sparks-debris_18
+  - first:
+      213: 3375766227692851923
+    second: sparks-debris_19
+  - first:
+      213: -1918969328168725588
+    second: sparks-debris_20
+  - first:
+      213: 9202089013262449769
+    second: sparks-debris_21
+  - first:
+      213: 1744819279730736739
+    second: sparks-debris_22
+  - first:
+      213: -496805886974554817
+    second: sparks-debris_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sparks-debris_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f6754bba74e0ae0800000000000000
+      internalID: -1581247616369856667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 23
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbd606546aee1d40800000000000000
+      internalID: 5557136706882689995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_2
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 24
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2963352178e6ce0800000000000000
+      internalID: -1410041120545140063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 26
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0bde0a93f5f11f0800000000000000
+      internalID: -1072033485173182289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 29
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac857d2b92b459b0800000000000000
+      internalID: -5092248899096834900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 26
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82dd6ccbd2d361d0800000000000000
+      internalID: -3358609055618837877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_6
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 22
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2e5c69d9f7a9320800000000000000
+      internalID: 2565503252557062859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_7
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 22
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee9ba7cf505d8b20800000000000000
+      internalID: 3138252887649132261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_8
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 25
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b10540bef6ef92b0800000000000000
+      internalID: -5575483832107990601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 27
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c084a0402aa96e0800000000000000
+      internalID: -1829972160336622462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_10
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 28
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71d9a58c9fb3e290800000000000000
+      internalID: -7862229845480451715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_11
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 26
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a488523c83a5180800000000000000
+      internalID: -9125919284113421773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7039b1dc5dd8070800000000000000
+      internalID: 8110373580871763884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_13
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 6
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a284fd4361ba010800000000000000
+      internalID: 1201078141964528256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_14
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 6
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fc7de1700062b00800000000000000
+      internalID: 803329614114443131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 6
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb90c588d94236f40800000000000000
+      internalID: 5720456210706860478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_16
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 6
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5e3894b53146a70800000000000000
+      internalID: 8819195253094606303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_17
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 6
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ffcb56e2a2822e0800000000000000
+      internalID: -2150422443305664732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_18
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 6
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852b25e653980aec0800000000000000
+      internalID: -3557692843045506472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_19
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 6
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2946e9f7129de20800000000000000
+      internalID: 3375766227692851923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 6
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca312ab20937e55e0800000000000000
+      internalID: -1918969328168725588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_21
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 6
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c780be33364bf70800000000000000
+      internalID: 9202089013262449769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_22
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 7
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e7a95f3e7d63810800000000000000
+      internalID: 1744819279730736739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparks-debris_23
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 6
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d0f809dadfa19f0800000000000000
+      internalID: -496805886974554817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sparks-debris_0: -1581247616369856667
+      sparks-debris_1: 5557136706882689995
+      sparks-debris_10: -7862229845480451715
+      sparks-debris_11: -9125919284113421773
+      sparks-debris_12: 8110373580871763884
+      sparks-debris_13: 1201078141964528256
+      sparks-debris_14: 803329614114443131
+      sparks-debris_15: 5720456210706860478
+      sparks-debris_16: 8819195253094606303
+      sparks-debris_17: -2150422443305664732
+      sparks-debris_18: -3557692843045506472
+      sparks-debris_19: 3375766227692851923
+      sparks-debris_2: -1410041120545140063
+      sparks-debris_20: -1918969328168725588
+      sparks-debris_21: 9202089013262449769
+      sparks-debris_22: 1744819279730736739
+      sparks-debris_23: -496805886974554817
+      sparks-debris_3: -1072033485173182289
+      sparks-debris_4: -5092248899096834900
+      sparks-debris_5: -3358609055618837877
+      sparks-debris_6: 2565503252557062859
+      sparks-debris_7: 3138252887649132261
+      sparks-debris_8: -5575483832107990601
+      sparks-debris_9: -1829972160336622462
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

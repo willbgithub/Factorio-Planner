@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 1acd4a671150be6489090e29eec51fd0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5641967116165475423
+    second: worm-decay-01_0
+  - first:
+      213: 5089454960061307906
+    second: worm-decay-01_1
+  - first:
+      213: -916593368906323797
+    second: worm-decay-01_2
+  - first:
+      213: 7768481867718469116
+    second: worm-decay-01_3
+  - first:
+      213: -4151383734530982750
+    second: worm-decay-01_4
+  - first:
+      213: -4104468065297342093
+    second: worm-decay-01_5
+  - first:
+      213: -7391146573871594917
+    second: worm-decay-01_6
+  - first:
+      213: 7914267626343343745
+    second: worm-decay-01_7
+  - first:
+      213: -8581283210979379914
+    second: worm-decay-01_8
+  - first:
+      213: 2611654928001640034
+    second: worm-decay-01_9
+  - first:
+      213: -5111487290557496130
+    second: worm-decay-01_10
+  - first:
+      213: -1758436683584863588
+    second: worm-decay-01_11
+  - first:
+      213: -6641965105718987101
+    second: worm-decay-01_12
+  - first:
+      213: 4185870965233350023
+    second: worm-decay-01_13
+  - first:
+      213: -168428413850793458
+    second: worm-decay-01_14
+  - first:
+      213: 8054823398154848931
+    second: worm-decay-01_15
+  - first:
+      213: 956268073837523579
+    second: worm-decay-01_16
+  - first:
+      213: 1471670450088324479
+    second: worm-decay-01_17
+  - first:
+      213: 4508146861434610050
+    second: worm-decay-01_18
+  - first:
+      213: 7997530294448177731
+    second: worm-decay-01_19
+  - first:
+      213: -3207448840774595423
+    second: worm-decay-01_20
+  - first:
+      213: -4582197760459655630
+    second: worm-decay-01_21
+  - first:
+      213: -2424496112172411052
+    second: worm-decay-01_22
+  - first:
+      213: -4136395524467258886
+    second: worm-decay-01_23
+  - first:
+      213: 9069137373834463348
+    second: worm-decay-01_24
+  - first:
+      213: 4152149714021131064
+    second: worm-decay-01_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: worm-decay-01_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 908
+        width: 293
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c6a71233b4c4e40800000000000000
+      internalID: 5641967116165475423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_1
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 908
+        width: 288
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cddc2325061a640800000000000000
+      internalID: 5089454960061307906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_2
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 909
+        width: 281
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba82cd2ff2b9743f0800000000000000
+      internalID: -916593368906323797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_3
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 889
+        width: 301
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf52c6979113fcb60800000000000000
+      internalID: 7768481867718469116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_4
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 879
+        width: 307
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac32f80d725366c0800000000000000
+      internalID: -4151383734530982750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_5
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 875
+        width: 313
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37164008a000a07c0800000000000000
+      internalID: -4104468065297342093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 584
+        width: 320
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52c98dd95f5d6990800000000000000
+      internalID: -7391146573871594917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_7
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 580
+        width: 326
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186a19d797025dd60800000000000000
+      internalID: 7914267626343343745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_8
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 577
+        width: 332
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635fc8c926829e880800000000000000
+      internalID: -8581283210979379914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_9
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 577
+        width: 332
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266af63e1567e3420800000000000000
+      internalID: 2611654928001640034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_10
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 577
+        width: 332
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4856c14695019b0800000000000000
+      internalID: -5111487290557496130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_11
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 576
+        width: 334
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9288e22727c897e0800000000000000
+      internalID: -1758436683584863588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 287
+        width: 334
+        height: 283
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6741f4deff2d3a0800000000000000
+      internalID: -6641965105718987101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 287
+        width: 333
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785fa561773371a30800000000000000
+      internalID: 4185870965233350023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_14
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 287
+        width: 335
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a475eff3f99adf0800000000000000
+      internalID: -168428413850793458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 290
+        width: 334
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa468f443b78cf60800000000000000
+      internalID: 8054823398154848931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_16
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 292
+        width: 335
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72f1232fb8554d00800000000000000
+      internalID: 956268073837523579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_17
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 291
+        width: 336
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d24f32a7c6c6410800000000000000
+      internalID: 1471670450088324479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 339
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2812a1f6fa7209e30800000000000000
+      internalID: 4508146861434610050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2
+        width: 340
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34242091e6fecfe60800000000000000
+      internalID: 7997530294448177731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_20
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 5
+        width: 336
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac446ae54adc73d0800000000000000
+      internalID: -3207448840774595423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_21
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 6
+        width: 329
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23636351a63c860c0800000000000000
+      internalID: -4582197760459655630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_22
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 14
+        width: 323
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457d5aaa1a57a5ed0800000000000000
+      internalID: -2424496112172411052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_23
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 158
+        width: 73
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af90d91af229896c0800000000000000
+      internalID: -4136395524467258886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_24
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 38
+        width: 240
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4784f92246c0cdd70800000000000000
+      internalID: 9069137373834463348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-decay-01_25
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 87
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83328767a266f9930800000000000000
+      internalID: 4152149714021131064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      worm-decay-01_0: 5641967116165475423
+      worm-decay-01_1: 5089454960061307906
+      worm-decay-01_10: -5111487290557496130
+      worm-decay-01_11: -1758436683584863588
+      worm-decay-01_12: -6641965105718987101
+      worm-decay-01_13: 4185870965233350023
+      worm-decay-01_14: -168428413850793458
+      worm-decay-01_15: 8054823398154848931
+      worm-decay-01_16: 956268073837523579
+      worm-decay-01_17: 1471670450088324479
+      worm-decay-01_18: 4508146861434610050
+      worm-decay-01_19: 7997530294448177731
+      worm-decay-01_2: -916593368906323797
+      worm-decay-01_20: -3207448840774595423
+      worm-decay-01_21: -4582197760459655630
+      worm-decay-01_22: -2424496112172411052
+      worm-decay-01_23: -4136395524467258886
+      worm-decay-01_24: 9069137373834463348
+      worm-decay-01_25: 4152149714021131064
+      worm-decay-01_3: 7768481867718469116
+      worm-decay-01_4: -4151383734530982750
+      worm-decay-01_5: -4104468065297342093
+      worm-decay-01_6: -7391146573871594917
+      worm-decay-01_7: 7914267626343343745
+      worm-decay-01_8: -8581283210979379914
+      worm-decay-01_9: 2611654928001640034
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

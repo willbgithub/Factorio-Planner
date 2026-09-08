@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: dcd1994e6c31c82459636ca33d4f87fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3270512216320494911
+    second: pump-north_0
+  - first:
+      213: -3510002077653360039
+    second: pump-north_1
+  - first:
+      213: 1970255810736233412
+    second: pump-north_2
+  - first:
+      213: -7313939150137066210
+    second: pump-north_3
+  - first:
+      213: -5372022524908535216
+    second: pump-north_4
+  - first:
+      213: 6311001710937374278
+    second: pump-north_5
+  - first:
+      213: -5670933274632472607
+    second: pump-north_6
+  - first:
+      213: 460641313132996192
+    second: pump-north_7
+  - first:
+      213: -5494727341434438669
+    second: pump-north_8
+  - first:
+      213: 6999528553036844060
+    second: pump-north_9
+  - first:
+      213: -7023463645424603241
+    second: pump-north_10
+  - first:
+      213: -7832929539360217721
+    second: pump-north_11
+  - first:
+      213: 1219457941949682860
+    second: pump-north_12
+  - first:
+      213: -7993421250038517074
+    second: pump-north_13
+  - first:
+      213: 8340711633429077122
+    second: pump-north_14
+  - first:
+      213: 8849584586101993085
+    second: pump-north_15
+  - first:
+      213: -5540738978500818090
+    second: pump-north_16
+  - first:
+      213: -2496730400962686880
+    second: pump-north_17
+  - first:
+      213: -1025142668707829521
+    second: pump-north_18
+  - first:
+      213: -4618408437048128788
+    second: pump-north_19
+  - first:
+      213: 8230787710183989744
+    second: pump-north_20
+  - first:
+      213: -5100608786854903506
+    second: pump-north_21
+  - first:
+      213: 2389333653580929956
+    second: pump-north_22
+  - first:
+      213: -3076745922058301937
+    second: pump-north_23
+  - first:
+      213: -5243827701182562710
+    second: pump-north_24
+  - first:
+      213: 1251976660911730187
+    second: pump-north_25
+  - first:
+      213: 6505398931772500085
+    second: pump-north_26
+  - first:
+      213: -6024408495177574781
+    second: pump-north_27
+  - first:
+      213: 6586059977698377049
+    second: pump-north_28
+  - first:
+      213: 6363119162938088726
+    second: pump-north_29
+  - first:
+      213: 8033469005486054493
+    second: pump-north_30
+  - first:
+      213: 4462258939738591793
+    second: pump-north_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pump-north_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 503
+        width: 104
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c234a8977ecc92d0800000000000000
+      internalID: -3270512216320494911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 503
+        width: 105
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952a69805b7f94fc0800000000000000
+      internalID: -3510002077653360039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 503
+        width: 105
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb15939831c75b10800000000000000
+      internalID: 1970255810736233412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_3
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 503
+        width: 105
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1df147081baf7a90800000000000000
+      internalID: -7313939150137066210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_4
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 503
+        width: 105
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0520e6dc9fdb275b0800000000000000
+      internalID: -5372022524908535216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_5
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 503
+        width: 105
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64efd457e9e259750800000000000000
+      internalID: 6311001710937374278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_6
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 503
+        width: 105
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7b69c8b3ccc41b0800000000000000
+      internalID: -5670933274632472607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_7
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 503
+        width: 104
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066692e65d6846600800000000000000
+      internalID: 460641313132996192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 339
+        width: 104
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb7c24689eceb3b0800000000000000
+      internalID: -5494727341434438669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_9
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 339
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c07f64222532160800000000000000
+      internalID: 6999528553036844060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 339
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fa891c605a78e90800000000000000
+      internalID: -7023463645424603241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_11
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 339
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78525c7a518db4390800000000000000
+      internalID: -7832929539360217721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_12
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 339
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4907889826ce010800000000000000
+      internalID: 1219457941949682860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_13
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 339
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2356b59b9a11190800000000000000
+      internalID: -7993421250038517074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_14
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 339
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c12842a0920c370800000000000000
+      internalID: 8340711633429077122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 339
+        width: 104
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ea1604b4a00da70800000000000000
+      internalID: 8849584586101993085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 104
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b4c4151475b13b0800000000000000
+      internalID: -5540738978500818090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_17
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 175
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06053b6bde4d95dd0800000000000000
+      internalID: -2496730400962686880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_18
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 175
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8e29b9c26f5c1f0800000000000000
+      internalID: -1025142668707829521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_19
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 175
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea4412fefd18efb0800000000000000
+      internalID: -4618408437048128788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_20
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 175
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1ea2750d1a93270800000000000000
+      internalID: 8230787710183989744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_21
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 175
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e210741255ff639b0800000000000000
+      internalID: -5100608786854903506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_22
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 175
+        width: 105
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4abd3977c4e982120800000000000000
+      internalID: 2389333653580929956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 175
+        width: 104
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e459b92e33d45d0800000000000000
+      internalID: -3076745922058301937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ef8af1d7e2a37b0800000000000000
+      internalID: -5243827701182562710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_25
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 105
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e29bcc32aef5110800000000000000
+      internalID: 1251976660911730187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_26
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 105
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57861828cd1d74a50800000000000000
+      internalID: 6505398931772500085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_27
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 105
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386581f6460056ca0800000000000000
+      internalID: -6024408495177574781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 0
+        width: 105
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95df020c7a2666b50800000000000000
+      internalID: 6586059977698377049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_29
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 0
+        width: 105
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dd76a5a275e4850800000000000000
+      internalID: 6363119162938088726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_30
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 0
+        width: 105
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c5b125f7d9c7f60800000000000000
+      internalID: 8033469005486054493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pump-north_31
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 104
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1321ee61dd02ded30800000000000000
+      internalID: 4462258939738591793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pump-north_0: -3270512216320494911
+      pump-north_1: -3510002077653360039
+      pump-north_10: -7023463645424603241
+      pump-north_11: -7832929539360217721
+      pump-north_12: 1219457941949682860
+      pump-north_13: -7993421250038517074
+      pump-north_14: 8340711633429077122
+      pump-north_15: 8849584586101993085
+      pump-north_16: -5540738978500818090
+      pump-north_17: -2496730400962686880
+      pump-north_18: -1025142668707829521
+      pump-north_19: -4618408437048128788
+      pump-north_2: 1970255810736233412
+      pump-north_20: 8230787710183989744
+      pump-north_21: -5100608786854903506
+      pump-north_22: 2389333653580929956
+      pump-north_23: -3076745922058301937
+      pump-north_24: -5243827701182562710
+      pump-north_25: 1251976660911730187
+      pump-north_26: 6505398931772500085
+      pump-north_27: -6024408495177574781
+      pump-north_28: 6586059977698377049
+      pump-north_29: 6363119162938088726
+      pump-north_3: -7313939150137066210
+      pump-north_30: 8033469005486054493
+      pump-north_31: 4462258939738591793
+      pump-north_4: -5372022524908535216
+      pump-north_5: 6311001710937374278
+      pump-north_6: -5670933274632472607
+      pump-north_7: 460641313132996192
+      pump-north_8: -5494727341434438669
+      pump-north_9: 6999528553036844060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

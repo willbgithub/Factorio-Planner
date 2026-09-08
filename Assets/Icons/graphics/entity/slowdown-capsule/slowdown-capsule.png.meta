@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 4b84bd073d6eba848bee12f8e1d8f6fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8068222518347239392
+    second: slowdown-capsule_0
+  - first:
+      213: 7839808698314315424
+    second: slowdown-capsule_1
+  - first:
+      213: 2753837118961034160
+    second: slowdown-capsule_2
+  - first:
+      213: -2811308422748288766
+    second: slowdown-capsule_3
+  - first:
+      213: 7964987904635837411
+    second: slowdown-capsule_4
+  - first:
+      213: 4474468009467115436
+    second: slowdown-capsule_5
+  - first:
+      213: -2297079386193129605
+    second: slowdown-capsule_6
+  - first:
+      213: 5342039041563134840
+    second: slowdown-capsule_7
+  - first:
+      213: 8890021751837798638
+    second: slowdown-capsule_8
+  - first:
+      213: -976737700154786216
+    second: slowdown-capsule_9
+  - first:
+      213: 8109717701468349055
+    second: slowdown-capsule_10
+  - first:
+      213: 3809084508173478431
+    second: slowdown-capsule_11
+  - first:
+      213: -2833466110473613296
+    second: slowdown-capsule_12
+  - first:
+      213: -8510964674477723123
+    second: slowdown-capsule_13
+  - first:
+      213: -1061813683142104525
+    second: slowdown-capsule_14
+  - first:
+      213: 4077986200384559170
+    second: slowdown-capsule_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: slowdown-capsule_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 64
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef05e612a518ff60800000000000000
+      internalID: 8068222518347239392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 66
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6da0a59789ccc60800000000000000
+      internalID: 7839808698314315424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 67
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b325fce448973620800000000000000
+      internalID: 2753837118961034160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 70
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209460c62e93cf8d0800000000000000
+      internalID: -2811308422748288766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 74
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb1a188c42598e60800000000000000
+      internalID: 7964987904635837411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 74
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7f227a2f0881e30800000000000000
+      internalID: 4474468009467115436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_6
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 67
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f061df7722f10e0800000000000000
+      internalID: -2297079386193129605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_7
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 63
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b83a8743cb22a40800000000000000
+      internalID: 5342039041563134840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0b9c39ea3bf5b70800000000000000
+      internalID: 8890021751837798638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_9
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85eba879c3ee172f0800000000000000
+      internalID: -976737700154786216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72e7b848418b8070800000000000000
+      internalID: 8109717701468349055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 4
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1aaf15cd269cd430800000000000000
+      internalID: 3809084508173478431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_12
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 10
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010dc1ab5918da8d0800000000000000
+      internalID: -2833466110473613296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 10
+        width: 48
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d027bd9b8baf2e980800000000000000
+      internalID: -8510964674477723123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_14
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 6
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a6aa6b41ea341f0800000000000000
+      internalID: -1061813683142104525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slowdown-capsule_15
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 3
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248ddd8d7dae79830800000000000000
+      internalID: 4077986200384559170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      slowdown-capsule_0: 8068222518347239392
+      slowdown-capsule_1: 7839808698314315424
+      slowdown-capsule_10: 8109717701468349055
+      slowdown-capsule_11: 3809084508173478431
+      slowdown-capsule_12: -2833466110473613296
+      slowdown-capsule_13: -8510964674477723123
+      slowdown-capsule_14: -1061813683142104525
+      slowdown-capsule_15: 4077986200384559170
+      slowdown-capsule_2: 2753837118961034160
+      slowdown-capsule_3: -2811308422748288766
+      slowdown-capsule_4: 7964987904635837411
+      slowdown-capsule_5: 4474468009467115436
+      slowdown-capsule_6: -2297079386193129605
+      slowdown-capsule_7: 5342039041563134840
+      slowdown-capsule_8: 8890021751837798638
+      slowdown-capsule_9: -976737700154786216
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

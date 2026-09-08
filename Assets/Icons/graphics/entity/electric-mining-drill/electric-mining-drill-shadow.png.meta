@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 62db2ef102516284dbe0adb9560f4a4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8832490581859021612
+    second: electric-mining-drill-shadow_0
+  - first:
+      213: -5226894917646759460
+    second: electric-mining-drill-shadow_1
+  - first:
+      213: -4966225158006423430
+    second: electric-mining-drill-shadow_2
+  - first:
+      213: 967258077207364125
+    second: electric-mining-drill-shadow_3
+  - first:
+      213: -5524430815707188665
+    second: electric-mining-drill-shadow_4
+  - first:
+      213: -1851514476984457898
+    second: electric-mining-drill-shadow_5
+  - first:
+      213: -2739511170045967429
+    second: electric-mining-drill-shadow_6
+  - first:
+      213: -4432432477084080510
+    second: electric-mining-drill-shadow_7
+  - first:
+      213: 8663530595052126888
+    second: electric-mining-drill-shadow_8
+  - first:
+      213: 7936719913773738758
+    second: electric-mining-drill-shadow_9
+  - first:
+      213: 6670531274906785453
+    second: electric-mining-drill-shadow_10
+  - first:
+      213: 5520837204909359103
+    second: electric-mining-drill-shadow_11
+  - first:
+      213: -8182819554667925101
+    second: electric-mining-drill-shadow_12
+  - first:
+      213: -1671821720371547209
+    second: electric-mining-drill-shadow_13
+  - first:
+      213: -1412534368253696596
+    second: electric-mining-drill-shadow_14
+  - first:
+      213: 924125816777540176
+    second: electric-mining-drill-shadow_15
+  - first:
+      213: 5313298177727457108
+    second: electric-mining-drill-shadow_16
+  - first:
+      213: -5012635809752058870
+    second: electric-mining-drill-shadow_17
+  - first:
+      213: 8873934071283314729
+    second: electric-mining-drill-shadow_18
+  - first:
+      213: 3963035715762345941
+    second: electric-mining-drill-shadow_19
+  - first:
+      213: 3594124848984048723
+    second: electric-mining-drill-shadow_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 111
+        width: 216
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc4f42cc90bc6580800000000000000
+      internalID: -8832490581859021612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 111
+        width: 217
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9ce5304c65677b0800000000000000
+      internalID: -5226894917646759460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 111
+        width: 217
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a704b6ee78c641bb0800000000000000
+      internalID: -4966225158006423430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 111
+        width: 218
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d128212b8146c6d00800000000000000
+      internalID: 967258077207364125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 112
+        width: 217
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7423d8b51774553b0800000000000000
+      internalID: -5524430815707188665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 112
+        width: 214
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65529d694691e46e0800000000000000
+      internalID: -1851514476984457898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 111
+        width: 211
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3023bfa1d4bf9d0800000000000000
+      internalID: -2739511170045967429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 208
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286af786526dc72c0800000000000000
+      internalID: -4432432477084080510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 55
+        width: 205
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a28fc2cc2b0b3870800000000000000
+      internalID: 8663530595052126888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 56
+        width: 198
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ba04606b4e42e60800000000000000
+      internalID: 7936719913773738758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 56
+        width: 190
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6d3ff3adc729c50800000000000000
+      internalID: 6670531274906785453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 55
+        width: 183
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffff16def24fd9c40800000000000000
+      internalID: 5520837204909359103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 55
+        width: 180
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391f5ee28f8c07e80800000000000000
+      internalID: -8182819554667925101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 55
+        width: 179
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3b875c00f7cc8e0800000000000000
+      internalID: -1671821720371547209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 181
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5253bd97ba56ce0800000000000000
+      internalID: -1412534368253696596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 185
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0520bccb88723dc00800000000000000
+      internalID: 924125816777540176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 0
+        width: 189
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457ec25aa80acb940800000000000000
+      internalID: 5313298177727457108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 0
+        width: 190
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0473530a4a8f6ab0800000000000000
+      internalID: -5012635809752058870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 0
+        width: 188
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920f31f850c862b70800000000000000
+      internalID: 8873934071283314729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 0
+        width: 181
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d753368cf78ff630800000000000000
+      internalID: 3963035715762345941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: electric-mining-drill-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 0
+        width: 181
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3544916f185e0e130800000000000000
+      internalID: 3594124848984048723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      electric-mining-drill-shadow_0: -8832490581859021612
+      electric-mining-drill-shadow_1: -5226894917646759460
+      electric-mining-drill-shadow_10: 6670531274906785453
+      electric-mining-drill-shadow_11: 5520837204909359103
+      electric-mining-drill-shadow_12: -8182819554667925101
+      electric-mining-drill-shadow_13: -1671821720371547209
+      electric-mining-drill-shadow_14: -1412534368253696596
+      electric-mining-drill-shadow_15: 924125816777540176
+      electric-mining-drill-shadow_16: 5313298177727457108
+      electric-mining-drill-shadow_17: -5012635809752058870
+      electric-mining-drill-shadow_18: 8873934071283314729
+      electric-mining-drill-shadow_19: 3963035715762345941
+      electric-mining-drill-shadow_2: -4966225158006423430
+      electric-mining-drill-shadow_20: 3594124848984048723
+      electric-mining-drill-shadow_3: 967258077207364125
+      electric-mining-drill-shadow_4: -5524430815707188665
+      electric-mining-drill-shadow_5: -1851514476984457898
+      electric-mining-drill-shadow_6: -2739511170045967429
+      electric-mining-drill-shadow_7: -4432432477084080510
+      electric-mining-drill-shadow_8: 8663530595052126888
+      electric-mining-drill-shadow_9: 7936719913773738758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

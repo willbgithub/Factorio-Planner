@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 2e60945c70018b84e8f029d8e726d94f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7919557547114805426
+    second: gate-vertical-shadow_0
+  - first:
+      213: -8904193641401908885
+    second: gate-vertical-shadow_1
+  - first:
+      213: -1537923164775437815
+    second: gate-vertical-shadow_2
+  - first:
+      213: 6382183831805077622
+    second: gate-vertical-shadow_3
+  - first:
+      213: -735863399307501644
+    second: gate-vertical-shadow_4
+  - first:
+      213: -6403247344748733742
+    second: gate-vertical-shadow_5
+  - first:
+      213: -572426132906571470
+    second: gate-vertical-shadow_6
+  - first:
+      213: -3161308604618859791
+    second: gate-vertical-shadow_7
+  - first:
+      213: 7588155987446007325
+    second: gate-vertical-shadow_8
+  - first:
+      213: 758916157174609019
+    second: gate-vertical-shadow_9
+  - first:
+      213: 3519445704499995549
+    second: gate-vertical-shadow_10
+  - first:
+      213: -3996692941754279008
+    second: gate-vertical-shadow_11
+  - first:
+      213: 2628851273070985651
+    second: gate-vertical-shadow_12
+  - first:
+      213: -2134586262889132104
+    second: gate-vertical-shadow_13
+  - first:
+      213: -8093755586685730659
+    second: gate-vertical-shadow_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gate-vertical-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 82
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4745f9de54181290800000000000000
+      internalID: -7919557547114805426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 105
+        width: 79
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6182f04f03fd6480800000000000000
+      internalID: -8904193641401908885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 107
+        width: 73
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a27b7a70338aae0800000000000000
+      internalID: -1537923164775437815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 109
+        width: 69
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678abf97162129850800000000000000
+      internalID: 6382183831805077622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 112
+        width: 65
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf90191320b9c5f0800000000000000
+      internalID: -735863399307501644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 114
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dad94f37781327a0800000000000000
+      internalID: -6403247344748733742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 117
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23904f707755e08f0800000000000000
+      internalID: -572426132906571470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 119
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa9e4cc296c024d0800000000000000
+      internalID: -3161308604618859791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 18
+        width: 48
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1609f3baab8e4960800000000000000
+      internalID: 7588155987446007325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 20
+        width: 43
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7472ba5936388a00800000000000000
+      internalID: 758916157174609019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 23
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d932ffea83597d030800000000000000
+      internalID: 3519445704499995549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 25
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abdc62e1f4e888c0800000000000000
+      internalID: -3996692941754279008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 27
+        width: 30
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1cabafd4e8b7420800000000000000
+      internalID: 2628851273070985651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 30
+        width: 26
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf801a7a1d6062e0800000000000000
+      internalID: -2134586262889132104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-vertical-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 32
+        width: 22
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9083cc2d243daf80800000000000000
+      internalID: -8093755586685730659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gate-vertical-shadow_0: -7919557547114805426
+      gate-vertical-shadow_1: -8904193641401908885
+      gate-vertical-shadow_10: 3519445704499995549
+      gate-vertical-shadow_11: -3996692941754279008
+      gate-vertical-shadow_12: 2628851273070985651
+      gate-vertical-shadow_13: -2134586262889132104
+      gate-vertical-shadow_14: -8093755586685730659
+      gate-vertical-shadow_2: -1537923164775437815
+      gate-vertical-shadow_3: 6382183831805077622
+      gate-vertical-shadow_4: -735863399307501644
+      gate-vertical-shadow_5: -6403247344748733742
+      gate-vertical-shadow_6: -572426132906571470
+      gate-vertical-shadow_7: -3161308604618859791
+      gate-vertical-shadow_8: 7588155987446007325
+      gate-vertical-shadow_9: 758916157174609019
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

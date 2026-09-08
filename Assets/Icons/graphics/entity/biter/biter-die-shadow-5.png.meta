@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 7faff5d1b6909194382eb9e6782ff24d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 884741003989578842
+    second: biter-die-shadow-5_0
+  - first:
+      213: 6400442424375901283
+    second: biter-die-shadow-5_1
+  - first:
+      213: 4674035078431760870
+    second: biter-die-shadow-5_2
+  - first:
+      213: -7299915744484522992
+    second: biter-die-shadow-5_3
+  - first:
+      213: -8877327484193838231
+    second: biter-die-shadow-5_4
+  - first:
+      213: -6280290443480723323
+    second: biter-die-shadow-5_5
+  - first:
+      213: -4723844861935660205
+    second: biter-die-shadow-5_6
+  - first:
+      213: -3465383464559258828
+    second: biter-die-shadow-5_7
+  - first:
+      213: -267528591976739490
+    second: biter-die-shadow-5_8
+  - first:
+      213: 8346184475947365705
+    second: biter-die-shadow-5_9
+  - first:
+      213: -8013181472581372436
+    second: biter-die-shadow-5_10
+  - first:
+      213: -5578791274643466910
+    second: biter-die-shadow-5_11
+  - first:
+      213: 1446974068058319864
+    second: biter-die-shadow-5_12
+  - first:
+      213: 2907706941651758323
+    second: biter-die-shadow-5_13
+  - first:
+      213: 6324113129037124725
+    second: biter-die-shadow-5_14
+  - first:
+      213: -3702959452441674456
+    second: biter-die-shadow-5_15
+  - first:
+      213: 583602933210900800
+    second: biter-die-shadow-5_16
+  - first:
+      213: 9072397398880221835
+    second: biter-die-shadow-5_17
+  - first:
+      213: -2055467893390372793
+    second: biter-die-shadow-5_18
+  - first:
+      213: 5294408462299745606
+    second: biter-die-shadow-5_19
+  - first:
+      213: 8698909376327754268
+    second: biter-die-shadow-5_20
+  - first:
+      213: -8287044893365421849
+    second: biter-die-shadow-5_21
+  - first:
+      213: -1067258921244741600
+    second: biter-die-shadow-5_22
+  - first:
+      213: -1520717892524967655
+    second: biter-die-shadow-5_23
+  - first:
+      213: 7029115174347416157
+    second: biter-die-shadow-5_24
+  - first:
+      213: 9093660063429271754
+    second: biter-die-shadow-5_25
+  - first:
+      213: -2534237716308503996
+    second: biter-die-shadow-5_26
+  - first:
+      213: 1733409191283493955
+    second: biter-die-shadow-5_27
+  - first:
+      213: -373765316645425775
+    second: biter-die-shadow-5_28
+  - first:
+      213: -4043583825665670083
+    second: biter-die-shadow-5_29
+  - first:
+      213: -6844527522873497724
+    second: biter-die-shadow-5_30
+  - first:
+      213: -221591580721416614
+    second: biter-die-shadow-5_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: biter-die-shadow-5_0
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1802
+        width: 244
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54750d614b374c00800000000000000
+      internalID: 884741003989578842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_1
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 1824
+        width: 248
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36cf3465970f2d850800000000000000
+      internalID: 6400442424375901283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_2
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1834
+        width: 285
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1e3a5c3228dd040800000000000000
+      internalID: 4674035078431760870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_3
+      rect:
+        serializedVersion: 2
+        x: 1796
+        y: 1830
+        width: 298
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01408b79e4d71ba90800000000000000
+      internalID: -7299915744484522992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_4
+      rect:
+        serializedVersion: 2
+        x: 2349
+        y: 1822
+        width: 298
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b60ddefa56dc480800000000000000
+      internalID: -8877327484193838231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_5
+      rect:
+        serializedVersion: 2
+        x: 2882
+        y: 1822
+        width: 288
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5801d06bd1de7d8a0800000000000000
+      internalID: -6280290443480723323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1477
+        width: 273
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35355464028817eb0800000000000000
+      internalID: -4723844861935660205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_7
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1478
+        width: 275
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433de60791c78efc0800000000000000
+      internalID: -3465383464559258828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_8
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1479
+        width: 282
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d47fbb92c894cf0800000000000000
+      internalID: -267528591976739490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_9
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 1481
+        width: 284
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945f8b69f8a93d370800000000000000
+      internalID: 8346184475947365705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_10
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 1482
+        width: 285
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5bb0608e57bc090800000000000000
+      internalID: -8013181472581372436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_11
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 1485
+        width: 286
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265d3d6b4e62492b0800000000000000
+      internalID: -5578791274643466910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_12
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1140
+        width: 285
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb61dd9f3fa41410800000000000000
+      internalID: 1446974068058319864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_13
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1140
+        width: 290
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc2718ce004a5820800000000000000
+      internalID: 2907706941651758323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_14
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1140
+        width: 291
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57454af5263c3c750800000000000000
+      internalID: 6324113129037124725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_15
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1110
+        width: 265
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82df9834ff17c9cc0800000000000000
+      internalID: -3702959452441674456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_16
+      rect:
+        serializedVersion: 2
+        x: 2285
+        y: 1065
+        width: 275
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04969e396cf591800800000000000000
+      internalID: 583602933210900800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_17
+      rect:
+        serializedVersion: 2
+        x: 2827
+        y: 1061
+        width: 293
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8afe6ddd51a7ed70800000000000000
+      internalID: 9072397398880221835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_18
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 691
+        width: 290
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7401f3f57d28973e0800000000000000
+      internalID: -2055467893390372793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_19
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 691
+        width: 279
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dc23b0274897940800000000000000
+      internalID: 5294408462299745606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_20
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 691
+        width: 273
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12a45d2dfbb8b870800000000000000
+      internalID: 8698909376327754268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_21
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 691
+        width: 257
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e83d3d73908efc80800000000000000
+      internalID: -8287044893365421849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_22
+      rect:
+        serializedVersion: 2
+        x: 2318
+        y: 691
+        width: 241
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02037db6aa55031f0800000000000000
+      internalID: -1067258921244741600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_23
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 691
+        width: 240
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919f774422355eae0800000000000000
+      internalID: -1520717892524967655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_24
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 345
+        width: 244
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52294c520f6c8160800000000000000
+      internalID: 7029115174347416157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_25
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 345
+        width: 258
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0abdcb5ab233e70800000000000000
+      internalID: 9093660063429271754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_26
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 345
+        width: 263
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442d807593494dcd0800000000000000
+      internalID: -2534237716308503996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_27
+      rect:
+        serializedVersion: 2
+        x: 1772
+        y: 345
+        width: 265
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c89d8b97e4e0810800000000000000
+      internalID: 1733409191283493955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_28
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 345
+        width: 265
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19decffbc6e10daf0800000000000000
+      internalID: -373765316645425775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_29
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 345
+        width: 299
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34cea33fed42e7c0800000000000000
+      internalID: -4043583825665670083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_30
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 299
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487adb75b7a5301a0800000000000000
+      internalID: -6844527522873497724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: biter-die-shadow-5_31
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 299
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56f1e1a1afbcecf0800000000000000
+      internalID: -221591580721416614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      biter-die-shadow-5_0: 884741003989578842
+      biter-die-shadow-5_1: 6400442424375901283
+      biter-die-shadow-5_10: -8013181472581372436
+      biter-die-shadow-5_11: -5578791274643466910
+      biter-die-shadow-5_12: 1446974068058319864
+      biter-die-shadow-5_13: 2907706941651758323
+      biter-die-shadow-5_14: 6324113129037124725
+      biter-die-shadow-5_15: -3702959452441674456
+      biter-die-shadow-5_16: 583602933210900800
+      biter-die-shadow-5_17: 9072397398880221835
+      biter-die-shadow-5_18: -2055467893390372793
+      biter-die-shadow-5_19: 5294408462299745606
+      biter-die-shadow-5_2: 4674035078431760870
+      biter-die-shadow-5_20: 8698909376327754268
+      biter-die-shadow-5_21: -8287044893365421849
+      biter-die-shadow-5_22: -1067258921244741600
+      biter-die-shadow-5_23: -1520717892524967655
+      biter-die-shadow-5_24: 7029115174347416157
+      biter-die-shadow-5_25: 9093660063429271754
+      biter-die-shadow-5_26: -2534237716308503996
+      biter-die-shadow-5_27: 1733409191283493955
+      biter-die-shadow-5_28: -373765316645425775
+      biter-die-shadow-5_29: -4043583825665670083
+      biter-die-shadow-5_3: -7299915744484522992
+      biter-die-shadow-5_30: -6844527522873497724
+      biter-die-shadow-5_31: -221591580721416614
+      biter-die-shadow-5_4: -8877327484193838231
+      biter-die-shadow-5_5: -6280290443480723323
+      biter-die-shadow-5_6: -4723844861935660205
+      biter-die-shadow-5_7: -3465383464559258828
+      biter-die-shadow-5_8: -267528591976739490
+      biter-die-shadow-5_9: 8346184475947365705
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

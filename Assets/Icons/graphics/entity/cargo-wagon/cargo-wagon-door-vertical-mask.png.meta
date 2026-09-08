@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: c81c609a9f4251440a8c23afcdb6cb40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 733741483494869682
+    second: cargo-wagon-door-vertical-mask_0
+  - first:
+      213: -642058326961367927
+    second: cargo-wagon-door-vertical-mask_1
+  - first:
+      213: -7639242394312071489
+    second: cargo-wagon-door-vertical-mask_2
+  - first:
+      213: 2266938434925993328
+    second: cargo-wagon-door-vertical-mask_3
+  - first:
+      213: -2974342886103681978
+    second: cargo-wagon-door-vertical-mask_4
+  - first:
+      213: 8600696077456331620
+    second: cargo-wagon-door-vertical-mask_5
+  - first:
+      213: 3815488926111489442
+    second: cargo-wagon-door-vertical-mask_6
+  - first:
+      213: -1023730032684789176
+    second: cargo-wagon-door-vertical-mask_7
+  - first:
+      213: 7424763365096248447
+    second: cargo-wagon-door-vertical-mask_8
+  - first:
+      213: 1724425340450293763
+    second: cargo-wagon-door-vertical-mask_9
+  - first:
+      213: 2073984543894944852
+    second: cargo-wagon-door-vertical-mask_10
+  - first:
+      213: 9066824243556329207
+    second: cargo-wagon-door-vertical-mask_11
+  - first:
+      213: 7418512079691598949
+    second: cargo-wagon-door-vertical-mask_12
+  - first:
+      213: 1655062521585798591
+    second: cargo-wagon-door-vertical-mask_13
+  - first:
+      213: -2189694473694328723
+    second: cargo-wagon-door-vertical-mask_14
+  - first:
+      213: -1061180641827967737
+    second: cargo-wagon-door-vertical-mask_15
+  - first:
+      213: 2024837326785460704
+    second: cargo-wagon-door-vertical-mask_16
+  - first:
+      213: -7845669764556642256
+    second: cargo-wagon-door-vertical-mask_17
+  - first:
+      213: -3354365977329563650
+    second: cargo-wagon-door-vertical-mask_18
+  - first:
+      213: -5516273667567485848
+    second: cargo-wagon-door-vertical-mask_19
+  - first:
+      213: 6504295963516712325
+    second: cargo-wagon-door-vertical-mask_20
+  - first:
+      213: 9123276914826838504
+    second: cargo-wagon-door-vertical-mask_21
+  - first:
+      213: -4827225111455223441
+    second: cargo-wagon-door-vertical-mask_22
+  - first:
+      213: -2690909508233811718
+    second: cargo-wagon-door-vertical-mask_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba0ea0edf5ce2a00800000000000000
+      internalID: 733741483494869682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 114
+        width: 111
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984d2687a53f617f0800000000000000
+      internalID: -642058326961367927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 223
+        width: 108
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6aced4485fbf590800000000000000
+      internalID: -7639242394312071489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 113
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d917dee78c57f10800000000000000
+      internalID: 2266938434925993328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 223
+        width: 104
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644749167e209b6d0800000000000000
+      internalID: -2974342886103681978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 113
+        width: 104
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46351e5938fcb5770800000000000000
+      internalID: 8600696077456331620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_6
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 223
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2addf4586f653f430800000000000000
+      internalID: 3815488926111489442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_7
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 114
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8429cef85fafac1f0800000000000000
+      internalID: -1023730032684789176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_8
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 223
+        width: 96
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7455e541fe0a0760800000000000000
+      internalID: 7424763365096248447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_9
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 114
+        width: 96
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308c833f5b36ee710800000000000000
+      internalID: 1724425340450293763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_10
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 223
+        width: 92
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c328844f548cc10800000000000000
+      internalID: 2073984543894944852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_11
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 114
+        width: 92
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f623168c94d3dd70800000000000000
+      internalID: 9066824243556329207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_12
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 223
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c46f77e69d3f660800000000000000
+      internalID: 7418512079691598949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_13
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 114
+        width: 88
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd0f203896f7f610800000000000000
+      internalID: 1655062521585798591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_14
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 223
+        width: 84
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6840d84a74ac91e0800000000000000
+      internalID: -2189694473694328723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_15
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 113
+        width: 84
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70da25124dde541f0800000000000000
+      internalID: -1061180641827967737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9bff612daa91c10800000000000000
+      internalID: 2024837326785460704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 108
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0382492dae49e1390800000000000000
+      internalID: -7845669764556642256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_18
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 104
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef78d927ae5e271d0800000000000000
+      internalID: -3354365977329563650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 100
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c7cc863524273b0800000000000000
+      internalID: -5516273667567485848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_20
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 0
+        width: 96
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 585bb63b7b6e34a50800000000000000
+      internalID: 6504295963516712325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_21
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 0
+        width: 92
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e186cf44046c9e70800000000000000
+      internalID: 9123276914826838504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_22
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 88
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61bddc3650420db0800000000000000
+      internalID: -4827225111455223441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cargo-wagon-door-vertical-mask_23
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 0
+        width: 84
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8a00f2f08f7aad0800000000000000
+      internalID: -2690909508233811718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cargo-wagon-door-vertical-mask_0: 733741483494869682
+      cargo-wagon-door-vertical-mask_1: -642058326961367927
+      cargo-wagon-door-vertical-mask_10: 2073984543894944852
+      cargo-wagon-door-vertical-mask_11: 9066824243556329207
+      cargo-wagon-door-vertical-mask_12: 7418512079691598949
+      cargo-wagon-door-vertical-mask_13: 1655062521585798591
+      cargo-wagon-door-vertical-mask_14: -2189694473694328723
+      cargo-wagon-door-vertical-mask_15: -1061180641827967737
+      cargo-wagon-door-vertical-mask_16: 2024837326785460704
+      cargo-wagon-door-vertical-mask_17: -7845669764556642256
+      cargo-wagon-door-vertical-mask_18: -3354365977329563650
+      cargo-wagon-door-vertical-mask_19: -5516273667567485848
+      cargo-wagon-door-vertical-mask_2: -7639242394312071489
+      cargo-wagon-door-vertical-mask_20: 6504295963516712325
+      cargo-wagon-door-vertical-mask_21: 9123276914826838504
+      cargo-wagon-door-vertical-mask_22: -4827225111455223441
+      cargo-wagon-door-vertical-mask_23: -2690909508233811718
+      cargo-wagon-door-vertical-mask_3: 2266938434925993328
+      cargo-wagon-door-vertical-mask_4: -2974342886103681978
+      cargo-wagon-door-vertical-mask_5: 8600696077456331620
+      cargo-wagon-door-vertical-mask_6: 3815488926111489442
+      cargo-wagon-door-vertical-mask_7: -1023730032684789176
+      cargo-wagon-door-vertical-mask_8: 7424763365096248447
+      cargo-wagon-door-vertical-mask_9: 1724425340450293763
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 0eb477d9a9413ae408ceaf350bd27010
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4825485153780058451
+    second: water-shallow-outer-corner_0
+  - first:
+      213: -6601466298434854477
+    second: water-shallow-outer-corner_1
+  - first:
+      213: -3842315444914098606
+    second: water-shallow-outer-corner_2
+  - first:
+      213: 3496424821300801645
+    second: water-shallow-outer-corner_3
+  - first:
+      213: -4360866429618111964
+    second: water-shallow-outer-corner_4
+  - first:
+      213: 44856656665560130
+    second: water-shallow-outer-corner_5
+  - first:
+      213: -8461345470884947794
+    second: water-shallow-outer-corner_6
+  - first:
+      213: -5252309050946639407
+    second: water-shallow-outer-corner_7
+  - first:
+      213: -1325195237456148037
+    second: water-shallow-outer-corner_8
+  - first:
+      213: 4072406072018565885
+    second: water-shallow-outer-corner_9
+  - first:
+      213: 3500055956633365074
+    second: water-shallow-outer-corner_10
+  - first:
+      213: 1470449353860864157
+    second: water-shallow-outer-corner_11
+  - first:
+      213: 8190810531223170491
+    second: water-shallow-outer-corner_12
+  - first:
+      213: 7504999198608258521
+    second: water-shallow-outer-corner_13
+  - first:
+      213: -1790103425074072826
+    second: water-shallow-outer-corner_14
+  - first:
+      213: 5845422860793988135
+    second: water-shallow-outer-corner_15
+  - first:
+      213: -8302877123625449844
+    second: water-shallow-outer-corner_16
+  - first:
+      213: -2516491913030449435
+    second: water-shallow-outer-corner_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6b404b1de680db0800000000000000
+      internalID: -4825485153780058451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1e31da061e264a0800000000000000
+      internalID: -6601466298434854477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ee5e6d57a5daac0800000000000000
+      internalID: -3842315444914098606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d603e71a9dbc58030800000000000000
+      internalID: 3496424821300801645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 199
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42abfad46171b73c0800000000000000
+      internalID: -4360866429618111964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 198
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244cc5e34ec5f9000800000000000000
+      internalID: 44856656665560130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8da06df13439a80800000000000000
+      internalID: -8461345470884947794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9a1cffebc0c17b0800000000000000
+      internalID: -5252309050946639407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb90365e3f5fb9de0800000000000000
+      internalID: -1325195237456148037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa7fc7feb7148830800000000000000
+      internalID: 4072406072018565885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 127
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a2f153952b29030800000000000000
+      internalID: 3500055956633365074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98541585e5186410800000000000000
+      internalID: 1470449353860864157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 57
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbde51808ca9ba170800000000000000
+      internalID: 8190810531223170491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 7
+        width: 58
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5f2a8020d172860800000000000000
+      internalID: 7504999198608258521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 7
+        width: 58
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603ff355b664827e0800000000000000
+      internalID: -1790103425074072826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 7
+        width: 58
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724c29b1f1d1f1150800000000000000
+      internalID: 5845422860793988135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 7
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8686902f3146cc80800000000000000
+      internalID: -8302877123625449844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-outer-corner_17
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 7
+        width: 59
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e64da320ff931dd0800000000000000
+      internalID: -2516491913030449435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      water-shallow-outer-corner_0: -4825485153780058451
+      water-shallow-outer-corner_1: -6601466298434854477
+      water-shallow-outer-corner_10: 3500055956633365074
+      water-shallow-outer-corner_11: 1470449353860864157
+      water-shallow-outer-corner_12: 8190810531223170491
+      water-shallow-outer-corner_13: 7504999198608258521
+      water-shallow-outer-corner_14: -1790103425074072826
+      water-shallow-outer-corner_15: 5845422860793988135
+      water-shallow-outer-corner_16: -8302877123625449844
+      water-shallow-outer-corner_17: -2516491913030449435
+      water-shallow-outer-corner_2: -3842315444914098606
+      water-shallow-outer-corner_3: 3496424821300801645
+      water-shallow-outer-corner_4: -4360866429618111964
+      water-shallow-outer-corner_5: 44856656665560130
+      water-shallow-outer-corner_6: -8461345470884947794
+      water-shallow-outer-corner_7: -5252309050946639407
+      water-shallow-outer-corner_8: -1325195237456148037
+      water-shallow-outer-corner_9: 4072406072018565885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

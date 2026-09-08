@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: aaac0e5d87f743f48876a908e00da337
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4294676545035835912
+    second: legacy-straight-rail-horizontal-ties_0
+  - first:
+      213: 2287414253913656839
+    second: legacy-straight-rail-horizontal-ties_1
+  - first:
+      213: -8131078734135786642
+    second: legacy-straight-rail-horizontal-ties_2
+  - first:
+      213: 7029955083397396956
+    second: legacy-straight-rail-horizontal-ties_3
+  - first:
+      213: -156752468569833638
+    second: legacy-straight-rail-horizontal-ties_4
+  - first:
+      213: 1785874623444534350
+    second: legacy-straight-rail-horizontal-ties_5
+  - first:
+      213: -676115788711647850
+    second: legacy-straight-rail-horizontal-ties_6
+  - first:
+      213: -5138524762147098110
+    second: legacy-straight-rail-horizontal-ties_7
+  - first:
+      213: 8706498746333547576
+    second: legacy-straight-rail-horizontal-ties_8
+  - first:
+      213: 7517254565940169496
+    second: legacy-straight-rail-horizontal-ties_9
+  - first:
+      213: -7968274576628145049
+    second: legacy-straight-rail-horizontal-ties_10
+  - first:
+      213: -418939841640889824
+    second: legacy-straight-rail-horizontal-ties_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 84
+        width: 16
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a10144091c99b30800000000000000
+      internalID: 4294676545035835912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 83
+        width: 16
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e40ba05278ebf10800000000000000
+      internalID: 2287414253913656839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 84
+        width: 16
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e638a1bb8fa982f80800000000000000
+      internalID: -8131078734135786642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_3
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 84
+        width: 16
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd97adce6ea6f8160800000000000000
+      internalID: 7029955083397396956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 84
+        width: 16
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fba39d57a13ddf0800000000000000
+      internalID: -156752468569833638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_5
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 16
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44cbcf0283b8c810800000000000000
+      internalID: 1785874623444534350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 83
+        width: 16
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6952fcab544fd96f0800000000000000
+      internalID: -676115788711647850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_7
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 84
+        width: 16
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2027ca234fa40b8b0800000000000000
+      internalID: -5138524762147098110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 83
+        width: 16
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c48941b72b3d870800000000000000
+      internalID: 8706498746333547576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 84
+        width: 16
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b0c091337a25860800000000000000
+      internalID: 7517254565940169496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 84
+        width: 16
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764ad438d700b6190800000000000000
+      internalID: -7968274576628145049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-horizontal-ties_11
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 84
+        width: 16
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0228cb40f60af2af0800000000000000
+      internalID: -418939841640889824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      legacy-straight-rail-horizontal-ties_0: 4294676545035835912
+      legacy-straight-rail-horizontal-ties_1: 2287414253913656839
+      legacy-straight-rail-horizontal-ties_10: -7968274576628145049
+      legacy-straight-rail-horizontal-ties_11: -418939841640889824
+      legacy-straight-rail-horizontal-ties_2: -8131078734135786642
+      legacy-straight-rail-horizontal-ties_3: 7029955083397396956
+      legacy-straight-rail-horizontal-ties_4: -156752468569833638
+      legacy-straight-rail-horizontal-ties_5: 1785874623444534350
+      legacy-straight-rail-horizontal-ties_6: -676115788711647850
+      legacy-straight-rail-horizontal-ties_7: -5138524762147098110
+      legacy-straight-rail-horizontal-ties_8: 8706498746333547576
+      legacy-straight-rail-horizontal-ties_9: 7517254565940169496
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

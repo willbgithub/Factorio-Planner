@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 49c64c2c8fb116044b22c6c5aef2e2ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6688784183868731534
+    second: cluster-grenade_0
+  - first:
+      213: 1817951214686654175
+    second: cluster-grenade_1
+  - first:
+      213: 1502833365030408854
+    second: cluster-grenade_2
+  - first:
+      213: -2881803905055026742
+    second: cluster-grenade_3
+  - first:
+      213: -3928068032660440726
+    second: cluster-grenade_4
+  - first:
+      213: 2042676341270456941
+    second: cluster-grenade_5
+  - first:
+      213: -8199446044693206845
+    second: cluster-grenade_6
+  - first:
+      213: 4994485364576410155
+    second: cluster-grenade_7
+  - first:
+      213: 176888195290354983
+    second: cluster-grenade_8
+  - first:
+      213: -2645915272081839571
+    second: cluster-grenade_9
+  - first:
+      213: 1412595923725532504
+    second: cluster-grenade_10
+  - first:
+      213: -7796530910535119756
+    second: cluster-grenade_11
+  - first:
+      213: 6480058554258274678
+    second: cluster-grenade_12
+  - first:
+      213: -4870855658222302479
+    second: cluster-grenade_13
+  - first:
+      213: 224682832001301428
+    second: cluster-grenade_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cluster-grenade_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e803fbac6c553dc50800000000000000
+      internalID: 6688784183868731534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 60
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde43627ff8aa3910800000000000000
+      internalID: 1817951214686654175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 60
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6921e3fabf22bd410800000000000000
+      internalID: 1502833365030408854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 60
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac19cd6ed96c108d0800000000000000
+      internalID: -2881803905055026742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 61
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69f4b3afe2bc79c0800000000000000
+      internalID: -3928068032660440726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_5
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 63
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a25805f4b095c10800000000000000
+      internalID: 2042676341270456941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_6
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 64
+        width: 43
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8641fc347b53e80800000000000000
+      internalID: -8199446044693206845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_7
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 62
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ad6772af9ff4540800000000000000
+      internalID: 4994485364576410155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725dd3d50ee647200800000000000000
+      internalID: 176888195290354983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_9
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ae7c52412d74bd0800000000000000
+      internalID: -2645915272081839571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 0
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d33d4228c8a9310800000000000000
+      internalID: 1412595923725532504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_11
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c8335d1782dc390800000000000000
+      internalID: -7796530910535119756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 5
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679bb4a1ceacde950800000000000000
+      internalID: 6480058554258274678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 10
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa4573f59e376cb0800000000000000
+      internalID: -4870855658222302479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cluster-grenade_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 10
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbf09468db3e1300800000000000000
+      internalID: 224682832001301428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cluster-grenade_0: 6688784183868731534
+      cluster-grenade_1: 1817951214686654175
+      cluster-grenade_10: 1412595923725532504
+      cluster-grenade_11: -7796530910535119756
+      cluster-grenade_12: 6480058554258274678
+      cluster-grenade_13: -4870855658222302479
+      cluster-grenade_14: 224682832001301428
+      cluster-grenade_2: 1502833365030408854
+      cluster-grenade_3: -2881803905055026742
+      cluster-grenade_4: -3928068032660440726
+      cluster-grenade_5: 2042676341270456941
+      cluster-grenade_6: -8199446044693206845
+      cluster-grenade_7: 4994485364576410155
+      cluster-grenade_8: 176888195290354983
+      cluster-grenade_9: -2645915272081839571
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

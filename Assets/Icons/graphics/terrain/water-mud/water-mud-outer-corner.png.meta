@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: 26c57b0a894add64380201c7e0f5b918
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2391646014909120907
+    second: water-mud-outer-corner_0
+  - first:
+      213: -1189910153713632709
+    second: water-mud-outer-corner_1
+  - first:
+      213: -2038323660632161081
+    second: water-mud-outer-corner_2
+  - first:
+      213: -4588106346297550834
+    second: water-mud-outer-corner_3
+  - first:
+      213: 5103426008988008282
+    second: water-mud-outer-corner_4
+  - first:
+      213: -7633719990483941336
+    second: water-mud-outer-corner_5
+  - first:
+      213: 4286135090213761692
+    second: water-mud-outer-corner_6
+  - first:
+      213: -2199126755081220328
+    second: water-mud-outer-corner_7
+  - first:
+      213: -9067343027065480826
+    second: water-mud-outer-corner_8
+  - first:
+      213: -8583160476438305865
+    second: water-mud-outer-corner_9
+  - first:
+      213: 1622959347719740089
+    second: water-mud-outer-corner_10
+  - first:
+      213: -3253192360016882802
+    second: water-mud-outer-corner_11
+  - first:
+      213: -1218362011951444286
+    second: water-mud-outer-corner_12
+  - first:
+      213: -4120920671469119428
+    second: water-mud-outer-corner_13
+  - first:
+      213: -7731470285649314961
+    second: water-mud-outer-corner_14
+  - first:
+      213: -4794994039950273020
+    second: water-mud-outer-corner_15
+  - first:
+      213: -6781085747214491616
+    second: water-mud-outer-corner_16
+  - first:
+      213: -5599451359460061168
+    second: water-mud-outer-corner_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: water-mud-outer-corner_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57efcd4fe9a2fced0800000000000000
+      internalID: -2391646014909120907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ab44505079c7fe0800000000000000
+      internalID: -1189910153713632709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c40fbe1e6b66b3e0800000000000000
+      internalID: -2038323660632161081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_3
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 200
+        width: 58
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08183d3695c350c0800000000000000
+      internalID: -4588106346297550834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 199
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f38338ae203d640800000000000000
+      internalID: 5103426008988008282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 198
+        width: 58
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82808642d149f0690800000000000000
+      internalID: -7633719990483941336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_6
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c923787d7296b7b30800000000000000
+      internalID: 4286135090213761692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_7
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f83532ed12b71e0800000000000000
+      internalID: -2199126755081220328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6899527ce835a2280800000000000000
+      internalID: -9067343027065480826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3e8bfa50d72e880800000000000000
+      internalID: -8583160476438305865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_10
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 127
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba1cbd8de8e58610800000000000000
+      internalID: 1622959347719740089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_11
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 127
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83dd23e8c65ad2d0800000000000000
+      internalID: -3253192360016882802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 57
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cecdcd8432871fe0800000000000000
+      internalID: -1218362011951444286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_13
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 7
+        width: 58
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38d48d9b7c8fc6c0800000000000000
+      internalID: -4120920671469119428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_14
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 7
+        width: 58
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b72600dbc44b490800000000000000
+      internalID: -7731470285649314961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 7
+        width: 58
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40616ac5352c47db0800000000000000
+      internalID: -4794994039950273020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 7
+        width: 60
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020e0ddc07eb4e1a0800000000000000
+      internalID: -6781085747214491616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-mud-outer-corner_17
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 7
+        width: 59
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0101e4ed7a0ca42b0800000000000000
+      internalID: -5599451359460061168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      water-mud-outer-corner_0: -2391646014909120907
+      water-mud-outer-corner_1: -1189910153713632709
+      water-mud-outer-corner_10: 1622959347719740089
+      water-mud-outer-corner_11: -3253192360016882802
+      water-mud-outer-corner_12: -1218362011951444286
+      water-mud-outer-corner_13: -4120920671469119428
+      water-mud-outer-corner_14: -7731470285649314961
+      water-mud-outer-corner_15: -4794994039950273020
+      water-mud-outer-corner_16: -6781085747214491616
+      water-mud-outer-corner_17: -5599451359460061168
+      water-mud-outer-corner_2: -2038323660632161081
+      water-mud-outer-corner_3: -4588106346297550834
+      water-mud-outer-corner_4: 5103426008988008282
+      water-mud-outer-corner_5: -7633719990483941336
+      water-mud-outer-corner_6: 4286135090213761692
+      water-mud-outer-corner_7: -2199126755081220328
+      water-mud-outer-corner_8: -9067343027065480826
+      water-mud-outer-corner_9: -8583160476438305865
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

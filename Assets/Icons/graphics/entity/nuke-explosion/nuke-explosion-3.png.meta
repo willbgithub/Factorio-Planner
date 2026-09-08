@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: e1716fc1a36d5b04f9ccbd896a3c0ddf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2592622244096581864
+    second: nuke-explosion-3_0
+  - first:
+      213: -2600342723159418628
+    second: nuke-explosion-3_1
+  - first:
+      213: 2683791170838050306
+    second: nuke-explosion-3_2
+  - first:
+      213: 7353599607629837408
+    second: nuke-explosion-3_3
+  - first:
+      213: 7517679095765778619
+    second: nuke-explosion-3_4
+  - first:
+      213: 3604056889133018444
+    second: nuke-explosion-3_5
+  - first:
+      213: -4155148635597006857
+    second: nuke-explosion-3_6
+  - first:
+      213: 852790532144217467
+    second: nuke-explosion-3_7
+  - first:
+      213: -1986612439208216842
+    second: nuke-explosion-3_8
+  - first:
+      213: 4272369386576924261
+    second: nuke-explosion-3_9
+  - first:
+      213: -7648969284750975366
+    second: nuke-explosion-3_10
+  - first:
+      213: -4075324001018144249
+    second: nuke-explosion-3_11
+  - first:
+      213: -926521206180264781
+    second: nuke-explosion-3_12
+  - first:
+      213: 962595292349583738
+    second: nuke-explosion-3_13
+  - first:
+      213: 7414255334039191028
+    second: nuke-explosion-3_14
+  - first:
+      213: -1582800558346440874
+    second: nuke-explosion-3_15
+  - first:
+      213: 718496870446806407
+    second: nuke-explosion-3_16
+  - first:
+      213: 1777053498591931294
+    second: nuke-explosion-3_17
+  - first:
+      213: -652482343518331861
+    second: nuke-explosion-3_18
+  - first:
+      213: -3839698961809369049
+    second: nuke-explosion-3_19
+  - first:
+      213: 3148183599022911112
+    second: nuke-explosion-3_20
+  - first:
+      213: 7328384454582021318
+    second: nuke-explosion-3_21
+  - first:
+      213: -4636121822712767888
+    second: nuke-explosion-3_22
+  - first:
+      213: 4250802881442737876
+    second: nuke-explosion-3_23
+  - first:
+      213: -439602264459942659
+    second: nuke-explosion-3_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nuke-explosion-3_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2891
+        width: 603
+        height: 691
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fd8d72ec7250cd0800000000000000
+      internalID: -2592622244096581864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_1
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2890
+        width: 606
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf89fcb021ab9ebd0800000000000000
+      internalID: -2600342723159418628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_2
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 2890
+        width: 604
+        height: 694
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206b12db9ddbe3520800000000000000
+      internalID: 2683791170838050306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_3
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2889
+        width: 607
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0647a31d1eb3d0660800000000000000
+      internalID: 7353599607629837408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_4
+      rect:
+        serializedVersion: 2
+        x: 2524
+        y: 2888
+        width: 606
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0cf76ae49245860800000000000000
+      internalID: 7517679095765778619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 2168
+        width: 608
+        height: 698
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4da21345ae240230800000000000000
+      internalID: 3604056889133018444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_6
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 2167
+        width: 610
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f79a42b452f556c0800000000000000
+      internalID: -4155148635597006857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_7
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 2168
+        width: 613
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7db5408878b5db00800000000000000
+      internalID: 852790532144217467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_8
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 2167
+        width: 615
+        height: 702
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f63f9613822e64e0800000000000000
+      internalID: -1986612439208216842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_9
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2166
+        width: 615
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ecb2432518a4b30800000000000000
+      internalID: 4272369386576924261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_10
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1446
+        width: 617
+        height: 704
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e5b8426f669d590800000000000000
+      internalID: -7648969284750975366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_11
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 1446
+        width: 618
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a90beb96a8177c0800000000000000
+      internalID: -4075324001018144249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_12
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1445
+        width: 619
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b442c43fd55423f0800000000000000
+      internalID: -926521206180264781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_13
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1445
+        width: 624
+        height: 708
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71d5fe7153db5d00800000000000000
+      internalID: 962595292349583738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_14
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 1443
+        width: 624
+        height: 710
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd7373a1f9b4e660800000000000000
+      internalID: 7414255334039191028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 724
+        width: 624
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f68793743c80ae0800000000000000
+      internalID: -1582800558346440874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_16
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 722
+        width: 626
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785363fc81d98f900800000000000000
+      internalID: 718496870446806407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_17
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 723
+        width: 626
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bef62edbc59a810800000000000000
+      internalID: 1777053498591931294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_18
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 722
+        width: 629
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c106cf3cae1f6f0800000000000000
+      internalID: -652482343518331861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_19
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 721
+        width: 627
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7289ae84326a6bac0800000000000000
+      internalID: -3839698961809369049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 625
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ea873bd4890bb20800000000000000
+      internalID: 3148183599022911112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_21
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 2
+        width: 624
+        height: 713
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc2bd085d6a3b560800000000000000
+      internalID: 7328384454582021318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_22
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 1
+        width: 625
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ad4c5f3cf29afb0800000000000000
+      internalID: -4636121822712767888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_23
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 1
+        width: 627
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dee99ee2b2edfa30800000000000000
+      internalID: 4250802881442737876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nuke-explosion-3_24
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 0
+        width: 627
+        height: 717
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df46860d11836e9f0800000000000000
+      internalID: -439602264459942659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      nuke-explosion-3_0: -2592622244096581864
+      nuke-explosion-3_1: -2600342723159418628
+      nuke-explosion-3_10: -7648969284750975366
+      nuke-explosion-3_11: -4075324001018144249
+      nuke-explosion-3_12: -926521206180264781
+      nuke-explosion-3_13: 962595292349583738
+      nuke-explosion-3_14: 7414255334039191028
+      nuke-explosion-3_15: -1582800558346440874
+      nuke-explosion-3_16: 718496870446806407
+      nuke-explosion-3_17: 1777053498591931294
+      nuke-explosion-3_18: -652482343518331861
+      nuke-explosion-3_19: -3839698961809369049
+      nuke-explosion-3_2: 2683791170838050306
+      nuke-explosion-3_20: 3148183599022911112
+      nuke-explosion-3_21: 7328384454582021318
+      nuke-explosion-3_22: -4636121822712767888
+      nuke-explosion-3_23: 4250802881442737876
+      nuke-explosion-3_24: -439602264459942659
+      nuke-explosion-3_3: 7353599607629837408
+      nuke-explosion-3_4: 7517679095765778619
+      nuke-explosion-3_5: 3604056889133018444
+      nuke-explosion-3_6: -4155148635597006857
+      nuke-explosion-3_7: 852790532144217467
+      nuke-explosion-3_8: -1986612439208216842
+      nuke-explosion-3_9: 4272369386576924261
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

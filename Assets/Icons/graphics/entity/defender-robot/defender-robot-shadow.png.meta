@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 702f2ec9573017b4186861f5631e1594
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2140906023988407127
+    second: defender-robot-shadow_0
+  - first:
+      213: -4066168399672715162
+    second: defender-robot-shadow_1
+  - first:
+      213: 1622995232244436548
+    second: defender-robot-shadow_2
+  - first:
+      213: 3155413716920645031
+    second: defender-robot-shadow_3
+  - first:
+      213: 8781745412005078144
+    second: defender-robot-shadow_4
+  - first:
+      213: -7636118539884899961
+    second: defender-robot-shadow_5
+  - first:
+      213: 2056514938992410479
+    second: defender-robot-shadow_6
+  - first:
+      213: 4879590369421439251
+    second: defender-robot-shadow_7
+  - first:
+      213: 5446710616913582883
+    second: defender-robot-shadow_8
+  - first:
+      213: -2362381286021888649
+    second: defender-robot-shadow_9
+  - first:
+      213: -6830705239148591488
+    second: defender-robot-shadow_10
+  - first:
+      213: -3254947575134658650
+    second: defender-robot-shadow_11
+  - first:
+      213: 4583649270454891777
+    second: defender-robot-shadow_12
+  - first:
+      213: -4594803560700805168
+    second: defender-robot-shadow_13
+  - first:
+      213: -1094898495940310641
+    second: defender-robot-shadow_14
+  - first:
+      213: -6818006296170164713
+    second: defender-robot-shadow_15
+  - first:
+      213: 5707290057421291278
+    second: defender-robot-shadow_16
+  - first:
+      213: -5244416898797905846
+    second: defender-robot-shadow_17
+  - first:
+      213: 3664360842179051500
+    second: defender-robot-shadow_18
+  - first:
+      213: 5893870674900449181
+    second: defender-robot-shadow_19
+  - first:
+      213: -6939579707975389722
+    second: defender-robot-shadow_20
+  - first:
+      213: -2812523981966196423
+    second: defender-robot-shadow_21
+  - first:
+      213: -8444200940400340552
+    second: defender-robot-shadow_22
+  - first:
+      213: -3068585665297380652
+    second: defender-robot-shadow_23
+  - first:
+      213: -1557903424169000246
+    second: defender-robot-shadow_24
+  - first:
+      213: -1697019351948814343
+    second: defender-robot-shadow_25
+  - first:
+      213: -4069962740831457440
+    second: defender-robot-shadow_26
+  - first:
+      213: 4734811989146085813
+    second: defender-robot-shadow_27
+  - first:
+      213: 2844945348814116855
+    second: defender-robot-shadow_28
+  - first:
+      213: -5335525989764108961
+    second: defender-robot-shadow_29
+  - first:
+      213: 1399795376951661233
+    second: defender-robot-shadow_30
+  - first:
+      213: -829295845092531414
+    second: defender-robot-shadow_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: defender-robot-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 77
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ba2519fa606bd10800000000000000
+      internalID: 2140906023988407127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 60
+        width: 76
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668d69c42611297c0800000000000000
+      internalID: -4066168399672715162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 55
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e05129099068610800000000000000
+      internalID: 1622995232244436548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 51
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a53374be084acb20800000000000000
+      internalID: 3155413716920645031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 50
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084aa7eace60fd970800000000000000
+      internalID: 8781745412005078144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 51
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781d26755ae070690800000000000000
+      internalID: -7636118539884899961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 55
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f3dede0753a8c10800000000000000
+      internalID: 2056514938992410479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 54
+        width: 76
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31138ca7699c7b340800000000000000
+      internalID: 4879590369421439251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 53
+        width: 78
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b9b7bb27a969b40800000000000000
+      internalID: 5446710616913582883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 55
+        width: 77
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77582ae9cb2273fd0800000000000000
+      internalID: -2362381286021888649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 56
+        width: 76
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086062f86c57431a0800000000000000
+      internalID: -6830705239148591488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 51
+        width: 79
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af54950d6a14d2d0800000000000000
+      internalID: -3254947575134658650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 50
+        width: 83
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105317ce9b46c9f30800000000000000
+      internalID: 4583649270454891777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 51
+        width: 79
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df7abf718afb30c0800000000000000
+      internalID: -4594803560700805168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 55
+        width: 75
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f894e547e932ec0f0800000000000000
+      internalID: -1094898495940310641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 60
+        width: 76
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e8660a5639161a0800000000000000
+      internalID: -6818006296170164713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 77
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ff6b6911e543f40800000000000000
+      internalID: 5707290057421291278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 7
+        width: 77
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48581ddd961837b0800000000000000
+      internalID: -5244416898797905846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2
+        width: 72
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceffee675cc6ad230800000000000000
+      internalID: 3664360842179051500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d977889d62c3bc150800000000000000
+      internalID: 5893870674900449181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed2e97e509a1bf90800000000000000
+      internalID: -6939579707975389722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_21
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93143acf658e7f8d0800000000000000
+      internalID: -2812523981966196423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_22
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 9
+        width: 71
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b11b67ebfb20da80800000000000000
+      internalID: -8444200940400340552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_23
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 9
+        width: 77
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da081178913a65d0800000000000000
+      internalID: -3068585665297380652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 8
+        width: 78
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2ca000717316ae0800000000000000
+      internalID: -1557903424169000246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_25
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 8
+        width: 75
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7902ef3e9f278e0800000000000000
+      internalID: -1697019351948814343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_26
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 9
+        width: 71
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f6aa763769487c0800000000000000
+      internalID: -4069962740831457440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_27
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 3
+        width: 77
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b920530b6e65b140800000000000000
+      internalID: 4734811989146085813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_28
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 0
+        width: 80
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f71779b8b64b7720800000000000000
+      internalID: 2844945348814116855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_29
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 78
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dee32916764f5b0800000000000000
+      internalID: -5335525989764108961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_30
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 2
+        width: 71
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b210799a721d6310800000000000000
+      internalID: 1399795376951661233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot-shadow_31
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 8
+        width: 75
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a236d8b92dfbd74f0800000000000000
+      internalID: -829295845092531414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      defender-robot-shadow_0: 2140906023988407127
+      defender-robot-shadow_1: -4066168399672715162
+      defender-robot-shadow_10: -6830705239148591488
+      defender-robot-shadow_11: -3254947575134658650
+      defender-robot-shadow_12: 4583649270454891777
+      defender-robot-shadow_13: -4594803560700805168
+      defender-robot-shadow_14: -1094898495940310641
+      defender-robot-shadow_15: -6818006296170164713
+      defender-robot-shadow_16: 5707290057421291278
+      defender-robot-shadow_17: -5244416898797905846
+      defender-robot-shadow_18: 3664360842179051500
+      defender-robot-shadow_19: 5893870674900449181
+      defender-robot-shadow_2: 1622995232244436548
+      defender-robot-shadow_20: -6939579707975389722
+      defender-robot-shadow_21: -2812523981966196423
+      defender-robot-shadow_22: -8444200940400340552
+      defender-robot-shadow_23: -3068585665297380652
+      defender-robot-shadow_24: -1557903424169000246
+      defender-robot-shadow_25: -1697019351948814343
+      defender-robot-shadow_26: -4069962740831457440
+      defender-robot-shadow_27: 4734811989146085813
+      defender-robot-shadow_28: 2844945348814116855
+      defender-robot-shadow_29: -5335525989764108961
+      defender-robot-shadow_3: 3155413716920645031
+      defender-robot-shadow_30: 1399795376951661233
+      defender-robot-shadow_31: -829295845092531414
+      defender-robot-shadow_4: 8781745412005078144
+      defender-robot-shadow_5: -7636118539884899961
+      defender-robot-shadow_6: 2056514938992410479
+      defender-robot-shadow_7: 4879590369421439251
+      defender-robot-shadow_8: 5446710616913582883
+      defender-robot-shadow_9: -2362381286021888649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

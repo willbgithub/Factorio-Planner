@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 3b63aa436ebaed648b8ca5c16cfda474
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2166153814449456317
+    second: green-carpet-grass-00_0
+  - first:
+      213: 806530518975451508
+    second: green-carpet-grass-00_1
+  - first:
+      213: -6611580011255486153
+    second: green-carpet-grass-00_2
+  - first:
+      213: -8972598906692908492
+    second: green-carpet-grass-00_3
+  - first:
+      213: -7414539101134229510
+    second: green-carpet-grass-00_4
+  - first:
+      213: 4951394936320096106
+    second: green-carpet-grass-00_5
+  - first:
+      213: 6619580319531779291
+    second: green-carpet-grass-00_6
+  - first:
+      213: 1151530368331657754
+    second: green-carpet-grass-00_7
+  - first:
+      213: 4024603860192676446
+    second: green-carpet-grass-00_8
+  - first:
+      213: 257948696606812083
+    second: green-carpet-grass-00_9
+  - first:
+      213: -6652255168287498388
+    second: green-carpet-grass-00_10
+  - first:
+      213: 8196603572787156751
+    second: green-carpet-grass-00_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: green-carpet-grass-00_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 237
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db40e1fda69bf0e10800000000000000
+      internalID: 2166153814449456317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 232
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4711b0cdb3f513b00800000000000000
+      internalID: 806530518975451508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 132
+        width: 246
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7392b096203fe34a0800000000000000
+      internalID: -6611580011255486153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 126
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ac28e45dcea7380800000000000000
+      internalID: -8972598906692908492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 116
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff66afa8f34a1990800000000000000
+      internalID: -7414539101134229510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 100
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67f6020673e6b440800000000000000
+      internalID: 4951394936320096106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 217
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4cbd38a397ddb50800000000000000
+      internalID: 6619580319531779291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 92
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12bb78d4ce0bff00800000000000000
+      internalID: 1151530368331657754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 72
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a437833e34ad730800000000000000
+      internalID: 4024603860192676446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_9
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7268f09fa649300800000000000000
+      internalID: 257948696606812083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 26
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f97fa6b217ea3a0800000000000000
+      internalID: -6652255168287498388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: green-carpet-grass-00_11
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 34
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f071da0a58f20c170800000000000000
+      internalID: 8196603572787156751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      green-carpet-grass-00_0: 2166153814449456317
+      green-carpet-grass-00_1: 806530518975451508
+      green-carpet-grass-00_10: -6652255168287498388
+      green-carpet-grass-00_11: 8196603572787156751
+      green-carpet-grass-00_2: -6611580011255486153
+      green-carpet-grass-00_3: -8972598906692908492
+      green-carpet-grass-00_4: -7414539101134229510
+      green-carpet-grass-00_5: 4951394936320096106
+      green-carpet-grass-00_6: 6619580319531779291
+      green-carpet-grass-00_7: 1151530368331657754
+      green-carpet-grass-00_8: 4024603860192676446
+      green-carpet-grass-00_9: 257948696606812083
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

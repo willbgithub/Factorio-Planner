@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 37357ef73978fb64c80731a716b2c17f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3970501667014818564
+    second: poison-capsule-shadow_0
+  - first:
+      213: 6310932130644483361
+    second: poison-capsule-shadow_1
+  - first:
+      213: -4307135326561826585
+    second: poison-capsule-shadow_2
+  - first:
+      213: 5426627271305519877
+    second: poison-capsule-shadow_3
+  - first:
+      213: 1031494155494471428
+    second: poison-capsule-shadow_4
+  - first:
+      213: 4307635737394371738
+    second: poison-capsule-shadow_5
+  - first:
+      213: -5684749289271288546
+    second: poison-capsule-shadow_6
+  - first:
+      213: 3149319029055889662
+    second: poison-capsule-shadow_7
+  - first:
+      213: 3970260270544874762
+    second: poison-capsule-shadow_8
+  - first:
+      213: 98965830073763477
+    second: poison-capsule-shadow_9
+  - first:
+      213: 7356774077413925139
+    second: poison-capsule-shadow_10
+  - first:
+      213: 5208987802802463236
+    second: poison-capsule-shadow_11
+  - first:
+      213: -2669682711046126169
+    second: poison-capsule-shadow_12
+  - first:
+      213: 1015354883354494266
+    second: poison-capsule-shadow_13
+  - first:
+      213: -6366109369704221812
+    second: poison-capsule-shadow_14
+  - first:
+      213: -1548324713840337382
+    second: poison-capsule-shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: poison-capsule-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 54
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf44c7d35c1f5e8c0800000000000000
+      internalID: -3970501667014818564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 52
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dd9a8065fe49750800000000000000
+      internalID: 6310932130644483361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 50
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e80fbc9d3bf934c0800000000000000
+      internalID: -4307135326561826585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 49
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503ec9270c04f4b40800000000000000
+      internalID: 5426627271305519877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 48
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 407b326287a905e00800000000000000
+      internalID: 1031494155494471428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 48
+        width: 43
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c5b2d51ebc7cb30800000000000000
+      internalID: 4307635737394371738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 48
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d94d7f3a6bb11b0800000000000000
+      internalID: -5684749289271288546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 49
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0214b98f0a4bb20800000000000000
+      internalID: 3149319029055889662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 10
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d6ca34ea2391730800000000000000
+      internalID: 3970260270544874762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 6
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596c27ae5e89f5100800000000000000
+      internalID: 98965830073763477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2
+        width: 47
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3112f09ab03881660800000000000000
+      internalID: 7356774077413925139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4022269eeca0a4840800000000000000
+      internalID: 5208987802802463236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 0
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5081908b163fad0800000000000000
+      internalID: -2669682711046126169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 2
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a358d4703e3471e00800000000000000
+      internalID: 1015354883354494266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 4
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c837e71e14907a7a0800000000000000
+      internalID: -6366109369704221812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poison-capsule-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 7
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e969a40ee338ae0800000000000000
+      internalID: -1548324713840337382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      poison-capsule-shadow_0: -3970501667014818564
+      poison-capsule-shadow_1: 6310932130644483361
+      poison-capsule-shadow_10: 7356774077413925139
+      poison-capsule-shadow_11: 5208987802802463236
+      poison-capsule-shadow_12: -2669682711046126169
+      poison-capsule-shadow_13: 1015354883354494266
+      poison-capsule-shadow_14: -6366109369704221812
+      poison-capsule-shadow_15: -1548324713840337382
+      poison-capsule-shadow_2: -4307135326561826585
+      poison-capsule-shadow_3: 5426627271305519877
+      poison-capsule-shadow_4: 1031494155494471428
+      poison-capsule-shadow_5: 4307635737394371738
+      poison-capsule-shadow_6: -5684749289271288546
+      poison-capsule-shadow_7: 3149319029055889662
+      poison-capsule-shadow_8: 3970260270544874762
+      poison-capsule-shadow_9: 98965830073763477
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

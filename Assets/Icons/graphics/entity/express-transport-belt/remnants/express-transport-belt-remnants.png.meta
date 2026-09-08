@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: e5fec583ebac1f14c89eb5fcf442c098
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5463263533526392969
+    second: express-transport-belt-remnants_0
+  - first:
+      213: -1450242310649072958
+    second: express-transport-belt-remnants_1
+  - first:
+      213: 687510400929767522
+    second: express-transport-belt-remnants_2
+  - first:
+      213: -3727503631912567549
+    second: express-transport-belt-remnants_3
+  - first:
+      213: 1182566113904072811
+    second: express-transport-belt-remnants_4
+  - first:
+      213: 3669127916233256530
+    second: express-transport-belt-remnants_5
+  - first:
+      213: -1143111109092138501
+    second: express-transport-belt-remnants_6
+  - first:
+      213: 7538730727023967097
+    second: express-transport-belt-remnants_7
+  - first:
+      213: -387228521365936973
+    second: express-transport-belt-remnants_8
+  - first:
+      213: -224025584742210120
+    second: express-transport-belt-remnants_9
+  - first:
+      213: -6095948773606646777
+    second: express-transport-belt-remnants_10
+  - first:
+      213: 460913819357043800
+    second: express-transport-belt-remnants_11
+  - first:
+      213: 189342767413246474
+    second: express-transport-belt-remnants_12
+  - first:
+      213: 5028754105419393759
+    second: express-transport-belt-remnants_13
+  - first:
+      213: 3023414279136308940
+    second: express-transport-belt-remnants_14
+  - first:
+      213: -6216192018682020664
+    second: express-transport-belt-remnants_15
+  - first:
+      213: -8968978456793426445
+    second: express-transport-belt-remnants_16
+  - first:
+      213: 6913729530360470077
+    second: express-transport-belt-remnants_17
+  - first:
+      213: -4666281906267579515
+    second: express-transport-belt-remnants_18
+  - first:
+      213: -3251119733502858277
+    second: express-transport-belt-remnants_19
+  - first:
+      213: -8360150180578275650
+    second: express-transport-belt-remnants_20
+  - first:
+      213: 8059711614889153522
+    second: express-transport-belt-remnants_21
+  - first:
+      213: -4606656340619455253
+    second: express-transport-belt-remnants_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 715
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f50d903c69e24b0800000000000000
+      internalID: -5463263533526392969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 614
+        width: 99
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2358b5d44bfdbe0800000000000000
+      internalID: -1450242310649072958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 615
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2602eca21178a8900800000000000000
+      internalID: 687510400929767522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d7fd8223f354cc0800000000000000
+      internalID: -3727503631912567549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 511
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b689aa67d91596010800000000000000
+      internalID: 1182566113904072811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 104
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e6d82666c5be230800000000000000
+      internalID: 3669127916233256530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 307
+        width: 99
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1a2c3b08ad220f0800000000000000
+      internalID: -1143111109092138501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 206
+        width: 96
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bf59187a3fe9860800000000000000
+      internalID: 7538730727023967097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 285
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4651126b940aaf0800000000000000
+      internalID: -387228521365936973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b567d8eae914ecf0800000000000000
+      internalID: -224025584742210120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 254
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c923c53e6d66ba0800000000000000
+      internalID: -6095948773606646777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c58da3dae756600800000000000000
+      internalID: 460913819357043800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 206
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ab4786e3ea0a200800000000000000
+      internalID: 189342767413246474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 206
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda6f442739b9c540800000000000000
+      internalID: 5028754105419393759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 106
+        width: 101
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce63c4a44355f920800000000000000
+      internalID: 3023414279136308940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 107
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ccf6d63b46abb9a0800000000000000
+      internalID: -6216192018682020664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 104
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f552bcfc99c78380800000000000000
+      internalID: -8968978456793426445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 103
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a934a906082ff50800000000000000
+      internalID: 6913729530360470077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b961b44590e3fb0800000000000000
+      internalID: -4666281906267579515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 71
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbac4ad3d3b1e2d0800000000000000
+      internalID: -3251119733502858277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebec6b964b7cafb80800000000000000
+      internalID: -8360150180578275650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3de85f209d9df60800000000000000
+      internalID: 8059711614889153522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-transport-belt-remnants_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4931f177ed110c0800000000000000
+      internalID: -4606656340619455253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      express-transport-belt-remnants_0: -5463263533526392969
+      express-transport-belt-remnants_1: -1450242310649072958
+      express-transport-belt-remnants_10: -6095948773606646777
+      express-transport-belt-remnants_11: 460913819357043800
+      express-transport-belt-remnants_12: 189342767413246474
+      express-transport-belt-remnants_13: 5028754105419393759
+      express-transport-belt-remnants_14: 3023414279136308940
+      express-transport-belt-remnants_15: -6216192018682020664
+      express-transport-belt-remnants_16: -8968978456793426445
+      express-transport-belt-remnants_17: 6913729530360470077
+      express-transport-belt-remnants_18: -4666281906267579515
+      express-transport-belt-remnants_19: -3251119733502858277
+      express-transport-belt-remnants_2: 687510400929767522
+      express-transport-belt-remnants_20: -8360150180578275650
+      express-transport-belt-remnants_21: 8059711614889153522
+      express-transport-belt-remnants_22: -4606656340619455253
+      express-transport-belt-remnants_3: -3727503631912567549
+      express-transport-belt-remnants_4: 1182566113904072811
+      express-transport-belt-remnants_5: 3669127916233256530
+      express-transport-belt-remnants_6: -1143111109092138501
+      express-transport-belt-remnants_7: 7538730727023967097
+      express-transport-belt-remnants_8: -387228521365936973
+      express-transport-belt-remnants_9: -224025584742210120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

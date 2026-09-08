@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 5ef0cb79d81db334ba065ac280032bd1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1146909932277602004
+    second: car-shadow-1_0
+  - first:
+      213: 7410961123821283618
+    second: car-shadow-1_1
+  - first:
+      213: -7710865680444688366
+    second: car-shadow-1_2
+  - first:
+      213: -6639648784074818526
+    second: car-shadow-1_3
+  - first:
+      213: 2803045045930721488
+    second: car-shadow-1_4
+  - first:
+      213: -7958949292878435143
+    second: car-shadow-1_5
+  - first:
+      213: 5141552787821952715
+    second: car-shadow-1_6
+  - first:
+      213: -3845315625988230337
+    second: car-shadow-1_7
+  - first:
+      213: 8832921942074483400
+    second: car-shadow-1_8
+  - first:
+      213: 7392017433593320375
+    second: car-shadow-1_9
+  - first:
+      213: 442671500448876770
+    second: car-shadow-1_10
+  - first:
+      213: -2113340307528979666
+    second: car-shadow-1_11
+  - first:
+      213: -2920243668977152063
+    second: car-shadow-1_12
+  - first:
+      213: -5308880260668587499
+    second: car-shadow-1_13
+  - first:
+      213: -6173201239604884926
+    second: car-shadow-1_14
+  - first:
+      213: -1623963961468056418
+    second: car-shadow-1_15
+  - first:
+      213: -7033249022385081789
+    second: car-shadow-1_16
+  - first:
+      213: -3979717769745442673
+    second: car-shadow-1_17
+  - first:
+      213: 8152107486908730103
+    second: car-shadow-1_18
+  - first:
+      213: -1833183515335486566
+    second: car-shadow-1_19
+  - first:
+      213: -7977979825489532525
+    second: car-shadow-1_20
+  - first:
+      213: 797424352014661758
+    second: car-shadow-1_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: car-shadow-1_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1600
+        width: 81
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d616ceb184aaef00800000000000000
+      internalID: 1146909932277602004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1524
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229e89d80e509d660800000000000000
+      internalID: 7410961123821283618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1448
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218f75e74808df490800000000000000
+      internalID: -7710865680444688366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_3
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1372
+        width: 93
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cbdd7fb9a3bd3a0800000000000000
+      internalID: -6639648784074818526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1295
+        width: 96
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d08e1c3e9a66e620800000000000000
+      internalID: 2803045045930721488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1218
+        width: 101
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc62a459c12c8190800000000000000
+      internalID: -7958949292878435143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1142
+        width: 103
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcefb08f4077a5740800000000000000
+      internalID: 5141552787821952715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_7
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1065
+        width: 106
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3376bfbfc1b2aac0800000000000000
+      internalID: -3845315625988230337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 989
+        width: 107
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c26a1e15b7d49a70800000000000000
+      internalID: 8832921942074483400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 914
+        width: 108
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b313d6f0b8b59660800000000000000
+      internalID: 7392017433593320375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 838
+        width: 108
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8c170626fa42600800000000000000
+      internalID: 442671500448876770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 763
+        width: 108
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b6830ff28eba2e0800000000000000
+      internalID: -2113340307528979666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 689
+        width: 107
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf880dead53977d0800000000000000
+      internalID: -2920243668977152063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 614
+        width: 105
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51204c3d7811356b0800000000000000
+      internalID: -5308880260668587499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_14
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 540
+        width: 105
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a895afd22645aa0800000000000000
+      internalID: -6173201239604884926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 465
+        width: 104
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c09a491658679e0800000000000000
+      internalID: -1623963961468056418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 391
+        width: 102
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342bfd32741e46e90800000000000000
+      internalID: -7033249022385081789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 315
+        width: 104
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88530c16c335c8c0800000000000000
+      internalID: -3979717769745442673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 237
+        width: 105
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa4fff419a122170800000000000000
+      internalID: 8152107486908730103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 159
+        width: 105
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9393503e493f86e0800000000000000
+      internalID: -1833183515335486566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 81
+        width: 107
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399a67c2e95884190800000000000000
+      internalID: -7977979825489532525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: car-shadow-1_21
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 108
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7874152935011b00800000000000000
+      internalID: 797424352014661758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      car-shadow-1_0: 1146909932277602004
+      car-shadow-1_1: 7410961123821283618
+      car-shadow-1_10: 442671500448876770
+      car-shadow-1_11: -2113340307528979666
+      car-shadow-1_12: -2920243668977152063
+      car-shadow-1_13: -5308880260668587499
+      car-shadow-1_14: -6173201239604884926
+      car-shadow-1_15: -1623963961468056418
+      car-shadow-1_16: -7033249022385081789
+      car-shadow-1_17: -3979717769745442673
+      car-shadow-1_18: 8152107486908730103
+      car-shadow-1_19: -1833183515335486566
+      car-shadow-1_2: -7710865680444688366
+      car-shadow-1_20: -7977979825489532525
+      car-shadow-1_21: 797424352014661758
+      car-shadow-1_3: -6639648784074818526
+      car-shadow-1_4: 2803045045930721488
+      car-shadow-1_5: -7958949292878435143
+      car-shadow-1_6: 5141552787821952715
+      car-shadow-1_7: -3845315625988230337
+      car-shadow-1_8: 8832921942074483400
+      car-shadow-1_9: 7392017433593320375
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

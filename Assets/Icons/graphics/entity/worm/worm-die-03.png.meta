@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: f45702f6f892af2448538f2c968e64d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2151028492648265763
+    second: worm-die-03_0
+  - first:
+      213: 5715936826916483677
+    second: worm-die-03_1
+  - first:
+      213: -4956103672278815220
+    second: worm-die-03_2
+  - first:
+      213: -4195065666069826794
+    second: worm-die-03_3
+  - first:
+      213: -2072323024739243484
+    second: worm-die-03_4
+  - first:
+      213: 8622626335747496363
+    second: worm-die-03_5
+  - first:
+      213: 7287241198663364795
+    second: worm-die-03_6
+  - first:
+      213: 135627007267624963
+    second: worm-die-03_7
+  - first:
+      213: -2548862146038088969
+    second: worm-die-03_8
+  - first:
+      213: -1534920556561225666
+    second: worm-die-03_9
+  - first:
+      213: 4963823206215097702
+    second: worm-die-03_10
+  - first:
+      213: -488398894831281673
+    second: worm-die-03_11
+  - first:
+      213: 1877018380471595091
+    second: worm-die-03_12
+  - first:
+      213: 7126739999447606928
+    second: worm-die-03_13
+  - first:
+      213: -1104924418137610022
+    second: worm-die-03_14
+  - first:
+      213: -2621677856489591198
+    second: worm-die-03_15
+  - first:
+      213: 7458093011738188786
+    second: worm-die-03_16
+  - first:
+      213: -5163596779979732915
+    second: worm-die-03_17
+  - first:
+      213: 5139729041390945824
+    second: worm-die-03_18
+  - first:
+      213: 4059575463988741737
+    second: worm-die-03_19
+  - first:
+      213: -4914605866619859872
+    second: worm-die-03_20
+  - first:
+      213: 1782078080590929027
+    second: worm-die-03_21
+  - first:
+      213: 3127962571250541799
+    second: worm-die-03_22
+  - first:
+      213: -3591319850201524719
+    second: worm-die-03_23
+  - first:
+      213: -3741120599369820938
+    second: worm-die-03_24
+  - first:
+      213: -8499734627896574798
+    second: worm-die-03_25
+  - first:
+      213: 5485623445988484567
+    second: worm-die-03_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: worm-die-03_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1042
+        width: 178
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3283b06740df9dd10800000000000000
+      internalID: 2151028492648265763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_1
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1042
+        width: 177
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d523eee7246135f40800000000000000
+      internalID: 5715936826916483677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_2
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 1042
+        width: 196
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eefc7f7f1683bb0800000000000000
+      internalID: -4956103672278815220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_3
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1042
+        width: 214
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613787cc00228c5c0800000000000000
+      internalID: -4195065666069826794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_4
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1042
+        width: 235
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42aed8a4031ad33e0800000000000000
+      internalID: -2072323024739243484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_5
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1042
+        width: 247
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9582db7f8b9a770800000000000000
+      internalID: 8622626335747496363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 696
+        width: 258
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0fbeeb24b712560800000000000000
+      internalID: 7287241198663364795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_7
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 696
+        width: 239
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308d2266b08d1e100800000000000000
+      internalID: 135627007267624963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_8
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 728
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fab5f3f16f90acd0800000000000000
+      internalID: -2548862146038088969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_9
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 770
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3829bbd2edd2bae0800000000000000
+      internalID: -1534920556561225666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_10
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 693
+        width: 258
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d9a4618ea03e440800000000000000
+      internalID: 4963823206215097702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_11
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 722
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f953e4facbd839f0800000000000000
+      internalID: -488398894831281673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_12
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 692
+        width: 288
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35073eca5428c0a10800000000000000
+      internalID: 1877018380471595091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_13
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 696
+        width: 340
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09664a9354447e260800000000000000
+      internalID: 7126739999447606928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_14
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 696
+        width: 327
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8a04988158aa0f0800000000000000
+      internalID: -1104924418137610022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 310
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e2e6831eded9bd0800000000000000
+      internalID: -2621677856489591198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 350
+        width: 310
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb5a7a5418708760800000000000000
+      internalID: 7458093011738188786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_17
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 350
+        width: 309
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4805f526183758b0800000000000000
+      internalID: -5163596779979732915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_18
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 350
+        width: 310
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026cdd9e45cf35740800000000000000
+      internalID: 5139729041390945824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_19
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 350
+        width: 323
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966c0fd3062865830800000000000000
+      internalID: 4059575463988741737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_20
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 349
+        width: 327
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c8215c000dbcbb0800000000000000
+      internalID: -4914605866619859872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 328
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cd1ab82963bb810800000000000000
+      internalID: 1782078080590929027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_22
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2
+        width: 327
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e42b1ac261c86b20800000000000000
+      internalID: 3127962571250541799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_23
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1
+        width: 323
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116dde5bf91192ec0800000000000000
+      internalID: -3591319850201524719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_24
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 1
+        width: 325
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f45aacd2aed41cc0800000000000000
+      internalID: -3741120599369820938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_25
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1
+        width: 328
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc3323b360ea0a80800000000000000
+      internalID: -8499734627896574798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-die-03_26
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 1
+        width: 329
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5a2b5c579d02c40800000000000000
+      internalID: 5485623445988484567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      worm-die-03_0: 2151028492648265763
+      worm-die-03_1: 5715936826916483677
+      worm-die-03_10: 4963823206215097702
+      worm-die-03_11: -488398894831281673
+      worm-die-03_12: 1877018380471595091
+      worm-die-03_13: 7126739999447606928
+      worm-die-03_14: -1104924418137610022
+      worm-die-03_15: -2621677856489591198
+      worm-die-03_16: 7458093011738188786
+      worm-die-03_17: -5163596779979732915
+      worm-die-03_18: 5139729041390945824
+      worm-die-03_19: 4059575463988741737
+      worm-die-03_2: -4956103672278815220
+      worm-die-03_20: -4914605866619859872
+      worm-die-03_21: 1782078080590929027
+      worm-die-03_22: 3127962571250541799
+      worm-die-03_23: -3591319850201524719
+      worm-die-03_24: -3741120599369820938
+      worm-die-03_25: -8499734627896574798
+      worm-die-03_26: 5485623445988484567
+      worm-die-03_3: -4195065666069826794
+      worm-die-03_4: -2072323024739243484
+      worm-die-03_5: 8622626335747496363
+      worm-die-03_6: 7287241198663364795
+      worm-die-03_7: 135627007267624963
+      worm-die-03_8: -2548862146038088969
+      worm-die-03_9: -1534920556561225666
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

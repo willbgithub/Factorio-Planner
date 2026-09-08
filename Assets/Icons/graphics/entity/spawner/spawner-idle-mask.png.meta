@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: 86995cc488255924a88428fe3a533836
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5165110612501618004
+    second: spawner-idle-mask_0
+  - first:
+      213: 836231461237037919
+    second: spawner-idle-mask_1
+  - first:
+      213: 7319580516667650953
+    second: spawner-idle-mask_2
+  - first:
+      213: 4642278380318777204
+    second: spawner-idle-mask_3
+  - first:
+      213: -7972032788686328534
+    second: spawner-idle-mask_4
+  - first:
+      213: 3772417971581800247
+    second: spawner-idle-mask_5
+  - first:
+      213: 8304764935695305931
+    second: spawner-idle-mask_6
+  - first:
+      213: 6449318848149956751
+    second: spawner-idle-mask_7
+  - first:
+      213: -9058152743602516593
+    second: spawner-idle-mask_8
+  - first:
+      213: 1922163457544979311
+    second: spawner-idle-mask_9
+  - first:
+      213: 545139030550448457
+    second: spawner-idle-mask_10
+  - first:
+      213: -6516984098463038084
+    second: spawner-idle-mask_11
+  - first:
+      213: 2274775800179461361
+    second: spawner-idle-mask_12
+  - first:
+      213: -2840380327022388322
+    second: spawner-idle-mask_13
+  - first:
+      213: 1562523467401845205
+    second: spawner-idle-mask_14
+  - first:
+      213: 7416787679175676952
+    second: spawner-idle-mask_15
+  - first:
+      213: -7563384999202593224
+    second: spawner-idle-mask_16
+  - first:
+      213: -5980649340048665539
+    second: spawner-idle-mask_17
+  - first:
+      213: -1085922240977565828
+    second: spawner-idle-mask_18
+  - first:
+      213: 3368882528499497649
+    second: spawner-idle-mask_19
+  - first:
+      213: 6253913280078460121
+    second: spawner-idle-mask_20
+  - first:
+      213: 8929710682306895205
+    second: spawner-idle-mask_21
+  - first:
+      213: -8887181669345431210
+    second: spawner-idle-mask_22
+  - first:
+      213: -6259842220802200054
+    second: spawner-idle-mask_23
+  - first:
+      213: -7778208973861300552
+    second: spawner-idle-mask_24
+  - first:
+      213: 2846289033499020606
+    second: spawner-idle-mask_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spawner-idle-mask_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1624
+        width: 1080
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca2ad3c8347d158b0800000000000000
+      internalID: -5165110612501618004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1394
+        width: 1080
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b1a0d5514ea9b00800000000000000
+      internalID: 836231461237037919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1159
+        width: 270
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98378d8f2bf549560800000000000000
+      internalID: 7319580516667650953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_3
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1159
+        width: 270
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f506f479fac6040800000000000000
+      internalID: 4642278380318777204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_4
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1159
+        width: 270
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2da5949a66ad5190800000000000000
+      internalID: -7972032788686328534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_5
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1159
+        width: 269
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fce6478225a5430800000000000000
+      internalID: 3772417971581800247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 929
+        width: 270
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc0d3f55b3704370800000000000000
+      internalID: 8304764935695305931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_7
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 929
+        width: 270
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88a53b8255908950800000000000000
+      internalID: 6449318848149956751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_8
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 929
+        width: 270
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d8754621afa4280800000000000000
+      internalID: -9058152743602516593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_9
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 929
+        width: 269
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6384370b75ecaa10800000000000000
+      internalID: 1922163457544979311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 269
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949092d5f09b09700800000000000000
+      internalID: 545139030550448457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 702
+        width: 269
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c75cd3cad750f85a0800000000000000
+      internalID: -6516984098463038084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_12
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 702
+        width: 269
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc0a59b980a19f10800000000000000
+      internalID: 2274775800179461361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_13
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 702
+        width: 269
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b92dc3421f498d0800000000000000
+      internalID: -2840380327022388322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 472
+        width: 268
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9d2b3a0d23fa510800000000000000
+      internalID: 1562523467401845205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_15
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 472
+        width: 268
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81492cf2919bde660800000000000000
+      internalID: 7416787679175676952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_16
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 472
+        width: 268
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836e20f6a65790790800000000000000
+      internalID: -7563384999202593224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_17
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 472
+        width: 268
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d349930bc17700da0800000000000000
+      internalID: -5980649340048665539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7706dca9770ee0f0800000000000000
+      internalID: -1085922240977565828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba7b318fcca0ce20800000000000000
+      internalID: 3368882528499497649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_20
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 230
+        width: 272
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4bc2b5efc5ac650800000000000000
+      internalID: 6253913280078460121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_21
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 230
+        width: 272
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dd9edcd84bceb70800000000000000
+      internalID: 8929710682306895205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_22
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 230
+        width: 271
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6517d48ab536aa480800000000000000
+      internalID: -8887181669345431210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_23
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 272
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ea71f8aa29029a0800000000000000
+      internalID: -6259842220802200054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_24
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 272
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6dd3426204e0490800000000000000
+      internalID: -7778208973861300552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-mask_25
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 0
+        width: 271
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d8cc1bbcc008720800000000000000
+      internalID: 2846289033499020606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spawner-idle-mask_0: -5165110612501618004
+      spawner-idle-mask_1: 836231461237037919
+      spawner-idle-mask_10: 545139030550448457
+      spawner-idle-mask_11: -6516984098463038084
+      spawner-idle-mask_12: 2274775800179461361
+      spawner-idle-mask_13: -2840380327022388322
+      spawner-idle-mask_14: 1562523467401845205
+      spawner-idle-mask_15: 7416787679175676952
+      spawner-idle-mask_16: -7563384999202593224
+      spawner-idle-mask_17: -5980649340048665539
+      spawner-idle-mask_18: -1085922240977565828
+      spawner-idle-mask_19: 3368882528499497649
+      spawner-idle-mask_2: 7319580516667650953
+      spawner-idle-mask_20: 6253913280078460121
+      spawner-idle-mask_21: 8929710682306895205
+      spawner-idle-mask_22: -8887181669345431210
+      spawner-idle-mask_23: -6259842220802200054
+      spawner-idle-mask_24: -7778208973861300552
+      spawner-idle-mask_25: 2846289033499020606
+      spawner-idle-mask_3: 4642278380318777204
+      spawner-idle-mask_4: -7972032788686328534
+      spawner-idle-mask_5: 3772417971581800247
+      spawner-idle-mask_6: 8304764935695305931
+      spawner-idle-mask_7: 6449318848149956751
+      spawner-idle-mask_8: -9058152743602516593
+      spawner-idle-mask_9: 1922163457544979311
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

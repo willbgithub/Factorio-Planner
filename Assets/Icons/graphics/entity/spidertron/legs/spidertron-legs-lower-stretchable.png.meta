@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 2a9af28747152ce4399fd273e020301b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2049737579843640932
+    second: spidertron-legs-lower-stretchable_0
+  - first:
+      213: -7750853548053765915
+    second: spidertron-legs-lower-stretchable_1
+  - first:
+      213: 6050626468317106042
+    second: spidertron-legs-lower-stretchable_2
+  - first:
+      213: 1503197912700797285
+    second: spidertron-legs-lower-stretchable_3
+  - first:
+      213: 4408583635156735873
+    second: spidertron-legs-lower-stretchable_4
+  - first:
+      213: -776586789452685268
+    second: spidertron-legs-lower-stretchable_5
+  - first:
+      213: 2846811075887266010
+    second: spidertron-legs-lower-stretchable_6
+  - first:
+      213: -5768871513605616012
+    second: spidertron-legs-lower-stretchable_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spidertron-legs-lower-stretchable_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e59590871227c10800000000000000
+      internalID: 2049737579843640932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-lower-stretchable_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 51
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0ed2a83cf6f6490800000000000000
+      internalID: -7750853548053765915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-lower-stretchable_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 51
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f0e9027b428f350800000000000000
+      internalID: 6050626468317106042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-lower-stretchable_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 51
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561c3ad898e6cd410800000000000000
+      internalID: 1503197912700797285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-lower-stretchable_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 51
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1871e10657f6e2d30800000000000000
+      internalID: 4408583635156735873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-lower-stretchable_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 51
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c206965fd620935f0800000000000000
+      internalID: -776586789452685268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-lower-stretchable_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 51
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad878e82797e18720800000000000000
+      internalID: 2846811075887266010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-lower-stretchable_7
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 0
+        width: 51
+        height: 768
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ecaa45ce9d0ffa0800000000000000
+      internalID: -5768871513605616012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spidertron-legs-lower-stretchable_0: 2049737579843640932
+      spidertron-legs-lower-stretchable_1: -7750853548053765915
+      spidertron-legs-lower-stretchable_2: 6050626468317106042
+      spidertron-legs-lower-stretchable_3: 1503197912700797285
+      spidertron-legs-lower-stretchable_4: 4408583635156735873
+      spidertron-legs-lower-stretchable_5: -776586789452685268
+      spidertron-legs-lower-stretchable_6: 2846811075887266010
+      spidertron-legs-lower-stretchable_7: -5768871513605616012
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

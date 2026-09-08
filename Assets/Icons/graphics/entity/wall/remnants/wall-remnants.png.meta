@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: b297a36db9ac24b4384fbb1656ff4bdd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2331392831505214536
+    second: wall-remnants_0
+  - first:
+      213: -2678238061540457534
+    second: wall-remnants_1
+  - first:
+      213: 5438778299978154782
+    second: wall-remnants_2
+  - first:
+      213: 2852696643432821866
+    second: wall-remnants_3
+  - first:
+      213: 7392763289498156834
+    second: wall-remnants_4
+  - first:
+      213: -2556647936579522689
+    second: wall-remnants_5
+  - first:
+      213: -2203193571952457651
+    second: wall-remnants_6
+  - first:
+      213: -915583868114747536
+    second: wall-remnants_7
+  - first:
+      213: -8895310956030500499
+    second: wall-remnants_8
+  - first:
+      213: 1603780845174439730
+    second: wall-remnants_9
+  - first:
+      213: -7679503483818663691
+    second: wall-remnants_10
+  - first:
+      213: 6310810400373750015
+    second: wall-remnants_11
+  - first:
+      213: -947666676961982279
+    second: wall-remnants_12
+  - first:
+      213: 4525504402599387630
+    second: wall-remnants_13
+  - first:
+      213: 36477184965675930
+    second: wall-remnants_14
+  - first:
+      213: 8629914244652760690
+    second: wall-remnants_15
+  - first:
+      213: -5120183174510122946
+    second: wall-remnants_16
+  - first:
+      213: -8274928567412696320
+    second: wall-remnants_17
+  - first:
+      213: 7285516400073063249
+    second: wall-remnants_18
+  - first:
+      213: -66593519396425125
+    second: wall-remnants_19
+  - first:
+      213: 5144146176637409517
+    second: wall-remnants_20
+  - first:
+      213: 2842249926932608070
+    second: wall-remnants_21
+  - first:
+      213: -1549404067611106685
+    second: wall-remnants_22
+  - first:
+      213: -7702214772541212207
+    second: wall-remnants_23
+  - first:
+      213: 72554989080360878
+    second: wall-remnants_24
+  - first:
+      213: 2986736323956821725
+    second: wall-remnants_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wall-remnants_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 827
+        width: 83
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b35d3e629a35afd0800000000000000
+      internalID: -2331392831505214536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 712
+        width: 93
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c343f54cacf4dad0800000000000000
+      internalID: -2678238061540457534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_2
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 661
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e130d464c0c6a7b40800000000000000
+      internalID: 5438778299978154782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 590
+        width: 88
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6433c3ab70d69720800000000000000
+      internalID: 2852696643432821866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_4
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 666
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ff5131b0f589660800000000000000
+      internalID: 7392763289498156834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_5
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 645
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f21745f36f48cd0800000000000000
+      internalID: -2556647936579522689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 613
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48895c8e1fac61e0800000000000000
+      internalID: -2203193571952457651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 617
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f31faa2513b43f0800000000000000
+      internalID: -915583868114747536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 475
+        width: 110
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61692b90d18d8480800000000000000
+      internalID: -8895310956030500499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 341
+        width: 100
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fb2367e26c14610800000000000000
+      internalID: 1603780845174439730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 422
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f02d9be44cec6590800000000000000
+      internalID: -7679503483818663691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 418
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff83e1f7f90849750800000000000000
+      internalID: 6310810400373750015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_12
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 425
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8c432ad2639d2f0800000000000000
+      internalID: -947666676961982279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 409
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1276ae642ddce30800000000000000
+      internalID: 4525504402599387630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_14
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 418
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b09447ec7918000800000000000000
+      internalID: 36477184965675930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_15
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 394
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e7c92484d93c770800000000000000
+      internalID: 8629914244652760690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 251
+        width: 99
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38646ad78471f8b0800000000000000
+      internalID: -5120183174510122946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 239
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b52a57f4c892d80800000000000000
+      internalID: -8274928567412696320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 120
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b33a7c09a5b1560800000000000000
+      internalID: 7285516400073063249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_19
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 173
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5278040c89631ff0800000000000000
+      internalID: -66593519396425125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_20
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8182b51bda36740800000000000000
+      internalID: 5144146176637409517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_21
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 173
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644b2b9ef33b17720800000000000000
+      internalID: 2842249926932608070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 125
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382ae78a5396f7ae0800000000000000
+      internalID: -1549404067611106685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_23
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 141
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d93ae2f87c3c1590800000000000000
+      internalID: -7702214772541212207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 26
+        width: 103
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea731dec064c10100800000000000000
+      internalID: 72554989080360878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wall-remnants_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 13
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec33bbcd4037920800000000000000
+      internalID: 2986736323956821725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wall-remnants_0: -2331392831505214536
+      wall-remnants_1: -2678238061540457534
+      wall-remnants_10: -7679503483818663691
+      wall-remnants_11: 6310810400373750015
+      wall-remnants_12: -947666676961982279
+      wall-remnants_13: 4525504402599387630
+      wall-remnants_14: 36477184965675930
+      wall-remnants_15: 8629914244652760690
+      wall-remnants_16: -5120183174510122946
+      wall-remnants_17: -8274928567412696320
+      wall-remnants_18: 7285516400073063249
+      wall-remnants_19: -66593519396425125
+      wall-remnants_2: 5438778299978154782
+      wall-remnants_20: 5144146176637409517
+      wall-remnants_21: 2842249926932608070
+      wall-remnants_22: -1549404067611106685
+      wall-remnants_23: -7702214772541212207
+      wall-remnants_24: 72554989080360878
+      wall-remnants_25: 2986736323956821725
+      wall-remnants_3: 2852696643432821866
+      wall-remnants_4: 7392763289498156834
+      wall-remnants_5: -2556647936579522689
+      wall-remnants_6: -2203193571952457651
+      wall-remnants_7: -915583868114747536
+      wall-remnants_8: -8895310956030500499
+      wall-remnants_9: 1603780845174439730
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

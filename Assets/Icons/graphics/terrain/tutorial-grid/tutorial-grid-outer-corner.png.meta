@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 0a2c6154068950641b3fce5cef8b7146
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -464006569476052386
+    second: tutorial-grid-outer-corner_0
+  - first:
+      213: -8050793792997647087
+    second: tutorial-grid-outer-corner_1
+  - first:
+      213: 3624252403144069718
+    second: tutorial-grid-outer-corner_2
+  - first:
+      213: -6973828080401880820
+    second: tutorial-grid-outer-corner_3
+  - first:
+      213: -1635626586252114271
+    second: tutorial-grid-outer-corner_4
+  - first:
+      213: -4187985743817031004
+    second: tutorial-grid-outer-corner_5
+  - first:
+      213: 8944000660329248142
+    second: tutorial-grid-outer-corner_6
+  - first:
+      213: -7580685378482252923
+    second: tutorial-grid-outer-corner_7
+  - first:
+      213: 3988428228937623896
+    second: tutorial-grid-outer-corner_8
+  - first:
+      213: 2382857952549550885
+    second: tutorial-grid-outer-corner_9
+  - first:
+      213: -7479570797637464850
+    second: tutorial-grid-outer-corner_10
+  - first:
+      213: 2237540550832549688
+    second: tutorial-grid-outer-corner_11
+  - first:
+      213: -8738814716249876763
+    second: tutorial-grid-outer-corner_12
+  - first:
+      213: 4112447570876565254
+    second: tutorial-grid-outer-corner_13
+  - first:
+      213: -16249978552953473
+    second: tutorial-grid-outer-corner_14
+  - first:
+      213: -2196501071270633414
+    second: tutorial-grid-outer-corner_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 415
+        width: 19
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aaee4cb748f89f0800000000000000
+      internalID: -464006569476052386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_1
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 415
+        width: 19
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d947043b5d54090800000000000000
+      internalID: -8050793792997647087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_2
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 414
+        width: 19
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65212c9cb5eeb4230800000000000000
+      internalID: 3624252403144069718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_3
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 414
+        width: 18
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09600f4f4cf73f90800000000000000
+      internalID: -6973828080401880820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 258
+        width: 18
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6024529461d49e0800000000000000
+      internalID: -1635626586252114271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_5
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 258
+        width: 18
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2c267a72941e5c0800000000000000
+      internalID: -4187985743817031004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 258
+        width: 18
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85b8c596397f1c70800000000000000
+      internalID: 8944000660329248142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 255
+        width: 18
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583519dffcefbc690800000000000000
+      internalID: -7580685378482252923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 17
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859a7f5b75eb95730800000000000000
+      internalID: 3988428228937623896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 130
+        width: 18
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b3ee3deac911120800000000000000
+      internalID: 2382857952549550885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 130
+        width: 18
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec0f6eecf9333890800000000000000
+      internalID: -7479570797637464850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_11
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 130
+        width: 18
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fe7e6a6475d0f10800000000000000
+      internalID: 2237540550832549688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 30
+        width: 19
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e658f7d05e79b680800000000000000
+      internalID: -8738814716249876763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 18
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607048be649521930800000000000000
+      internalID: 4112447570876565254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_14
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 31
+        width: 19
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f755eb80bb446cff0800000000000000
+      internalID: -16249978552953473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tutorial-grid-outer-corner_15
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 30
+        width: 19
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30262ac9e57481e0800000000000000
+      internalID: -2196501071270633414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tutorial-grid-outer-corner_0: -464006569476052386
+      tutorial-grid-outer-corner_1: -8050793792997647087
+      tutorial-grid-outer-corner_10: -7479570797637464850
+      tutorial-grid-outer-corner_11: 2237540550832549688
+      tutorial-grid-outer-corner_12: -8738814716249876763
+      tutorial-grid-outer-corner_13: 4112447570876565254
+      tutorial-grid-outer-corner_14: -16249978552953473
+      tutorial-grid-outer-corner_15: -2196501071270633414
+      tutorial-grid-outer-corner_2: 3624252403144069718
+      tutorial-grid-outer-corner_3: -6973828080401880820
+      tutorial-grid-outer-corner_4: -1635626586252114271
+      tutorial-grid-outer-corner_5: -4187985743817031004
+      tutorial-grid-outer-corner_6: 8944000660329248142
+      tutorial-grid-outer-corner_7: -7580685378482252923
+      tutorial-grid-outer-corner_8: 3988428228937623896
+      tutorial-grid-outer-corner_9: 2382857952549550885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

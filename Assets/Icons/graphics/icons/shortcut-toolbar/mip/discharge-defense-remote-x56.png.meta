@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 5b99f40f86402f942a22bf36e45a8c2a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6373732690661771374
+    second: discharge-defense-remote-x56_0
+  - first:
+      213: -3427773879766653822
+    second: discharge-defense-remote-x56_1
+  - first:
+      213: -50331643891952982
+    second: discharge-defense-remote-x56_2
+  - first:
+      213: -10713043215881389
+    second: discharge-defense-remote-x56_3
+  - first:
+      213: 6738725638227314115
+    second: discharge-defense-remote-x56_4
+  - first:
+      213: 3147890170894790854
+    second: discharge-defense-remote-x56_5
+  - first:
+      213: 5974703658631156829
+    second: discharge-defense-remote-x56_6
+  - first:
+      213: 6531409106508542880
+    second: discharge-defense-remote-x56_7
+  - first:
+      213: 6373616894036063796
+    second: discharge-defense-remote-x56_8
+  - first:
+      213: 5011562319267863772
+    second: discharge-defense-remote-x56_9
+  - first:
+      213: -7968044993355006337
+    second: discharge-defense-remote-x56_10
+  - first:
+      213: -7435931439732061072
+    second: discharge-defense-remote-x56_11
+  - first:
+      213: -5884990466253279794
+    second: discharge-defense-remote-x56_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 34
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2977fc723e3fb87a0800000000000000
+      internalID: -6373732690661771374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 41
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284652641d91e60d0800000000000000
+      internalID: -3427773879766653822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 34
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2dbd4f2af2d4ff0800000000000000
+      internalID: -50331643891952982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_3
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 44
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b67a04b80f9dff0800000000000000
+      internalID: -10713043215881389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_4
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 27
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c54b51c343c48d50800000000000000
+      internalID: 6738725638227314115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 48
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0b024ae6d8fab20800000000000000
+      internalID: 3147890170894790854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 45
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54dfea72596ae250800000000000000
+      internalID: 5974703658631156829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 13
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3713c3af934aa50800000000000000
+      internalID: 6531409106508542880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 37
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436b277dbc2a37850800000000000000
+      internalID: 6373616894036063796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc91b18065ac8540800000000000000
+      internalID: 5011562319267863772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_10
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ebeb88b41db6190800000000000000
+      internalID: -7968044993355006337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_11
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 3
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c8c98b0c34ec890800000000000000
+      internalID: -7435931439732061072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: discharge-defense-remote-x56_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 19
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecda968d950545ea0800000000000000
+      internalID: -5884990466253279794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      discharge-defense-remote-x56_0: -6373732690661771374
+      discharge-defense-remote-x56_1: -3427773879766653822
+      discharge-defense-remote-x56_10: -7968044993355006337
+      discharge-defense-remote-x56_11: -7435931439732061072
+      discharge-defense-remote-x56_12: -5884990466253279794
+      discharge-defense-remote-x56_2: -50331643891952982
+      discharge-defense-remote-x56_3: -10713043215881389
+      discharge-defense-remote-x56_4: 6738725638227314115
+      discharge-defense-remote-x56_5: 3147890170894790854
+      discharge-defense-remote-x56_6: 5974703658631156829
+      discharge-defense-remote-x56_7: 6531409106508542880
+      discharge-defense-remote-x56_8: 6373616894036063796
+      discharge-defense-remote-x56_9: 5011562319267863772
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 27fd3f91a90f9354eba949aaa96b3e57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4901615609147627759
+    second: rail-segment-visualisations-middle_0
+  - first:
+      213: 8488237781992803421
+    second: rail-segment-visualisations-middle_1
+  - first:
+      213: 6811982093042688717
+    second: rail-segment-visualisations-middle_2
+  - first:
+      213: 1074658187537988130
+    second: rail-segment-visualisations-middle_3
+  - first:
+      213: 3457016312920044907
+    second: rail-segment-visualisations-middle_4
+  - first:
+      213: 1711228943162774305
+    second: rail-segment-visualisations-middle_5
+  - first:
+      213: 5069397526328999568
+    second: rail-segment-visualisations-middle_6
+  - first:
+      213: -5688286083371007906
+    second: rail-segment-visualisations-middle_7
+  - first:
+      213: -7234471791485762478
+    second: rail-segment-visualisations-middle_8
+  - first:
+      213: -5969474983942395727
+    second: rail-segment-visualisations-middle_9
+  - first:
+      213: 7542442425664447207
+    second: rail-segment-visualisations-middle_10
+  - first:
+      213: -4177769743328765320
+    second: rail-segment-visualisations-middle_11
+  - first:
+      213: -8247893102350717355
+    second: rail-segment-visualisations-middle_12
+  - first:
+      213: 5969014978488319793
+    second: rail-segment-visualisations-middle_13
+  - first:
+      213: 2791739162220131575
+    second: rail-segment-visualisations-middle_14
+  - first:
+      213: -1477329955543484704
+    second: rail-segment-visualisations-middle_15
+  - first:
+      213: 4578043038414145065
+    second: rail-segment-visualisations-middle_16
+  - first:
+      213: 8332638309789181823
+    second: rail-segment-visualisations-middle_17
+  - first:
+      213: -6785040282891640053
+    second: rail-segment-visualisations-middle_18
+  - first:
+      213: 5158852683318033758
+    second: rail-segment-visualisations-middle_19
+  - first:
+      213: 1663826410773252273
+    second: rail-segment-visualisations-middle_20
+  - first:
+      213: 3662412767971532014
+    second: rail-segment-visualisations-middle_21
+  - first:
+      213: -1952091298344981937
+    second: rail-segment-visualisations-middle_22
+  - first:
+      213: -702359720149902038
+    second: rail-segment-visualisations-middle_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 8058
+        width: 74
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe811c83d69060440800000000000000
+      internalID: 4901615609147627759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_1
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 7880
+        width: 270
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c0bb44a474cc570800000000000000
+      internalID: 8488237781992803421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 7771
+        width: 12
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2a1284f95098e50800000000000000
+      internalID: 6811982093042688717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_3
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 7432
+        width: 210
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22aba238de3f9ee00800000000000000
+      internalID: 1074658187537988130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_4
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 7312
+        width: 217
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b657452450ac9ff20800000000000000
+      internalID: 3457016312920044907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 7056
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123959648a18fb710800000000000000
+      internalID: 1711228943162774305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 6615
+        width: 112
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e751ef03e1a5640800000000000000
+      internalID: 5069397526328999568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_7
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 6807
+        width: 168
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e508fdbe1f52f01b0800000000000000
+      internalID: -5688286083371007906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 6231
+        width: 112
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25448ea4c3ef99b90800000000000000
+      internalID: -7234471791485762478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_9
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 6299
+        width: 62
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b86886312a282da0800000000000000
+      internalID: -5969474983942395727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 5904
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2a090bc632ca860800000000000000
+      internalID: 7542442425664447207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_11
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 5719
+        width: 62
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a938f9d849506c0800000000000000
+      internalID: -4177769743328765320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 5512
+        width: 211
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55eadf03ce8998d80800000000000000
+      internalID: -8247893102350717355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_13
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 5264
+        width: 168
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f38cb6f7336d250800000000000000
+      internalID: 5969014978488319793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_14
+      rect:
+        serializedVersion: 2
+        x: 2198
+        y: 4808
+        width: 218
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f47dad0aff3eb620800000000000000
+      internalID: 2791739162220131575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_15
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 4346
+        width: 270
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e679cf8b387f7be0800000000000000
+      internalID: -1477329955543484704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_16
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 3834
+        width: 270
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926002f43e9788f30800000000000000
+      internalID: 4578043038414145065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_17
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 3272
+        width: 217
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77abc0056a73a370800000000000000
+      internalID: 8332638309789181823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_18
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 2704
+        width: 168
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b032787bfc1b6d1a0800000000000000
+      internalID: -6785040282891640053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_19
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 2135
+        width: 62
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dfdb5ce2de79740800000000000000
+      internalID: 5158852683318033758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_20
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 1691
+        width: 62
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b88d062e49171710800000000000000
+      internalID: 1663826410773252273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_21
+      rect:
+        serializedVersion: 2
+        x: 2248
+        y: 1175
+        width: 168
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec5cc7120183d230800000000000000
+      internalID: 3662412767971532014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_22
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 656
+        width: 217
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a24098e47c8e4e0800000000000000
+      internalID: -1952091298344981937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-segment-visualisations-middle_23
+      rect:
+        serializedVersion: 2
+        x: 2134
+        y: 200
+        width: 271
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d1ce74e87b046f0800000000000000
+      internalID: -702359720149902038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rail-segment-visualisations-middle_0: 4901615609147627759
+      rail-segment-visualisations-middle_1: 8488237781992803421
+      rail-segment-visualisations-middle_10: 7542442425664447207
+      rail-segment-visualisations-middle_11: -4177769743328765320
+      rail-segment-visualisations-middle_12: -8247893102350717355
+      rail-segment-visualisations-middle_13: 5969014978488319793
+      rail-segment-visualisations-middle_14: 2791739162220131575
+      rail-segment-visualisations-middle_15: -1477329955543484704
+      rail-segment-visualisations-middle_16: 4578043038414145065
+      rail-segment-visualisations-middle_17: 8332638309789181823
+      rail-segment-visualisations-middle_18: -6785040282891640053
+      rail-segment-visualisations-middle_19: 5158852683318033758
+      rail-segment-visualisations-middle_2: 6811982093042688717
+      rail-segment-visualisations-middle_20: 1663826410773252273
+      rail-segment-visualisations-middle_21: 3662412767971532014
+      rail-segment-visualisations-middle_22: -1952091298344981937
+      rail-segment-visualisations-middle_23: -702359720149902038
+      rail-segment-visualisations-middle_3: 1074658187537988130
+      rail-segment-visualisations-middle_4: 3457016312920044907
+      rail-segment-visualisations-middle_5: 1711228943162774305
+      rail-segment-visualisations-middle_6: 5069397526328999568
+      rail-segment-visualisations-middle_7: -5688286083371007906
+      rail-segment-visualisations-middle_8: -7234471791485762478
+      rail-segment-visualisations-middle_9: -5969474983942395727
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 5538666ed8a4c6948aac78f62e23f091
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3837770325112847853
+    second: accumulator-discharge_0
+  - first:
+      213: 707690975638268325
+    second: accumulator-discharge_1
+  - first:
+      213: 1043076334826479287
+    second: accumulator-discharge_2
+  - first:
+      213: 3994582190138187729
+    second: accumulator-discharge_3
+  - first:
+      213: -4119141180896492847
+    second: accumulator-discharge_4
+  - first:
+      213: 8037930416459245173
+    second: accumulator-discharge_5
+  - first:
+      213: 8259546942029348602
+    second: accumulator-discharge_6
+  - first:
+      213: 6948374311890260683
+    second: accumulator-discharge_7
+  - first:
+      213: -3785434039220656218
+    second: accumulator-discharge_8
+  - first:
+      213: -8994050126257010490
+    second: accumulator-discharge_9
+  - first:
+      213: -5417687807952675184
+    second: accumulator-discharge_10
+  - first:
+      213: 2003993013837853108
+    second: accumulator-discharge_11
+  - first:
+      213: -638653822906947552
+    second: accumulator-discharge_12
+  - first:
+      213: 3681611706427131608
+    second: accumulator-discharge_13
+  - first:
+      213: 6757751034915606644
+    second: accumulator-discharge_14
+  - first:
+      213: 3363225140067013274
+    second: accumulator-discharge_15
+  - first:
+      213: 2393635286948783996
+    second: accumulator-discharge_16
+  - first:
+      213: -894047133584106089
+    second: accumulator-discharge_17
+  - first:
+      213: 3008340311055367965
+    second: accumulator-discharge_18
+  - first:
+      213: -2128042364333620559
+    second: accumulator-discharge_19
+  - first:
+      213: -7469152875610863506
+    second: accumulator-discharge_20
+  - first:
+      213: 6624782655343097043
+    second: accumulator-discharge_21
+  - first:
+      213: -5962284382840898921
+    second: accumulator-discharge_22
+  - first:
+      213: -952647746367489668
+    second: accumulator-discharge_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: accumulator-discharge_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 643
+        width: 159
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3120d1209308dbac0800000000000000
+      internalID: -3837770325112847853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 644
+        width: 159
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a92bad513932d900800000000000000
+      internalID: 707690975638268325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 643
+        width: 157
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bed2fa6660c97e00800000000000000
+      internalID: 1043076334826479287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_3
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 644
+        width: 159
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfd945765b9f6730800000000000000
+      internalID: 3994582190138187729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 643
+        width: 163
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d24bfc8beed5d6c0800000000000000
+      internalID: -4119141180896492847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_5
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 642
+        width: 160
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5766c5280277c8f60800000000000000
+      internalID: 8037930416459245173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_6
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 428
+        width: 158
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afeb25dce2ecf9270800000000000000
+      internalID: 8259546942029348602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_7
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 428
+        width: 157
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc21ba26f959d6060800000000000000
+      internalID: 6948374311890260683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_8
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 428
+        width: 155
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a7a4932ccf677bc0800000000000000
+      internalID: -3785434039220656218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_9
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 429
+        width: 153
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8c46c0017be2380800000000000000
+      internalID: -8994050126257010490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_10
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 429
+        width: 154
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e140f84a180d4b0800000000000000
+      internalID: -5417687807952675184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_11
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 429
+        width: 153
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b17b2a470d9fcb10800000000000000
+      internalID: 2003993013837853108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 215
+        width: 152
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028af275bbb0327f0800000000000000
+      internalID: -638653822906947552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_13
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 215
+        width: 152
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6428a4756b71330800000000000000
+      internalID: 3681611706427131608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_14
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 215
+        width: 152
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4705cac13ca58cd50800000000000000
+      internalID: 6757751034915606644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_15
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 214
+        width: 148
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a929b5d12739cae20800000000000000
+      internalID: 3363225140067013274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_16
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 215
+        width: 151
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c772c688c96e73120800000000000000
+      internalID: 2393635286948783996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_17
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 214
+        width: 149
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d534e6ed4b793f0800000000000000
+      internalID: -894047133584106089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 148
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f71f3f295cfb920800000000000000
+      internalID: 3008340311055367965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 151
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b289e69ebca772e0800000000000000
+      internalID: -2128042364333620559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_20
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 0
+        width: 152
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68802c680d385890800000000000000
+      internalID: -7469152875610863506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_21
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 0
+        width: 147
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4f4e5b9b4ffeb50800000000000000
+      internalID: 6624782655343097043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_22
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 157
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ab8ee71f5b14da0800000000000000
+      internalID: -5962284382840898921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: accumulator-discharge_23
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 0
+        width: 169
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7970b90ce387c2f0800000000000000
+      internalID: -952647746367489668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      accumulator-discharge_0: -3837770325112847853
+      accumulator-discharge_1: 707690975638268325
+      accumulator-discharge_10: -5417687807952675184
+      accumulator-discharge_11: 2003993013837853108
+      accumulator-discharge_12: -638653822906947552
+      accumulator-discharge_13: 3681611706427131608
+      accumulator-discharge_14: 6757751034915606644
+      accumulator-discharge_15: 3363225140067013274
+      accumulator-discharge_16: 2393635286948783996
+      accumulator-discharge_17: -894047133584106089
+      accumulator-discharge_18: 3008340311055367965
+      accumulator-discharge_19: -2128042364333620559
+      accumulator-discharge_2: 1043076334826479287
+      accumulator-discharge_20: -7469152875610863506
+      accumulator-discharge_21: 6624782655343097043
+      accumulator-discharge_22: -5962284382840898921
+      accumulator-discharge_23: -952647746367489668
+      accumulator-discharge_3: 3994582190138187729
+      accumulator-discharge_4: -4119141180896492847
+      accumulator-discharge_5: 8037930416459245173
+      accumulator-discharge_6: 8259546942029348602
+      accumulator-discharge_7: 6948374311890260683
+      accumulator-discharge_8: -3785434039220656218
+      accumulator-discharge_9: -8994050126257010490
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 1f5c8edee9ff78b49ba891329efcb0f5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8856078833276081176
+    second: artillery-wagon-base-2_0
+  - first:
+      213: 4790756184389706303
+    second: artillery-wagon-base-2_1
+  - first:
+      213: -7330951385666386565
+    second: artillery-wagon-base-2_2
+  - first:
+      213: -4159914133900276596
+    second: artillery-wagon-base-2_3
+  - first:
+      213: -1912549892550396498
+    second: artillery-wagon-base-2_4
+  - first:
+      213: -2658127788009068219
+    second: artillery-wagon-base-2_5
+  - first:
+      213: 4052537134159751855
+    second: artillery-wagon-base-2_6
+  - first:
+      213: -6220143782216134530
+    second: artillery-wagon-base-2_7
+  - first:
+      213: -5727979840906384475
+    second: artillery-wagon-base-2_8
+  - first:
+      213: -5046241881526011771
+    second: artillery-wagon-base-2_9
+  - first:
+      213: 4212492180442027143
+    second: artillery-wagon-base-2_10
+  - first:
+      213: -3346881731779902616
+    second: artillery-wagon-base-2_11
+  - first:
+      213: 5443798005497012669
+    second: artillery-wagon-base-2_12
+  - first:
+      213: -7923086356317008150
+    second: artillery-wagon-base-2_13
+  - first:
+      213: -8643906517036903544
+    second: artillery-wagon-base-2_14
+  - first:
+      213: 8702235391760319288
+    second: artillery-wagon-base-2_15
+  - first:
+      213: 432062101956993358
+    second: artillery-wagon-base-2_16
+  - first:
+      213: 6163059564379228996
+    second: artillery-wagon-base-2_17
+  - first:
+      213: 7340729472019434063
+    second: artillery-wagon-base-2_18
+  - first:
+      213: 6677252688693124115
+    second: artillery-wagon-base-2_19
+  - first:
+      213: -2063653799206335774
+    second: artillery-wagon-base-2_20
+  - first:
+      213: 8017597155571472801
+    second: artillery-wagon-base-2_21
+  - first:
+      213: 1720833362852747220
+    second: artillery-wagon-base-2_22
+  - first:
+      213: 843185892030834703
+    second: artillery-wagon-base-2_23
+  - first:
+      213: 1814811852385924249
+    second: artillery-wagon-base-2_24
+  - first:
+      213: -7146473058092180814
+    second: artillery-wagon-base-2_25
+  - first:
+      213: 7543113993461410416
+    second: artillery-wagon-base-2_26
+  - first:
+      213: 3714913430838270029
+    second: artillery-wagon-base-2_27
+  - first:
+      213: 6463054753750914865
+    second: artillery-wagon-base-2_28
+  - first:
+      213: 5922170715488773189
+    second: artillery-wagon-base-2_29
+  - first:
+      213: -5443245155613750386
+    second: artillery-wagon-base-2_30
+  - first:
+      213: -5763764968673434849
+    second: artillery-wagon-base-2_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2907
+        width: 399
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb29bff833e81580800000000000000
+      internalID: -8856078833276081176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_1
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 2909
+        width: 405
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32ed000e5f2c7240800000000000000
+      internalID: 4790756184389706303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_2
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 2911
+        width: 409
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7582b74e8a334a90800000000000000
+      internalID: -7330951385666386565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_3
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 2914
+        width: 415
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c4fb8a2240546c0800000000000000
+      internalID: -4159914133900276596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_4
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 2506
+        width: 420
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5725f71024575e0800000000000000
+      internalID: -1912549892550396498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_5
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 2509
+        width: 424
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549ef143cde6c1bd0800000000000000
+      internalID: -2658127788009068219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_6
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 2512
+        width: 428
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faaeba06d018d3830800000000000000
+      internalID: 4052537134159751855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_7
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2515
+        width: 432
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7017219f2c9da9a0800000000000000
+      internalID: -6220143782216134530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2108
+        width: 436
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab2d2ecea02280b0800000000000000
+      internalID: -5727979840906384475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_9
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2110
+        width: 440
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58871f0beb528f9b0800000000000000
+      internalID: -5046241881526011771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_10
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 2113
+        width: 442
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7849b52c157c57a30800000000000000
+      internalID: 4212492180442027143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_11
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 2116
+        width: 445
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863c3082ccc7d81d0800000000000000
+      internalID: -3346881731779902616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1710
+        width: 448
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db121aa81714c8b40800000000000000
+      internalID: 5443798005497012669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_13
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1712
+        width: 450
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee0bfeefea8b0290800000000000000
+      internalID: -7923086356317008150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_14
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1716
+        width: 452
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883d454f1dcaa0880800000000000000
+      internalID: -8643906517036903544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_15
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 1719
+        width: 454
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833c4bd7bfc84c870800000000000000
+      internalID: 8702235391760319288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1312
+        width: 455
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e412e0c413efef500800000000000000
+      internalID: 432062101956993358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_17
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 1315
+        width: 457
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44bc5604506978550800000000000000
+      internalID: 6163059564379228996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_18
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1318
+        width: 457
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a85fbdf828fd560800000000000000
+      internalID: 7340729472019434063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_19
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 1322
+        width: 457
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c531951fd5aac50800000000000000
+      internalID: 6677252688693124115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 915
+        width: 458
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eacbe6adcd6c53e0800000000000000
+      internalID: -2063653799206335774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_21
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 919
+        width: 458
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9150a422a344f60800000000000000
+      internalID: 8017597155571472801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_22
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 922
+        width: 458
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d79a7e73d0a1e710800000000000000
+      internalID: 1720833362852747220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_23
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 925
+        width: 458
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f086e16f91993bb00800000000000000
+      internalID: 843185892030834703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 519
+        width: 457
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994b1a3b3c18f2910800000000000000
+      internalID: 1814811852385924249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_25
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 523
+        width: 456
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba14870e90a2dc90800000000000000
+      internalID: -7146473058092180814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_26
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 526
+        width: 455
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07aab8046368ea860800000000000000
+      internalID: 7543113993461410416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_27
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 530
+        width: 453
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48517835160e8330800000000000000
+      internalID: 3714913430838270029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 123
+        width: 452
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13719394e0261b950800000000000000
+      internalID: 6463054753750914865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_29
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 125
+        width: 449
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544ede383e6cf2250800000000000000
+      internalID: 5922170715488773189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_30
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 126
+        width: 447
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bc64ade55b574b0800000000000000
+      internalID: -5443245155613750386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: artillery-wagon-base-2_31
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 127
+        width: 446
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1321697c4ef200b0800000000000000
+      internalID: -5763764968673434849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      artillery-wagon-base-2_0: -8856078833276081176
+      artillery-wagon-base-2_1: 4790756184389706303
+      artillery-wagon-base-2_10: 4212492180442027143
+      artillery-wagon-base-2_11: -3346881731779902616
+      artillery-wagon-base-2_12: 5443798005497012669
+      artillery-wagon-base-2_13: -7923086356317008150
+      artillery-wagon-base-2_14: -8643906517036903544
+      artillery-wagon-base-2_15: 8702235391760319288
+      artillery-wagon-base-2_16: 432062101956993358
+      artillery-wagon-base-2_17: 6163059564379228996
+      artillery-wagon-base-2_18: 7340729472019434063
+      artillery-wagon-base-2_19: 6677252688693124115
+      artillery-wagon-base-2_2: -7330951385666386565
+      artillery-wagon-base-2_20: -2063653799206335774
+      artillery-wagon-base-2_21: 8017597155571472801
+      artillery-wagon-base-2_22: 1720833362852747220
+      artillery-wagon-base-2_23: 843185892030834703
+      artillery-wagon-base-2_24: 1814811852385924249
+      artillery-wagon-base-2_25: -7146473058092180814
+      artillery-wagon-base-2_26: 7543113993461410416
+      artillery-wagon-base-2_27: 3714913430838270029
+      artillery-wagon-base-2_28: 6463054753750914865
+      artillery-wagon-base-2_29: 5922170715488773189
+      artillery-wagon-base-2_3: -4159914133900276596
+      artillery-wagon-base-2_30: -5443245155613750386
+      artillery-wagon-base-2_31: -5763764968673434849
+      artillery-wagon-base-2_4: -1912549892550396498
+      artillery-wagon-base-2_5: -2658127788009068219
+      artillery-wagon-base-2_6: 4052537134159751855
+      artillery-wagon-base-2_7: -6220143782216134530
+      artillery-wagon-base-2_8: -5727979840906384475
+      artillery-wagon-base-2_9: -5046241881526011771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
