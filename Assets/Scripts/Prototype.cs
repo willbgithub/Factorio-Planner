@@ -9,21 +9,21 @@ using UnityEngine;
 public abstract class Prototype : ScriptableObject
 {
     // Constructor
-    public Prototype(string prefabName, string englishName, string typeName, Sprite icon)
+    protected Prototype(string prefabName, string englishName, string typeName, Sprite icon)
     {
         this.prefabName = prefabName;
         this.englishName = englishName;
         this.typeName = typeName;
         this.icon = icon;
     }
-    public void Initialize(string prefabName, string englishName, string typeName, Sprite icon)
+    protected void Initialize(string prefabName, string englishName, string typeName, Sprite icon)
     {
         this.prefabName = prefabName;
         this.englishName = englishName;
         this.typeName = typeName;
         this.icon = icon;
     }
-    public Prototype CreatePrototype(string prefabName, string englishName, string typeName, Sprite icon)
+    protected static Prototype CreatePrototype(string prefabName, string englishName, string typeName, Sprite icon)
     {
         Prototype prototype = ScriptableObject.CreateInstance<Prototype>();
         prototype.Initialize(prefabName, englishName, typeName, icon);

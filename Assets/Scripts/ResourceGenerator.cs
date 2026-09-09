@@ -6,8 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using System.IO;
 class ResourceGenerator
 {
     const string FACTORIO_PATH = @"C:/Program Files (x86)/Steam/steamapps/common/Factorio/";
@@ -15,30 +17,105 @@ class ResourceGenerator
     const string FLUID_PATH = FACTORIO_PATH + @"data/base/prototypes/fluid.lua";
     const string RECIPE_PATH = FACTORIO_PATH + @"data/base/prototypes/recipe.lua";
 
-    const string ICON_PATH = @"Assets/Icons/";
     const string UNITY_ITEM_PATH = @"Assets/Prototypes/Items/";
     const string UNITY_RECIPES_PATH = @"Assets/Prototypes/Recipes/";        
 
     [MenuItem("Factorio/Debug")]
     static void DebugFunc()
     {
-        string iconPath = ICON_PATH + "graphics/icons/stone-brick.png";
-        Sprite icon = Resources.Load<Sprite>(iconPath);
-        Item testItem = ScriptableObject.CreateInstance<Item>();
-        testItem.SetPrefabName("test-brick");
-        AssetDatabase.CreateAsset(testItem, UNITY_ITEM_PATH + testItem.GetPrefabName() + ".asset");
+        //string iconPath = "graphics/icons/stone-brick";
+        //Sprite icon = Resources.Load<Sprite>(iconPath);
+        //Debug.Log("iconPath: \"" + iconPath + "\"");
+        //Debug.Log("icon: " + icon);
+        //Debug.Log("icon.IsUnityNull(): " + icon.IsUnityNull());
+        //Item testItem = Item.CreateItem("test-brick", "Test brick", "item", icon);
+        //AssetDatabase.CreateAsset(testItem, UNITY_ITEM_PATH + testItem.GetPrefabName() + ".asset");
+        //Item testItem2 = AssetDatabase.LoadAssetAtPath<Item>(UNITY_ITEM_PATH + testItem.GetPrefabName() + ".asset");
+        //Debug.Log("testItem2: " + testItem2.GetPrefabName());
+        Debug.Log(GetItem("stone-brick").GetEnglishName());
     }
+    static void CreateFiles(List<string> prototypes)
+    {
+        for (int i = 0; i < prototypes.Count; i++)
+        {
+            string prototype = prototypes[i];
+            string prefabName = GetStringProperty(prototype, "name");
+
+        }
+    }
+    static string GetEnglishName(string prefabName)
+    {
+
+    }
+    static Sprite GetIconProperty(string prototype)
+    {
+        string iconPath = GetStringProperty(prototype, "icon");
+        if (iconPath.Length == 0)
+        {
+            Item item = GetItem(GetStringProperty(prototype, "name"));
+            return item.GetIcon();
+        }
+        iconPath = Regex.Match(iconPath, "/(.+)").Groups[1].Value;
+        return Resources.Load<Sprite>(iconPath);
+        
+    }
+    static Contribution GetRecipeContribution(string prototype)
+    {
+        Contribution contribution = new Contribution();
+        string ingredientsText = Regex.Match(prototype, "ingredients ?=(.+)", RegexOptions.Singleline).Groups[1].Value;
+        List<string> ingredients = GetBlocks(ingredientsText, 2, true);
+        for (int i = 0; i < ingredients.Count; i++)
+        {
+            string ingredient = ingredients[i];
+            string itemName = GetStringProperty(ingredient, "name");
+            Item item = GetItem(itemName);
+            Fraction rate = GetFractionProperty(ingredient, "amount");
+            ItemRate itemRate = new ItemRate(item, rate, 0);
+            contribution.Add(itemRate);
+        }
+        string productsText = Regex.Match(prototype, "results ?=(.+)", RegexOptions.Singleline).Groups[1].Value;
+        List<string> products = GetBlocks(productsText, 2, true);
+        for (int i = 0; i < products.Count; i++)
+        {
+            string product = products[i];
+            string itemName = GetStringProperty(product, "name");
+            Item item = GetItem(itemName);
+            Fraction rate = GetFractionProperty(product, "amount");
+            ItemRate itemRate = new ItemRate(item, 0, rate);
+            contribution.Add(itemRate);
+        }
+        return contribution;
+    }
+    //static ItemValue GetItemValueProperty(string prototype, string propertyName)
+    //{
+
+    //}
     static Item GetItem(string prefabName)
     {
-        return null;
+        Item item = AssetDatabase.LoadAssetAtPath<Item>(UNITY_ITEM_PATH + prefabName + ".asset");
+        if (item.IsUnityNull())
+        {
+            Debug.LogError("ERROR: Could not find item \"" + prefabName + "\"");
+        }
+        return item;
     }
     static Fraction GetFractionProperty(string prototype, string propertyName)
     {
-        return new Fraction(Regex.Match(prototype, "\\W" + propertyName + "\\W*?=[^\"]*?\"([^\"]*?)\"").Groups[1].Value);
+        Fraction fraction = new Fraction(Regex.Match(prototype, "\\W" + propertyName + "\\W*?=[^\"]*?\"([^\"]*?)\"").Groups[1].Value);
+        if (fraction.IsUnityNull())
+        {
+            Debug.LogError("ERROR: Could not extract \"" + propertyName + "\" from \"" + prototype + "\"!");
+        }
+        return fraction;
     }
     static string GetStringProperty(string prototype, string propertyName)
     {
-        return Regex.Match(prototype, "\\W" + propertyName + "\\W*?=[^\"]*?\"([^\"]*?)\"").Groups[1].Value;
+        string str = Regex.Match(prototype, "\\W" + propertyName + "\\W*?=[^\"]*?\"([^\"]*?)\"").Groups[1].Value;
+        if (str.Length == 0)
+        {
+            Debug.LogError("ERROR: Could not extract \"" + propertyName + "\" from \"" + prototype + "\"!");
+        }
+        return str;
     }
     static bool IsBlacklisted(Prototype prototype)
     {

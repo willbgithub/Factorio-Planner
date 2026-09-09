@@ -10,6 +10,11 @@ using UnityEngine;
 public class Contribution
 {
     // Constructor
+    public Contribution()
+    {
+        itemRates = new List<ItemRate>();
+    }
+
     public Contribution(List<ItemRate> itemRates)
     {
         itemRates = new List<ItemRate>();
@@ -26,6 +31,29 @@ public class Contribution
             itemRates[i] = new ItemRate(contribution.itemRates[i]);
         }
     }
+    // Mutators
+    public void Add(ItemRate itemRate)
+    {
+        if (Contains(itemRate.GetItem()))
+        {
+            bool found = false;
+            int i = 0;
+            while (!found)
+            {
+                if (itemRates[i].GetItem().GetPrefabName() != itemRate.GetItem().GetPrefabName())
+                {
+                    i++;
+                    continue;
+                }
+                itemRates[i].Add(itemRate);
+                found = true;
+            }
+        }
+        else
+        {
+            itemRates.Add(itemRate);
+        }
+    }
     // Accessors
     public List<ItemRate> GetItemRates()
     {
@@ -35,6 +63,17 @@ public class Contribution
             returnList[i] = new ItemRate(itemRates[i]);
         }
         return returnList;
+    }
+    public bool Contains(Item item)
+    {
+        for (int i = 0; i < itemRates.Count; i++)
+        {
+            if (itemRates[i].GetItem().GetPrefabName() == item.GetPrefabName())
+            {
+                return true;
+            }
+        }
+        return false;
     }
     // Member data
     List<ItemRate> itemRates;

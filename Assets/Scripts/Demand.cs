@@ -16,7 +16,7 @@ public class Demand
     public Demand(Demand demand)
     {
         demandValue = new ItemValue(demand.demandValue);
-        recipe = new Recipe(demand.recipe);
+        recipe = Recipe.CreateRecipe(demand.recipe);
     }
     // Mutators
     public void SetDemandValue(ItemValue demandValue)
@@ -25,7 +25,7 @@ public class Demand
     }
     public void SetRecipe(Recipe recipe)
     {
-        this.recipe = new Recipe(recipe);
+        this.recipe = Recipe.CreateRecipe(recipe);
     }
     // Accessors
     public ItemValue GetDemandValue()
@@ -34,7 +34,7 @@ public class Demand
     }
     public Recipe GetRecipe()
     {
-        return new Recipe(recipe);
+        return Recipe.CreateRecipe(recipe);
     }
     // Member data
     ItemValue demandValue;

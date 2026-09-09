@@ -24,6 +24,11 @@ public class ItemRate
         production = itemRate.production;
     }
     // Mutators
+    public void Add(ItemRate itemRate)
+    {
+        consumption += itemRate.consumption;
+        production += itemRate.production;
+    }
     public void SetItem(Item item)
     {
         this.item = item;
@@ -32,9 +37,17 @@ public class ItemRate
     {
         this.consumption = consumption;
     }
+    public void AddConsumption(Fraction consumption)
+    {
+        this.consumption += consumption;
+    }
     public void SetProduction(Fraction production)
     {
         this.production = production;
+    }
+    public void AddProduction(Fraction production)
+    {
+        this.production += production;
     }
     // Accessors
     public Item GetItem()
