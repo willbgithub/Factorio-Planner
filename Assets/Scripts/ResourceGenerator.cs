@@ -16,23 +16,39 @@ class ResourceGenerator
     const string ITEM_PATH = FACTORIO_PATH + @"data/base/prototypes/item.lua";
     const string FLUID_PATH = FACTORIO_PATH + @"data/base/prototypes/fluid.lua";
     const string RECIPE_PATH = FACTORIO_PATH + @"data/base/prototypes/recipe.lua";
+    const string CFG_PATH = FACTORIO_PATH + @"data/base/locale/en/base.cfg";
 
     const string UNITY_ITEM_PATH = @"Assets/Prototypes/Items/";
-    const string UNITY_RECIPES_PATH = @"Assets/Prototypes/Recipes/";        
+    const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
 
     [MenuItem("Factorio/Debug")]
     static void DebugFunc()
     {
-        //string iconPath = "graphics/icons/stone-brick";
-        //Sprite icon = Resources.Load<Sprite>(iconPath);
-        //Debug.Log("iconPath: \"" + iconPath + "\"");
-        //Debug.Log("icon: " + icon);
-        //Debug.Log("icon.IsUnityNull(): " + icon.IsUnityNull());
-        //Item testItem = Item.CreateItem("test-brick", "Test brick", "item", icon);
-        //AssetDatabase.CreateAsset(testItem, UNITY_ITEM_PATH + testItem.GetPrefabName() + ".asset");
-        //Item testItem2 = AssetDatabase.LoadAssetAtPath<Item>(UNITY_ITEM_PATH + testItem.GetPrefabName() + ".asset");
-        //Debug.Log("testItem2: " + testItem2.GetPrefabName());
-        Debug.Log(GetItem("stone-brick").GetEnglishName());
+        CreateItems();
+    }
+    static void CreateItems()
+    {
+        CreateFiles(GetPrototypes(ITEM_PATH));
+        CreateFiles(GetPrototypes(FLUID_PATH));
+    }
+    static void CreateRecipes()
+    {
+        CreateFiles(GetPrototypes(RECIPE_PATH));
+    }
+    static List<string> GetPrototypes(string file_path)
+    {
+        List<string> blocks = GetBlocks(File.ReadAllText(file_path), 2, false);
+        List<string> prototypes = new List<string>();
+        for (int i = 0; i < blocks.Count; i++)
+        {
+            string prototype = blocks[i];
+            if (IsBlacklisted(prototype))
+            {
+                continue;
+            }
+            prototypes.Add(prototype);
+        }
+        return prototypes;
     }
     static void CreateFiles(List<string> prototypes)
     {
@@ -40,12 +56,56 @@ class ResourceGenerator
         {
             string prototype = prototypes[i];
             string prefabName = GetStringProperty(prototype, "name");
-
+            string englishName = GetEnglishName(prefabName);
+            string typeName = GetStringProperty(prototype, "type");
+            Sprite icon = GetIconProperty(prototype);
+            // Item
+            if (typeName != "recipe")
+            {
+                List<Recipe> craftedIn = new List<Recipe>();
+                Recipe bestRecipe = null;
+                // if there are no recipe files, ignore
+                DirectoryInfo recipeDirectory = Directory.CreateDirectory(UNITY_RECIPE_PATH);
+                FileInfo[] recipeFiles = recipeDirectory.GetFiles();
+                for (int j = 0; j < recipeFiles.Length; j++)
+                {
+                    string recipePath = Regex.Match(recipeFiles[j].FullName, "Factorio-Planner/(.+)").Groups[1].Value;
+                    Recipe recipe = AssetDatabase.LoadAssetAtPath<Recipe>(recipePath);
+                    if (recipe.GetRate(prefabName) > 0)
+                    {
+                        craftedIn.Add(recipe);
+                        bestRecipe = recipe;
+                    }
+                }
+                Item obj = Item.CreateItem(prefabName, englishName, typeName, icon, craftedIn, bestRecipe);
+                AssetDatabase.CreateAsset(obj, UNITY_ITEM_PATH + obj.GetPrefabName() + ".asset");
+            }
+            // Recipe
+            else if (typeName == "recipe")
+            {
+                // if there are no item files, ignore
+                DirectoryInfo itemDirectory = Directory.CreateDirectory(UNITY_ITEM_PATH);
+                FileInfo[] itemFiles = itemDirectory.GetFiles();
+                if (itemFiles.Length == 0)
+                {
+                    continue;
+                }
+                Contribution contribution = GetRecipeContribution(prototype);
+                Recipe obj = Recipe.CreateRecipe(prefabName, englishName, typeName, icon, contribution);
+                AssetDatabase.CreateAsset(obj, UNITY_RECIPE_PATH + obj.GetPrefabName() + ".asset");
+            }
         }
     }
     static string GetEnglishName(string prefabName)
     {
+        string cfg = File.ReadAllText(CFG_PATH);
+        MatchCollection matches = Regex.Matches(cfg, prefabName + "=(.+)");
+        string bestMatch = matches[0].Value;
+        for (int i = 0; i < matches.Count; i++)
+        {
+            string match = matches[i].Value;
 
+        }
     }
     static Sprite GetIconProperty(string prototype)
     {
@@ -117,9 +177,11 @@ class ResourceGenerator
         }
         return str;
     }
-    static bool IsBlacklisted(Prototype prototype)
+    static bool IsBlacklisted(string prototype)
     {
-        return false;
+        string prefabName = GetStringProperty(prototype, "name");
+        string typeName = GetStringProperty(prototype, "type");
+        return (prefabName == "parameter-");
     }
     static List<string> GetBlocks(string inputText, int targetDepth, bool consecutive)
     {

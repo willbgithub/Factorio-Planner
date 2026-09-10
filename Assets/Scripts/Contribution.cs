@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEditor.Progress;
 [Serializable]
 public class Contribution
 {
@@ -74,6 +75,28 @@ public class Contribution
             }
         }
         return false;
+    }
+    public Fraction GetRate(Item item)
+    {
+        for (int i = 0; i < itemRates.Count; i++)
+        {
+            if (itemRates[i].GetItem().GetPrefabName() == item.GetPrefabName())
+            {
+                return itemRates[i].GetProduction() - itemRates[i].GetConsumption();
+            }
+        }
+        return 0;
+    }
+    public Fraction GetRate(string prefabName)
+    {
+        for (int i = 0; i < itemRates.Count; i++)
+        {
+            if (itemRates[i].GetItem().GetPrefabName() == prefabName)
+            {
+                return itemRates[i].GetProduction() - itemRates[i].GetConsumption();
+            }
+        }
+        return 0;
     }
     // Member data
     List<ItemRate> itemRates;

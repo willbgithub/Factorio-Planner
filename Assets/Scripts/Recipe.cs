@@ -51,6 +51,14 @@ public class Recipe : Prototype
     {
         return new Contribution(contribution);
     }
+    public Fraction GetRate(Item item)
+    {
+        return contribution.GetRate(item);
+    }
+    public Fraction GetRate(string prefabName)
+    {
+        return contribution.GetRate(prefabName);
+    }
     // Member Data
     Contribution contribution;
 }
