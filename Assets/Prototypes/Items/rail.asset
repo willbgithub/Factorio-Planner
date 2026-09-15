@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: rail
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: rail
-  englishName: Use to build straight rails manually or through the rail planner.\n__CONTROL__build__
-    to build short paths directly.\n__CONTROL__build-ghost__ to place long ghost
-    paths.
+  englishName: Rail
   typeName: rail-planner
-  icon: {fileID: 0}
+  icon: {fileID: 8973482002761429877, guid: 44b0d137eb4d59b42a32a11ccd01bab3, type: 3}
   craftedIn: []
   bestRecipe: {fileID: 0}

@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: one-way-valve
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: one-way-valve
-  englishName: Allows fluid to flow if the input fluid level is higher than the output
-    fluid level.
+  englishName: One-way valve
   typeName: item
-  icon: {fileID: 0}
+  icon: {fileID: 4615785159302231736, guid: d7430d80d5cd9d34f8cca40ddb330a48, type: 3}
   craftedIn: []
   bestRecipe: {fileID: 0}

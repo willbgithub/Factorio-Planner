@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: speed-module
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: speed-module
+  englishName: Speed module
+  typeName: recipe
+  icon: {fileID: 1117397787983998331, guid: a5de509d83647094382f77afb68f0df4, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 0}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 0}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 0}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

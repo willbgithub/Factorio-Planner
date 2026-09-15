@@ -11,18 +11,18 @@ public class ItemValue
     // Constructor
     public ItemValue(Item item, Fraction value)
     {
-        this.item = item;
+        this.item = Item.CreateItem(item);
         this.value = value;
     }
     public ItemValue(ItemValue itemValue)
     {
-        item = itemValue.item;
+        item = Item.CreateItem(itemValue.item);
         value = itemValue.value;
     }
     // Mutators
     public void SetItem(Item item)
     {
-        this.item = item;
+        this.item = Item.CreateItem(item);
     }
     public void SetValue(Fraction value)
     {
@@ -31,7 +31,7 @@ public class ItemValue
     // Accessors
     public Item GetItem()
     {
-        return item;
+        return Item.CreateItem(item);
     }
     public Fraction GetValue()
     {

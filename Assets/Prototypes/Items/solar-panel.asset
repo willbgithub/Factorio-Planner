@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: solar-panel
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: solar-panel
-  englishName: During daytime it produces 100% of the power output which drops to
-    0% at night.
+  englishName: Solar panel
   typeName: item
-  icon: {fileID: 0}
+  icon: {fileID: -2530746966930012046, guid: 93f30538e61ae794faaf03a502008471, type: 3}
   craftedIn: []
   bestRecipe: {fileID: 0}

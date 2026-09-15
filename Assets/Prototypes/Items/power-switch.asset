@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: power-switch
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: power-switch
-  englishName: Used to control the connections of the electric network. Can also
-    be controlled by the circuit network.
+  englishName: Power switch
   typeName: item
-  icon: {fileID: 0}
+  icon: {fileID: 8162655167406919938, guid: 600265132216407499116c3b4414f114, type: 3}
   craftedIn: []
   bestRecipe: {fileID: 0}

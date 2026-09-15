@@ -29,7 +29,7 @@ public class Contribution
         itemRates = new List<ItemRate>();
         for (int i = 0; i < contribution.itemRates.Count; i++)
         {
-            itemRates[i] = new ItemRate(contribution.itemRates[i]);
+            itemRates.Add(new ItemRate(contribution.itemRates[i]));
         }
     }
     // Mutators
@@ -98,6 +98,19 @@ public class Contribution
         }
         return 0;
     }
+    public override string ToString()
+    {
+        if (itemRates.Count == 0)
+        {
+            return "{empty contribution}";
+        }
+        string str = "";
+        for (int i = 0; i < itemRates.Count; i++)
+        {
+            str += itemRates[i] + "\n";
+        }
+        return str;
+    }
     // Member data
-    List<ItemRate> itemRates;
+    [SerializeField] List<ItemRate> itemRates;
 }

@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: nuclear-reactor
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: nuclear-reactor
-  englishName: Uses uranium fuel cells to generate heat. The heat output increases
-    when built next to other reactors.
+  englishName: Nuclear reactor
   typeName: item
-  icon: {fileID: 0}
+  icon: {fileID: 3125051289509003882, guid: a4e6405c9f4380d468433b4ed623e4cd, type: 3}
   craftedIn: []
   bestRecipe: {fileID: 0}

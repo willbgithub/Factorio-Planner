@@ -13,13 +13,13 @@ public class ItemRate
     // Constructor
     public ItemRate(Item item, Fraction consumption, Fraction production)
     {
-        this.item = item;
+        this.item = Item.CreateItem(item);
         this.consumption = consumption;
         this.production = production;
     }
     public ItemRate(ItemRate itemRate)
     {
-        item = itemRate.item;
+        item = Item.CreateItem(itemRate.item);
         consumption = itemRate.consumption;
         production = itemRate.production;
     }
@@ -31,7 +31,7 @@ public class ItemRate
     }
     public void SetItem(Item item)
     {
-        this.item = item;
+        this.item = Item.CreateItem(item);
     }
     public void SetConsumption(Fraction consumption)
     {
@@ -52,7 +52,7 @@ public class ItemRate
     // Accessors
     public Item GetItem()
     {
-        return item;
+        return Item.CreateItem(item);
     }
     public Fraction GetConsumption()
     {
@@ -70,8 +70,12 @@ public class ItemRate
         returnValue.production *= factor;
         return returnValue;
     }
+    public override string ToString()
+    {
+        return item + ": -" + consumption.ToString() + ", +" + production;
+    }
     // Member data
-    Item item;
-    Fraction consumption;
-    Fraction production;
+    [SerializeField] Item item;
+    [SerializeField] Fraction consumption;
+    [SerializeField] Fraction production;
 }

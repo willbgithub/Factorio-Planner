@@ -22,7 +22,7 @@ public class Item : Prototype
                 this.craftedIn[i] = craftedIn[i];
             }
         }
-        this.bestRecipe = bestRecipe;
+        this.bestRecipe = Recipe.CreateRecipe(bestRecipe);
     }
     protected Item(Item item) : base(item.prefabName, item.englishName, item.typeName, item.icon)
     {
@@ -34,7 +34,7 @@ public class Item : Prototype
                 craftedIn[i] = item.craftedIn[i];
             }
         }
-        bestRecipe = item.bestRecipe;
+        bestRecipe = Recipe.CreateRecipe(item.bestRecipe);
     }
     protected void Initialize(string prefabName, string englishName, string typeName, Sprite icon, List<Recipe> craftedIn=null, Recipe bestRecipe=null)
     {
@@ -70,13 +70,13 @@ public class Item : Prototype
     }
     public static Item CreateItem(string prefabName, string englishName, string typeName, Sprite icon, List<Recipe> craftedIn = null, Recipe bestRecipe = null)
     {
-        Item item = ScriptableObject.CreateInstance<Item>();
+        Item item = CreateInstance<Item>();
         item.Initialize(prefabName, englishName, typeName, icon, craftedIn, bestRecipe);
         return item;
     }
     public static Item CreateItem(Item item)
     {
-        Item returnItem = ScriptableObject.CreateInstance<Item>();
+        Item returnItem = CreateInstance<Item>();
         returnItem.Initialize(item);
         return returnItem;
     }
@@ -91,7 +91,7 @@ public class Item : Prototype
     }
     public void SetBestRecipe(Recipe bestRecipe)
     {
-        this.bestRecipe = bestRecipe;
+        this.bestRecipe = Recipe.CreateRecipe(bestRecipe);
     }
     // Accessors
     public List<Recipe> GetCraftedIn()
@@ -105,7 +105,7 @@ public class Item : Prototype
     }
     public Recipe GetBestRecipe()
     {
-        return bestRecipe;
+        return Recipe.CreateRecipe(bestRecipe);
     }
     // Member data
     [SerializeField] List<Recipe> craftedIn;

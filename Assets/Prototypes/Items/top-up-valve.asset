@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: top-up-valve
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: top-up-valve
-  englishName: Allows fluid to flow if the output fluid level is less than the threshold,
-    and the input fluid level is higher than the output fluid level.
+  englishName: Top-up valve
   typeName: item
-  icon: {fileID: 0}
+  icon: {fileID: -6896886851689913898, guid: 7cd74ca65d132ff44b421cf699d664ea, type: 3}
   craftedIn: []
   bestRecipe: {fileID: 0}

@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: overflow-valve
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: overflow-valve
-  englishName: Allows fluid to flow if the input fluid level is higher than the threshold
-    and higher than the output fluid level.
+  englishName: Overflow valve
   typeName: item
-  icon: {fileID: 0}
+  icon: {fileID: 2075419314009577515, guid: 51be6efc4b415214186241c1fd31f1ce, type: 3}
   craftedIn: []
   bestRecipe: {fileID: 0}

@@ -24,19 +24,22 @@ class ResourceGenerator
     [MenuItem("Factorio/Debug")]
     static void DebugFunc()
     {
-        CreateItems();
+
     }
+    [MenuItem("Factorio/Create Items")]
     static void CreateItems()
     {
-        CreateFiles(GetPrototypes(ITEM_PATH));
-        CreateFiles(GetPrototypes(FLUID_PATH));
+        CreateFiles(ITEM_PATH);
+        CreateFiles(FLUID_PATH);
     }
+    [MenuItem("Factorio/Create Recipes")]
     static void CreateRecipes()
     {
-        CreateFiles(GetPrototypes(RECIPE_PATH));
+        CreateFiles(RECIPE_PATH);
     }
-    static List<string> GetPrototypes(string file_path)
+    static void CreateFiles(string file_path)
     {
+        // Get prototype strings
         List<string> blocks = GetBlocks(File.ReadAllText(file_path), 2, false);
         List<string> prototypes = new List<string>();
         for (int i = 0; i < blocks.Count; i++)
@@ -48,11 +51,15 @@ class ResourceGenerator
             }
             prototypes.Add(prototype);
         }
-        return prototypes;
-    }
-    static void CreateFiles(List<string> prototypes)
-    {
-        for (int i = 0; i < prototypes.Count; i++)
+        bool itemsReady = true;
+        DirectoryInfo itemDirectory = Directory.CreateDirectory(UNITY_ITEM_PATH);
+        FileInfo[] itemFiles = itemDirectory.GetFiles();
+        if (itemFiles.Length == 0)
+        {
+            itemsReady = false;
+        }
+        // Create objects for all prototypes
+        for (int i = 0; i < 1; i++)
         {
             string prototype = prototypes[i];
             string prefabName = GetStringProperty(prototype, "name");
@@ -81,17 +88,16 @@ class ResourceGenerator
                 AssetDatabase.CreateAsset(obj, UNITY_ITEM_PATH + obj.GetPrefabName() + ".asset");
             }
             // Recipe
-            else if (typeName == "recipe")
+            else if (itemsReady && typeName == "recipe")
             {
-                // if there are no item files, ignore
-                DirectoryInfo itemDirectory = Directory.CreateDirectory(UNITY_ITEM_PATH);
-                FileInfo[] itemFiles = itemDirectory.GetFiles();
-                if (itemFiles.Length == 0)
-                {
-                    continue;
-                }
                 Contribution contribution = GetRecipeContribution(prototype);
+                //Debug.Log("prefabName: " + prefabName);
+                //Debug.Log("englishName: " + englishName);
+                //Debug.Log("typeName: " + typeName);
+                //Debug.Log("icon: " + icon);
+                Debug.Log("contribution: " + contribution);
                 Recipe obj = Recipe.CreateRecipe(prefabName, englishName, typeName, icon, contribution);
+                //Debug.Log("reached this line 3");
                 AssetDatabase.CreateAsset(obj, UNITY_RECIPE_PATH + obj.GetPrefabName() + ".asset");
             }
         }
@@ -100,12 +106,21 @@ class ResourceGenerator
     {
         string cfg = File.ReadAllText(CFG_PATH);
         MatchCollection matches = Regex.Matches(cfg, prefabName + "=(.+)");
-        string bestMatch = matches[0].Value;
+        if (matches.Count == 0)
+        {
+            Debug.LogError("ERROR: No english name found for \"" + prefabName + "\"!");
+            return "NULL ITEM!!!";
+        }
+        string bestMatch = matches[0].Groups[1].Value;
         for (int i = 0; i < matches.Count; i++)
         {
-            string match = matches[i].Value;
-
+            string match = matches[i].Groups[1].Value;
+            if (match.Length < bestMatch.Length)
+            {
+                bestMatch = match;
+            }
         }
+        return bestMatch;
     }
     static Sprite GetIconProperty(string prototype)
     {
@@ -115,41 +130,51 @@ class ResourceGenerator
             Item item = GetItem(GetStringProperty(prototype, "name"));
             return item.GetIcon();
         }
-        iconPath = Regex.Match(iconPath, "/(.+)").Groups[1].Value;
+        iconPath = Regex.Match(iconPath, "/(.+)\\.png").Groups[1].Value;
         return Resources.Load<Sprite>(iconPath);
         
     }
     static Contribution GetRecipeContribution(string prototype)
     {
+        //Debug.Log("GetRecipeContribution called on \"" + prototype + "\"");
         Contribution contribution = new Contribution();
         string ingredientsText = Regex.Match(prototype, "ingredients ?=(.+)", RegexOptions.Singleline).Groups[1].Value;
+        //Debug.Log("ingredientsText: \"" + ingredientsText + "\"");
         List<string> ingredients = GetBlocks(ingredientsText, 2, true);
         for (int i = 0; i < ingredients.Count; i++)
         {
             string ingredient = ingredients[i];
+            //Debug.Log("ingredient: \"" + ingredient + "\"");
             string itemName = GetStringProperty(ingredient, "name");
+            //Debug.Log("itemName: \"" + itemName + "\"");
             Item item = GetItem(itemName);
+            //Debug.Log("item: \"" + item + "\"");
             Fraction rate = GetFractionProperty(ingredient, "amount");
+            //Debug.Log("rate: " + rate);
             ItemRate itemRate = new ItemRate(item, rate, 0);
+            //Debug.Log("itemRate: " + itemRate);
             contribution.Add(itemRate);
         }
         string productsText = Regex.Match(prototype, "results ?=(.+)", RegexOptions.Singleline).Groups[1].Value;
+        //Debug.Log("productsText: \"" + productsText + "\"");
         List<string> products = GetBlocks(productsText, 2, true);
         for (int i = 0; i < products.Count; i++)
         {
             string product = products[i];
+            //Debug.Log("product: \"" + product + "\"");
             string itemName = GetStringProperty(product, "name");
+            //Debug.Log("itemName: \"" + itemName + "\"");
             Item item = GetItem(itemName);
+            //Debug.Log("item: \"" + item + "\"");
             Fraction rate = GetFractionProperty(product, "amount");
+            //Debug.Log("rate: " + rate);
             ItemRate itemRate = new ItemRate(item, 0, rate);
+            //Debug.Log("itemRate: " + itemRate);
             contribution.Add(itemRate);
         }
+        //Debug.Log("Returning contribution:\n" + contribution);
         return contribution;
     }
-    //static ItemValue GetItemValueProperty(string prototype, string propertyName)
-    //{
-
-    //}
     static Item GetItem(string prefabName)
     {
         Item item = AssetDatabase.LoadAssetAtPath<Item>(UNITY_ITEM_PATH + prefabName + ".asset");
@@ -157,11 +182,13 @@ class ResourceGenerator
         {
             Debug.LogError("ERROR: Could not find item \"" + prefabName + "\"");
         }
-        return item;
+        return Item.CreateItem(item);
     }
     static Fraction GetFractionProperty(string prototype, string propertyName)
     {
-        Fraction fraction = new Fraction(Regex.Match(prototype, "\\W" + propertyName + "\\W*?=[^\"]*?\"([^\"]*?)\"").Groups[1].Value);
+        //Debug.Log("GetFractionProperty searching for \"" + propertyName + "\" on prototype \"" + prototype + "\"");
+        //Debug.Log("Regex match: " + Regex.Match(prototype, "\\W" + propertyName + "\\W?=\\W?(\\d+)").Groups[1].Value);
+        Fraction fraction = new Fraction(Regex.Match(prototype, "\\W"+propertyName+"\\W?=\\W?(\\d+)").Groups[1].Value);
         if (fraction.IsUnityNull())
         {
             Debug.LogError("ERROR: Could not extract \"" + propertyName + "\" from \"" + prototype + "\"!");
@@ -173,6 +200,10 @@ class ResourceGenerator
         string str = Regex.Match(prototype, "\\W" + propertyName + "\\W*?=[^\"]*?\"([^\"]*?)\"").Groups[1].Value;
         if (str.Length == 0)
         {
+            if (propertyName == "icon" && GetStringProperty(prototype, "type") == "recipe")
+            {
+                return "";
+            }
             Debug.LogError("ERROR: Could not extract \"" + propertyName + "\" from \"" + prototype + "\"!");
         }
         return str;
@@ -181,7 +212,7 @@ class ResourceGenerator
     {
         string prefabName = GetStringProperty(prototype, "name");
         string typeName = GetStringProperty(prototype, "type");
-        return (prefabName == "parameter-");
+        return (prefabName == "parameter-") || (prefabName.StartsWith("spidertron-rocket-launcher-"));
     }
     static List<string> GetBlocks(string inputText, int targetDepth, bool consecutive)
     {

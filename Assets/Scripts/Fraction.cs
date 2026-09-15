@@ -130,7 +130,12 @@ public class Fraction
     // Explicit conversion from string to Fraction
     public Fraction(string str)
     {
-        if (!str.Contains('/'))
+        if (str.Length == 0)
+        {
+            numerator = 0;
+            denominator = 1;
+        }
+        else if (!str.Contains('/'))
         {
             numerator = int.Parse(str);
             denominator = 1;
@@ -198,6 +203,6 @@ public class Fraction
         return numerator + "/" + denominator;
     }
 
-    int numerator;
-    int denominator;
+    [SerializeField] int numerator;
+    [SerializeField] int denominator;
 }

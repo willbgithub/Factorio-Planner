@@ -25,7 +25,7 @@ public abstract class Prototype : ScriptableObject
     }
     protected static Prototype CreatePrototype(string prefabName, string englishName, string typeName, Sprite icon)
     {
-        Prototype prototype = ScriptableObject.CreateInstance<Prototype>();
+        Prototype prototype = CreateInstance<Prototype>();
         prototype.Initialize(prefabName, englishName, typeName, icon);
         return prototype;
     }
@@ -62,6 +62,10 @@ public abstract class Prototype : ScriptableObject
     public Sprite GetIcon()
     {
         return icon;
+    }
+    public override string ToString()
+    {
+        return englishName;
     }
     // Member data
     [SerializeField] protected string prefabName;

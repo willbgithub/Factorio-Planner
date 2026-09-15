@@ -10,8 +10,8 @@ public class Demand
     // Constructor
     public Demand(ItemValue demandValue, Recipe recipe)
     {
-        this.demandValue = demandValue;
-        this.recipe = recipe;
+        this.demandValue = new ItemValue(demandValue);
+        this.recipe = Recipe.CreateRecipe(recipe);
     }
     public Demand(Demand demand)
     {
