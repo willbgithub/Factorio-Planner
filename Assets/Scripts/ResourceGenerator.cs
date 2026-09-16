@@ -52,12 +52,15 @@ class ResourceGenerator
             prototypes.Add(prototype);
         }
         bool itemsReady = true;
+        bool recipesReady = true;
         DirectoryInfo itemDirectory = Directory.CreateDirectory(UNITY_ITEM_PATH);
         FileInfo[] itemFiles = itemDirectory.GetFiles();
         if (itemFiles.Length == 0)
         {
             itemsReady = false;
         }
+        DirectoryInfo recipeDirectory = Directory.CreateDirectory(UNITY_RECIPE_PATH);
+        FileInfo[] recipeFiles = recipeDirectory.GetFiles();
         // Create objects for all prototypes
         for (int i = 0; i < 1; i++)
         {
@@ -65,6 +68,11 @@ class ResourceGenerator
             string prefabName = GetStringProperty(prototype, "name");
             string englishName = GetEnglishName(prefabName);
             string typeName = GetStringProperty(prototype, "type");
+            if (!itemsReady && typeName == "recipe")
+            {
+                Debug.LogError("Could not generate recipe \"" + prefabName + "\" due to items not being generated yet!");
+                continue;
+            }
             Sprite icon = GetIconProperty(prototype);
             // Item
             if (typeName != "recipe")
@@ -72,12 +80,22 @@ class ResourceGenerator
                 List<Recipe> craftedIn = new List<Recipe>();
                 Recipe bestRecipe = null;
                 // if there are no recipe files, ignore
-                DirectoryInfo recipeDirectory = Directory.CreateDirectory(UNITY_RECIPE_PATH);
-                FileInfo[] recipeFiles = recipeDirectory.GetFiles();
                 for (int j = 0; j < recipeFiles.Length; j++)
                 {
-                    string recipePath = Regex.Match(recipeFiles[j].FullName, "Factorio-Planner/(.+)").Groups[1].Value;
+                    if (recipeFiles[j].FullName.EndsWith(".asset.meta"))
+                    {
+                        continue;
+                    }
+                    string recipePath = Regex.Replace(recipeFiles[j].FullName, @"\\", "/");
+                    recipePath = Regex.Match(recipePath, "Factorio-Planner/(.+)").Groups[1].Value;
                     Recipe recipe = AssetDatabase.LoadAssetAtPath<Recipe>(recipePath);
+                    if (recipe.IsUnityNull())
+                    {
+                        Debug.LogError("ERROR: Invalid recipe path: \"" + recipePath + "\"!");
+                        Debug.Log("Pattern: \"Factorio-Planner/(.+)\"");
+                        Debug.Log("Found: \"" + Regex.Match(recipeFiles[j].FullName, "Factorio-Planner/(.+)").Value + "\"");
+                        Debug.Log("Group 1: \"" + Regex.Match(recipeFiles[j].FullName, "Factorio-Planner/(.+)").Groups[1].Value + "\"");
+                    }
                     if (recipe.GetRate(prefabName) > 0)
                     {
                         craftedIn.Add(recipe);
@@ -91,14 +109,8 @@ class ResourceGenerator
             else if (itemsReady)
             {
                 Contribution contribution = GetRecipeContribution(prototype);
-                //Debug.Log("prefabName: " + prefabName);
-                //Debug.Log("englishName: " + englishName);
-                //Debug.Log("typeName: " + typeName);
-                //Debug.Log("icon: " + icon);
-                //Debug.Log("contribution: " + contribution);
                 Recipe recipe = Recipe.CreateRecipe(prefabName, englishName, typeName, icon, contribution);
                 AssetDatabase.CreateAsset(recipe, UNITY_RECIPE_PATH + recipe.GetPrefabName() + ".asset");
-                Debug.Log("Saved recipe at path. Contribution: " + recipe.GetContribution());
             }
         }
     }
@@ -136,43 +148,29 @@ class ResourceGenerator
     }
     static Contribution GetRecipeContribution(string prototype)
     {
-        //Debug.Log("GetRecipeContribution called on \"" + prototype + "\"");
         Contribution contribution = new Contribution();
         string ingredientsText = Regex.Match(prototype, "ingredients ?=(.+)", RegexOptions.Singleline).Groups[1].Value;
-        //Debug.Log("ingredientsText: \"" + ingredientsText + "\"");
         List<string> ingredients = GetBlocks(ingredientsText, 2, true);
         for (int i = 0; i < ingredients.Count; i++)
         {
             string ingredient = ingredients[i];
-            //Debug.Log("ingredient: \"" + ingredient + "\"");
             string itemName = GetStringProperty(ingredient, "name");
-            //Debug.Log("itemName: \"" + itemName + "\"");
             Item item = GetItem(itemName);
-            //Debug.Log("item: \"" + item + "\"");
             Fraction rate = GetFractionProperty(ingredient, "amount");
-            //Debug.Log("rate: " + rate);
             ItemRate itemRate = new ItemRate(item, rate, 0);
-            //Debug.Log("itemRate: " + itemRate);
             contribution.Add(itemRate);
         }
         string productsText = Regex.Match(prototype, "results ?=(.+)", RegexOptions.Singleline).Groups[1].Value;
-        //Debug.Log("productsText: \"" + productsText + "\"");
         List<string> products = GetBlocks(productsText, 2, true);
         for (int i = 0; i < products.Count; i++)
         {
             string product = products[i];
-            //Debug.Log("product: \"" + product + "\"");
             string itemName = GetStringProperty(product, "name");
-            //Debug.Log("itemName: \"" + itemName + "\"");
             Item item = GetItem(itemName);
-            //Debug.Log("item: \"" + item + "\"");
             Fraction rate = GetFractionProperty(product, "amount");
-            //Debug.Log("rate: " + rate);
             ItemRate itemRate = new ItemRate(item, 0, rate);
-            //Debug.Log("itemRate: " + itemRate);
             contribution.Add(itemRate);
         }
-        //Debug.Log("Returning contribution:\n" + contribution);
         return contribution;
     }
     static Item GetItem(string prefabName)
@@ -182,12 +180,10 @@ class ResourceGenerator
         {
             Debug.LogError("ERROR: Could not find item \"" + prefabName + "\"");
         }
-        return Item.CreateItem(item);
+        return item;
     }
     static Fraction GetFractionProperty(string prototype, string propertyName)
     {
-        //Debug.Log("GetFractionProperty searching for \"" + propertyName + "\" on prototype \"" + prototype + "\"");
-        //Debug.Log("Regex match: " + Regex.Match(prototype, "\\W" + propertyName + "\\W?=\\W?(\\d+)").Groups[1].Value);
         Fraction fraction = new Fraction(Regex.Match(prototype, "\\W"+propertyName+"\\W?=\\W?(\\d+)").Groups[1].Value);
         if (fraction.IsUnityNull())
         {

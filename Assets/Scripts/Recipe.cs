@@ -20,7 +20,7 @@ public class Recipe : Prototype
         this.englishName = englishName;
         this.typeName = typeName;
         this.icon = icon;
-        this.contribution = new Contribution(contribution);
+        this.contribution = contribution;
     }
     public static Recipe CreateRecipe(string prefabName, string englishName, string typeName, Sprite icon, Contribution contribution)
     {

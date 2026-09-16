@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: boiler
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: boiler
+  englishName: Boiler
+  typeName: recipe
+  icon: {fileID: 140454737824146253, guid: 47796adf44157e744a57612c4c9da993, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 7e0f09bf22463594a9210b814baceae3, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: f01eaf2bffd718349be0fe69b5f55b0e, type: 2}
+      consumption:
+        numerator: 4
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 0e7098d1af651d241bae000a52d932b2, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

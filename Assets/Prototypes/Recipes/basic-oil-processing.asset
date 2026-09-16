@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: basic-oil-processing
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: basic-oil-processing
+  englishName: Basic oil processing
+  typeName: recipe
+  icon: {fileID: -3425155370685223034, guid: d3bfad990026b6941b388c4ba4c8c64d, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 441b5beafcbbaff48a88508e0d65c07b, type: 2}
+      consumption:
+        numerator: 100
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: e28bcc3218aa85f47b6083475a57b56b, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 45
+        denominator: 1

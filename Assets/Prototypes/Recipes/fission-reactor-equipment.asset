@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: fission-reactor-equipment
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: fission-reactor-equipment
+  englishName: Portable fission reactor
+  typeName: recipe
+  icon: {fileID: -8530279793162529473, guid: 64f98cd1d03284841ac87093b37e91de, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 5530e1fc6e535914d9339a401a8dad89, type: 2}
+      consumption:
+        numerator: 200
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 6d86fb2581bfe96479ca20fa2f727dd6, type: 2}
+      consumption:
+        numerator: 50
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: cb1769fb764afda459ef0dfd358b1f1b, type: 2}
+      consumption:
+        numerator: 4
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: d40f9f4601421df46a7ab3743da1b612, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

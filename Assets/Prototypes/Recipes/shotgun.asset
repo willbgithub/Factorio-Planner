@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: shotgun
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: shotgun
+  englishName: Shotgun
+  typeName: recipe
+  icon: {fileID: 1275589539659018210, guid: b6cd484b2808c834ab25650ed98c3fca, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: f555dd9cf35016947af6eb7e8b02a372, type: 2}
+      consumption:
+        numerator: 15
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 83129ddf9a5521a48b1cbf457474a8b6, type: 2}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 7c11bc5295f985643bd1e48c68d1f8b3, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: c88363aea75f7854f895fbd51080b0c7, type: 2}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 827f62bfdbff0544f8ed1054805e8525, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: destroyer-capsule
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: destroyer-capsule
+  englishName: Destroyer capsule
+  typeName: recipe
+  icon: {fileID: -4475219241302174832, guid: b417e0c43a764eb409dad0b84247db7e, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: b272695c66369da4f86aa5185faf9378, type: 2}
+      consumption:
+        numerator: 4
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 71355e674d9847a499ed2dffda3ab5b8, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: f578c93c07c8d6d4b833d6a411cf5cfd, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: discharge-defense-equipment
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: discharge-defense-equipment
+  englishName: Discharge defense
+  typeName: recipe
+  icon: {fileID: -4953628955409120481, guid: ab8268f9a805d6d46914ba579f96a76d, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 5530e1fc6e535914d9339a401a8dad89, type: 2}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 237356df4283bb34fa8caf874fec2af3, type: 2}
+      consumption:
+        numerator: 20
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: ef733c962c9da5e4bb2c23000dac2efa, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 4a10b1b345e3e294dae44b70cf2b8f21, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

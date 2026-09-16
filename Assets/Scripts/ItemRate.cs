@@ -13,15 +13,9 @@ public class ItemRate
     // Constructor
     public ItemRate(Item item, Fraction consumption, Fraction production)
     {
-        this.item = Item.CreateItem(item);
+        this.item = item;
         this.consumption = consumption;
         this.production = production;
-    }
-    public ItemRate(ItemRate itemRate)
-    {
-        item = Item.CreateItem(itemRate.item);
-        consumption = itemRate.consumption;
-        production = itemRate.production;
     }
     // Mutators
     public void Add(ItemRate itemRate)
@@ -31,7 +25,7 @@ public class ItemRate
     }
     public void SetItem(Item item)
     {
-        this.item = Item.CreateItem(item);
+        this.item = item;
     }
     public void SetConsumption(Fraction consumption)
     {
@@ -52,7 +46,7 @@ public class ItemRate
     // Accessors
     public Item GetItem()
     {
-        return Item.CreateItem(item);
+        return item;
     }
     public Fraction GetConsumption()
     {
@@ -65,10 +59,7 @@ public class ItemRate
     // Utility
     public ItemRate Multiply(Fraction factor)
     {
-        ItemRate returnValue = new ItemRate(this);
-        returnValue.consumption *= factor;
-        returnValue.production *= factor;
-        return returnValue;
+        return new ItemRate(item, consumption*factor, production*factor);
     }
     public override string ToString()
     {

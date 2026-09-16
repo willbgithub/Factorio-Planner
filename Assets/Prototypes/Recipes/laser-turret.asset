@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: laser-turret
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: laser-turret
+  englishName: Laser turret
+  typeName: recipe
+  icon: {fileID: -6810481714338074571, guid: 6e00183378bcdbd4f804a263b2b05f8b, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 237356df4283bb34fa8caf874fec2af3, type: 2}
+      consumption:
+        numerator: 20
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 208e48441c853ca4491af18e9284d21f, type: 2}
+      consumption:
+        numerator: 20
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: beb17c02ffac9aa4598b030988d2f9b7, type: 2}
+      consumption:
+        numerator: 12
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: ef733c962c9da5e4bb2c23000dac2efa, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

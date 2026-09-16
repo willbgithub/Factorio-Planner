@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: lubricant
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: lubricant
+  englishName: Lubricant
+  typeName: recipe
+  icon: {fileID: -4490398152988645499, guid: c88294fbaea66cc4089325885ad00920, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: e76d7ebc1aafd124d8ec8da086ce54df, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 31cb808177e56e14d9c616e7a739a5ad, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 10
+        denominator: 1

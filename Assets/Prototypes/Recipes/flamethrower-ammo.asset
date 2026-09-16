@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: flamethrower-ammo
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: flamethrower-ammo
+  englishName: Flamethrower ammo
+  typeName: recipe
+  icon: {fileID: 6157962953840908584, guid: 9cd2959544658a647845a2d31164d4a5, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 237356df4283bb34fa8caf874fec2af3, type: 2}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 441b5beafcbbaff48a88508e0d65c07b, type: 2}
+      consumption:
+        numerator: 100
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 6b7f29f46d3c6ba4f9d6f55f9cb197e2, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: iron-gear-wheel
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: iron-gear-wheel
+  englishName: Iron gear wheel
+  typeName: recipe
+  icon: {fileID: -954157439247242381, guid: 7ad2357b6ce0ac449ac93f70d2fc0d87, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: f555dd9cf35016947af6eb7e8b02a372, type: 2}
+      consumption:
+        numerator: 2
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 83129ddf9a5521a48b1cbf457474a8b6, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

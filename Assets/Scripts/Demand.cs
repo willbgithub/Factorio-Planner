@@ -10,31 +10,26 @@ public class Demand
     // Constructor
     public Demand(ItemValue demandValue, Recipe recipe)
     {
-        this.demandValue = new ItemValue(demandValue);
-        this.recipe = Recipe.CreateRecipe(recipe);
-    }
-    public Demand(Demand demand)
-    {
-        demandValue = new ItemValue(demand.demandValue);
-        recipe = Recipe.CreateRecipe(demand.recipe);
+        this.demandValue = demandValue;
+        this.recipe = recipe;
     }
     // Mutators
     public void SetDemandValue(ItemValue demandValue)
     {
-        this.demandValue = new ItemValue(demandValue);
+        this.demandValue = demandValue;
     }
     public void SetRecipe(Recipe recipe)
     {
-        this.recipe = Recipe.CreateRecipe(recipe);
+        this.recipe = recipe;
     }
     // Accessors
     public ItemValue GetDemandValue()
     {
-        return new ItemValue(demandValue);
+        return demandValue;
     }
     public Recipe GetRecipe()
     {
-        return Recipe.CreateRecipe(recipe);
+        return recipe;
     }
     // Member data
     ItemValue demandValue;

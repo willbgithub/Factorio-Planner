@@ -20,7 +20,7 @@ public class Contribution
         itemRates = new List<ItemRate>();
         for (int i = 0; i < itemRates.Count; i++)
         {
-            this.itemRates[i] = new ItemRate(itemRates[i]);
+            this.itemRates[i] = itemRates[i];
         }
     }
     // Mutators
@@ -52,7 +52,7 @@ public class Contribution
         List<ItemRate> returnList = new List<ItemRate>();
         for (int i = 0; i < itemRates.Count; i++)
         {
-            returnList.Add(new ItemRate(itemRates[i]));
+            returnList.Add(itemRates[i]);
         }
         return returnList;
     }
