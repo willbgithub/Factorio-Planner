@@ -15,7 +15,6 @@ public class Contribution
     {
         itemRates = new List<ItemRate>();
     }
-
     public Contribution(List<ItemRate> itemRates)
     {
         itemRates = new List<ItemRate>();
@@ -23,16 +22,6 @@ public class Contribution
         {
             this.itemRates[i] = new ItemRate(itemRates[i]);
         }
-    }
-    public Contribution(Contribution contribution)
-    {
-        Debug.Log("type of item: " + contribution.GetItemRates()[0].GetItem().GetType());
-        itemRates = new List<ItemRate>();
-        for (int i = 0; i < contribution.itemRates.Count; i++)
-        {
-            itemRates.Add(new ItemRate(contribution.itemRates[i]));
-        }
-        Debug.Log("type of item: " + itemRates[0].GetItem().GetType());
     }
     // Mutators
     public void Add(ItemRate itemRate)

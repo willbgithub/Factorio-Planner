@@ -96,10 +96,7 @@ class ResourceGenerator
                 //Debug.Log("typeName: " + typeName);
                 //Debug.Log("icon: " + icon);
                 //Debug.Log("contribution: " + contribution);
-                Debug.Log("type of item: " + contribution.GetItemRates()[0].GetItem().GetType());
                 Recipe recipe = Recipe.CreateRecipe(prefabName, englishName, typeName, icon, contribution);
-                Debug.Log("type of recipe: " + recipe.GetType());
-                Debug.Log("type of item: " + recipe.GetContribution().GetItemRates()[0].GetItem().GetType());
                 AssetDatabase.CreateAsset(recipe, UNITY_RECIPE_PATH + recipe.GetPrefabName() + ".asset");
                 Debug.Log("Saved recipe at path. Contribution: " + recipe.GetContribution());
             }

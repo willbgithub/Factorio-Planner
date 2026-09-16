@@ -19,9 +19,7 @@ public class ItemRate
     }
     public ItemRate(ItemRate itemRate)
     {
-        Debug.Log("type of item: " + itemRate.GetItem().GetType());
         item = Item.CreateItem(itemRate.item);
-        Debug.Log("type of item: " + item.GetType());
         consumption = itemRate.consumption;
         production = itemRate.production;
     }

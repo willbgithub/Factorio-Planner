@@ -24,18 +24,6 @@ public class Item : Prototype
         //}
         //this.bestRecipe = Recipe.CreateRecipe(bestRecipe);
     }
-    protected Item(Item item) : base(item.prefabName, item.englishName, item.typeName, item.icon)
-    {
-        //craftedIn = new List<Recipe>();
-        //if (!item.craftedIn.IsUnityNull())
-        //{
-        //    for (int i = 0; i < item.craftedIn.Count; i++)
-        //    {
-        //        craftedIn[i] = item.craftedIn[i];
-        //    }
-        //}
-        //bestRecipe = Recipe.CreateRecipe(item.bestRecipe);
-    }
     protected void Initialize(string prefabName, string englishName, string typeName, Sprite icon, List<Recipe> craftedIn=null, Recipe bestRecipe=null)
     {
         this.prefabName = prefabName;
@@ -52,37 +40,11 @@ public class Item : Prototype
         //}
         //this.bestRecipe = bestRecipe;
     }
-    protected void Initialize(Item item)
-    {
-        Debug.Log("type of item: " + item.GetType());
-        prefabName = item.prefabName;
-        englishName = item.englishName;
-        typeName = item.typeName;
-        icon = item.icon;
-        //craftedIn = new List<Recipe>();
-        //if (!item.craftedIn.IsUnityNull())
-        //{
-        //    for (int i = 0; i < item.craftedIn.Count; i++)
-        //    {
-        //        craftedIn[i] = item.craftedIn[i];
-        //    }
-        //}
-        //bestRecipe = item.bestRecipe;
-    }
     public static Item CreateItem(string prefabName, string englishName, string typeName, Sprite icon, List<Recipe> craftedIn = null, Recipe bestRecipe = null)
     {
         Item item = CreateInstance<Item>();
         item.Initialize(prefabName, englishName, typeName, icon, craftedIn, bestRecipe);
         return item;
-    }
-    public static Item CreateItem(Item item)
-    {
-        Debug.Log("type of item: " + item.GetType());
-        Item returnItem = CreateInstance<Item>();
-        Debug.Log("type of item: " + returnItem.GetType());
-        returnItem.Initialize(item);
-        Debug.Log("type of item: " + returnItem.GetType());
-        return returnItem;
     }
     // Mutators
     //public void SetCraftedIn(List<Recipe> craftedIn)
