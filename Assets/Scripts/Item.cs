@@ -14,27 +14,27 @@ public class Item : Prototype
     // Constructor
     protected Item(string prefabName, string englishName, string typeName, Sprite icon, List<Recipe> craftedIn=null, Recipe bestRecipe=null) : base(prefabName, englishName, typeName, icon)
     {
-        this.craftedIn = new List<Recipe>();
-        if (!craftedIn.IsUnityNull())
-        {
-            for (int i = 0; i < craftedIn.Count; i++)
-            {
-                this.craftedIn[i] = craftedIn[i];
-            }
-        }
-        this.bestRecipe = Recipe.CreateRecipe(bestRecipe);
+        //this.craftedIn = new List<Recipe>();
+        //if (!craftedIn.IsUnityNull())
+        //{
+        //    for (int i = 0; i < craftedIn.Count; i++)
+        //    {
+        //        this.craftedIn[i] = craftedIn[i];
+        //    }
+        //}
+        //this.bestRecipe = Recipe.CreateRecipe(bestRecipe);
     }
     protected Item(Item item) : base(item.prefabName, item.englishName, item.typeName, item.icon)
     {
-        craftedIn = new List<Recipe>();
-        if (!item.craftedIn.IsUnityNull())
-        {
-            for (int i = 0; i < item.craftedIn.Count; i++)
-            {
-                craftedIn[i] = item.craftedIn[i];
-            }
-        }
-        bestRecipe = Recipe.CreateRecipe(item.bestRecipe);
+        //craftedIn = new List<Recipe>();
+        //if (!item.craftedIn.IsUnityNull())
+        //{
+        //    for (int i = 0; i < item.craftedIn.Count; i++)
+        //    {
+        //        craftedIn[i] = item.craftedIn[i];
+        //    }
+        //}
+        //bestRecipe = Recipe.CreateRecipe(item.bestRecipe);
     }
     protected void Initialize(string prefabName, string englishName, string typeName, Sprite icon, List<Recipe> craftedIn=null, Recipe bestRecipe=null)
     {
@@ -42,31 +42,32 @@ public class Item : Prototype
         this.englishName = englishName;
         this.typeName = typeName;
         this.icon = icon;
-        this.craftedIn = new List<Recipe>();
-        if (!craftedIn.IsUnityNull())
-        {
-            for (int i = 0; i < craftedIn.Count; i++)
-            {
-                this.craftedIn[i] = craftedIn[i];
-            }
-        }
-        this.bestRecipe = bestRecipe;
+        //this.craftedIn = new List<Recipe>();
+        //if (!craftedIn.IsUnityNull())
+        //{
+        //    for (int i = 0; i < craftedIn.Count; i++)
+        //    {
+        //        this.craftedIn[i] = craftedIn[i];
+        //    }
+        //}
+        //this.bestRecipe = bestRecipe;
     }
     protected void Initialize(Item item)
     {
+        Debug.Log("type of item: " + item.GetType());
         prefabName = item.prefabName;
         englishName = item.englishName;
         typeName = item.typeName;
         icon = item.icon;
-        craftedIn = new List<Recipe>();
-        if (!item.craftedIn.IsUnityNull())
-        {
-            for (int i = 0; i < item.craftedIn.Count; i++)
-            {
-                craftedIn[i] = item.craftedIn[i];
-            }
-        }
-        bestRecipe = item.bestRecipe;
+        //craftedIn = new List<Recipe>();
+        //if (!item.craftedIn.IsUnityNull())
+        //{
+        //    for (int i = 0; i < item.craftedIn.Count; i++)
+        //    {
+        //        craftedIn[i] = item.craftedIn[i];
+        //    }
+        //}
+        //bestRecipe = item.bestRecipe;
     }
     public static Item CreateItem(string prefabName, string englishName, string typeName, Sprite icon, List<Recipe> craftedIn = null, Recipe bestRecipe = null)
     {
@@ -76,38 +77,41 @@ public class Item : Prototype
     }
     public static Item CreateItem(Item item)
     {
+        Debug.Log("type of item: " + item.GetType());
         Item returnItem = CreateInstance<Item>();
+        Debug.Log("type of item: " + returnItem.GetType());
         returnItem.Initialize(item);
+        Debug.Log("type of item: " + returnItem.GetType());
         return returnItem;
     }
     // Mutators
-    public void SetCraftedIn(List<Recipe> craftedIn)
-    {
-        this.craftedIn = new List<Recipe>();
-        for (int i = 0; i < craftedIn.Count; i++)
-        {
-            this.craftedIn[i] = craftedIn[i];
-        }
-    }
-    public void SetBestRecipe(Recipe bestRecipe)
-    {
-        this.bestRecipe = Recipe.CreateRecipe(bestRecipe);
-    }
+    //public void SetCraftedIn(List<Recipe> craftedIn)
+    //{
+    //    this.craftedIn = new List<Recipe>();
+    //    for (int i = 0; i < craftedIn.Count; i++)
+    //    {
+    //        this.craftedIn[i] = craftedIn[i];
+    //    }
+    //}
+    //public void SetBestRecipe(Recipe bestRecipe)
+    //{
+    //    this.bestRecipe = Recipe.CreateRecipe(bestRecipe);
+    //}
     // Accessors
-    public List<Recipe> GetCraftedIn()
-    {
-        List<Recipe> returnList = new List<Recipe>();
-        for (int i = 0; i < craftedIn.Count; i++)
-        {
-            returnList[i] = craftedIn[i];
-        }
-        return returnList;
-    }
-    public Recipe GetBestRecipe()
-    {
-        return Recipe.CreateRecipe(bestRecipe);
-    }
+    //public List<Recipe> GetCraftedIn()
+    //{
+    //    List<Recipe> returnList = new List<Recipe>();
+    //    for (int i = 0; i < craftedIn.Count; i++)
+    //    {
+    //        returnList[i] = craftedIn[i];
+    //    }
+    //    return returnList;
+    //}
+    //public Recipe GetBestRecipe()
+    //{
+    //    return Recipe.CreateRecipe(bestRecipe);
+    //}
     // Member data
-    [SerializeField] List<Recipe> craftedIn;
-    [SerializeField] Recipe bestRecipe;
+    //[SerializeField] List<Recipe> craftedIn;
+    //[SerializeField] Recipe bestRecipe;
 }

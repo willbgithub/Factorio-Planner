@@ -84,21 +84,24 @@ class ResourceGenerator
                         bestRecipe = recipe;
                     }
                 }
-                Item obj = Item.CreateItem(prefabName, englishName, typeName, icon, craftedIn, bestRecipe);
-                AssetDatabase.CreateAsset(obj, UNITY_ITEM_PATH + obj.GetPrefabName() + ".asset");
+                Item item = Item.CreateItem(prefabName, englishName, typeName, icon, craftedIn, bestRecipe);
+                AssetDatabase.CreateAsset(item, UNITY_ITEM_PATH + item.GetPrefabName() + ".asset");
             }
             // Recipe
-            else if (itemsReady && typeName == "recipe")
+            else if (itemsReady)
             {
                 Contribution contribution = GetRecipeContribution(prototype);
                 //Debug.Log("prefabName: " + prefabName);
                 //Debug.Log("englishName: " + englishName);
                 //Debug.Log("typeName: " + typeName);
                 //Debug.Log("icon: " + icon);
-                Debug.Log("contribution: " + contribution);
-                Recipe obj = Recipe.CreateRecipe(prefabName, englishName, typeName, icon, contribution);
-                //Debug.Log("reached this line 3");
-                AssetDatabase.CreateAsset(obj, UNITY_RECIPE_PATH + obj.GetPrefabName() + ".asset");
+                //Debug.Log("contribution: " + contribution);
+                Debug.Log("type of item: " + contribution.GetItemRates()[0].GetItem().GetType());
+                Recipe recipe = Recipe.CreateRecipe(prefabName, englishName, typeName, icon, contribution);
+                Debug.Log("type of recipe: " + recipe.GetType());
+                Debug.Log("type of item: " + recipe.GetContribution().GetItemRates()[0].GetItem().GetType());
+                AssetDatabase.CreateAsset(recipe, UNITY_RECIPE_PATH + recipe.GetPrefabName() + ".asset");
+                Debug.Log("Saved recipe at path. Contribution: " + recipe.GetContribution());
             }
         }
     }

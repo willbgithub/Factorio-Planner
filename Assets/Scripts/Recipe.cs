@@ -20,6 +20,7 @@ public class Recipe : Prototype
     }
     protected void Initialize(string prefabName, string englishName, string typeName, Sprite icon, Contribution contribution)
     {
+        Debug.Log("type of item: " + contribution.GetItemRates()[0].GetItem().GetType());
         Debug.Log("Initialize");
         this.prefabName = prefabName;
         this.englishName = englishName;
@@ -27,6 +28,7 @@ public class Recipe : Prototype
         this.icon = icon;
         Debug.Log("Setting contribution");
         this.contribution = new Contribution(contribution);
+        Debug.Log("type of item: " + contribution.GetItemRates()[0].GetItem().GetType());
     }
     protected void Initialize(Recipe recipe)
     {
@@ -38,15 +40,10 @@ public class Recipe : Prototype
     }
     public static Recipe CreateRecipe(string prefabName, string englishName, string typeName, Sprite icon, Contribution contribution)
     {
-        Debug.Log("prefabName: " + prefabName);
-        Debug.Log("englishName: " + englishName);
-        Debug.Log("typeName: " + typeName);
-        Debug.Log("icon: " + icon);
-        Debug.Log("contribution: " + contribution);
+        Debug.Log("type of item: " + contribution.GetItemRates()[0].GetItem().GetType());
         Recipe recipe = CreateInstance<Recipe>();
-        Debug.Log("Created blank recipe");
         recipe.Initialize(prefabName, englishName, typeName, icon, contribution);
-        Debug.Log("Recipe finished initializing. Returning");
+        Debug.Log("type of item: " + contribution.GetItemRates()[0].GetItem().GetType());
         return recipe;
     }
     public static Recipe CreateRecipe(Recipe recipe)
