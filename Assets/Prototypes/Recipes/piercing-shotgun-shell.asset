@@ -27,14 +27,14 @@ MonoBehaviour:
         denominator: 1
     - item: {fileID: 11400000, guid: 7c11bc5295f985643bd1e48c68d1f8b3, type: 2}
       consumption:
-        numerator: 2
+        numerator: 5
         denominator: 1
       production:
         numerator: 0
         denominator: 1
     - item: {fileID: 11400000, guid: 237356df4283bb34fa8caf874fec2af3, type: 2}
       consumption:
-        numerator: 1
+        numerator: 2
         denominator: 1
       production:
         numerator: 0
@@ -44,5 +44,6 @@ MonoBehaviour:
         numerator: 0
         denominator: 1
       production:
-        numerator: 2
+        numerator: 1
         denominator: 1
+    Count: 4

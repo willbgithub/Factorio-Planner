@@ -23,24 +23,22 @@ class ResourceGenerator
 
     static List<string> BLACKLISTED_PREFABS = new List<string>()
     {
-        "parameter-", "red-wire", "green-wire", "copper-wire", "spidertron-rocket-launcher-1", "spidertron-rocket-launcher-2", "spidertron-rocket-launcher-3", "spidertron-rocket-launcher-4", "artillery-targeting-remote", "artillery-wagon-cannon", "blueprint-book", "blueprint", "bottomless-chest", "burner-generator", "coin", "copy-paste-tool", "cut-paste-tool", "deconstruction-planner", "discharge-defense-remote", "electric-energy-interface", "electric-energy-interface-equipment", "empty-module-slot", "heat-interface", "infinity-cargo-wagon", "infinity-chest", "infinity-pipe", "lane-splitter", "linked-belt", "linked-chest", "no-item", "one-way-valve", "overflow-valve", "proxy-container", "science", "selection-tool", "simple-entity-with-force", "simple-entity-with-owner", "spidertron-remote", "tank-cannon", "tank-machine-gun", "top-up-valve", "upgrade-planner", "vehicle-machine-gun",
+        "parameter-", "red-wire", "green-wire", "copper-wire", "spidertron-rocket-launcher-1", "spidertron-rocket-launcher-2", "spidertron-rocket-launcher-3", "spidertron-rocket-launcher-4", "artillery-targeting-remote", "artillery-wagon-cannon", "blueprint-book", "blueprint", "bottomless-chest", "burner-generator", "coin", "copy-paste-tool", "cut-paste-tool", "deconstruction-planner", "discharge-defense-remote", "electric-energy-interface", "electric-energy-interface-equipment", "empty-module-slot", "heat-interface", "infinity-cargo-wagon", "infinity-chest", "infinity-pipe", "lane-splitter", "linked-belt", "linked-chest", "no-item", "one-way-valve", "overflow-valve", "proxy-container", "science", "selection-tool", "simple-entity-with-force", "simple-entity-with-owner", "spidertron-remote", "tank-cannon", "tank-machine-gun", "tank-flamethrower", "top-up-valve", "upgrade-planner", "vehicle-machine-gun",
     };
 
-    [MenuItem("Factorio/Debug")]
+    //[MenuItem("Factorio/Debug")]
     static void DebugFunc()
     {
-        Recipe test = Recipe.CreateRecipe(null, null, null, null, null);
-        Texture2D icon = Resources.Load<Texture2D>("factorioLogo");
-        EditorGUIUtility.SetIconForObject(test, icon);
+
     }
-    [MenuItem("Factorio/Create Items")]
+    //[MenuItem("Factorio/Create Items")]
     static void CreateItems()
     {
         CreateFiles(ITEM_PATH);
         CreateFiles(FLUID_PATH);
         Debug.Log("Generated items.");
     }
-    [MenuItem("Factorio/Create Recipes")]
+    //[MenuItem("Factorio/Create Recipes")]
     static void CreateRecipes()
     {
         // If there are no items, refuse to generate recipes

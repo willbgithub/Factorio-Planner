@@ -17,6 +17,12 @@ public class ItemRate
         this.consumption = consumption;
         this.production = production;
     }
+    public ItemRate(ItemRate itemRate)
+    {
+        item = itemRate.item;
+        consumption = itemRate.consumption;
+        production = itemRate.production;
+    }
     // Mutators
     public void Add(ItemRate itemRate)
     {
@@ -55,6 +61,25 @@ public class ItemRate
     public Fraction GetProduction()
     {
         return production;
+    }
+
+    public ItemValue GetInput()
+    {
+        if (production >= consumption)
+            return new ItemValue(item, 0);
+        return new ItemValue(item, consumption - production);
+    }
+    public ItemValue GetIntermediate()
+    {
+        if (production >= consumption)
+            return new ItemValue(item, consumption);
+        return new ItemValue(item, production);
+    }
+    public ItemValue GetProduct()
+    {
+        if (production <= consumption)
+            return new ItemValue(item, 0);
+        return new ItemValue(item, production - consumption);
     }
     // Utility
     public ItemRate Multiply(Fraction factor)
