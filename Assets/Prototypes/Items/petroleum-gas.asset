@@ -16,3 +16,9 @@ MonoBehaviour:
   englishName: Petroleum gas
   typeName: fluid
   icon: {fileID: -661884046192959410, guid: cdbe486955a3a0a4091f4bee8ad7abd4, type: 3}
+  craftedIn:
+  - {fileID: 11400000, guid: 11f45572faf11fa47bbc735fff88dafe, type: 2}
+  - {fileID: 11400000, guid: 60a2535d738ae9b47a42e894552341d5, type: 2}
+  - {fileID: 11400000, guid: 59633d064cd310a4e939b41e8ef8a316, type: 2}
+  - {fileID: 11400000, guid: 7a30c1e933a2fa844a2915622bc40b3e, type: 2}
+  bestRecipe: {fileID: 11400000, guid: 11f45572faf11fa47bbc735fff88dafe, type: 2}

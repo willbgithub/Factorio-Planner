@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: military-science-pack
   englishName: Military science pack
-  typeName: tool
+  typeName: item
   icon: {fileID: 1540863965221060703, guid: 45daee0a6c266e645aff9cba9b333501, type: 3}
+  craftedIn: []
+  bestRecipe: {fileID: 0}

@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Item
   prefabName: space-science-pack
   englishName: Space science pack
-  typeName: tool
+  typeName: item
   icon: {fileID: 4580324919894565918, guid: ad5597bb3108b6c44b85c1e4f48be0fa, type: 3}
+  craftedIn: []
+  bestRecipe: {fileID: 0}
