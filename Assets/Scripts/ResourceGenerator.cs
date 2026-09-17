@@ -121,10 +121,10 @@ class ResourceGenerator
         
         Debug.Log("Updated " + itemFiles.Length/2 + " items.");
     }
-    static void CreateFiles(string file_path)
+    static void CreateFiles(string filePath)
     {
         // Get prototype strings
-        List<string> blocks = GetBlocks(File.ReadAllText(file_path), 2, false);
+        List<string> blocks = GetBlocks(File.ReadAllText(filePath), 2, false);
         List<string> prototypes = new List<string>();
         for (int i = 0; i < blocks.Count; i++)
         {
