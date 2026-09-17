@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: a302587d2fcc6c6409bd79823824c523
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1922716173960347053
+    second: V-R-135-unload-standup-top_0
+  - first:
+      213: -2021665669869363629
+    second: V-R-135-unload-standup-top_1
+  - first:
+      213: 1876895214266887765
+    second: V-R-135-unload-standup-top_2
+  - first:
+      213: -7996970616220308605
+    second: V-R-135-unload-standup-top_3
+  - first:
+      213: -5749937256995720830
+    second: V-R-135-unload-standup-top_4
+  - first:
+      213: 3340743970924064573
+    second: V-R-135-unload-standup-top_5
+  - first:
+      213: -987424797193256618
+    second: V-R-135-unload-standup-top_6
+  - first:
+      213: -3150416002736185877
+    second: V-R-135-unload-standup-top_7
+  - first:
+      213: -7885850034499873729
+    second: V-R-135-unload-standup-top_8
+  - first:
+      213: 1812323753359481599
+    second: V-R-135-unload-standup-top_9
+  - first:
+      213: 5248722966574562728
+    second: V-R-135-unload-standup-top_10
+  - first:
+      213: -3171449616351231805
+    second: V-R-135-unload-standup-top_11
+  - first:
+      213: -7601137351933476086
+    second: V-R-135-unload-standup-top_12
+  - first:
+      213: -6626771074961544339
+    second: V-R-135-unload-standup-top_13
+  - first:
+      213: -164564215741875016
+    second: V-R-135-unload-standup-top_14
+  - first:
+      213: -425075649048959486
+    second: V-R-135-unload-standup-top_15
+  - first:
+      213: -5419190134688020030
+    second: V-R-135-unload-standup-top_16
+  - first:
+      213: 4277233013187579562
+    second: V-R-135-unload-standup-top_17
+  - first:
+      213: 182314737311763575
+    second: V-R-135-unload-standup-top_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1259
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3520237a3d32155e0800000000000000
+      internalID: -1922716173960347053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1189
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e95d4d8c991f3e0800000000000000
+      internalID: -2021665669869363629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1119
+        width: 65
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e220fc0421c0a10800000000000000
+      internalID: 1876895214266887765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_3
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1049
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ba3f4289d050190800000000000000
+      internalID: -7996970616220308605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 983
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2817cfb778e1430b0800000000000000
+      internalID: -5749937256995720830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_5
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 910
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3fe47801f4bc5e20800000000000000
+      internalID: 3340743970924064573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 843
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65142e8e066fb42f0800000000000000
+      internalID: -987424797193256618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_7
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 775
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed143e46597744d0800000000000000
+      internalID: -3150416002736185877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 708
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3412a5bc25df8290800000000000000
+      internalID: -7885850034499873729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 640
+        width: 62
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa9ef00adaa62910800000000000000
+      internalID: 1812323753359481599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_10
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 572
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad7c1baab537d840800000000000000
+      internalID: 5248722966574562728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 503
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c00652806fbcf3d0800000000000000
+      internalID: -3171449616351231805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_12
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 432
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a034d09d9d5538690800000000000000
+      internalID: -7601137351933476086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 359
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b651541daf804a0800000000000000
+      internalID: -6626771074961544339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 287
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcf6f9b7b957bdf0800000000000000
+      internalID: -164564215741875016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206a4c703f3d91af0800000000000000
+      internalID: -425075649048959486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c98e9bd84b2bc4b0800000000000000
+      internalID: -5419190134688020030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae8e9483c8cb5b30800000000000000
+      internalID: 4277233013187579562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-R-135-unload-standup-top_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c49c2a946b78200800000000000000
+      internalID: 182314737311763575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      V-R-135-unload-standup-top_0: -1922716173960347053
+      V-R-135-unload-standup-top_1: -2021665669869363629
+      V-R-135-unload-standup-top_10: 5248722966574562728
+      V-R-135-unload-standup-top_11: -3171449616351231805
+      V-R-135-unload-standup-top_12: -7601137351933476086
+      V-R-135-unload-standup-top_13: -6626771074961544339
+      V-R-135-unload-standup-top_14: -164564215741875016
+      V-R-135-unload-standup-top_15: -425075649048959486
+      V-R-135-unload-standup-top_16: -5419190134688020030
+      V-R-135-unload-standup-top_17: 4277233013187579562
+      V-R-135-unload-standup-top_18: 182314737311763575
+      V-R-135-unload-standup-top_2: 1876895214266887765
+      V-R-135-unload-standup-top_3: -7996970616220308605
+      V-R-135-unload-standup-top_4: -5749937256995720830
+      V-R-135-unload-standup-top_5: 3340743970924064573
+      V-R-135-unload-standup-top_6: -987424797193256618
+      V-R-135-unload-standup-top_7: -3150416002736185877
+      V-R-135-unload-standup-top_8: -7885850034499873729
+      V-R-135-unload-standup-top_9: 1812323753359481599
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

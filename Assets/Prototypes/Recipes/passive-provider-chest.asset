@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: passive-provider-chest
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: passive-provider-chest
+  englishName: Passive provider chest
+  typeName: recipe
+  icon: {fileID: 7794545356769372551, guid: 421365c34a9493745aaa00cf3e6c6e37, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: ad96f62960dd5ab489c880bfc6792ea2, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 208e48441c853ca4491af18e9284d21f, type: 2}
+      consumption:
+        numerator: 3
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: af28a662f4bf17540902e2b3143b63b6, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: bb121d5a463355a4b8c6f349dfa4bb36, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

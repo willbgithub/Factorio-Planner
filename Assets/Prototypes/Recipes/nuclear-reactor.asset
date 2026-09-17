@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: nuclear-reactor
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: nuclear-reactor
+  englishName: Nuclear reactor
+  typeName: recipe
+  icon: {fileID: 3125051289509003882, guid: a4e6405c9f4380d468433b4ed623e4cd, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: aadd0782023ebce4584b1f81d0c03006, type: 2}
+      consumption:
+        numerator: 500
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 237356df4283bb34fa8caf874fec2af3, type: 2}
+      consumption:
+        numerator: 500
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: af28a662f4bf17540902e2b3143b63b6, type: 2}
+      consumption:
+        numerator: 500
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 7c11bc5295f985643bd1e48c68d1f8b3, type: 2}
+      consumption:
+        numerator: 500
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: df045c9151273094c8e6ed30a63e578f, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

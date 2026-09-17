@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: bc4d5123c5ffd8c43b3ccedf8c092a52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -907481138953192693
+    second: H-B-1-unload-connect-shadow_0
+  - first:
+      213: -1687496448625724283
+    second: H-B-1-unload-connect-shadow_1
+  - first:
+      213: -1865505921760063696
+    second: H-B-1-unload-connect-shadow_2
+  - first:
+      213: -2464465062504085443
+    second: H-B-1-unload-connect-shadow_3
+  - first:
+      213: 299946871569931134
+    second: H-B-1-unload-connect-shadow_4
+  - first:
+      213: -845972809224938886
+    second: H-B-1-unload-connect-shadow_5
+  - first:
+      213: -5153426894175567421
+    second: H-B-1-unload-connect-shadow_6
+  - first:
+      213: 2173967741394360734
+    second: H-B-1-unload-connect-shadow_7
+  - first:
+      213: -3677036648213851286
+    second: H-B-1-unload-connect-shadow_8
+  - first:
+      213: 7711108950577696134
+    second: H-B-1-unload-connect-shadow_9
+  - first:
+      213: 1296495738537433021
+    second: H-B-1-unload-connect-shadow_10
+  - first:
+      213: -690539134791212440
+    second: H-B-1-unload-connect-shadow_11
+  - first:
+      213: -246633047644690108
+    second: H-B-1-unload-connect-shadow_12
+  - first:
+      213: 7403928837742674738
+    second: H-B-1-unload-connect-shadow_13
+  - first:
+      213: -1815850238409688176
+    second: H-B-1-unload-connect-shadow_14
+  - first:
+      213: 3555652770887564395
+    second: H-B-1-unload-connect-shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1769
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bf35056baf763f0800000000000000
+      internalID: -907481138953192693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1651
+        width: 76
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5843ee3bbeec498e0800000000000000
+      internalID: -1687496448625724283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1533
+        width: 72
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f8a1f7f346c16e0800000000000000
+      internalID: -1865505921760063696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1415
+        width: 72
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38451c35167ccdd0800000000000000
+      internalID: -2464465062504085443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1297
+        width: 78
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b5a6b2710a92400800000000000000
+      internalID: 299946871569931134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1179
+        width: 78
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a128056308244f0800000000000000
+      internalID: -845972809224938886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1061
+        width: 69
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c188b43b895b78b0800000000000000
+      internalID: -5153426894175567421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 943
+        width: 71
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9918f2842c7b2e10800000000000000
+      internalID: 2173967741394360734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 825
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63de1576aa88fcc0800000000000000
+      internalID: -3677036648213851286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 707
+        width: 70
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dc48f3cbc530b60800000000000000
+      internalID: 7711108950577696134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 589
+        width: 78
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7d45c41041ef110800000000000000
+      internalID: 1296495738537433021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 471
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862a347c056ba66f0800000000000000
+      internalID: -690539134791212440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 353
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4492445cc88c39cf0800000000000000
+      internalID: -246633047644690108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 235
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2334cebdc0a00c660800000000000000
+      internalID: 7403928837742674738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 117
+        width: 79
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b384634ddccc6e0800000000000000
+      internalID: -1815850238409688176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-B-1-unload-connect-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 79
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cf2614b57385130800000000000000
+      internalID: 3555652770887564395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      H-B-1-unload-connect-shadow_0: -907481138953192693
+      H-B-1-unload-connect-shadow_1: -1687496448625724283
+      H-B-1-unload-connect-shadow_10: 1296495738537433021
+      H-B-1-unload-connect-shadow_11: -690539134791212440
+      H-B-1-unload-connect-shadow_12: -246633047644690108
+      H-B-1-unload-connect-shadow_13: 7403928837742674738
+      H-B-1-unload-connect-shadow_14: -1815850238409688176
+      H-B-1-unload-connect-shadow_15: 3555652770887564395
+      H-B-1-unload-connect-shadow_2: -1865505921760063696
+      H-B-1-unload-connect-shadow_3: -2464465062504085443
+      H-B-1-unload-connect-shadow_4: 299946871569931134
+      H-B-1-unload-connect-shadow_5: -845972809224938886
+      H-B-1-unload-connect-shadow_6: -5153426894175567421
+      H-B-1-unload-connect-shadow_7: 2173967741394360734
+      H-B-1-unload-connect-shadow_8: -3677036648213851286
+      H-B-1-unload-connect-shadow_9: 7711108950577696134
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

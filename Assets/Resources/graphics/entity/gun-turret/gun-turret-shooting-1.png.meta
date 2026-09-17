@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: b9894e009f77e7a47ac998feec91db17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1578825405045275335
+    second: gun-turret-shooting-1_0
+  - first:
+      213: -5962167697073898244
+    second: gun-turret-shooting-1_1
+  - first:
+      213: -7515936812928183823
+    second: gun-turret-shooting-1_2
+  - first:
+      213: -8476464043873124525
+    second: gun-turret-shooting-1_3
+  - first:
+      213: 9034968924227077130
+    second: gun-turret-shooting-1_4
+  - first:
+      213: -5697782815665608651
+    second: gun-turret-shooting-1_5
+  - first:
+      213: -2013935741873639464
+    second: gun-turret-shooting-1_6
+  - first:
+      213: -8426370599835153103
+    second: gun-turret-shooting-1_7
+  - first:
+      213: 1624994523840396848
+    second: gun-turret-shooting-1_8
+  - first:
+      213: -2989530733410954834
+    second: gun-turret-shooting-1_9
+  - first:
+      213: -7889097357366182153
+    second: gun-turret-shooting-1_10
+  - first:
+      213: 240398862138620616
+    second: gun-turret-shooting-1_11
+  - first:
+      213: 4572156435383047351
+    second: gun-turret-shooting-1_12
+  - first:
+      213: 1445344312544440907
+    second: gun-turret-shooting-1_13
+  - first:
+      213: 7945238304398945486
+    second: gun-turret-shooting-1_14
+  - first:
+      213: -8787696940358630268
+    second: gun-turret-shooting-1_15
+  - first:
+      213: 701044926375600489
+    second: gun-turret-shooting-1_16
+  - first:
+      213: 1463726705501880819
+    second: gun-turret-shooting-1_17
+  - first:
+      213: 8943994591242899092
+    second: gun-turret-shooting-1_18
+  - first:
+      213: 971888948357099495
+    second: gun-turret-shooting-1_19
+  - first:
+      213: 4918684077628281698
+    second: gun-turret-shooting-1_20
+  - first:
+      213: -8030084016916467578
+    second: gun-turret-shooting-1_21
+  - first:
+      213: -4128685073044612574
+    second: gun-turret-shooting-1_22
+  - first:
+      213: 5195963426890237835
+    second: gun-turret-shooting-1_23
+  - first:
+      213: 3676004817565889616
+    second: gun-turret-shooting-1_24
+  - first:
+      213: -7041142189769934493
+    second: gun-turret-shooting-1_25
+  - first:
+      213: -8061637846894544912
+    second: gun-turret-shooting-1_26
+  - first:
+      213: 5496086005665505014
+    second: gun-turret-shooting-1_27
+  - first:
+      213: 5768505689701755662
+    second: gun-turret-shooting-1_28
+  - first:
+      213: -295622091059698045
+    second: gun-turret-shooting-1_29
+  - first:
+      213: 5105587053033648006
+    second: gun-turret-shooting-1_30
+  - first:
+      213: -6061095040968952050
+    second: gun-turret-shooting-1_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1821
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caf516475d19e510800000000000000
+      internalID: 1578825405045275335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1950
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcf9948110224da0800000000000000
+      internalID: -5962167697073898244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1821
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1522f2a4702b790800000000000000
+      internalID: -7515936812928183823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1950
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f3291ccdc8d5a80800000000000000
+      internalID: -8476464043873124525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1691
+        width: 102
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a048f350e58a26d70800000000000000
+      internalID: 9034968924227077130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1691
+        width: 102
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5382de0a7b86de0b0800000000000000
+      internalID: -5697782815665608651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1561
+        width: 105
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfa821fc101d04e0800000000000000
+      internalID: -2013935741873639464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_7
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1561
+        width: 105
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dc70395948f0b80800000000000000
+      internalID: -8426370599835153103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1430
+        width: 110
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e367be8e32d8610800000000000000
+      internalID: 1624994523840396848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1430
+        width: 109
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea15ded13ad0386d0800000000000000
+      internalID: -2989530733410954834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1301
+        width: 112
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe37bf60cb448290800000000000000
+      internalID: -7889097357366182153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 1301
+        width: 112
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca3e2ecd71165300800000000000000
+      internalID: 240398862138620616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1170
+        width: 114
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4d58cbd00937f30800000000000000
+      internalID: 4572156435383047351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1170
+        width: 114
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42b7579ef4ee0410800000000000000
+      internalID: 1445344312544440907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1041
+        width: 116
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecca6856428234e60800000000000000
+      internalID: 7945238304398945486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_15
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1041
+        width: 115
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48403242134db0680800000000000000
+      internalID: -8787696940358630268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 910
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961253075ac9ab900800000000000000
+      internalID: 701044926375600489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 910
+        width: 116
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f141b9fea3305410800000000000000
+      internalID: 1463726705501880819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 781
+        width: 120
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e4c0481b37f1c70800000000000000
+      internalID: 8943994591242899092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_19
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 781
+        width: 119
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efe3f769d7dc7d00800000000000000
+      internalID: 971888948357099495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 650
+        width: 122
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2635769bb1da24440800000000000000
+      internalID: 4918684077628281698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 650
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680f62fb1296f8090800000000000000
+      internalID: -8030084016916467578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 520
+        width: 122
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ad7bffcc6f3b6c0800000000000000
+      internalID: -4128685073044612574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_23
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 520
+        width: 122
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87c6b51535cb1840800000000000000
+      internalID: 5195963426890237835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 391
+        width: 125
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054b3afb7eac30330800000000000000
+      internalID: 3676004817565889616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_25
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 391
+        width: 125
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3693fb5eb76d84e90800000000000000
+      internalID: -7041142189769934493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_26
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 261
+        width: 127
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f77104371f4f1090800000000000000
+      internalID: -8061637846894544912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_27
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 261
+        width: 127
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe10b64a15064c40800000000000000
+      internalID: 5496086005665505014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 131
+        width: 129
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b2e77ac59dd0050800000000000000
+      internalID: 5768505689701755662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_29
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 131
+        width: 128
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386e0a2464db5ebf0800000000000000
+      internalID: -295622091059698045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 129
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f67e9cf50bad640800000000000000
+      internalID: 5105587053033648006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-shooting-1_31
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 128
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07f92d5c2aa2eba0800000000000000
+      internalID: -6061095040968952050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gun-turret-shooting-1_0: 1578825405045275335
+      gun-turret-shooting-1_1: -5962167697073898244
+      gun-turret-shooting-1_10: -7889097357366182153
+      gun-turret-shooting-1_11: 240398862138620616
+      gun-turret-shooting-1_12: 4572156435383047351
+      gun-turret-shooting-1_13: 1445344312544440907
+      gun-turret-shooting-1_14: 7945238304398945486
+      gun-turret-shooting-1_15: -8787696940358630268
+      gun-turret-shooting-1_16: 701044926375600489
+      gun-turret-shooting-1_17: 1463726705501880819
+      gun-turret-shooting-1_18: 8943994591242899092
+      gun-turret-shooting-1_19: 971888948357099495
+      gun-turret-shooting-1_2: -7515936812928183823
+      gun-turret-shooting-1_20: 4918684077628281698
+      gun-turret-shooting-1_21: -8030084016916467578
+      gun-turret-shooting-1_22: -4128685073044612574
+      gun-turret-shooting-1_23: 5195963426890237835
+      gun-turret-shooting-1_24: 3676004817565889616
+      gun-turret-shooting-1_25: -7041142189769934493
+      gun-turret-shooting-1_26: -8061637846894544912
+      gun-turret-shooting-1_27: 5496086005665505014
+      gun-turret-shooting-1_28: 5768505689701755662
+      gun-turret-shooting-1_29: -295622091059698045
+      gun-turret-shooting-1_3: -8476464043873124525
+      gun-turret-shooting-1_30: 5105587053033648006
+      gun-turret-shooting-1_31: -6061095040968952050
+      gun-turret-shooting-1_4: 9034968924227077130
+      gun-turret-shooting-1_5: -5697782815665608651
+      gun-turret-shooting-1_6: -2013935741873639464
+      gun-turret-shooting-1_7: -8426370599835153103
+      gun-turret-shooting-1_8: 1624994523840396848
+      gun-turret-shooting-1_9: -2989530733410954834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

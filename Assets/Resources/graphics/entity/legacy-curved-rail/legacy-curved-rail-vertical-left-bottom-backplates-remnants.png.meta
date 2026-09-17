@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: 4b805bb03a4bc4f4798d8acaafa9fd3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1211870137720394422
+    second: legacy-curved-rail-vertical-left-bottom-backplates-remnants_0
+  - first:
+      213: -8216502189050134200
+    second: legacy-curved-rail-vertical-left-bottom-backplates-remnants_1
+  - first:
+      213: -7564372959667095100
+    second: legacy-curved-rail-vertical-left-bottom-backplates-remnants_2
+  - first:
+      213: -8785840907436100898
+    second: legacy-curved-rail-vertical-left-bottom-backplates-remnants_3
+  - first:
+      213: -7517373986108357829
+    second: legacy-curved-rail-vertical-left-bottom-backplates-remnants_4
+  - first:
+      213: 682536679273621036
+    second: legacy-curved-rail-vertical-left-bottom-backplates-remnants_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: legacy-curved-rail-vertical-left-bottom-backplates-remnants_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 384
+        width: 89
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b25ab0387d61d010800000000000000
+      internalID: 1211870137720394422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-vertical-left-bottom-backplates-remnants_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 318
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841827dbace19fd80800000000000000
+      internalID: -8216502189050134200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-vertical-left-bottom-backplates-remnants_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 338
+        width: 99
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9f876fed2f50790800000000000000
+      internalID: -7564372959667095100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-vertical-left-bottom-backplates-remnants_3
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 142
+        width: 25
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2fc2b7e3c621680800000000000000
+      internalID: -8785840907436100898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-vertical-left-bottom-backplates-remnants_4
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 46
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33cf3a303ceca790800000000000000
+      internalID: -7517373986108357829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-vertical-left-bottom-backplates-remnants_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 14
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26674a5e7bd87900800000000000000
+      internalID: 682536679273621036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      legacy-curved-rail-vertical-left-bottom-backplates-remnants_0: 1211870137720394422
+      legacy-curved-rail-vertical-left-bottom-backplates-remnants_1: -8216502189050134200
+      legacy-curved-rail-vertical-left-bottom-backplates-remnants_2: -7564372959667095100
+      legacy-curved-rail-vertical-left-bottom-backplates-remnants_3: -8785840907436100898
+      legacy-curved-rail-vertical-left-bottom-backplates-remnants_4: -7517373986108357829
+      legacy-curved-rail-vertical-left-bottom-backplates-remnants_5: 682536679273621036
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

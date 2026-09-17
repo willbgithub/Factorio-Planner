@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: express-transport-belt
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: express-transport-belt
+  englishName: Express transport belt
+  typeName: recipe
+  icon: {fileID: -5272925403215619215, guid: f0afb03af1901644ea7fd6c3377d43e3, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 83129ddf9a5521a48b1cbf457474a8b6, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 0a0309739b09f594a84a1d853eb86107, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 31cb808177e56e14d9c616e7a739a5ad, type: 2}
+      consumption:
+        numerator: 20
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: db9b453edf52e49439791f53ee4586af, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

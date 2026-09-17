@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 7b78410317ae0244f91f651e563e8a11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -553949754621297913
+    second: chemical-plant-liquid-south_0
+  - first:
+      213: 1918787959056602026
+    second: chemical-plant-liquid-south_1
+  - first:
+      213: 4139897996482908480
+    second: chemical-plant-liquid-south_2
+  - first:
+      213: -8179349128156848968
+    second: chemical-plant-liquid-south_3
+  - first:
+      213: -2808135647660226509
+    second: chemical-plant-liquid-south_4
+  - first:
+      213: -4312253940355964094
+    second: chemical-plant-liquid-south_5
+  - first:
+      213: 8079829278891739405
+    second: chemical-plant-liquid-south_6
+  - first:
+      213: -2707763750682702297
+    second: chemical-plant-liquid-south_7
+  - first:
+      213: -7123121723662370994
+    second: chemical-plant-liquid-south_8
+  - first:
+      213: 117017895011674424
+    second: chemical-plant-liquid-south_9
+  - first:
+      213: -3620835698914208559
+    second: chemical-plant-liquid-south_10
+  - first:
+      213: 8909293386814501889
+    second: chemical-plant-liquid-south_11
+  - first:
+      213: -4393797623932930885
+    second: chemical-plant-liquid-south_12
+  - first:
+      213: 6135298629927828682
+    second: chemical-plant-liquid-south_13
+  - first:
+      213: 6356753018176311357
+    second: chemical-plant-liquid-south_14
+  - first:
+      213: -8276639869916356795
+    second: chemical-plant-liquid-south_15
+  - first:
+      213: 5701847489720835287
+    second: chemical-plant-liquid-south_16
+  - first:
+      213: 6159080835092667058
+    second: chemical-plant-liquid-south_17
+  - first:
+      213: 2117079688797933545
+    second: chemical-plant-liquid-south_18
+  - first:
+      213: 3292500582057397807
+    second: chemical-plant-liquid-south_19
+  - first:
+      213: 4677871358615197685
+    second: chemical-plant-liquid-south_20
+  - first:
+      213: 6460387793361459077
+    second: chemical-plant-liquid-south_21
+  - first:
+      213: -8613090138576999128
+    second: chemical-plant-liquid-south_22
+  - first:
+      213: 4562818843267334120
+    second: chemical-plant-liquid-south_23
+  - first:
+      213: -2845655131173067582
+    second: chemical-plant-liquid-south_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 125
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf16412a9ff48f0800000000000000
+      internalID: -553949754621297913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 83
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa39dda8b77e0aa10800000000000000
+      internalID: 1918787959056602026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 125
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04117be2b4fd37930800000000000000
+      internalID: 4139897996482908480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 83
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc5f42dd4d1d7e80800000000000000
+      internalID: -8179349128156848968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 125
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338c910b18f7709d0800000000000000
+      internalID: -2808135647660226509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 83
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243edc773ebc724c0800000000000000
+      internalID: -4312253940355964094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 125
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09842e9be1512070800000000000000
+      internalID: 8079829278891739405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 83
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ec0e017371c6ad0800000000000000
+      internalID: -2707763750682702297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_8
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 125
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e477c314886952d90800000000000000
+      internalID: -7123121723662370994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_9
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 83
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839e880d72bbf9100800000000000000
+      internalID: 117017895011674424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_10
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 125
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d45a28ad1530cdc0800000000000000
+      internalID: -3620835698914208559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_11
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 83
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104b0d0c12b24ab70800000000000000
+      internalID: 8909293386814501889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_12
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 41
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4b58227581603c0800000000000000
+      internalID: -4393797623932930885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 41
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accf9c30995f42550800000000000000
+      internalID: 6135298629927828682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 41
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d309a45c039b73850800000000000000
+      internalID: 6356753018176311357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 41
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54fdccbc3e7732d80800000000000000
+      internalID: -8276639869916356795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_16
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 41
+        width: 65
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dc534c0518012f40800000000000000
+      internalID: 5701847489720835287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_17
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 41
+        width: 64
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba5d962363797550800000000000000
+      internalID: 6159080835092667058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_18
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 77
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efcefb92c0616d10800000000000000
+      internalID: 2117079688797933545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 65
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e4c40c5df41bd20800000000000000
+      internalID: 3292500582057397807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_20
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f79b3b57332be040800000000000000
+      internalID: 4677871358615197685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_21
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587549e2878e7a950800000000000000
+      internalID: 6460387793361459077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_22
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 65
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82da2bf2728287880800000000000000
+      internalID: -8613090138576999128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 65
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef78672093625f30800000000000000
+      internalID: 4562818843267334120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-liquid-south_24
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 0
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c469213cb33288d0800000000000000
+      internalID: -2845655131173067582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chemical-plant-liquid-south_0: -553949754621297913
+      chemical-plant-liquid-south_1: 1918787959056602026
+      chemical-plant-liquid-south_10: -3620835698914208559
+      chemical-plant-liquid-south_11: 8909293386814501889
+      chemical-plant-liquid-south_12: -4393797623932930885
+      chemical-plant-liquid-south_13: 6135298629927828682
+      chemical-plant-liquid-south_14: 6356753018176311357
+      chemical-plant-liquid-south_15: -8276639869916356795
+      chemical-plant-liquid-south_16: 5701847489720835287
+      chemical-plant-liquid-south_17: 6159080835092667058
+      chemical-plant-liquid-south_18: 2117079688797933545
+      chemical-plant-liquid-south_19: 3292500582057397807
+      chemical-plant-liquid-south_2: 4139897996482908480
+      chemical-plant-liquid-south_20: 4677871358615197685
+      chemical-plant-liquid-south_21: 6460387793361459077
+      chemical-plant-liquid-south_22: -8613090138576999128
+      chemical-plant-liquid-south_23: 4562818843267334120
+      chemical-plant-liquid-south_24: -2845655131173067582
+      chemical-plant-liquid-south_3: -8179349128156848968
+      chemical-plant-liquid-south_4: -2808135647660226509
+      chemical-plant-liquid-south_5: -4312253940355964094
+      chemical-plant-liquid-south_6: 8079829278891739405
+      chemical-plant-liquid-south_7: -2707763750682702297
+      chemical-plant-liquid-south_8: -7123121723662370994
+      chemical-plant-liquid-south_9: 117017895011674424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

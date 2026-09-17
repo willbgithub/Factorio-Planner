@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: fa195d194c9860546acede0538b7591d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1661069478003487562
+    second: fast-splitter-north_0
+  - first:
+      213: -3348339668693384113
+    second: fast-splitter-north_1
+  - first:
+      213: 147546889926814431
+    second: fast-splitter-north_2
+  - first:
+      213: 6624961933780468303
+    second: fast-splitter-north_3
+  - first:
+      213: 5441405248797192448
+    second: fast-splitter-north_4
+  - first:
+      213: 2867485184108752409
+    second: fast-splitter-north_5
+  - first:
+      213: -8527209700124242321
+    second: fast-splitter-north_6
+  - first:
+      213: -129558920394441758
+    second: fast-splitter-north_7
+  - first:
+      213: -1322478779066731212
+    second: fast-splitter-north_8
+  - first:
+      213: -1282304112036259988
+    second: fast-splitter-north_9
+  - first:
+      213: 7744730758560893384
+    second: fast-splitter-north_10
+  - first:
+      213: -4956428663385490366
+    second: fast-splitter-north_11
+  - first:
+      213: 2425546528813456825
+    second: fast-splitter-north_12
+  - first:
+      213: -2568644697949384427
+    second: fast-splitter-north_13
+  - first:
+      213: -7352794403699344066
+    second: fast-splitter-north_14
+  - first:
+      213: 9174626927291250242
+    second: fast-splitter-north_15
+  - first:
+      213: 7062977637190887936
+    second: fast-splitter-north_16
+  - first:
+      213: 5668632988759792497
+    second: fast-splitter-north_17
+  - first:
+      213: -7819936224734422523
+    second: fast-splitter-north_18
+  - first:
+      213: 7762302777240173136
+    second: fast-splitter-north_19
+  - first:
+      213: 2352048447921789960
+    second: fast-splitter-north_20
+  - first:
+      213: 7099897923847518406
+    second: fast-splitter-north_21
+  - first:
+      213: 757261018231754572
+    second: fast-splitter-north_22
+  - first:
+      213: -226001174991923485
+    second: fast-splitter-north_23
+  - first:
+      213: 8692722906176962796
+    second: fast-splitter-north_24
+  - first:
+      213: -8962085822136616610
+    second: fast-splitter-north_25
+  - first:
+      213: -4060399222333867856
+    second: fast-splitter-north_26
+  - first:
+      213: -6939367154359989653
+    second: fast-splitter-north_27
+  - first:
+      213: 6483668397144103721
+    second: fast-splitter-north_28
+  - first:
+      213: -9099381704955093691
+    second: fast-splitter-north_29
+  - first:
+      213: 3400844479714722755
+    second: fast-splitter-north_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fast-splitter-north_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4334a7b3ed4d0710800000000000000
+      internalID: 1661069478003487562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f448e24cfce4881d0800000000000000
+      internalID: -3348339668693384113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda2dc95d113c0200800000000000000
+      internalID: 147546889926814431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42487937c790fb50800000000000000
+      internalID: 6624961933780468303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001b0857e31c38b40800000000000000
+      internalID: 5441405248797192448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e6f75159a5bc720800000000000000
+      internalID: 2867485184108752409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e44d2f4f349a980800000000000000
+      internalID: -8527209700124242321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_7
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebf76c29d6b33ef0800000000000000
+      internalID: -129558920394441758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4353cb6ae8c95ade0800000000000000
+      internalID: -1322478779066731212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 139
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c675e0c3437543ee0800000000000000
+      internalID: -1282304112036259988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 139
+        width: 161
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c94011779fca7b60800000000000000
+      internalID: 7744730758560893384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 139
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cf754146a373bb0800000000000000
+      internalID: -4956428663385490366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 139
+        width: 162
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd9b1487b549a120800000000000000
+      internalID: 2425546528813456825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 140
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5115988a1475a5cd0800000000000000
+      internalID: -2568644697949384427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_14
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 140
+        width: 162
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d35055270a5f990800000000000000
+      internalID: -7352794403699344066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_15
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 140
+        width: 160
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246bde3c492d25f70800000000000000
+      internalID: 9174626927291250242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a6a416dbcb40260800000000000000
+      internalID: 7062977637190887936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 70
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b96196ba70bae40800000000000000
+      internalID: 5668632988759792497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_18
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 69
+        width: 322
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ade767f610a7390800000000000000
+      internalID: -7819936224734422523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 69
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05abd6cdf3d39bb60800000000000000
+      internalID: 7762302777240173136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 69
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c13e80a9724a020800000000000000
+      internalID: 2352048447921789960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_21
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 69
+        width: 162
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8f67c7b87e78260800000000000000
+      internalID: 7099897923847518406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 69
+        width: 160
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f44f942e4528a00800000000000000
+      internalID: 757261018231754572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e619c5f0251ddcf0800000000000000
+      internalID: -226001174991923485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce044995d61c2a870800000000000000
+      internalID: 8692722906176962796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e597bfc8d6640a380800000000000000
+      internalID: -8962085822136616610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_26
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 162
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b874829b6096a7c0800000000000000
+      internalID: -4060399222333867856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_27
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 162
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a0c56e65a62bf90800000000000000
+      internalID: -6939367154359989653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_28
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 162
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b53352e0e9af950800000000000000
+      internalID: 6483668397144103721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d9678cc8088b180800000000000000
+      internalID: -9099381704955093691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-splitter-north_30
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 0
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c38ebd290a323f20800000000000000
+      internalID: 3400844479714722755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fast-splitter-north_0: 1661069478003487562
+      fast-splitter-north_1: -3348339668693384113
+      fast-splitter-north_10: 7744730758560893384
+      fast-splitter-north_11: -4956428663385490366
+      fast-splitter-north_12: 2425546528813456825
+      fast-splitter-north_13: -2568644697949384427
+      fast-splitter-north_14: -7352794403699344066
+      fast-splitter-north_15: 9174626927291250242
+      fast-splitter-north_16: 7062977637190887936
+      fast-splitter-north_17: 5668632988759792497
+      fast-splitter-north_18: -7819936224734422523
+      fast-splitter-north_19: 7762302777240173136
+      fast-splitter-north_2: 147546889926814431
+      fast-splitter-north_20: 2352048447921789960
+      fast-splitter-north_21: 7099897923847518406
+      fast-splitter-north_22: 757261018231754572
+      fast-splitter-north_23: -226001174991923485
+      fast-splitter-north_24: 8692722906176962796
+      fast-splitter-north_25: -8962085822136616610
+      fast-splitter-north_26: -4060399222333867856
+      fast-splitter-north_27: -6939367154359989653
+      fast-splitter-north_28: 6483668397144103721
+      fast-splitter-north_29: -9099381704955093691
+      fast-splitter-north_3: 6624961933780468303
+      fast-splitter-north_30: 3400844479714722755
+      fast-splitter-north_4: 5441405248797192448
+      fast-splitter-north_5: 2867485184108752409
+      fast-splitter-north_6: -8527209700124242321
+      fast-splitter-north_7: -129558920394441758
+      fast-splitter-north_8: -1322478779066731212
+      fast-splitter-north_9: -1282304112036259988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

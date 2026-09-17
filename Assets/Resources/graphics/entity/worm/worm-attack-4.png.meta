@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: e9fb97e32836df24fa6a9770423a4ff0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7599815567001434329
+    second: worm-attack-4_0
+  - first:
+      213: -6893635929057595687
+    second: worm-attack-4_1
+  - first:
+      213: 6632569130276427
+    second: worm-attack-4_2
+  - first:
+      213: -3956165114352937348
+    second: worm-attack-4_3
+  - first:
+      213: 7503983936900003041
+    second: worm-attack-4_4
+  - first:
+      213: 1988691632278104684
+    second: worm-attack-4_5
+  - first:
+      213: -7766808422757931441
+    second: worm-attack-4_6
+  - first:
+      213: 619648207226872534
+    second: worm-attack-4_7
+  - first:
+      213: -7510209709240540282
+    second: worm-attack-4_8
+  - first:
+      213: -4054502584758826862
+    second: worm-attack-4_9
+  - first:
+      213: -3695260896519316356
+    second: worm-attack-4_10
+  - first:
+      213: -1710957744367104854
+    second: worm-attack-4_11
+  - first:
+      213: -2689609974057841559
+    second: worm-attack-4_12
+  - first:
+      213: -2969416340477580427
+    second: worm-attack-4_13
+  - first:
+      213: -2698763692971504394
+    second: worm-attack-4_14
+  - first:
+      213: -2026122199074323780
+    second: worm-attack-4_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: worm-attack-4_0
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1413
+        width: 311
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8ba9d1ef7f77960800000000000000
+      internalID: 7599815567001434329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_1
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1413
+        width: 309
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dee6a585a2e450a0800000000000000
+      internalID: -6893635929057595687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_2
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1413
+        width: 179
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4655f65940971000800000000000000
+      internalID: 6632569130276427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_3
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1413
+        width: 179
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7653360ac0e819c0800000000000000
+      internalID: -3956165114352937348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_4
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 973
+        width: 182
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4792ff1a1832860800000000000000
+      internalID: 7503983936900003041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_5
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 973
+        width: 189
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a6ab5c080499b10800000000000000
+      internalID: 1988691632278104684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_6
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 973
+        width: 184
+        height: 275
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46600bc3e0c63490800000000000000
+      internalID: -7766808422757931441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_7
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 973
+        width: 222
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2277de2ce699800800000000000000
+      internalID: 619648207226872534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_8
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 533
+        width: 290
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683270c6f0066c790800000000000000
+      internalID: -7510209709240540282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_9
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 523
+        width: 306
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2980c8e71638bb7c0800000000000000
+      internalID: -4054502584758826862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_10
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 510
+        width: 306
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c139efacbc7bcc0800000000000000
+      internalID: -3695260896519316356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_11
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 509
+        width: 305
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac8b4d1ff47148e0800000000000000
+      internalID: -1710957744367104854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 93
+        width: 179
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c4fef8af59caad0800000000000000
+      internalID: -2689609974057841559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_13
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 93
+        width: 179
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57be79b22938ac6d0800000000000000
+      internalID: -2969416340477580427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_14
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 93
+        width: 181
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc46bb48b01c8ad0800000000000000
+      internalID: -2698763692971504394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: worm-attack-4_15
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 93
+        width: 189
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb244a44894c1e3e0800000000000000
+      internalID: -2026122199074323780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      worm-attack-4_0: 7599815567001434329
+      worm-attack-4_1: -6893635929057595687
+      worm-attack-4_10: -3695260896519316356
+      worm-attack-4_11: -1710957744367104854
+      worm-attack-4_12: -2689609974057841559
+      worm-attack-4_13: -2969416340477580427
+      worm-attack-4_14: -2698763692971504394
+      worm-attack-4_15: -2026122199074323780
+      worm-attack-4_2: 6632569130276427
+      worm-attack-4_3: -3956165114352937348
+      worm-attack-4_4: 7503983936900003041
+      worm-attack-4_5: 1988691632278104684
+      worm-attack-4_6: -7766808422757931441
+      worm-attack-4_7: 619648207226872534
+      worm-attack-4_8: -7510209709240540282
+      worm-attack-4_9: -4054502584758826862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

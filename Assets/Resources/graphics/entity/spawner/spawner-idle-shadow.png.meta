@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: cf72928585403534394575424dcfa6a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4674793638669060130
+    second: spawner-idle-shadow_0
+  - first:
+      213: -4124451217250164739
+    second: spawner-idle-shadow_1
+  - first:
+      213: -6579431136032930631
+    second: spawner-idle-shadow_2
+  - first:
+      213: 571851123765631118
+    second: spawner-idle-shadow_3
+  - first:
+      213: -4471212410025500457
+    second: spawner-idle-shadow_4
+  - first:
+      213: -3545483920155388609
+    second: spawner-idle-shadow_5
+  - first:
+      213: -5635603651037710198
+    second: spawner-idle-shadow_6
+  - first:
+      213: 668507559136344788
+    second: spawner-idle-shadow_7
+  - first:
+      213: 6973372171842795700
+    second: spawner-idle-shadow_8
+  - first:
+      213: -2630636631194325286
+    second: spawner-idle-shadow_9
+  - first:
+      213: 5117774533998798248
+    second: spawner-idle-shadow_10
+  - first:
+      213: -6281312974474421190
+    second: spawner-idle-shadow_11
+  - first:
+      213: 7027663200903866330
+    second: spawner-idle-shadow_12
+  - first:
+      213: 2241626751800225688
+    second: spawner-idle-shadow_13
+  - first:
+      213: 5117598882205695868
+    second: spawner-idle-shadow_14
+  - first:
+      213: 9114944788944521936
+    second: spawner-idle-shadow_15
+  - first:
+      213: -1260670768983768807
+    second: spawner-idle-shadow_16
+  - first:
+      213: 1180475473142300637
+    second: spawner-idle-shadow_17
+  - first:
+      213: -2145451285814188248
+    second: spawner-idle-shadow_18
+  - first:
+      213: -1293717549879133859
+    second: spawner-idle-shadow_19
+  - first:
+      213: 4999420220876964508
+    second: spawner-idle-shadow_20
+  - first:
+      213: -6233262443545546844
+    second: spawner-idle-shadow_21
+  - first:
+      213: 9112786492740751615
+    second: spawner-idle-shadow_22
+  - first:
+      213: 5631472287594436013
+    second: spawner-idle-shadow_23
+  - first:
+      213: -4022756523917122504
+    second: spawner-idle-shadow_24
+  - first:
+      213: 2241096738914503185
+    second: spawner-idle-shadow_25
+  - first:
+      213: 4687171278109250406
+    second: spawner-idle-shadow_26
+  - first:
+      213: -802915860126476603
+    second: spawner-idle-shadow_27
+  - first:
+      213: 3193337708087905506
+    second: spawner-idle-shadow_28
+  - first:
+      213: 1620556467856448749
+    second: spawner-idle-shadow_29
+  - first:
+      213: -2367611424301012805
+    second: spawner-idle-shadow_30
+  - first:
+      213: 815031382792740351
+    second: spawner-idle-shadow_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spawner-idle-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2542
+        width: 474
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7ffd824fbcf1fb0800000000000000
+      internalID: -4674793638669060130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2542
+        width: 475
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff506e587103c6c0800000000000000
+      internalID: -4124451217250164739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 2543
+        width: 475
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4cc98bd3a21b4a0800000000000000
+      internalID: -6579431136032930631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 2543
+        width: 475
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e885578319f9fe700800000000000000
+      internalID: 571851123765631118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2185
+        width: 474
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0ac19a00013f1c0800000000000000
+      internalID: -4471212410025500457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 2185
+        width: 475
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35574ec829ebcec0800000000000000
+      internalID: -3545483920155388609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 2185
+        width: 475
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88b00d86505ac1b0800000000000000
+      internalID: -5635603651037710198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 2185
+        width: 475
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da3cf74514074900800000000000000
+      internalID: 668507559136344788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1813
+        width: 416
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8b8453b0566c060800000000000000
+      internalID: 6973372171842795700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1813
+        width: 416
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade2880fbe91e7bd0800000000000000
+      internalID: -2630636631194325286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1813
+        width: 416
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5e983d2dcf50740800000000000000
+      internalID: 5117774533998798248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1813
+        width: 415
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c5669212b44d8a0800000000000000
+      internalID: -6281312974474421190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1455
+        width: 414
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7a5f27276478160800000000000000
+      internalID: 7027663200903866330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1455
+        width: 414
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fa01477abdb1f10800000000000000
+      internalID: 2241626751800225688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 1039
+        y: 1455
+        width: 413
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f7ec4b11d550740800000000000000
+      internalID: 5117598882205695868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1455
+        width: 413
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da06541ef9ce7e70800000000000000
+      internalID: 9114944788944521936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1110
+        width: 473
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911010c6d92318ee0800000000000000
+      internalID: -1260670768983768807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1110
+        width: 473
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf35ba3034e16010800000000000000
+      internalID: 1180475473142300637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1110
+        width: 473
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827e3223c63d932e0800000000000000
+      internalID: -2145451285814188248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1110
+        width: 472
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59f3c72ebacb0ee0800000000000000
+      internalID: -1293717549879133859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 752
+        width: 473
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92c64ce332816540800000000000000
+      internalID: 4999420220876964508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_21
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 752
+        width: 473
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af2fa435d00f79a0800000000000000
+      internalID: -6233262443545546844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_22
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 752
+        width: 473
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff05ac5980f177e70800000000000000
+      internalID: 9112786492740751615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_23
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 752
+        width: 472
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5d5807532072e40800000000000000
+      internalID: 5631472287594436013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_24
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 358
+        width: 403
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834e806414c4c28c0800000000000000
+      internalID: -4022756523917122504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_25
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 358
+        width: 402
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a09463c99f91f10800000000000000
+      internalID: 2241096738914503185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_26
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 358
+        width: 402
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6639d19917d2c0140800000000000000
+      internalID: 4687171278109250406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_27
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 358
+        width: 401
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c652ac77487bd4f0800000000000000
+      internalID: -802915860126476603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_28
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 400
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec807af9b3015c20800000000000000
+      internalID: 3193337708087905506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_29
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 0
+        width: 399
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec9b0d758f5d7610800000000000000
+      internalID: 1620556467856448749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_30
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 398
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8a16824fd842fd0800000000000000
+      internalID: -2367611424301012805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-idle-shadow_31
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 0
+        width: 398
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd182479b29f4b00800000000000000
+      internalID: 815031382792740351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spawner-idle-shadow_0: -4674793638669060130
+      spawner-idle-shadow_1: -4124451217250164739
+      spawner-idle-shadow_10: 5117774533998798248
+      spawner-idle-shadow_11: -6281312974474421190
+      spawner-idle-shadow_12: 7027663200903866330
+      spawner-idle-shadow_13: 2241626751800225688
+      spawner-idle-shadow_14: 5117598882205695868
+      spawner-idle-shadow_15: 9114944788944521936
+      spawner-idle-shadow_16: -1260670768983768807
+      spawner-idle-shadow_17: 1180475473142300637
+      spawner-idle-shadow_18: -2145451285814188248
+      spawner-idle-shadow_19: -1293717549879133859
+      spawner-idle-shadow_2: -6579431136032930631
+      spawner-idle-shadow_20: 4999420220876964508
+      spawner-idle-shadow_21: -6233262443545546844
+      spawner-idle-shadow_22: 9112786492740751615
+      spawner-idle-shadow_23: 5631472287594436013
+      spawner-idle-shadow_24: -4022756523917122504
+      spawner-idle-shadow_25: 2241096738914503185
+      spawner-idle-shadow_26: 4687171278109250406
+      spawner-idle-shadow_27: -802915860126476603
+      spawner-idle-shadow_28: 3193337708087905506
+      spawner-idle-shadow_29: 1620556467856448749
+      spawner-idle-shadow_3: 571851123765631118
+      spawner-idle-shadow_30: -2367611424301012805
+      spawner-idle-shadow_31: 815031382792740351
+      spawner-idle-shadow_4: -4471212410025500457
+      spawner-idle-shadow_5: -3545483920155388609
+      spawner-idle-shadow_6: -5635603651037710198
+      spawner-idle-shadow_7: 668507559136344788
+      spawner-idle-shadow_8: 6973372171842795700
+      spawner-idle-shadow_9: -2630636631194325286
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 4cd39beb4ff31ed4fb8bcc950028c3da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1123490233036245167
+    second: V-L-2-load-standup-base_0
+  - first:
+      213: 1333010922603686529
+    second: V-L-2-load-standup-base_1
+  - first:
+      213: -327625471706123313
+    second: V-L-2-load-standup-base_2
+  - first:
+      213: 4496047122698560532
+    second: V-L-2-load-standup-base_3
+  - first:
+      213: -5248943783180267091
+    second: V-L-2-load-standup-base_4
+  - first:
+      213: -7577088563812479251
+    second: V-L-2-load-standup-base_5
+  - first:
+      213: -6098855020942861958
+    second: V-L-2-load-standup-base_6
+  - first:
+      213: -5757085148868371068
+    second: V-L-2-load-standup-base_7
+  - first:
+      213: 7031759679406047382
+    second: V-L-2-load-standup-base_8
+  - first:
+      213: -7028498423493063578
+    second: V-L-2-load-standup-base_9
+  - first:
+      213: 420598246624864901
+    second: V-L-2-load-standup-base_10
+  - first:
+      213: -7610354803316064350
+    second: V-L-2-load-standup-base_11
+  - first:
+      213: -5816964522856780381
+    second: V-L-2-load-standup-base_12
+  - first:
+      213: -7479929158603228342
+    second: V-L-2-load-standup-base_13
+  - first:
+      213: 6270683502550796445
+    second: V-L-2-load-standup-base_14
+  - first:
+      213: -8372651537890374501
+    second: V-L-2-load-standup-base_15
+  - first:
+      213: -2128518392442073094
+    second: V-L-2-load-standup-base_16
+  - first:
+      213: 3178462478650105254
+    second: V-L-2-load-standup-base_17
+  - first:
+      213: 1291655305363258879
+    second: V-L-2-load-standup-base_18
+  - first:
+      213: -4903695869193924989
+    second: V-L-2-load-standup-base_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2811
+        width: 77
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa80fb81a60779f00800000000000000
+      internalID: 1123490233036245167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2663
+        width: 77
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a228b1f5ecf7210800000000000000
+      internalID: 1333010922603686529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2515
+        width: 77
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3369b8e5a047bf0800000000000000
+      internalID: -327625471706123313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2367
+        width: 75
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4146dd9790b256e30800000000000000
+      internalID: 4496047122698560532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 2219
+        width: 70
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da19b8570710827b0800000000000000
+      internalID: -5248943783180267091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2071
+        width: 65
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee484aa816c8d690800000000000000
+      internalID: -7577088563812479251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_6
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1923
+        width: 63
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79d71ceba38c5ba0800000000000000
+      internalID: -6098855020942861958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_7
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1775
+        width: 65
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d16083f89ba10b0800000000000000
+      internalID: -5757085148868371068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1627
+        width: 66
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69089ec2c24d59160800000000000000
+      internalID: 7031759679406047382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1479
+        width: 67
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c8d432ce1c57e90800000000000000
+      internalID: -7028498423493063578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1331
+        width: 71
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a2a3b70e346d500800000000000000
+      internalID: 420598246624864901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1183
+        width: 76
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af78a5b0a6926690800000000000000
+      internalID: -7610354803316064350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1035
+        width: 81
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad6218069df54fa0800000000000000
+      internalID: -5816964522856780381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_13
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 887
+        width: 85
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b3e548f04f13890800000000000000
+      internalID: -7479929158603228342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_14
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 739
+        width: 89
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98417c0c61f50750800000000000000
+      internalID: 6270683502550796445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 591
+        width: 92
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c8ae759cd5ecb80800000000000000
+      internalID: -8372651537890374501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 443
+        width: 93
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affca98accbf572e0800000000000000
+      internalID: -2128518392442073094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 295
+        width: 100
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6add8dbb8ca2c1c20800000000000000
+      internalID: 3178462478650105254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 147
+        width: 95
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdfc6028a1ece110800000000000000
+      internalID: 1291655305363258879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: V-L-2-load-standup-base_19
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 95
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e452e769292fbb0800000000000000
+      internalID: -4903695869193924989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      V-L-2-load-standup-base_0: 1123490233036245167
+      V-L-2-load-standup-base_1: 1333010922603686529
+      V-L-2-load-standup-base_10: 420598246624864901
+      V-L-2-load-standup-base_11: -7610354803316064350
+      V-L-2-load-standup-base_12: -5816964522856780381
+      V-L-2-load-standup-base_13: -7479929158603228342
+      V-L-2-load-standup-base_14: 6270683502550796445
+      V-L-2-load-standup-base_15: -8372651537890374501
+      V-L-2-load-standup-base_16: -2128518392442073094
+      V-L-2-load-standup-base_17: 3178462478650105254
+      V-L-2-load-standup-base_18: 1291655305363258879
+      V-L-2-load-standup-base_19: -4903695869193924989
+      V-L-2-load-standup-base_2: -327625471706123313
+      V-L-2-load-standup-base_3: 4496047122698560532
+      V-L-2-load-standup-base_4: -5248943783180267091
+      V-L-2-load-standup-base_5: -7577088563812479251
+      V-L-2-load-standup-base_6: -6098855020942861958
+      V-L-2-load-standup-base_7: -5757085148868371068
+      V-L-2-load-standup-base_8: 7031759679406047382
+      V-L-2-load-standup-base_9: -7028498423493063578
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 47463c25954ad45429e06162526f552a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8602834508734592085
+    second: lichen-decal-03_0
+  - first:
+      213: -784583154494686401
+    second: lichen-decal-03_1
+  - first:
+      213: -3135248420062858487
+    second: lichen-decal-03_2
+  - first:
+      213: 7027687475386101061
+    second: lichen-decal-03_3
+  - first:
+      213: 4485418871271083991
+    second: lichen-decal-03_4
+  - first:
+      213: 7763495840468390314
+    second: lichen-decal-03_5
+  - first:
+      213: 5735531444367880181
+    second: lichen-decal-03_6
+  - first:
+      213: 3836664105380524960
+    second: lichen-decal-03_7
+  - first:
+      213: 6610282621558625627
+    second: lichen-decal-03_8
+  - first:
+      213: -8614443353592993233
+    second: lichen-decal-03_9
+  - first:
+      213: 4702110751943478171
+    second: lichen-decal-03_10
+  - first:
+      213: -6421943609142244857
+    second: lichen-decal-03_11
+  - first:
+      213: -1494468641618731072
+    second: lichen-decal-03_12
+  - first:
+      213: 3436102253056613860
+    second: lichen-decal-03_13
+  - first:
+      213: -8891309877966159371
+    second: lichen-decal-03_14
+  - first:
+      213: -2149418287502734260
+    second: lichen-decal-03_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lichen-decal-03_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 277
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab076518979c9880800000000000000
+      internalID: -8602834508734592085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 215
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bb69327c99c15f0800000000000000
+      internalID: -784583154494686401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 215
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9037c875c2c5d74d0800000000000000
+      internalID: -3135248420062858487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 172
+        width: 58
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54da9da468c578160800000000000000
+      internalID: 7027687475386101061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df42fad2b86f3e30800000000000000
+      internalID: 4485418871271083991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 134
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1575a855a7dbb60800000000000000
+      internalID: 7763495840468390314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 127
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff61a3e573b89f40800000000000000
+      internalID: 5735531444367880181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_7
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 117
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3b2b32da19e3530800000000000000
+      internalID: 3836664105380524960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_8
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 106
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5590f285017cbb50800000000000000
+      internalID: 6610282621558625627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_9
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 98
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a6d534969537880800000000000000
+      internalID: -8614443353592993233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_10
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 106
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bc228e0d0414140800000000000000
+      internalID: 4702110751943478171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 90
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a8c79ff4ca0e6a0800000000000000
+      internalID: -6421943609142244857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 78
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfda5040b4924be0800000000000000
+      internalID: -1494468641618731072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 75
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eddb5d3bcc7faf20800000000000000
+      internalID: 3436102253056613860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 93
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1c7ef26c8bb9480800000000000000
+      internalID: -8891309877966159371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lichen-decal-03_15
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ccba3a47bbb22e0800000000000000
+      internalID: -2149418287502734260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lichen-decal-03_0: -8602834508734592085
+      lichen-decal-03_1: -784583154494686401
+      lichen-decal-03_10: 4702110751943478171
+      lichen-decal-03_11: -6421943609142244857
+      lichen-decal-03_12: -1494468641618731072
+      lichen-decal-03_13: 3436102253056613860
+      lichen-decal-03_14: -8891309877966159371
+      lichen-decal-03_15: -2149418287502734260
+      lichen-decal-03_2: -3135248420062858487
+      lichen-decal-03_3: 7027687475386101061
+      lichen-decal-03_4: 4485418871271083991
+      lichen-decal-03_5: 7763495840468390314
+      lichen-decal-03_6: 5735531444367880181
+      lichen-decal-03_7: 3836664105380524960
+      lichen-decal-03_8: 6610282621558625627
+      lichen-decal-03_9: -8614443353592993233
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

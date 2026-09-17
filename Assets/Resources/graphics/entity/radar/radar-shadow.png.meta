@@ -1,0 +1,1781 @@
+fileFormatVersion: 2
+guid: 49be7b8f08190dd48bf7dcdae6e3a61c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4993704698802184430
+    second: radar-shadow_0
+  - first:
+      213: 1068028905779177140
+    second: radar-shadow_1
+  - first:
+      213: 3957513044441486848
+    second: radar-shadow_2
+  - first:
+      213: -4162888114258264056
+    second: radar-shadow_3
+  - first:
+      213: -3499179580407101088
+    second: radar-shadow_4
+  - first:
+      213: -2862371718795834216
+    second: radar-shadow_5
+  - first:
+      213: 6206777717111214482
+    second: radar-shadow_6
+  - first:
+      213: -2709602539878896393
+    second: radar-shadow_7
+  - first:
+      213: 3290011583085659343
+    second: radar-shadow_8
+  - first:
+      213: -8095919728380000760
+    second: radar-shadow_9
+  - first:
+      213: 3936152144069189125
+    second: radar-shadow_10
+  - first:
+      213: -6955423348988558450
+    second: radar-shadow_11
+  - first:
+      213: 3825543348434655482
+    second: radar-shadow_12
+  - first:
+      213: -8889157808548714809
+    second: radar-shadow_13
+  - first:
+      213: 6158999744179549396
+    second: radar-shadow_14
+  - first:
+      213: -7985850114276081353
+    second: radar-shadow_15
+  - first:
+      213: 2590905849080875925
+    second: radar-shadow_16
+  - first:
+      213: -8569779292557752642
+    second: radar-shadow_17
+  - first:
+      213: -1025693547109207705
+    second: radar-shadow_18
+  - first:
+      213: -9082739437878220762
+    second: radar-shadow_19
+  - first:
+      213: -2787910242124600672
+    second: radar-shadow_20
+  - first:
+      213: 6521137530820911023
+    second: radar-shadow_21
+  - first:
+      213: -8500913063411485174
+    second: radar-shadow_22
+  - first:
+      213: -1164489778438560988
+    second: radar-shadow_23
+  - first:
+      213: -3358721279039071593
+    second: radar-shadow_24
+  - first:
+      213: 438868553143251436
+    second: radar-shadow_25
+  - first:
+      213: 2086838725641056962
+    second: radar-shadow_26
+  - first:
+      213: 6353168395491800358
+    second: radar-shadow_27
+  - first:
+      213: -5798188813321253603
+    second: radar-shadow_28
+  - first:
+      213: 8210231261785916925
+    second: radar-shadow_29
+  - first:
+      213: -51493843364152861
+    second: radar-shadow_30
+  - first:
+      213: 7454622219571647805
+    second: radar-shadow_31
+  - first:
+      213: -779954491907007652
+    second: radar-shadow_32
+  - first:
+      213: -5370413998432137637
+    second: radar-shadow_33
+  - first:
+      213: 1427728631776358087
+    second: radar-shadow_34
+  - first:
+      213: -2580751624910177
+    second: radar-shadow_35
+  - first:
+      213: 2092495337979374422
+    second: radar-shadow_36
+  - first:
+      213: -3899062923775312124
+    second: radar-shadow_37
+  - first:
+      213: -7624033706468028137
+    second: radar-shadow_38
+  - first:
+      213: 8074240403858752539
+    second: radar-shadow_39
+  - first:
+      213: 8697357215411194845
+    second: radar-shadow_40
+  - first:
+      213: 7381388173564447531
+    second: radar-shadow_41
+  - first:
+      213: 5250247038371162598
+    second: radar-shadow_42
+  - first:
+      213: -393421096251055541
+    second: radar-shadow_43
+  - first:
+      213: -3215720969360066038
+    second: radar-shadow_44
+  - first:
+      213: -661860398571894260
+    second: radar-shadow_45
+  - first:
+      213: -3289818820397831144
+    second: radar-shadow_46
+  - first:
+      213: -5827675763929072300
+    second: radar-shadow_47
+  - first:
+      213: 18055182228310827
+    second: radar-shadow_48
+  - first:
+      213: -5387869185211836580
+    second: radar-shadow_49
+  - first:
+      213: 7698592575739417219
+    second: radar-shadow_50
+  - first:
+      213: -5599758228699408724
+    second: radar-shadow_51
+  - first:
+      213: -3504894549471276161
+    second: radar-shadow_52
+  - first:
+      213: 1489372026484052001
+    second: radar-shadow_53
+  - first:
+      213: -1900960403937876015
+    second: radar-shadow_54
+  - first:
+      213: -5826420587280313525
+    second: radar-shadow_55
+  - first:
+      213: -8472780816092287280
+    second: radar-shadow_56
+  - first:
+      213: 899998769025674713
+    second: radar-shadow_57
+  - first:
+      213: -6719029280001743028
+    second: radar-shadow_58
+  - first:
+      213: 2867798384376333320
+    second: radar-shadow_59
+  - first:
+      213: -4991663234923282025
+    second: radar-shadow_60
+  - first:
+      213: -238684048928866530
+    second: radar-shadow_61
+  - first:
+      213: 4285010039229914846
+    second: radar-shadow_62
+  - first:
+      213: -1725358214576540447
+    second: radar-shadow_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: radar-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1190
+        width: 331
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0ad4d37f33d4540800000000000000
+      internalID: 4993704698802184430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 287
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b621d291a662de00800000000000000
+      internalID: 1068028905779177140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1190
+        width: 328
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006d8e76529ebe630800000000000000
+      internalID: 3957513044441486848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1020
+        width: 281
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800c0f5e0537a36c0800000000000000
+      internalID: -4162888114258264056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1190
+        width: 324
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069c88806ba607fc0800000000000000
+      internalID: -3499179580407101088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 1020
+        width: 274
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ccc065610d648d0800000000000000
+      internalID: -2862371718795834216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1190
+        width: 319
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2915934e277e22650800000000000000
+      internalID: 6206777717111214482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1020
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fca50898de856ad0800000000000000
+      internalID: -2709602539878896393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1190
+        width: 314
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4cdb48a1878ad20800000000000000
+      internalID: 3290011583085659343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 1020
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80645dba6e385af80800000000000000
+      internalID: -8095919728380000760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1190
+        width: 308
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ed229358500a630800000000000000
+      internalID: 3936152144069189125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 1020
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e834415c05f597f90800000000000000
+      internalID: -6955423348988558450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 1190
+        width: 301
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af85e44286f071530800000000000000
+      internalID: 3825543348434655482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 1020
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c66015e11e53a480800000000000000
+      internalID: -8889157808548714809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1190
+        width: 295
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d43b83b2a9297550800000000000000
+      internalID: 6158999744179549396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 1020
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731cf05c1af8c2190800000000000000
+      internalID: -7985850114276081353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 266
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b82fc742fb4f320800000000000000
+      internalID: 2590905849080875925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 301
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6c8975327021980800000000000000
+      internalID: -8569779292557752642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 850
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761352c372104c1f0800000000000000
+      internalID: -1025693547109207705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 680
+        width: 308
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62866d98a90a3f180800000000000000
+      internalID: -9082739437878220762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 850
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa6d70e76a5f49d0800000000000000
+      internalID: -2787910242124600672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_21
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 680
+        width: 313
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf5c08a80cbf7a50800000000000000
+      internalID: 6521137530820911023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_22
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 850
+        width: 267
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0671eccb90b60a80800000000000000
+      internalID: -8500913063411485174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_23
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 680
+        width: 319
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423a89b57b6e6dfe0800000000000000
+      internalID: -1164489778438560988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_24
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 850
+        width: 274
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a945fbacc6361d0800000000000000
+      internalID: -3358721279039071593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_25
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 680
+        width: 324
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce17135bf9c271600800000000000000
+      internalID: 438868553143251436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_26
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 850
+        width: 281
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c23d51b3c0f5fc10800000000000000
+      internalID: 2086838725641056962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_27
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 680
+        width: 328
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625f683cefcfa2850800000000000000
+      internalID: 6353168395491800358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_28
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 850
+        width: 288
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dc7519ef1b88fa0800000000000000
+      internalID: -5798188813321253603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_29
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 680
+        width: 331
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df58e8a35d990f170800000000000000
+      internalID: 8210231261785916925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_30
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 850
+        width: 295
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9f82e4f9e094ff0800000000000000
+      internalID: -51493843364152861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_31
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 680
+        width: 334
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d355d449963247760800000000000000
+      internalID: 7454622219571647805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 335
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b99e0a58b0d25f0800000000000000
+      internalID: -779954491907007652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 326
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ecaae0ce47875b0800000000000000
+      internalID: -5370413998432137637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_34
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 510
+        width: 338
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce2fac40af40d310800000000000000
+      internalID: 1427728631776358087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_35
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 340
+        width: 323
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ac420f1d4d6fff0800000000000000
+      internalID: -2580751624910177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_36
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 510
+        width: 338
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65beb626c690a0d10800000000000000
+      internalID: 2092495337979374422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_37
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 340
+        width: 318
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ff97fcdeeb3e9c0800000000000000
+      internalID: -3899062923775312124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_38
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 510
+        width: 338
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7115e52ecbdf13690800000000000000
+      internalID: -7624033706468028137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_39
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 340
+        width: 313
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b148b1f3ed67d0070800000000000000
+      internalID: 8074240403858752539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_40
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 510
+        width: 337
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbc34d8e4833b870800000000000000
+      internalID: 8697357215411194845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_41
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 340
+        width: 307
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b04928f65ff6660800000000000000
+      internalID: 7381388173564447531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_42
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 510
+        width: 336
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9e8294ddf9cd840800000000000000
+      internalID: 5250247038371162598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_43
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 340
+        width: 304
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42afcee8994a8af0800000000000000
+      internalID: -393421096251055541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_44
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 510
+        width: 334
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ab484e0d67f53d0800000000000000
+      internalID: -3215720969360066038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_45
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 340
+        width: 305
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a4934697990d6f0800000000000000
+      internalID: -661860398571894260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_46
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 510
+        width: 331
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ceaca86373852d0800000000000000
+      internalID: -3289818820397831144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_47
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 340
+        width: 305
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dbad0e4cfef1fa0800000000000000
+      internalID: -5827675763929072300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 304
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bc213b715204000800000000000000
+      internalID: 18055182228310827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 333
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57dc2fa5817a35b0800000000000000
+      internalID: -5387869185211836580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_50
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 170
+        width: 304
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3825863a825e6da60800000000000000
+      internalID: 7698592575739417219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_51
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 336
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca61d4e4f89a942b0800000000000000
+      internalID: -5599758228699408724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_52
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 170
+        width: 307
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73df8b1afc1c5fc0800000000000000
+      internalID: -3504894549471276161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_53
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 0
+        width: 338
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1205cf097ff4ba410800000000000000
+      internalID: 1489372026484052001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_54
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 170
+        width: 313
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d72337959e6e95e0800000000000000
+      internalID: -1900960403937876015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_55
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 0
+        width: 338
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4352277855642fa0800000000000000
+      internalID: -5826420587280313525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_56
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 170
+        width: 318
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de231d0db2aa6a80800000000000000
+      internalID: -8472780816092287280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_57
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 0
+        width: 338
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd601eac107d7c00800000000000000
+      internalID: 899998769025674713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_58
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 170
+        width: 323
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c472c02087631c2a0800000000000000
+      internalID: -6719029280001743028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_59
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 0
+        width: 338
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804c034bf677cc720800000000000000
+      internalID: 2867798384376333320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_60
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 170
+        width: 327
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791450c1cbc0abab0800000000000000
+      internalID: -4991663234923282025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_61
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 0
+        width: 336
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ffa024f1600bcf0800000000000000
+      internalID: -238684048928866530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_62
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 170
+        width: 331
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede184f7de9677b30800000000000000
+      internalID: 4285010039229914846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: radar-shadow_63
+      rect:
+        serializedVersion: 2
+        x: 2351
+        y: 0
+        width: 334
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4fcdd58db4e08e0800000000000000
+      internalID: -1725358214576540447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      radar-shadow_0: 4993704698802184430
+      radar-shadow_1: 1068028905779177140
+      radar-shadow_10: 3936152144069189125
+      radar-shadow_11: -6955423348988558450
+      radar-shadow_12: 3825543348434655482
+      radar-shadow_13: -8889157808548714809
+      radar-shadow_14: 6158999744179549396
+      radar-shadow_15: -7985850114276081353
+      radar-shadow_16: 2590905849080875925
+      radar-shadow_17: -8569779292557752642
+      radar-shadow_18: -1025693547109207705
+      radar-shadow_19: -9082739437878220762
+      radar-shadow_2: 3957513044441486848
+      radar-shadow_20: -2787910242124600672
+      radar-shadow_21: 6521137530820911023
+      radar-shadow_22: -8500913063411485174
+      radar-shadow_23: -1164489778438560988
+      radar-shadow_24: -3358721279039071593
+      radar-shadow_25: 438868553143251436
+      radar-shadow_26: 2086838725641056962
+      radar-shadow_27: 6353168395491800358
+      radar-shadow_28: -5798188813321253603
+      radar-shadow_29: 8210231261785916925
+      radar-shadow_3: -4162888114258264056
+      radar-shadow_30: -51493843364152861
+      radar-shadow_31: 7454622219571647805
+      radar-shadow_32: -779954491907007652
+      radar-shadow_33: -5370413998432137637
+      radar-shadow_34: 1427728631776358087
+      radar-shadow_35: -2580751624910177
+      radar-shadow_36: 2092495337979374422
+      radar-shadow_37: -3899062923775312124
+      radar-shadow_38: -7624033706468028137
+      radar-shadow_39: 8074240403858752539
+      radar-shadow_4: -3499179580407101088
+      radar-shadow_40: 8697357215411194845
+      radar-shadow_41: 7381388173564447531
+      radar-shadow_42: 5250247038371162598
+      radar-shadow_43: -393421096251055541
+      radar-shadow_44: -3215720969360066038
+      radar-shadow_45: -661860398571894260
+      radar-shadow_46: -3289818820397831144
+      radar-shadow_47: -5827675763929072300
+      radar-shadow_48: 18055182228310827
+      radar-shadow_49: -5387869185211836580
+      radar-shadow_5: -2862371718795834216
+      radar-shadow_50: 7698592575739417219
+      radar-shadow_51: -5599758228699408724
+      radar-shadow_52: -3504894549471276161
+      radar-shadow_53: 1489372026484052001
+      radar-shadow_54: -1900960403937876015
+      radar-shadow_55: -5826420587280313525
+      radar-shadow_56: -8472780816092287280
+      radar-shadow_57: 899998769025674713
+      radar-shadow_58: -6719029280001743028
+      radar-shadow_59: 2867798384376333320
+      radar-shadow_6: 6206777717111214482
+      radar-shadow_60: -4991663234923282025
+      radar-shadow_61: -238684048928866530
+      radar-shadow_62: 4285010039229914846
+      radar-shadow_63: -1725358214576540447
+      radar-shadow_7: -2709602539878896393
+      radar-shadow_8: 3290011583085659343
+      radar-shadow_9: -8095919728380000760
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: b472b2a170908fd4eb56a350750cef6b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7343963198782375466
+    second: concrete-outer-corner_0
+  - first:
+      213: 4362987324113272903
+    second: concrete-outer-corner_1
+  - first:
+      213: -8846520245105263139
+    second: concrete-outer-corner_2
+  - first:
+      213: 1329394570347080566
+    second: concrete-outer-corner_3
+  - first:
+      213: -5632829327100347970
+    second: concrete-outer-corner_4
+  - first:
+      213: -1644974168199049911
+    second: concrete-outer-corner_5
+  - first:
+      213: 213536422691875265
+    second: concrete-outer-corner_6
+  - first:
+      213: 9057537633411391626
+    second: concrete-outer-corner_7
+  - first:
+      213: -8402221317825142242
+    second: concrete-outer-corner_8
+  - first:
+      213: -5777762119583409803
+    second: concrete-outer-corner_9
+  - first:
+      213: -6822348907869725869
+    second: concrete-outer-corner_10
+  - first:
+      213: -3960260078350886392
+    second: concrete-outer-corner_11
+  - first:
+      213: -6013354235322125482
+    second: concrete-outer-corner_12
+  - first:
+      213: 5726432156006213191
+    second: concrete-outer-corner_13
+  - first:
+      213: -8579037630558151981
+    second: concrete-outer-corner_14
+  - first:
+      213: 5502987651974204628
+    second: concrete-outer-corner_15
+  - first:
+      213: 1377041262938120210
+    second: concrete-outer-corner_16
+  - first:
+      213: 3666365757771140801
+    second: concrete-outer-corner_17
+  - first:
+      213: 3880314223544330847
+    second: concrete-outer-corner_18
+  - first:
+      213: 2197408478331459447
+    second: concrete-outer-corner_19
+  - first:
+      213: -8242207030403601896
+    second: concrete-outer-corner_20
+  - first:
+      213: -8232238990133753052
+    second: concrete-outer-corner_21
+  - first:
+      213: 2261787804040115396
+    second: concrete-outer-corner_22
+  - first:
+      213: 213620602690570279
+    second: concrete-outer-corner_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: concrete-outer-corner_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 194
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2607fa8e9ffae560800000000000000
+      internalID: 7343963198782375466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 194
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740cd4dead17c8c30800000000000000
+      internalID: 4362987324113272903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 194
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dddf23c35b8da3580800000000000000
+      internalID: -8846520245105263139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 194
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67beedb7155f27210800000000000000
+      internalID: 1329394570347080566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 194
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9f7cd229b24d1b0800000000000000
+      internalID: -5632829327100347970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_5
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 194
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d4dcf95b0eb29e0800000000000000
+      internalID: -1644974168199049911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_6
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 194
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9282dbe32a6f200800000000000000
+      internalID: 213536422691875265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_7
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 194
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80e73b1d76d2bd70800000000000000
+      internalID: 9057537633411391626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_8
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 127
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1261d27a30556b80800000000000000
+      internalID: -8402221317825142242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_9
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 127
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579d581d6f341dfa0800000000000000
+      internalID: -5777762119583409803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_10
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 127
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b96ac80d52251a0800000000000000
+      internalID: -6822348907869725869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 126
+        width: 55
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a1cbbe0745a09c0800000000000000
+      internalID: -3960260078350886392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_12
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 127
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653b80fde264c8ca0800000000000000
+      internalID: -6013354235322125482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_13
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 125
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746ef19b4bf587f40800000000000000
+      internalID: 5726432156006213191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_14
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 127
+        width: 54
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da5fdb8ab221f880800000000000000
+      internalID: -8579037630558151981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_15
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 127
+        width: 53
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc88470d1a8e5c40800000000000000
+      internalID: 5502987651974204628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 53
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2106b769bbb3c1310800000000000000
+      internalID: 1377041262938120210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_17
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 4
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ceca904b3c81e230800000000000000
+      internalID: 3666365757771140801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 4
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a614f3a35a9d530800000000000000
+      internalID: 3880314223544330847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_19
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 4
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777d0616e53ce7e10800000000000000
+      internalID: 2197408478331459447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ae09bff5ccd9d80800000000000000
+      internalID: -8242207030403601896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_21
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 4
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b05f6314631cd80800000000000000
+      internalID: -8232238990133753052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_22
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 4
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c43f19360c736f10800000000000000
+      internalID: 2261787804040115396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: concrete-outer-corner_23
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 4
+        width: 54
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728831c6ecee6f200800000000000000
+      internalID: 213620602690570279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      concrete-outer-corner_0: 7343963198782375466
+      concrete-outer-corner_1: 4362987324113272903
+      concrete-outer-corner_10: -6822348907869725869
+      concrete-outer-corner_11: -3960260078350886392
+      concrete-outer-corner_12: -6013354235322125482
+      concrete-outer-corner_13: 5726432156006213191
+      concrete-outer-corner_14: -8579037630558151981
+      concrete-outer-corner_15: 5502987651974204628
+      concrete-outer-corner_16: 1377041262938120210
+      concrete-outer-corner_17: 3666365757771140801
+      concrete-outer-corner_18: 3880314223544330847
+      concrete-outer-corner_19: 2197408478331459447
+      concrete-outer-corner_2: -8846520245105263139
+      concrete-outer-corner_20: -8242207030403601896
+      concrete-outer-corner_21: -8232238990133753052
+      concrete-outer-corner_22: 2261787804040115396
+      concrete-outer-corner_23: 213620602690570279
+      concrete-outer-corner_3: 1329394570347080566
+      concrete-outer-corner_4: -5632829327100347970
+      concrete-outer-corner_5: -1644974168199049911
+      concrete-outer-corner_6: 213536422691875265
+      concrete-outer-corner_7: 9057537633411391626
+      concrete-outer-corner_8: -8402221317825142242
+      concrete-outer-corner_9: -5777762119583409803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

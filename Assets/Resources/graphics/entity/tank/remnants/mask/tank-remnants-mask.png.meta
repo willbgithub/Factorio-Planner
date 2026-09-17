@@ -1,0 +1,793 @@
+fileFormatVersion: 2
+guid: a54d83604c30a5f45b29d034df699fed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7993250297175047550
+    second: tank-remnants-mask_0
+  - first:
+      213: -7691398542481115597
+    second: tank-remnants-mask_1
+  - first:
+      213: 3318857886095608347
+    second: tank-remnants-mask_2
+  - first:
+      213: -1778334058993395183
+    second: tank-remnants-mask_3
+  - first:
+      213: 7972321607568031365
+    second: tank-remnants-mask_4
+  - first:
+      213: 2799491170145734183
+    second: tank-remnants-mask_5
+  - first:
+      213: 7617070502577492837
+    second: tank-remnants-mask_6
+  - first:
+      213: 2302159811575192063
+    second: tank-remnants-mask_7
+  - first:
+      213: 2477721820399054556
+    second: tank-remnants-mask_8
+  - first:
+      213: -4834143163551059619
+    second: tank-remnants-mask_9
+  - first:
+      213: -3855069297596350017
+    second: tank-remnants-mask_10
+  - first:
+      213: 3555601391165362060
+    second: tank-remnants-mask_11
+  - first:
+      213: 2974809115544429511
+    second: tank-remnants-mask_12
+  - first:
+      213: 50788063731521038
+    second: tank-remnants-mask_13
+  - first:
+      213: -777820433359895375
+    second: tank-remnants-mask_14
+  - first:
+      213: -7130121547977491307
+    second: tank-remnants-mask_15
+  - first:
+      213: 2924588466820546465
+    second: tank-remnants-mask_16
+  - first:
+      213: -2277562900368470432
+    second: tank-remnants-mask_17
+  - first:
+      213: -5588369260380482088
+    second: tank-remnants-mask_18
+  - first:
+      213: 3002387743651351281
+    second: tank-remnants-mask_19
+  - first:
+      213: -3919904154325389508
+    second: tank-remnants-mask_20
+  - first:
+      213: 3237949773178081761
+    second: tank-remnants-mask_21
+  - first:
+      213: -6789543497828156410
+    second: tank-remnants-mask_22
+  - first:
+      213: 5157786545852425226
+    second: tank-remnants-mask_23
+  - first:
+      213: -3336114216537537204
+    second: tank-remnants-mask_24
+  - first:
+      213: 1247224217216251183
+    second: tank-remnants-mask_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tank-remnants-mask_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 834
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d77e39bcabdee60800000000000000
+      internalID: 7993250297175047550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 839
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336b471c6c9a24590800000000000000
+      internalID: -7691398542481115597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 807
+        width: 24
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a8bb0d9a3fe0e20800000000000000
+      internalID: 3318857886095608347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 768
+        width: 99
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a58b968961257e0800000000000000
+      internalID: -1778334058993395183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 796
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e734e434063ae60800000000000000
+      internalID: 7972321607568031365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_5
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 786
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e016c036ac9d620800000000000000
+      internalID: 2799491170145734183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 681
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563dc3fd34545b960800000000000000
+      internalID: 7617070502577492837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 721
+        width: 92
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff99e19b62ae2ff10800000000000000
+      internalID: 2302159811575192063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 745
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdeae1d3ed2a26220800000000000000
+      internalID: 2477721820399054556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 541
+        width: 194
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51f727b76ca9ecb0800000000000000
+      internalID: -4834143163551059619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 436
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1414c16ea008ac0800000000000000
+      internalID: -3855069297596350017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 478
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fcb4b70a8085130800000000000000
+      internalID: 3555601391165362060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_12
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 497
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3ae9e1125a84920800000000000000
+      internalID: 2974809115544429511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 459
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e061c81997f64b000800000000000000
+      internalID: 50788063731521038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_14
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 427
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b40b8adf60a435f0800000000000000
+      internalID: -777820433359895375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_15
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 291
+        width: 102
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c7177aa38bc0d90800000000000000
+      internalID: -7130121547977491307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 351
+        width: 73
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1affa0727b9369820800000000000000
+      internalID: 2924588466820546465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_17
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 311
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ecde1fb987460e0800000000000000
+      internalID: -2277562900368470432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_18
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 270
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d51f4124cf1272b0800000000000000
+      internalID: -5588369260380482088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 262
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa435adebf9aa920800000000000000
+      internalID: 3002387743651351281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 98
+        width: 143
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f6bdfa0f3b999c0800000000000000
+      internalID: -3919904154325389508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 162
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e116dec9228fec20800000000000000
+      internalID: 3237949773178081761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cb3e84922b6c1a0800000000000000
+      internalID: -6789543497828156410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_23
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 104
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04a2dc4983249740800000000000000
+      internalID: 5157786545852425226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_24
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 9
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c454629abcdb3b1d0800000000000000
+      internalID: -3336114216537537204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-remnants-mask_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 40
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25707641d70f4110800000000000000
+      internalID: 1247224217216251183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tank-remnants-mask_0: 7993250297175047550
+      tank-remnants-mask_1: -7691398542481115597
+      tank-remnants-mask_10: -3855069297596350017
+      tank-remnants-mask_11: 3555601391165362060
+      tank-remnants-mask_12: 2974809115544429511
+      tank-remnants-mask_13: 50788063731521038
+      tank-remnants-mask_14: -777820433359895375
+      tank-remnants-mask_15: -7130121547977491307
+      tank-remnants-mask_16: 2924588466820546465
+      tank-remnants-mask_17: -2277562900368470432
+      tank-remnants-mask_18: -5588369260380482088
+      tank-remnants-mask_19: 3002387743651351281
+      tank-remnants-mask_2: 3318857886095608347
+      tank-remnants-mask_20: -3919904154325389508
+      tank-remnants-mask_21: 3237949773178081761
+      tank-remnants-mask_22: -6789543497828156410
+      tank-remnants-mask_23: 5157786545852425226
+      tank-remnants-mask_24: -3336114216537537204
+      tank-remnants-mask_25: 1247224217216251183
+      tank-remnants-mask_3: -1778334058993395183
+      tank-remnants-mask_4: 7972321607568031365
+      tank-remnants-mask_5: 2799491170145734183
+      tank-remnants-mask_6: 7617070502577492837
+      tank-remnants-mask_7: 2302159811575192063
+      tank-remnants-mask_8: 2477721820399054556
+      tank-remnants-mask_9: -4834143163551059619
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

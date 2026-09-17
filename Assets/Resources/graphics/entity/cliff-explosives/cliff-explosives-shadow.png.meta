@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 94d049ba4e590b544b4ab9b627273b10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1373805992145068139
+    second: cliff-explosives-shadow_0
+  - first:
+      213: -6280676704351552444
+    second: cliff-explosives-shadow_1
+  - first:
+      213: -3887524446264621434
+    second: cliff-explosives-shadow_2
+  - first:
+      213: -7255294959003049992
+    second: cliff-explosives-shadow_3
+  - first:
+      213: 1948408009504468382
+    second: cliff-explosives-shadow_4
+  - first:
+      213: 7817769264443771735
+    second: cliff-explosives-shadow_5
+  - first:
+      213: 9195705795037887578
+    second: cliff-explosives-shadow_6
+  - first:
+      213: -5421749017451656255
+    second: cliff-explosives-shadow_7
+  - first:
+      213: -3945534297392027441
+    second: cliff-explosives-shadow_8
+  - first:
+      213: 635315248784643561
+    second: cliff-explosives-shadow_9
+  - first:
+      213: 7356696270418562124
+    second: cliff-explosives-shadow_10
+  - first:
+      213: -2754419349353243160
+    second: cliff-explosives-shadow_11
+  - first:
+      213: -8181512636412290760
+    second: cliff-explosives-shadow_12
+  - first:
+      213: 747905354330637998
+    second: cliff-explosives-shadow_13
+  - first:
+      213: 2175943273108880482
+    second: cliff-explosives-shadow_14
+  - first:
+      213: 881704751005062177
+    second: cliff-explosives-shadow_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 49
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fd3e79ab24fece0800000000000000
+      internalID: -1373805992145068139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 48
+        width: 47
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cfd0850dd86d8a0800000000000000
+      internalID: -6280676704351552444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 48
+        width: 47
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68600c4fc1dbc0ac0800000000000000
+      internalID: -3887524446264621434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 47
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffd0fbcca3005b90800000000000000
+      internalID: -7255294959003049992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 48
+        width: 41
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d2a04f2c22a0b10800000000000000
+      internalID: 1948408009504468382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 48
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b4327c9bb4e7c60800000000000000
+      internalID: 7817769264443771735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 49
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cfb3c13b5bd9f70800000000000000
+      internalID: 9195705795037887578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 51
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb88798ef312c4b0800000000000000
+      internalID: -5421749017451656255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 7
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8e3daf575ae39c0800000000000000
+      internalID: -3945534297392027441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 6
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5923c4ad711d800800000000000000
+      internalID: 635315248784643561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c4dbec74c381660800000000000000
+      internalID: 7356696270418562124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed565ff13656c9d0800000000000000
+      internalID: -2754419349353243160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 4
+        width: 47
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839964dca9d657e80800000000000000
+      internalID: -8181512636412290760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 7
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea68d7a05f7116a00800000000000000
+      internalID: 747905354330637998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 8
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c3e05d0e0823e10800000000000000
+      internalID: 2175943273108880482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-explosives-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 9
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1245e60bcc17c3c00800000000000000
+      internalID: 881704751005062177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cliff-explosives-shadow_0: -1373805992145068139
+      cliff-explosives-shadow_1: -6280676704351552444
+      cliff-explosives-shadow_10: 7356696270418562124
+      cliff-explosives-shadow_11: -2754419349353243160
+      cliff-explosives-shadow_12: -8181512636412290760
+      cliff-explosives-shadow_13: 747905354330637998
+      cliff-explosives-shadow_14: 2175943273108880482
+      cliff-explosives-shadow_15: 881704751005062177
+      cliff-explosives-shadow_2: -3887524446264621434
+      cliff-explosives-shadow_3: -7255294959003049992
+      cliff-explosives-shadow_4: 1948408009504468382
+      cliff-explosives-shadow_5: 7817769264443771735
+      cliff-explosives-shadow_6: 9195705795037887578
+      cliff-explosives-shadow_7: -5421749017451656255
+      cliff-explosives-shadow_8: -3945534297392027441
+      cliff-explosives-shadow_9: 635315248784643561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

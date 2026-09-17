@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 6d5c047c5059b1346914d2b0c4b11a4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8386374269866415205
+    second: rail-endings-foreground_0
+  - first:
+      213: -7769851021046791853
+    second: rail-endings-foreground_1
+  - first:
+      213: -2896336299672522486
+    second: rail-endings-foreground_2
+  - first:
+      213: -4121911948673240505
+    second: rail-endings-foreground_3
+  - first:
+      213: 9105604680915569195
+    second: rail-endings-foreground_4
+  - first:
+      213: 920245025564131202
+    second: rail-endings-foreground_5
+  - first:
+      213: 6169085311605090222
+    second: rail-endings-foreground_6
+  - first:
+      213: -4037381505016506292
+    second: rail-endings-foreground_7
+  - first:
+      213: 611870779601425147
+    second: rail-endings-foreground_8
+  - first:
+      213: -5907880076974400759
+    second: rail-endings-foreground_9
+  - first:
+      213: 1130659845559458321
+    second: rail-endings-foreground_10
+  - first:
+      213: -4775725495303213589
+    second: rail-endings-foreground_11
+  - first:
+      213: 474234634302035988
+    second: rail-endings-foreground_12
+  - first:
+      213: -2995098088223626328
+    second: rail-endings-foreground_13
+  - first:
+      213: 5324028431400827817
+    second: rail-endings-foreground_14
+  - first:
+      213: -4083015662212850510
+    second: rail-endings-foreground_15
+  - first:
+      213: -7614871181612459016
+    second: rail-endings-foreground_16
+  - first:
+      213: 2225519093543122810
+    second: rail-endings-foreground_17
+  - first:
+      213: 6458320491962401199
+    second: rail-endings-foreground_18
+  - first:
+      213: 1285988605970127501
+    second: rail-endings-foreground_19
+  - first:
+      213: -6911345821840368600
+    second: rail-endings-foreground_20
+  - first:
+      213: -5142746671449375465
+    second: rail-endings-foreground_21
+  - first:
+      213: -7873286381785309647
+    second: rail-endings-foreground_22
+  - first:
+      213: -3425417270973623621
+    second: rail-endings-foreground_23
+  - first:
+      213: 3884659996858550649
+    second: rail-endings-foreground_24
+  - first:
+      213: -5128538421272012771
+    second: rail-endings-foreground_25
+  - first:
+      213: -3498246007004020732
+    second: rail-endings-foreground_26
+  - first:
+      213: -4873785137188721872
+    second: rail-endings-foreground_27
+  - first:
+      213: 5950765855476372947
+    second: rail-endings-foreground_28
+  - first:
+      213: -2473684234150612044
+    second: rail-endings-foreground_29
+  - first:
+      213: 484433455587458180
+    second: rail-endings-foreground_30
+  - first:
+      213: 812775930476277053
+    second: rail-endings-foreground_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rail-endings-foreground_0
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 140
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9be223d80d9d9b80800000000000000
+      internalID: -8386374269866415205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 144
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351cccca9a1fb2490800000000000000
+      internalID: -7769851021046791853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_2
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 140
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0133fb1b752ec7d0800000000000000
+      internalID: -2896336299672522486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_3
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 139
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742b4e7ebe60cc6c0800000000000000
+      internalID: -4121911948673240505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_4
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 128
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a4b17b63b9d5e70800000000000000
+      internalID: 9105604680915569195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_5
+      rect:
+        serializedVersion: 2
+        x: 1678
+        y: 119
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28ff11f99fd55cc00800000000000000
+      internalID: 920245025564131202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_6
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 109
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea72d4bd76efc9550800000000000000
+      internalID: 6169085311605090222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_7
+      rect:
+        serializedVersion: 2
+        x: 2385
+        y: 110
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4852c289e658f7c0800000000000000
+      internalID: -4037381505016506292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_8
+      rect:
+        serializedVersion: 2
+        x: 2641
+        y: 117
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf295927b3dcd7800800000000000000
+      internalID: 611870779601425147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_9
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 127
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b555c0f5ef20ea0800000000000000
+      internalID: -5907880076974400759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_10
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 139
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a9e589329e0bf00800000000000000
+      internalID: 1130659845559458321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_11
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 143
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedeca307f639bdb0800000000000000
+      internalID: -4775725495303213589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_12
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 145
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41892c523e1d49600800000000000000
+      internalID: 474234634302035988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_13
+      rect:
+        serializedVersion: 2
+        x: 3992
+        y: 140
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abaaff48264f66d0800000000000000
+      internalID: -2995098088223626328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_14
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 127
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abf9b386afb2e940800000000000000
+      internalID: 5324028431400827817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 127
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc527153e63657c0800000000000000
+      internalID: -4083015662212850510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_16
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 108
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb51a1710b825690800000000000000
+      internalID: -7614871181612459016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_17
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 99
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77bc7303d1a2ee10800000000000000
+      internalID: 2225519093543122810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_18
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 99
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa18b01154090a950800000000000000
+      internalID: 6458320491962401199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_19
+      rect:
+        serializedVersion: 2
+        x: 3921
+        y: 107
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a9c0cd2dfb8d110800000000000000
+      internalID: 1285988605970127501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_20
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 96
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c1359c797f510a0800000000000000
+      internalID: -6911345821840368600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_21
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 90
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dff66562b41a8b0800000000000000
+      internalID: -5142746671449375465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_22
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 86
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e14ce00c77cb290800000000000000
+      internalID: -7873286381785309647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_23
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 85
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2112404297670d0800000000000000
+      internalID: -3425417270973623621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_24
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 88
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9798ce17fa519e530800000000000000
+      internalID: 3884659996858550649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_25
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 91
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18932f5a75c3d8b0800000000000000
+      internalID: -5128538421272012771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_26
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 92
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400c8978acbb37fc0800000000000000
+      internalID: -3498246007004020732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_27
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 87
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ba94a7d36dc5cb0800000000000000
+      internalID: -4873785137188721872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_28
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 84
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5513d540e559250800000000000000
+      internalID: 5950765855476372947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_29
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 86
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3f7f09b45bbadd0800000000000000
+      internalID: -2473684234150612044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_30
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 89
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cfa9549ad09b600800000000000000
+      internalID: 484433455587458180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-foreground_31
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 96
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3da60a076f874b00800000000000000
+      internalID: 812775930476277053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rail-endings-foreground_0: -8386374269866415205
+      rail-endings-foreground_1: -7769851021046791853
+      rail-endings-foreground_10: 1130659845559458321
+      rail-endings-foreground_11: -4775725495303213589
+      rail-endings-foreground_12: 474234634302035988
+      rail-endings-foreground_13: -2995098088223626328
+      rail-endings-foreground_14: 5324028431400827817
+      rail-endings-foreground_15: -4083015662212850510
+      rail-endings-foreground_16: -7614871181612459016
+      rail-endings-foreground_17: 2225519093543122810
+      rail-endings-foreground_18: 6458320491962401199
+      rail-endings-foreground_19: 1285988605970127501
+      rail-endings-foreground_2: -2896336299672522486
+      rail-endings-foreground_20: -6911345821840368600
+      rail-endings-foreground_21: -5142746671449375465
+      rail-endings-foreground_22: -7873286381785309647
+      rail-endings-foreground_23: -3425417270973623621
+      rail-endings-foreground_24: 3884659996858550649
+      rail-endings-foreground_25: -5128538421272012771
+      rail-endings-foreground_26: -3498246007004020732
+      rail-endings-foreground_27: -4873785137188721872
+      rail-endings-foreground_28: 5950765855476372947
+      rail-endings-foreground_29: -2473684234150612044
+      rail-endings-foreground_3: -4121911948673240505
+      rail-endings-foreground_30: 484433455587458180
+      rail-endings-foreground_31: 812775930476277053
+      rail-endings-foreground_4: 9105604680915569195
+      rail-endings-foreground_5: 920245025564131202
+      rail-endings-foreground_6: 6169085311605090222
+      rail-endings-foreground_7: -4037381505016506292
+      rail-endings-foreground_8: 611870779601425147
+      rail-endings-foreground_9: -5907880076974400759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: piercing-shotgun-shell
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: piercing-shotgun-shell
+  englishName: Piercing shotgun shells
+  typeName: recipe
+  icon: {fileID: 3520492172613461343, guid: 1a8d964cb6ce6cd4a96803e26c8add1b, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: ee3dcba392792134b8f878ef0b672949, type: 2}
+      consumption:
+        numerator: 2
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 7c11bc5295f985643bd1e48c68d1f8b3, type: 2}
+      consumption:
+        numerator: 2
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 237356df4283bb34fa8caf874fec2af3, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 56c2870d6fb396e41a39db5fb2291400, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 2
+        denominator: 1

@@ -1,0 +1,663 @@
+fileFormatVersion: 2
+guid: 665552ad76bed234c8d852634357cbae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7463633846245539140
+    second: H-T-2-unload-standup-shadow_0
+  - first:
+      213: -6411207370210400099
+    second: H-T-2-unload-standup-shadow_1
+  - first:
+      213: -304167858269757588
+    second: H-T-2-unload-standup-shadow_2
+  - first:
+      213: 1904564919248469379
+    second: H-T-2-unload-standup-shadow_3
+  - first:
+      213: 8465132139560298672
+    second: H-T-2-unload-standup-shadow_4
+  - first:
+      213: -1257987044806268298
+    second: H-T-2-unload-standup-shadow_5
+  - first:
+      213: -2395805831495603602
+    second: H-T-2-unload-standup-shadow_6
+  - first:
+      213: 4717626919089462129
+    second: H-T-2-unload-standup-shadow_7
+  - first:
+      213: -1016054639492312617
+    second: H-T-2-unload-standup-shadow_8
+  - first:
+      213: -7450851397547673996
+    second: H-T-2-unload-standup-shadow_9
+  - first:
+      213: -8736328385222842129
+    second: H-T-2-unload-standup-shadow_10
+  - first:
+      213: 6257894317980347029
+    second: H-T-2-unload-standup-shadow_11
+  - first:
+      213: -6107425711278463193
+    second: H-T-2-unload-standup-shadow_12
+  - first:
+      213: 1983261132566815064
+    second: H-T-2-unload-standup-shadow_13
+  - first:
+      213: 1999801923879245737
+    second: H-T-2-unload-standup-shadow_14
+  - first:
+      213: -3612731719794498950
+    second: H-T-2-unload-standup-shadow_15
+  - first:
+      213: -4871423137443802822
+    second: H-T-2-unload-standup-shadow_16
+  - first:
+      213: -1812086088415310780
+    second: H-T-2-unload-standup-shadow_17
+  - first:
+      213: -8655950385728173600
+    second: H-T-2-unload-standup-shadow_18
+  - first:
+      213: 1375776634680095283
+    second: H-T-2-unload-standup-shadow_19
+  - first:
+      213: -2725560938106232071
+    second: H-T-2-unload-standup-shadow_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 752
+        width: 8
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d3c0b6077249760800000000000000
+      internalID: 7463633846245539140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 692
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d982e356dd0d607a0800000000000000
+      internalID: -6411207370210400099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 652
+        width: 68
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f5db7c1f067cbf0800000000000000
+      internalID: -304167858269757588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 641
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38db97704bf5e6a10800000000000000
+      internalID: 1904564919248469379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 628
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8eb3ba4d03a7570800000000000000
+      internalID: 8465132139560298672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 627
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a6746a27bba8ee0800000000000000
+      internalID: -1257987044806268298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 629
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a25ee2a4360ced0800000000000000
+      internalID: -2395805831495603602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 591
+        width: 71
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bd52710b0687140800000000000000
+      internalID: 4717626919089462129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 572
+        width: 59
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d15cac40bf36e1f0800000000000000
+      internalID: -1016054639492312617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 553
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476b2f65122499890800000000000000
+      internalID: -7450851397547673996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 72
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe861a5ee9352c680800000000000000
+      internalID: -8736328385222842129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 498
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a6729f9b188d650800000000000000
+      internalID: 6257894317980347029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 484
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727e8239ca01e3ba0800000000000000
+      internalID: -6107425711278463193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 420
+        width: 84
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851eb770e75f58b10800000000000000
+      internalID: 1983261132566815064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 360
+        width: 84
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a717fd1149b0cb10800000000000000
+      internalID: 1999801923879245737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 300
+        width: 83
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72ecd454affcddc0800000000000000
+      internalID: -3612731719794498950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 239
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a311b06677a356cb0800000000000000
+      internalID: -4871423137443802822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 84
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c049dad4d2ad6e0800000000000000
+      internalID: -1812086088415310780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 119
+        width: 84
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e944414cf2efd780800000000000000
+      internalID: -8655950385728173600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 59
+        width: 84
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332b3606f8db71310800000000000000
+      internalID: 1375776634680095283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H-T-2-unload-standup-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 84
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f26f7674ccdc2ad0800000000000000
+      internalID: -2725560938106232071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      H-T-2-unload-standup-shadow_0: 7463633846245539140
+      H-T-2-unload-standup-shadow_1: -6411207370210400099
+      H-T-2-unload-standup-shadow_10: -8736328385222842129
+      H-T-2-unload-standup-shadow_11: 6257894317980347029
+      H-T-2-unload-standup-shadow_12: -6107425711278463193
+      H-T-2-unload-standup-shadow_13: 1983261132566815064
+      H-T-2-unload-standup-shadow_14: 1999801923879245737
+      H-T-2-unload-standup-shadow_15: -3612731719794498950
+      H-T-2-unload-standup-shadow_16: -4871423137443802822
+      H-T-2-unload-standup-shadow_17: -1812086088415310780
+      H-T-2-unload-standup-shadow_18: -8655950385728173600
+      H-T-2-unload-standup-shadow_19: 1375776634680095283
+      H-T-2-unload-standup-shadow_2: -304167858269757588
+      H-T-2-unload-standup-shadow_20: -2725560938106232071
+      H-T-2-unload-standup-shadow_3: 1904564919248469379
+      H-T-2-unload-standup-shadow_4: 8465132139560298672
+      H-T-2-unload-standup-shadow_5: -1257987044806268298
+      H-T-2-unload-standup-shadow_6: -2395805831495603602
+      H-T-2-unload-standup-shadow_7: 4717626919089462129
+      H-T-2-unload-standup-shadow_8: -1016054639492312617
+      H-T-2-unload-standup-shadow_9: -7450851397547673996
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

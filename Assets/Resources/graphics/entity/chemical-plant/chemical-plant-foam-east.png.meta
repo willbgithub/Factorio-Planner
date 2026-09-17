@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 770d42cfc37b9ea4d88e815ab1bb8c34
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6789014871383193730
+    second: chemical-plant-foam-east_0
+  - first:
+      213: -2953234890701623227
+    second: chemical-plant-foam-east_1
+  - first:
+      213: 398632192064366873
+    second: chemical-plant-foam-east_2
+  - first:
+      213: -930533400596236777
+    second: chemical-plant-foam-east_3
+  - first:
+      213: 5744241020818587277
+    second: chemical-plant-foam-east_4
+  - first:
+      213: -3828302819120859349
+    second: chemical-plant-foam-east_5
+  - first:
+      213: -3890705250814095941
+    second: chemical-plant-foam-east_6
+  - first:
+      213: -2999528188297702153
+    second: chemical-plant-foam-east_7
+  - first:
+      213: -2259033089947807246
+    second: chemical-plant-foam-east_8
+  - first:
+      213: 4713968178534173587
+    second: chemical-plant-foam-east_9
+  - first:
+      213: -7845512915743592927
+    second: chemical-plant-foam-east_10
+  - first:
+      213: 2487009869136755916
+    second: chemical-plant-foam-east_11
+  - first:
+      213: 7086903530730176060
+    second: chemical-plant-foam-east_12
+  - first:
+      213: -1955014775964680944
+    second: chemical-plant-foam-east_13
+  - first:
+      213: -7536135028590195654
+    second: chemical-plant-foam-east_14
+  - first:
+      213: -1454331264874597694
+    second: chemical-plant-foam-east_15
+  - first:
+      213: -5906798392077883629
+    second: chemical-plant-foam-east_16
+  - first:
+      213: 847857164019851260
+    second: chemical-plant-foam-east_17
+  - first:
+      213: -981710424498713445
+    second: chemical-plant-foam-east_18
+  - first:
+      213: 5942730852542573549
+    second: chemical-plant-foam-east_19
+  - first:
+      213: 3131423524401710152
+    second: chemical-plant-foam-east_20
+  - first:
+      213: 4839929208313880724
+    second: chemical-plant-foam-east_21
+  - first:
+      213: 9153977391843221670
+    second: chemical-plant-foam-east_22
+  - first:
+      213: -6017797931675571288
+    second: chemical-plant-foam-east_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 108
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e774c58b1f298c1a0800000000000000
+      internalID: -6789014871383193730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 107
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540b07983800407d0800000000000000
+      internalID: -2953234890701623227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 107
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919280cddd9388500800000000000000
+      internalID: 398632192064366873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_3
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 107
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71633d56dc41613f0800000000000000
+      internalID: -930533400596236777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_4
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 107
+        width: 69
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e7e1e26c4a7bf40800000000000000
+      internalID: 5744241020818587277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 104
+        width: 68
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27bca58ed22fdac0800000000000000
+      internalID: -3828302819120859349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 69
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd8a7f2030710ac0800000000000000
+      internalID: -3890705250814095941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 71
+        width: 69
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f49eb241098f56d0800000000000000
+      internalID: -2999528188297702153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 71
+        width: 69
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1dec1af5d46a0e0800000000000000
+      internalID: -2259033089947807246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_9
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 71
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b460c25116b6140800000000000000
+      internalID: 4713968178534173587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_10
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 72
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e2d5802932f1390800000000000000
+      internalID: -7845512915743592927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_11
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 72
+        width: 68
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc79ca9c42a38220800000000000000
+      internalID: 2487009869136755916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 36
+        width: 69
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e32a2963db95260800000000000000
+      internalID: 7086903530730176060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 36
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d3cfb5b646ed4e0800000000000000
+      internalID: -1955014775964680944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 33
+        width: 71
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cc081ae154a6790800000000000000
+      internalID: -7536135028590195654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_15
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 35
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2b7638b6d21dbe0800000000000000
+      internalID: -1454331264874597694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_16
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 32
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31769507826d60ea0800000000000000
+      internalID: -5906798392077883629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 33
+        width: 67
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff5ca9399134cb00800000000000000
+      internalID: 847857164019851260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 69
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cc47bf1934062f0800000000000000
+      internalID: -981710424498713445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debed857932d87250800000000000000
+      internalID: 5942730852542573549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844044dba1d057b20800000000000000
+      internalID: 3131423524401710152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_21
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 67
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490269fc8f1ea2340800000000000000
+      internalID: 4839929208313880724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_22
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 68
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0a5c220f5790f70800000000000000
+      internalID: 9153977391843221670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chemical-plant-foam-east_23
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 67
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aba5603aac7c7ca0800000000000000
+      internalID: -6017797931675571288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      chemical-plant-foam-east_0: -6789014871383193730
+      chemical-plant-foam-east_1: -2953234890701623227
+      chemical-plant-foam-east_10: -7845512915743592927
+      chemical-plant-foam-east_11: 2487009869136755916
+      chemical-plant-foam-east_12: 7086903530730176060
+      chemical-plant-foam-east_13: -1955014775964680944
+      chemical-plant-foam-east_14: -7536135028590195654
+      chemical-plant-foam-east_15: -1454331264874597694
+      chemical-plant-foam-east_16: -5906798392077883629
+      chemical-plant-foam-east_17: 847857164019851260
+      chemical-plant-foam-east_18: -981710424498713445
+      chemical-plant-foam-east_19: 5942730852542573549
+      chemical-plant-foam-east_2: 398632192064366873
+      chemical-plant-foam-east_20: 3131423524401710152
+      chemical-plant-foam-east_21: 4839929208313880724
+      chemical-plant-foam-east_22: 9153977391843221670
+      chemical-plant-foam-east_23: -6017797931675571288
+      chemical-plant-foam-east_3: -930533400596236777
+      chemical-plant-foam-east_4: 5744241020818587277
+      chemical-plant-foam-east_5: -3828302819120859349
+      chemical-plant-foam-east_6: -3890705250814095941
+      chemical-plant-foam-east_7: -2999528188297702153
+      chemical-plant-foam-east_8: -2259033089947807246
+      chemical-plant-foam-east_9: 4713968178534173587
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

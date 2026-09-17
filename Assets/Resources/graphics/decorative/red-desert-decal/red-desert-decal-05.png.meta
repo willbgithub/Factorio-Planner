@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 967b5f520e579174e960eaecfdc9f7da
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7723285048509119151
+    second: red-desert-decal-05_0
+  - first:
+      213: -7424575546905061518
+    second: red-desert-decal-05_1
+  - first:
+      213: 4649562701450149906
+    second: red-desert-decal-05_2
+  - first:
+      213: -244051296727374463
+    second: red-desert-decal-05_3
+  - first:
+      213: -5043416411877039027
+    second: red-desert-decal-05_4
+  - first:
+      213: -8311371587463235394
+    second: red-desert-decal-05_5
+  - first:
+      213: 2131994586834597334
+    second: red-desert-decal-05_6
+  - first:
+      213: -3027364653590300034
+    second: red-desert-decal-05_7
+  - first:
+      213: 3901032849338689583
+    second: red-desert-decal-05_8
+  - first:
+      213: -778088985544381627
+    second: red-desert-decal-05_9
+  - first:
+      213: -5870308082818407411
+    second: red-desert-decal-05_10
+  - first:
+      213: 3324998108536960761
+    second: red-desert-decal-05_11
+  - first:
+      213: 5883818767280730109
+    second: red-desert-decal-05_12
+  - first:
+      213: -737070998813993110
+    second: red-desert-decal-05_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red-desert-decal-05_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 162
+        width: 512
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15547880b2161d490800000000000000
+      internalID: -7723285048509119151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 551
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2771cae80eb96f890800000000000000
+      internalID: -7424575546905061518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 546
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21087dc74a0968040800000000000000
+      internalID: 4649562701450149906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_3
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 550
+        width: 39
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185679f73a4fc9cf0800000000000000
+      internalID: -244051296727374463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 556
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44a1bb9e7f220ab0800000000000000
+      internalID: -5043416411877039027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_5
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 556
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8baf4a39318ac80800000000000000
+      internalID: -8311371587463235394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 296
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5f45be7cd569d10800000000000000
+      internalID: 2131994586834597334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a3d2123e3acf5d0800000000000000
+      internalID: -3027364653590300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2866f935b0432630800000000000000
+      internalID: 3901032849338689583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 243
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54babfca03ca335f0800000000000000
+      internalID: -778088985544381627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 68
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d042181a6e9788ea0800000000000000
+      internalID: -5870308082818407411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 38
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6f032c924c42e20800000000000000
+      internalID: 3324998108536960761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff6b8abef587a150800000000000000
+      internalID: 5883818767280730109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-decal-05_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 6
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67137de4d565c5f0800000000000000
+      internalID: -737070998813993110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      red-desert-decal-05_0: -7723285048509119151
+      red-desert-decal-05_1: -7424575546905061518
+      red-desert-decal-05_10: -5870308082818407411
+      red-desert-decal-05_11: 3324998108536960761
+      red-desert-decal-05_12: 5883818767280730109
+      red-desert-decal-05_13: -737070998813993110
+      red-desert-decal-05_2: 4649562701450149906
+      red-desert-decal-05_3: -244051296727374463
+      red-desert-decal-05_4: -5043416411877039027
+      red-desert-decal-05_5: -8311371587463235394
+      red-desert-decal-05_6: 2131994586834597334
+      red-desert-decal-05_7: -3027364653590300034
+      red-desert-decal-05_8: 3901032849338689583
+      red-desert-decal-05_9: -778088985544381627
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

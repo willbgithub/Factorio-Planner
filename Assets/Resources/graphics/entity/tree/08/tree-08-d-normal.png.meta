@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: c96ed4db277cf7e4f81dc9add3c270bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4730317616732387653
+    second: tree-08-d-normal_0
+  - first:
+      213: -7436849110269413753
+    second: tree-08-d-normal_1
+  - first:
+      213: -1328870884768914728
+    second: tree-08-d-normal_2
+  - first:
+      213: 4839343446338210496
+    second: tree-08-d-normal_3
+  - first:
+      213: -518367437057469654
+    second: tree-08-d-normal_4
+  - first:
+      213: 1716987709462076687
+    second: tree-08-d-normal_5
+  - first:
+      213: 8523817582401485545
+    second: tree-08-d-normal_6
+  - first:
+      213: -8594298506822839686
+    second: tree-08-d-normal_7
+  - first:
+      213: 7570568321105561540
+    second: tree-08-d-normal_8
+  - first:
+      213: 8505165498769467290
+    second: tree-08-d-normal_9
+  - first:
+      213: -2605548027957782816
+    second: tree-08-d-normal_10
+  - first:
+      213: -7674617363033241833
+    second: tree-08-d-normal_11
+  - first:
+      213: -2482191211037106076
+    second: tree-08-d-normal_12
+  - first:
+      213: -8084625678814698785
+    second: tree-08-d-normal_13
+  - first:
+      213: -6904929420769996653
+    second: tree-08-d-normal_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree-08-d-normal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 216
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6c4eb90398a5eb0800000000000000
+      internalID: -4730317616732387653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 54
+        width: 139
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7863636e2210bc890800000000000000
+      internalID: -7436849110269413753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 8
+        width: 76
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d26df098f6ee8de0800000000000000
+      internalID: -1328870884768914728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_3
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 124
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca8a19793dc82340800000000000000
+      internalID: 4839343446338210496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 119
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a235f0bff836ec8f0800000000000000
+      internalID: -518367437057469654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_5
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 93
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dd23a8937f3d710800000000000000
+      internalID: 1716987709462076687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_6
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 54
+        width: 52
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eaf4491eeeaa4670800000000000000
+      internalID: 8523817582401485545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_7
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 64
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a729727ea0beab880800000000000000
+      internalID: -8594298506822839686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_8
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 81
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7825707cf001960800000000000000
+      internalID: 7570568321105561540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_9
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 0
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97ef0675fa680670800000000000000
+      internalID: 8505165498769467290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_10
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 33
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e65b549fdb37dbd0800000000000000
+      internalID: -2605548027957782816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_11
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 6
+        width: 23
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717cb519b284e7590800000000000000
+      internalID: -7674617363033241833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_12
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 22
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4606989ae3c7d8dd0800000000000000
+      internalID: -2482191211037106076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_13
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 47
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2af3087c3adcf80800000000000000
+      internalID: -8084625678814698785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-08-d-normal_14
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 7
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3905cd39643cc20a0800000000000000
+      internalID: -6904929420769996653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tree-08-d-normal_0: -4730317616732387653
+      tree-08-d-normal_1: -7436849110269413753
+      tree-08-d-normal_10: -2605548027957782816
+      tree-08-d-normal_11: -7674617363033241833
+      tree-08-d-normal_12: -2482191211037106076
+      tree-08-d-normal_13: -8084625678814698785
+      tree-08-d-normal_14: -6904929420769996653
+      tree-08-d-normal_2: -1328870884768914728
+      tree-08-d-normal_3: 4839343446338210496
+      tree-08-d-normal_4: -518367437057469654
+      tree-08-d-normal_5: 1716987709462076687
+      tree-08-d-normal_6: 8523817582401485545
+      tree-08-d-normal_7: -8594298506822839686
+      tree-08-d-normal_8: 7570568321105561540
+      tree-08-d-normal_9: 8505165498769467290
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

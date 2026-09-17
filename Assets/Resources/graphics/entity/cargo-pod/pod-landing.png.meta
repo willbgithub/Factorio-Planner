@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 914c51f4683286c459360b6ceba47e0a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3459579678691289641
+    second: pod-landing_0
+  - first:
+      213: -6563617162132113350
+    second: pod-landing_1
+  - first:
+      213: -7082079263049644253
+    second: pod-landing_2
+  - first:
+      213: -7096434553031137168
+    second: pod-landing_3
+  - first:
+      213: -8743939286041049063
+    second: pod-landing_4
+  - first:
+      213: -6897898039929050700
+    second: pod-landing_5
+  - first:
+      213: 7499073667613817503
+    second: pod-landing_6
+  - first:
+      213: -3255111031152679317
+    second: pod-landing_7
+  - first:
+      213: -1930474526399660460
+    second: pod-landing_8
+  - first:
+      213: 1413049987983937498
+    second: pod-landing_9
+  - first:
+      213: 2306411939345977881
+    second: pod-landing_10
+  - first:
+      213: 262471765199250968
+    second: pod-landing_11
+  - first:
+      213: 6203145121601981646
+    second: pod-landing_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pod-landing_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 281
+        width: 193
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92aed8c5365e20030800000000000000
+      internalID: 3459579678691289641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 280
+        width: 193
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38357177f859e4a0800000000000000
+      internalID: -6563617162132113350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 277
+        width: 194
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32704c6ce6667bd90800000000000000
+      internalID: -7082079263049644253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 274
+        width: 193
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07865ce5f56648d90800000000000000
+      internalID: -7096434553031137168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 271
+        width: 193
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918c0f5fb8947a680800000000000000
+      internalID: -8743939286041049063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_5
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 268
+        width: 191
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b96a21874eb540a0800000000000000
+      internalID: -6897898039929050700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_6
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 265
+        width: 189
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a7b96d4cf021860800000000000000
+      internalID: 7499073667613817503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 188
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6660b373c583d2d0800000000000000
+      internalID: -3255111031152679317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_8
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 2
+        width: 185
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ef10675a39535e0800000000000000
+      internalID: -1930474526399660460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_9
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1
+        width: 184
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf07a73a792c9310800000000000000
+      internalID: 1413049987983937498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_10
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 0
+        width: 181
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912df6e5075020020800000000000000
+      internalID: 2306411939345977881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_11
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 180
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81665480eac74a300800000000000000
+      internalID: 262471765199250968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-landing_12
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 181
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc88475f9ff51650800000000000000
+      internalID: 6203145121601981646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pod-landing_0: 3459579678691289641
+      pod-landing_1: -6563617162132113350
+      pod-landing_10: 2306411939345977881
+      pod-landing_11: 262471765199250968
+      pod-landing_12: 6203145121601981646
+      pod-landing_2: -7082079263049644253
+      pod-landing_3: -7096434553031137168
+      pod-landing_4: -8743939286041049063
+      pod-landing_5: -6897898039929050700
+      pod-landing_6: 7499073667613817503
+      pod-landing_7: -3255111031152679317
+      pod-landing_8: -1930474526399660460
+      pod-landing_9: 1413049987983937498
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

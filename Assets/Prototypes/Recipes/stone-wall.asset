@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: stone-wall
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: stone-wall
+  englishName: Wall
+  typeName: recipe
+  icon: {fileID: 2868539044483428322, guid: 8158fd42d55ae924dbd145203de43362, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: fb0e4c1b320b2bf4d8b08432bc2a785f, type: 2}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 7054792ce35cc114dbd7e39e0dab966b, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

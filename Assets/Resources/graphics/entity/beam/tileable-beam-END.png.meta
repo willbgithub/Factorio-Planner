@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 9c1a112fd96956d4f928b0a617067f71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4027777917955528064
+    second: tileable-beam-END_0
+  - first:
+      213: 1860386144522923080
+    second: tileable-beam-END_1
+  - first:
+      213: 4633100273016033195
+    second: tileable-beam-END_2
+  - first:
+      213: 2776022031261142600
+    second: tileable-beam-END_3
+  - first:
+      213: -2774661935065009833
+    second: tileable-beam-END_4
+  - first:
+      213: 5072170304137858100
+    second: tileable-beam-END_5
+  - first:
+      213: -7091480607564432501
+    second: tileable-beam-END_6
+  - first:
+      213: -2226239576061896246
+    second: tileable-beam-END_7
+  - first:
+      213: -1950785216158643776
+    second: tileable-beam-END_8
+  - first:
+      213: -5190028596061305471
+    second: tileable-beam-END_9
+  - first:
+      213: -6160087692453269510
+    second: tileable-beam-END_10
+  - first:
+      213: 2264363122344004452
+    second: tileable-beam-END_11
+  - first:
+      213: 8945473257656508971
+    second: tileable-beam-END_12
+  - first:
+      213: -3999048020794331909
+    second: tileable-beam-END_13
+  - first:
+      213: -8449545670905040028
+    second: tileable-beam-END_14
+  - first:
+      213: 8639297624733281162
+    second: tileable-beam-END_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tileable-beam-END_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 279
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a291ed2557a18c0800000000000000
+      internalID: -4027777917955528064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_1
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 279
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ce859775b61d910800000000000000
+      internalID: 1860386144522923080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 187
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafc2eda6241c4040800000000000000
+      internalID: 4633100273016033195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_3
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 279
+        width: 80
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e8af55459668620800000000000000
+      internalID: 2776022031261142600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 279
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751f6acbbab6e79d0800000000000000
+      internalID: -2774661935065009833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_5
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 186
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c0c62a408f36640800000000000000
+      internalID: 5072170304137858100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 98
+        width: 87
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8bfc8ea5fff59d90800000000000000
+      internalID: -7091480607564432501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 185
+        width: 72
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac91ae396eeca11e0800000000000000
+      internalID: -2226239576061896246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_8
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 185
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9c7cd7e2b6de4e0800000000000000
+      internalID: -1950785216158643776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 98
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18585a56d7059f7b0800000000000000
+      internalID: -5190028596061305471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_10
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 98
+        width: 85
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff211a91e8f28aa0800000000000000
+      internalID: -6160087692453269510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_11
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 99
+        width: 92
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b0fcd3342ac6f10800000000000000
+      internalID: 2264363122344004452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 4
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b226f5e5884b42c70800000000000000
+      internalID: 8945473257656508971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 6
+        width: 74
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc23d053078088c0800000000000000
+      internalID: -3999048020794331909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 11
+        width: 75
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463f34cdafe2dba80800000000000000
+      internalID: -8449545670905040028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tileable-beam-END_15
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 11
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b6a1faa63f4e770800000000000000
+      internalID: 8639297624733281162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tileable-beam-END_0: -4027777917955528064
+      tileable-beam-END_1: 1860386144522923080
+      tileable-beam-END_10: -6160087692453269510
+      tileable-beam-END_11: 2264363122344004452
+      tileable-beam-END_12: 8945473257656508971
+      tileable-beam-END_13: -3999048020794331909
+      tileable-beam-END_14: -8449545670905040028
+      tileable-beam-END_15: 8639297624733281162
+      tileable-beam-END_2: 4633100273016033195
+      tileable-beam-END_3: 2776022031261142600
+      tileable-beam-END_4: -2774661935065009833
+      tileable-beam-END_5: 5072170304137858100
+      tileable-beam-END_6: -7091480607564432501
+      tileable-beam-END_7: -2226239576061896246
+      tileable-beam-END_8: -1950785216158643776
+      tileable-beam-END_9: -5190028596061305471
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

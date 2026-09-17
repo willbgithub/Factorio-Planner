@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: 9c96c2528dbb8cd4f80d0f0ae964ff09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3429585252995512897
+    second: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_0
+  - first:
+      213: 168657853835892878
+    second: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_1
+  - first:
+      213: 8318311075725611388
+    second: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_2
+  - first:
+      213: 4785283975918303968
+    second: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_3
+  - first:
+      213: 476133047209730200
+    second: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_4
+  - first:
+      213: -4149051757248296459
+    second: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_5
+  - first:
+      213: 1171380110939591741
+    second: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_6
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a37bbed95589f20800000000000000
+      internalID: 3429585252995512897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 56
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88d77aac61375200800000000000000
+      internalID: 168657853835892878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_2
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 65
+        width: 75
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7192dfd9d3907370800000000000000
+      internalID: 8318311075725611388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_3
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eabafd2c6eb86240800000000000000
+      internalID: 4785283975918303968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 0
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890a2c8db709b9600800000000000000
+      internalID: 476133047209730200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 0
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9418ec86b9b66c0800000000000000
+      internalID: -4149051757248296459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-straight-rail-diagonal-left-bottom-backplates-remnants_6
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3413813104914010800000000000000
+      internalID: 1171380110939591741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      legacy-straight-rail-diagonal-left-bottom-backplates-remnants_0: 3429585252995512897
+      legacy-straight-rail-diagonal-left-bottom-backplates-remnants_1: 168657853835892878
+      legacy-straight-rail-diagonal-left-bottom-backplates-remnants_2: 8318311075725611388
+      legacy-straight-rail-diagonal-left-bottom-backplates-remnants_3: 4785283975918303968
+      legacy-straight-rail-diagonal-left-bottom-backplates-remnants_4: 476133047209730200
+      legacy-straight-rail-diagonal-left-bottom-backplates-remnants_5: -4149051757248296459
+      legacy-straight-rail-diagonal-left-bottom-backplates-remnants_6: 1171380110939591741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

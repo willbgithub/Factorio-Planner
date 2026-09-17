@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: production-science-pack
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: production-science-pack
+  englishName: Production science pack
+  typeName: recipe
+  icon: {fileID: 6309715042043939622, guid: 18d3934ce1b83a8439d11308d2115527, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: a36893e413c23334b83f73d1734a6eb6, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 5bd33522db7f388489bdcef6e9e320fe, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: a53346f1633329f479f8ec2e5b67879a, type: 2}
+      consumption:
+        numerator: 30
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: a7736d9fb058a2347bc0a475c36571b0, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 3
+        denominator: 1

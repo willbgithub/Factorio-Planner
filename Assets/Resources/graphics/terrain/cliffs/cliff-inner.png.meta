@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: e528516dc5989064bb66e69dcc03a907
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5594994166646518397
+    second: cliff-inner_0
+  - first:
+      213: 3858109158077025970
+    second: cliff-inner_1
+  - first:
+      213: 1095936850182925360
+    second: cliff-inner_2
+  - first:
+      213: -4129208514792314766
+    second: cliff-inner_3
+  - first:
+      213: 3527808090206310266
+    second: cliff-inner_4
+  - first:
+      213: -8164049342023329048
+    second: cliff-inner_5
+  - first:
+      213: -1435992282874829160
+    second: cliff-inner_6
+  - first:
+      213: -7511446424586593437
+    second: cliff-inner_7
+  - first:
+      213: -6444343335827638895
+    second: cliff-inner_8
+  - first:
+      213: -8997002377315408859
+    second: cliff-inner_9
+  - first:
+      213: -3463429134471462282
+    second: cliff-inner_10
+  - first:
+      213: 8561663106310167483
+    second: cliff-inner_11
+  - first:
+      213: -2166965294044785428
+    second: cliff-inner_12
+  - first:
+      213: -1663684079886862168
+    second: cliff-inner_13
+  - first:
+      213: 8784377672085707285
+    second: cliff-inner_14
+  - first:
+      213: -962517124908966740
+    second: cliff-inner_15
+  - first:
+      213: -7649877073706080914
+    second: cliff-inner_16
+  - first:
+      213: -6355291986740750359
+    second: cliff-inner_17
+  - first:
+      213: 4292107531874851919
+    second: cliff-inner_18
+  - first:
+      213: -3462631979471389232
+    second: cliff-inner_19
+  - first:
+      213: -6504510090363052976
+    second: cliff-inner_20
+  - first:
+      213: -2328769805752789338
+    second: cliff-inner_21
+  - first:
+      213: -9149651587888230765
+    second: cliff-inner_22
+  - first:
+      213: 4919920072753824205
+    second: cliff-inner_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cliff-inner_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 621
+        width: 183
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38dc6a0f2769a52b0800000000000000
+      internalID: -5594994166646518397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_1
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 621
+        width: 184
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2beccdf86d1ca8530800000000000000
+      internalID: 3858109158077025970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_2
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 620
+        width: 184
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ce96b32cc853f00800000000000000
+      internalID: 1095936850182925360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 621
+        width: 184
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2782948bbba12b6c0800000000000000
+      internalID: -4129208514792314766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_4
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 620
+        width: 185
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f0f7454ca45f030800000000000000
+      internalID: 3527808090206310266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_5
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 619
+        width: 184
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea10ffd06873be80800000000000000
+      internalID: -8164049342023329048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_6
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 610
+        width: 186
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8962b0f70a4521ce0800000000000000
+      internalID: -1435992282874829160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_7
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 614
+        width: 186
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b5321364bf1c790800000000000000
+      internalID: -7511446424586593437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_8
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 364
+        width: 182
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195765131e71196a0800000000000000
+      internalID: -6444343335827638895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_9
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 365
+        width: 182
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52425c8810a342380800000000000000
+      internalID: -8997002377315408859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_10
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 365
+        width: 182
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672071f5d8d6fefc0800000000000000
+      internalID: -3463429134471462282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_11
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 362
+        width: 182
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb5f2acb3321d670800000000000000
+      internalID: 8561663106310167483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_12
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 360
+        width: 182
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce45cdfcb846de1e0800000000000000
+      internalID: -2166965294044785428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_13
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 355
+        width: 182
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8fed7d42869e8e0800000000000000
+      internalID: -1663684079886862168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_14
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 357
+        width: 183
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a9a8d73f068e970800000000000000
+      internalID: 8784377672085707285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_15
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 362
+        width: 182
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac129746c374a2f0800000000000000
+      internalID: -962517124908966740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65285e055d26d590800000000000000
+      internalID: -7649877073706080914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_17
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 0
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e75e6e1c977dc7a0800000000000000
+      internalID: -6355291986740750359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_18
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 0
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cdd274f01a09b30800000000000000
+      internalID: 4292107531874851919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_19
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 0
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd33bb7f8242ffc0800000000000000
+      internalID: -3462631979471389232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_20
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 0
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c57f109865bb5a0800000000000000
+      internalID: -6504510090363052976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_21
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 0
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a61374333c8eafd0800000000000000
+      internalID: -2328769805752789338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_22
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 0
+        width: 182
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e45559b58e50180800000000000000
+      internalID: -9149651587888230765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-inner_23
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 0
+        width: 181
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc14ec34d31174440800000000000000
+      internalID: 4919920072753824205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cliff-inner_0: -5594994166646518397
+      cliff-inner_1: 3858109158077025970
+      cliff-inner_10: -3463429134471462282
+      cliff-inner_11: 8561663106310167483
+      cliff-inner_12: -2166965294044785428
+      cliff-inner_13: -1663684079886862168
+      cliff-inner_14: 8784377672085707285
+      cliff-inner_15: -962517124908966740
+      cliff-inner_16: -7649877073706080914
+      cliff-inner_17: -6355291986740750359
+      cliff-inner_18: 4292107531874851919
+      cliff-inner_19: -3462631979471389232
+      cliff-inner_2: 1095936850182925360
+      cliff-inner_20: -6504510090363052976
+      cliff-inner_21: -2328769805752789338
+      cliff-inner_22: -9149651587888230765
+      cliff-inner_23: 4919920072753824205
+      cliff-inner_3: -4129208514792314766
+      cliff-inner_4: 3527808090206310266
+      cliff-inner_5: -8164049342023329048
+      cliff-inner_6: -1435992282874829160
+      cliff-inner_7: -7511446424586593437
+      cliff-inner_8: -6444343335827638895
+      cliff-inner_9: -8997002377315408859
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

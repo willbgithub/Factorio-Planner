@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 0e6c23afc01d9d44f91e5f6167bcf8ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2470032399589393768
+    second: gun-turret-raising_0
+  - first:
+      213: 6259398991399712403
+    second: gun-turret-raising_1
+  - first:
+      213: -4788268115071912408
+    second: gun-turret-raising_2
+  - first:
+      213: -5842617182143885302
+    second: gun-turret-raising_3
+  - first:
+      213: 2277647084043233525
+    second: gun-turret-raising_4
+  - first:
+      213: 556887101951283170
+    second: gun-turret-raising_5
+  - first:
+      213: -6681870154935688719
+    second: gun-turret-raising_6
+  - first:
+      213: -177957929818110348
+    second: gun-turret-raising_7
+  - first:
+      213: -6600068817588242486
+    second: gun-turret-raising_8
+  - first:
+      213: 5608566666746303587
+    second: gun-turret-raising_9
+  - first:
+      213: -737935409384052851
+    second: gun-turret-raising_10
+  - first:
+      213: 7222815334514054883
+    second: gun-turret-raising_11
+  - first:
+      213: -2534309379452958002
+    second: gun-turret-raising_12
+  - first:
+      213: 573467114300772998
+    second: gun-turret-raising_13
+  - first:
+      213: 410106119223194100
+    second: gun-turret-raising_14
+  - first:
+      213: 2573105185220215118
+    second: gun-turret-raising_15
+  - first:
+      213: 2490769322165147764
+    second: gun-turret-raising_16
+  - first:
+      213: 2822184546508338584
+    second: gun-turret-raising_17
+  - first:
+      213: -2943616358595375107
+    second: gun-turret-raising_18
+  - first:
+      213: -4505006277509945039
+    second: gun-turret-raising_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gun-turret-raising_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 378
+        width: 97
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8654b317161574220800000000000000
+      internalID: 2470032399589393768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 379
+        width: 97
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39671dd083addd650800000000000000
+      internalID: 6259398991399712403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 379
+        width: 96
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8263fc7c487ac8db0800000000000000
+      internalID: -4788268115071912408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 378
+        width: 97
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0058bbd0aadaeea0800000000000000
+      internalID: -5842617182143885302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 379
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8e91894f3db9f10800000000000000
+      internalID: 2277647084043233525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 252
+        width: 128
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef8dc36ed57ab700800000000000000
+      internalID: 556887101951283170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 253
+        width: 128
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f126c30f7a3543a0800000000000000
+      internalID: -6681870154935688719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_7
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 253
+        width: 128
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4764a38a434c78df0800000000000000
+      internalID: -177957929818110348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_8
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 252
+        width: 128
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7358a0168d764a0800000000000000
+      internalID: -6600068817588242486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_9
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 253
+        width: 127
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364928efaa1a5dd40800000000000000
+      internalID: 5608566666746303587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 126
+        width: 97
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d872b78a7a352c5f0800000000000000
+      internalID: -737935409384052851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 127
+        width: 97
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e654f357489c3460800000000000000
+      internalID: 7222815334514054883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_12
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 127
+        width: 96
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca04c6fb0354dcd0800000000000000
+      internalID: -2534309379452958002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_13
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 126
+        width: 97
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68214465d4d55f700800000000000000
+      internalID: 573467114300772998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_14
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 127
+        width: 97
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f13384b75df0b500800000000000000
+      internalID: 410106119223194100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 127
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4144c6788185b320800000000000000
+      internalID: 2573105185220215118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 128
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4781819708df09220800000000000000
+      internalID: 2490769322165147764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_17
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 128
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895f93974e96a2720800000000000000
+      internalID: 2822184546508338584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_18
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 128
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffc4ee848c2627d0800000000000000
+      internalID: -2943616358595375107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gun-turret-raising_19
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1
+        width: 128
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1396d1eb8a00b71c0800000000000000
+      internalID: -4505006277509945039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gun-turret-raising_0: 2470032399589393768
+      gun-turret-raising_1: 6259398991399712403
+      gun-turret-raising_10: -737935409384052851
+      gun-turret-raising_11: 7222815334514054883
+      gun-turret-raising_12: -2534309379452958002
+      gun-turret-raising_13: 573467114300772998
+      gun-turret-raising_14: 410106119223194100
+      gun-turret-raising_15: 2573105185220215118
+      gun-turret-raising_16: 2490769322165147764
+      gun-turret-raising_17: 2822184546508338584
+      gun-turret-raising_18: -2943616358595375107
+      gun-turret-raising_19: -4505006277509945039
+      gun-turret-raising_2: -4788268115071912408
+      gun-turret-raising_3: -5842617182143885302
+      gun-turret-raising_4: 2277647084043233525
+      gun-turret-raising_5: 556887101951283170
+      gun-turret-raising_6: -6681870154935688719
+      gun-turret-raising_7: -177957929818110348
+      gun-turret-raising_8: -6600068817588242486
+      gun-turret-raising_9: 5608566666746303587
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

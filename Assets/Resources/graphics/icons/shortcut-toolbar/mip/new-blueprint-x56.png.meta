@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: bc135fe8029e98240bf5fd2bfaef341e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1847466424515145079
+    second: new-blueprint-x56_0
+  - first:
+      213: 1514892717564024623
+    second: new-blueprint-x56_1
+  - first:
+      213: 7910084730681238693
+    second: new-blueprint-x56_2
+  - first:
+      213: -3576714248561469217
+    second: new-blueprint-x56_3
+  - first:
+      213: 4060050792795271840
+    second: new-blueprint-x56_4
+  - first:
+      213: -627778182977604195
+    second: new-blueprint-x56_5
+  - first:
+      213: -6833976239289153481
+    second: new-blueprint-x56_6
+  - first:
+      213: -820804885680433085
+    second: new-blueprint-x56_7
+  - first:
+      213: 6086980657957562691
+    second: new-blueprint-x56_8
+  - first:
+      213: 6444554901765187701
+    second: new-blueprint-x56_9
+  - first:
+      213: 6438849000772355769
+    second: new-blueprint-x56_10
+  - first:
+      213: -1380514519873660367
+    second: new-blueprint-x56_11
+  - first:
+      213: -3162254206584043060
+    second: new-blueprint-x56_12
+  - first:
+      213: -3470358846756778868
+    second: new-blueprint-x56_13
+  - first:
+      213: 305850415683906787
+    second: new-blueprint-x56_14
+  - first:
+      213: -6273932719021515579
+    second: new-blueprint-x56_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: new-blueprint-x56_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77dafafbce483a910800000000000000
+      internalID: 1847466424515145079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 51
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27da3f76eaf50510800000000000000
+      internalID: 1514892717564024623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 51
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a42f73372446cd60800000000000000
+      internalID: 7910084730681238693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 43
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd85a675755fc5ec0800000000000000
+      internalID: -3576714248561469217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 43
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2fa9a5fa2385830800000000000000
+      internalID: 4060050792795271840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9531e5911fa947f0800000000000000
+      internalID: -627778182977604195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738c5bd71d6d821a0800000000000000
+      internalID: -6833976239289153481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 27
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348dc172e4aeb94f0800000000000000
+      internalID: -820804885680433085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 36
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349eb3088ac497450800000000000000
+      internalID: 6086980657957562691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 27
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5786737d988af6950800000000000000
+      internalID: 6444554901765187701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b64a6d3d036b5950800000000000000
+      internalID: 6438849000772355769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 15
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a59a3cb5d67dce0800000000000000
+      internalID: -1380514519873660367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9c21fad8a6d14d0800000000000000
+      internalID: -3162254206584043060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c8deff30fc6dfc0800000000000000
+      internalID: -3470358846756778868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecae3525599e3400800000000000000
+      internalID: 305850415683906787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-blueprint-x56_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc950ace638ee8a0800000000000000
+      internalID: -6273932719021515579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      new-blueprint-x56_0: 1847466424515145079
+      new-blueprint-x56_1: 1514892717564024623
+      new-blueprint-x56_10: 6438849000772355769
+      new-blueprint-x56_11: -1380514519873660367
+      new-blueprint-x56_12: -3162254206584043060
+      new-blueprint-x56_13: -3470358846756778868
+      new-blueprint-x56_14: 305850415683906787
+      new-blueprint-x56_15: -6273932719021515579
+      new-blueprint-x56_2: 7910084730681238693
+      new-blueprint-x56_3: -3576714248561469217
+      new-blueprint-x56_4: 4060050792795271840
+      new-blueprint-x56_5: -627778182977604195
+      new-blueprint-x56_6: -6833976239289153481
+      new-blueprint-x56_7: -820804885680433085
+      new-blueprint-x56_8: 6086980657957562691
+      new-blueprint-x56_9: 6444554901765187701
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

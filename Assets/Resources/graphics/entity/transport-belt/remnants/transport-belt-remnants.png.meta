@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: e61b952234f384a44b193772e8e511f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8601232434076404976
+    second: transport-belt-remnants_0
+  - first:
+      213: 2613003071545624582
+    second: transport-belt-remnants_1
+  - first:
+      213: 4341115038222492454
+    second: transport-belt-remnants_2
+  - first:
+      213: 6034063069180409003
+    second: transport-belt-remnants_3
+  - first:
+      213: 1583930378397230290
+    second: transport-belt-remnants_4
+  - first:
+      213: 5588721305322275641
+    second: transport-belt-remnants_5
+  - first:
+      213: 7092321457599098953
+    second: transport-belt-remnants_6
+  - first:
+      213: 6491337854233743903
+    second: transport-belt-remnants_7
+  - first:
+      213: -8658533456306382074
+    second: transport-belt-remnants_8
+  - first:
+      213: 9027437455427599271
+    second: transport-belt-remnants_9
+  - first:
+      213: 1591397808800711731
+    second: transport-belt-remnants_10
+  - first:
+      213: 4893437138635867983
+    second: transport-belt-remnants_11
+  - first:
+      213: -5598682182539550842
+    second: transport-belt-remnants_12
+  - first:
+      213: -8196591282635737120
+    second: transport-belt-remnants_13
+  - first:
+      213: -8733343345335324158
+    second: transport-belt-remnants_14
+  - first:
+      213: 8364809075114088105
+    second: transport-belt-remnants_15
+  - first:
+      213: -3327263339175104393
+    second: transport-belt-remnants_16
+  - first:
+      213: -3983174421629190784
+    second: transport-belt-remnants_17
+  - first:
+      213: -4904568705121512410
+    second: transport-belt-remnants_18
+  - first:
+      213: 2900178756846013852
+    second: transport-belt-remnants_19
+  - first:
+      213: -3546262691164498093
+    second: transport-belt-remnants_20
+  - first:
+      213: -463831862435964464
+    second: transport-belt-remnants_21
+  - first:
+      213: 2181102653523560303
+    second: transport-belt-remnants_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: transport-belt-remnants_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 715
+        width: 99
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013be482ca842a880800000000000000
+      internalID: -8601232434076404976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 614
+        width: 99
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6084b740370434420800000000000000
+      internalID: 2613003071545624582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 615
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623ab56802dbe3c30800000000000000
+      internalID: 4341115038222492454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 98
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba43dce346c4db350800000000000000
+      internalID: 6034063069180409003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 511
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4215189404bf510800000000000000
+      internalID: 1583930378397230290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 104
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9334468ba602f8d40800000000000000
+      internalID: 5588721305322275641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 307
+        width: 99
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9403319f9ccfc6260800000000000000
+      internalID: 7092321457599098953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_7
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 206
+        width: 96
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1216a6c26dd51a50800000000000000
+      internalID: 6491337854233743903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_8
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 285
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bd50542b5b6d780800000000000000
+      internalID: -8658533456306382074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab71da4986e74d70800000000000000
+      internalID: 9027437455427599271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 254
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334c6e120e7c51610800000000000000
+      internalID: 1591397808800711731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47481ba62bf8e340800000000000000
+      internalID: 4893437138635867983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 206
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fdb63d73c7d42b0800000000000000
+      internalID: -5598682182539550842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_13
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 206
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7fe65e7abdf3e80800000000000000
+      internalID: -8196591282635737120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 106
+        width: 101
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20234c7af7eecc680800000000000000
+      internalID: -8733343345335324158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 107
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a693200985c51470800000000000000
+      internalID: 8364809075114088105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_16
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 104
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770b9422f9f23d1d0800000000000000
+      internalID: -3327263339175104393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 103
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dbe50a7fbe8b8c0800000000000000
+      internalID: -3983174421629190784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6241cba8fb87febb0800000000000000
+      internalID: -4904568705121512410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 71
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dc0faa6318f3820800000000000000
+      internalID: 2900178756846013852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3575bec0fd429cec0800000000000000
+      internalID: -3546262691164498093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d91ffbe0632099f0800000000000000
+      internalID: -463831862435964464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: transport-belt-remnants_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 20
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f670fe1be45d44e10800000000000000
+      internalID: 2181102653523560303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      transport-belt-remnants_0: -8601232434076404976
+      transport-belt-remnants_1: 2613003071545624582
+      transport-belt-remnants_10: 1591397808800711731
+      transport-belt-remnants_11: 4893437138635867983
+      transport-belt-remnants_12: -5598682182539550842
+      transport-belt-remnants_13: -8196591282635737120
+      transport-belt-remnants_14: -8733343345335324158
+      transport-belt-remnants_15: 8364809075114088105
+      transport-belt-remnants_16: -3327263339175104393
+      transport-belt-remnants_17: -3983174421629190784
+      transport-belt-remnants_18: -4904568705121512410
+      transport-belt-remnants_19: 2900178756846013852
+      transport-belt-remnants_2: 4341115038222492454
+      transport-belt-remnants_20: -3546262691164498093
+      transport-belt-remnants_21: -463831862435964464
+      transport-belt-remnants_22: 2181102653523560303
+      transport-belt-remnants_3: 6034063069180409003
+      transport-belt-remnants_4: 1583930378397230290
+      transport-belt-remnants_5: 5588721305322275641
+      transport-belt-remnants_6: 7092321457599098953
+      transport-belt-remnants_7: 6491337854233743903
+      transport-belt-remnants_8: -8658533456306382074
+      transport-belt-remnants_9: 9027437455427599271
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: rocket-part
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: rocket-part
+  englishName: Rocket part
+  typeName: recipe
+  icon: {fileID: -4329879914100835453, guid: 90d91fb88f5b2504bb827aae333fa189, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 5530e1fc6e535914d9339a401a8dad89, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 6d86fb2581bfe96479ca20fa2f727dd6, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: b9404daac91005447b478cbf914ffb9d, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 2872b21f1bb55c544a697e62894bdcad, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

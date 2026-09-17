@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 74a8776bc29569a4498884314624f8aa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -755242578368859319
+    second: pod-death_0
+  - first:
+      213: -4263821525084103664
+    second: pod-death_1
+  - first:
+      213: -1256422959920767835
+    second: pod-death_2
+  - first:
+      213: 1632658476071735289
+    second: pod-death_3
+  - first:
+      213: 1524225570336635366
+    second: pod-death_4
+  - first:
+      213: 3397670454354043424
+    second: pod-death_5
+  - first:
+      213: -5442122970734512798
+    second: pod-death_6
+  - first:
+      213: -897662572058391201
+    second: pod-death_7
+  - first:
+      213: 6023052637787591930
+    second: pod-death_8
+  - first:
+      213: 938262963719837647
+    second: pod-death_9
+  - first:
+      213: 6438630325587429378
+    second: pod-death_10
+  - first:
+      213: -7164880502396190050
+    second: pod-death_11
+  - first:
+      213: 4328050591369570867
+    second: pod-death_12
+  - first:
+      213: 601708954870882206
+    second: pod-death_13
+  - first:
+      213: 908925922225386539
+    second: pod-death_14
+  - first:
+      213: 7564696031999410676
+    second: pod-death_15
+  - first:
+      213: -40025476797958390
+    second: pod-death_16
+  - first:
+      213: 4278137342591732277
+    second: pod-death_17
+  - first:
+      213: -7320717119383246253
+    second: pod-death_18
+  - first:
+      213: 4912022162305967636
+    second: pod-death_19
+  - first:
+      213: 3298914581165354933
+    second: pod-death_20
+  - first:
+      213: -4439258420353382976
+    second: pod-death_21
+  - first:
+      213: -6480580272688698342
+    second: pod-death_22
+  - first:
+      213: -1023325318592006893
+    second: pod-death_23
+  - first:
+      213: -6571088967057173949
+    second: pod-death_24
+  - first:
+      213: 1176151099811043796
+    second: pod-death_25
+  - first:
+      213: -7835825690396674455
+    second: pod-death_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pod-death_0
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 531
+        width: 177
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943f21d50e6d485f0800000000000000
+      internalID: -755242578368859319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 532
+        width: 171
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c92b3e9ecd3d4c0800000000000000
+      internalID: -4263821525084103664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 532
+        width: 171
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac174a89f9409ee0800000000000000
+      internalID: -1256422959920767835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_3
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 532
+        width: 171
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff49c9db3e58a610800000000000000
+      internalID: 1632658476071735289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_4
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 533
+        width: 171
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e97b7d9413272510800000000000000
+      internalID: 1524225570336635366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_5
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 533
+        width: 186
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022ec9fc643f62f20800000000000000
+      internalID: 3397670454354043424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_6
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 267
+        width: 201
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2653061edf1b974b0800000000000000
+      internalID: -5442122970734512798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 267
+        width: 218
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dcb4095acda83f0800000000000000
+      internalID: -897662572058391201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_8
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 313
+        width: 230
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af41fca667e269350800000000000000
+      internalID: 6023052637787591930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 268
+        width: 64
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc71d62c131650d00800000000000000
+      internalID: 938262963719837647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_10
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 313
+        width: 240
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20842b4fa2c9a5950800000000000000
+      internalID: 6438630325587429378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_11
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 268
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e928d8ce42b319c90800000000000000
+      internalID: -7164880502396190050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_12
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 313
+        width: 248
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33aa084f413501c30800000000000000
+      internalID: 4328050591369570867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_13
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 268
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f10414b13b95800800000000000000
+      internalID: 601708954870882206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_14
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 313
+        width: 254
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2473618f472d9c00800000000000000
+      internalID: 908925922225386539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_15
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 268
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1c12d26f23bf860800000000000000
+      internalID: 7564696031999410676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 47
+        width: 258
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07fd797a0dc17ff0800000000000000
+      internalID: -40025476797958390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a838d1f3ffe5b30800000000000000
+      internalID: 4278137342591732277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_18
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 68
+        width: 260
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a6a061196976a90800000000000000
+      internalID: -7320717119383246253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_19
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 47
+        width: 97
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416e711b1220b2440800000000000000
+      internalID: 4912022162305967636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfa7ba455918cd20800000000000000
+      internalID: 3298914581165354933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_21
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 68
+        width: 261
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c5cca4acf59462c0800000000000000
+      internalID: -4439258420353382976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_22
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 47
+        width: 97
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c6cfbd39a5016a0800000000000000
+      internalID: -6480580272688698342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_23
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 2
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315f8a76b0b6cc1f0800000000000000
+      internalID: -1023325318592006893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_24
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 68
+        width: 261
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342911b466dcec4a0800000000000000
+      internalID: -6571088967057173949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_25
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 47
+        width: 97
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d91c6a9137825010800000000000000
+      internalID: 1176151099811043796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-death_26
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966b602fc0e814390800000000000000
+      internalID: -7835825690396674455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pod-death_0: -755242578368859319
+      pod-death_1: -4263821525084103664
+      pod-death_10: 6438630325587429378
+      pod-death_11: -7164880502396190050
+      pod-death_12: 4328050591369570867
+      pod-death_13: 601708954870882206
+      pod-death_14: 908925922225386539
+      pod-death_15: 7564696031999410676
+      pod-death_16: -40025476797958390
+      pod-death_17: 4278137342591732277
+      pod-death_18: -7320717119383246253
+      pod-death_19: 4912022162305967636
+      pod-death_2: -1256422959920767835
+      pod-death_20: 3298914581165354933
+      pod-death_21: -4439258420353382976
+      pod-death_22: -6480580272688698342
+      pod-death_23: -1023325318592006893
+      pod-death_24: -6571088967057173949
+      pod-death_25: 1176151099811043796
+      pod-death_26: -7835825690396674455
+      pod-death_3: 1632658476071735289
+      pod-death_4: 1524225570336635366
+      pod-death_5: 3397670454354043424
+      pod-death_6: -5442122970734512798
+      pod-death_7: -897662572058391201
+      pod-death_8: 6023052637787591930
+      pod-death_9: 938262963719837647
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 4ba574b56be91c7498c47b9522befcce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1685137236003719887
+    second: tank-turret-mask_0
+  - first:
+      213: -6299315274707668870
+    second: tank-turret-mask_1
+  - first:
+      213: 259048945848156007
+    second: tank-turret-mask_2
+  - first:
+      213: -1834011398435933614
+    second: tank-turret-mask_3
+  - first:
+      213: 7091852836393117353
+    second: tank-turret-mask_4
+  - first:
+      213: 3992281871288903840
+    second: tank-turret-mask_5
+  - first:
+      213: -1358075589374097912
+    second: tank-turret-mask_6
+  - first:
+      213: 497062998789748204
+    second: tank-turret-mask_7
+  - first:
+      213: 4773115154601386695
+    second: tank-turret-mask_8
+  - first:
+      213: 3216181185019243547
+    second: tank-turret-mask_9
+  - first:
+      213: -2723055524261486067
+    second: tank-turret-mask_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tank-turret-mask_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 263
+        width: 73
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135f632bc903d98e0800000000000000
+      internalID: -1685137236003719887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 200
+        width: 73
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a707bd202265498a0800000000000000
+      internalID: -6299315274707668870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 198
+        width: 73
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ff7bcc4a3589300800000000000000
+      internalID: 259048945848156007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 198
+        width: 73
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2527532a9584c86e0800000000000000
+      internalID: -1834011398435933614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 198
+        width: 217
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6ee8894925b6260800000000000000
+      internalID: 7091852836393117353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_5
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 79
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8286db53f676730800000000000000
+      internalID: 3992281871288903840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 266
+        width: 72
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8064a356275272de0800000000000000
+      internalID: -1358075589374097912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 73
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce57ad1f92ce5e600800000000000000
+      internalID: 497062998789748204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 145
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2ac0ea1f28d3240800000000000000
+      internalID: 4773115154601386695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 0
+        width: 146
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ced5a6fbb22ac20800000000000000
+      internalID: 3216181185019243547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-turret-mask_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 227
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02aab49d63c53ad0800000000000000
+      internalID: -2723055524261486067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tank-turret-mask_0: -1685137236003719887
+      tank-turret-mask_1: -6299315274707668870
+      tank-turret-mask_10: -2723055524261486067
+      tank-turret-mask_2: 259048945848156007
+      tank-turret-mask_3: -1834011398435933614
+      tank-turret-mask_4: 7091852836393117353
+      tank-turret-mask_5: 3992281871288903840
+      tank-turret-mask_6: -1358075589374097912
+      tank-turret-mask_7: 497062998789748204
+      tank-turret-mask_8: 4773115154601386695
+      tank-turret-mask_9: 3216181185019243547
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

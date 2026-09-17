@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: bcf0a9136597fc943ba78faa6fe34354
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2625028883650514352
+    second: sand-2_0
+  - first:
+      213: 6668179716578724325
+    second: sand-2_1
+  - first:
+      213: 4368510726541768117
+    second: sand-2_2
+  - first:
+      213: 6138559143622440382
+    second: sand-2_3
+  - first:
+      213: 1127628353983611516
+    second: sand-2_4
+  - first:
+      213: -3825804716066694012
+    second: sand-2_5
+  - first:
+      213: 2087502310306989483
+    second: sand-2_6
+  - first:
+      213: 685753661579894178
+    second: sand-2_7
+  - first:
+      213: -3731656866194555449
+    second: sand-2_8
+  - first:
+      213: 8060753411651239061
+    second: sand-2_9
+  - first:
+      213: -6828029635372268029
+    second: sand-2_10
+  - first:
+      213: 1453594265559540715
+    second: sand-2_11
+  - first:
+      213: -6632426115206789935
+    second: sand-2_12
+  - first:
+      213: -5854960314081524039
+    second: sand-2_13
+  - first:
+      213: 6169316796544075900
+    second: sand-2_14
+  - first:
+      213: 1949257581863388251
+    second: sand-2_15
+  - first:
+      213: 764327848617461808
+    second: sand-2_16
+  - first:
+      213: 7364400719865560740
+    second: sand-2_17
+  - first:
+      213: 687167251674874899
+    second: sand-2_18
+  - first:
+      213: 7270645830509257690
+    second: sand-2_19
+  - first:
+      213: -7376073045794149248
+    second: sand-2_20
+  - first:
+      213: 8010124903122962669
+    second: sand-2_21
+  - first:
+      213: -8190565634861694453
+    second: sand-2_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sand-2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1599
+        width: 1025
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd01279cd9fd6420800000000000000
+      internalID: 2625028883650514352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_1
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 1407
+        width: 514
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9c3296f122a8c50800000000000000
+      internalID: 6668179716578724325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_2
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 1599
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b571054c5110ac30800000000000000
+      internalID: 4368510726541768117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_3
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 1535
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb57754840b803550800000000000000
+      internalID: 6138559143622440382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_4
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1599
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c720ad5730426af00800000000000000
+      internalID: 1127628353983611516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_5
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1535
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c94d671e208eac0800000000000000
+      internalID: -3825804716066694012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_6
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1599
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5c7a98a4c48fc10800000000000000
+      internalID: 2087502310306989483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_7
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 1535
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad94e96259448900800000000000000
+      internalID: 685753661579894178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1599
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd73d2f9dd763cc0800000000000000
+      internalID: -3731656866194555449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_9
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1535
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c7d7b258c8ddf60800000000000000
+      internalID: 8060753411651239061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_10
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1599
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306cbcb1937fd31a0800000000000000
+      internalID: -6828029635372268029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_11
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 1535
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3a83678443c2410800000000000000
+      internalID: 1453594265559540715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_12
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1599
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4431c9693e4f3a0800000000000000
+      internalID: -6632426115206789935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_13
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1535
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b649218d900fbea0800000000000000
+      internalID: -5854960314081524039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_14
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 1599
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c784cd4a0f0dd9550800000000000000
+      internalID: 6169316796544075900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_15
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 1535
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5444be61772d0b10800000000000000
+      internalID: 1949257581863388251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_16
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1599
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03848c4f0207b9a00800000000000000
+      internalID: 764327848617461808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_17
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1535
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeb73bbf6b933660800000000000000
+      internalID: 7364400719865560740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_18
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 1407
+        width: 513
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314cc5189fe498900800000000000000
+      internalID: 687167251674874899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1407
+        width: 2049
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3ed2f7cd586e460800000000000000
+      internalID: 7270645830509257690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_20
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 1407
+        width: 514
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c2b1c15ace2a990800000000000000
+      internalID: -7376073045794149248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1087
+        width: 4096
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de88721f82ea92f60800000000000000
+      internalID: 8010124903122962669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand-2_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4096
+        height: 1025
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b020c8853f3455e80800000000000000
+      internalID: -8190565634861694453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sand-2_0: 2625028883650514352
+      sand-2_1: 6668179716578724325
+      sand-2_10: -6828029635372268029
+      sand-2_11: 1453594265559540715
+      sand-2_12: -6632426115206789935
+      sand-2_13: -5854960314081524039
+      sand-2_14: 6169316796544075900
+      sand-2_15: 1949257581863388251
+      sand-2_16: 764327848617461808
+      sand-2_17: 7364400719865560740
+      sand-2_18: 687167251674874899
+      sand-2_19: 7270645830509257690
+      sand-2_2: 4368510726541768117
+      sand-2_20: -7376073045794149248
+      sand-2_21: 8010124903122962669
+      sand-2_22: -8190565634861694453
+      sand-2_3: 6138559143622440382
+      sand-2_4: 1127628353983611516
+      sand-2_5: -3825804716066694012
+      sand-2_6: 2087502310306989483
+      sand-2_7: 685753661579894178
+      sand-2_8: -3731656866194555449
+      sand-2_9: 8060753411651239061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

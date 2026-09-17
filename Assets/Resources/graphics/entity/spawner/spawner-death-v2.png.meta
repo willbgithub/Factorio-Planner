@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: b7e8f5b86825ad54fba2f6a84f40f884
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3317321121732544216
+    second: spawner-death-v2_0
+  - first:
+      213: -4698228702784199248
+    second: spawner-death-v2_1
+  - first:
+      213: -2402402611021027692
+    second: spawner-death-v2_2
+  - first:
+      213: -6233371745389592595
+    second: spawner-death-v2_3
+  - first:
+      213: -3714447296779941919
+    second: spawner-death-v2_4
+  - first:
+      213: -4710640991166026565
+    second: spawner-death-v2_5
+  - first:
+      213: -428818106785811491
+    second: spawner-death-v2_6
+  - first:
+      213: -6612710507822126713
+    second: spawner-death-v2_7
+  - first:
+      213: 4438155653223437051
+    second: spawner-death-v2_8
+  - first:
+      213: -7502332629111302400
+    second: spawner-death-v2_9
+  - first:
+      213: -2082071534597328965
+    second: spawner-death-v2_10
+  - first:
+      213: -2456106286827887530
+    second: spawner-death-v2_11
+  - first:
+      213: 725397417307638320
+    second: spawner-death-v2_12
+  - first:
+      213: -5944991834318700816
+    second: spawner-death-v2_13
+  - first:
+      213: -7037106467072134085
+    second: spawner-death-v2_14
+  - first:
+      213: 397591584564137836
+    second: spawner-death-v2_15
+  - first:
+      213: -8992997262123789137
+    second: spawner-death-v2_16
+  - first:
+      213: 1584698845942990278
+    second: spawner-death-v2_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spawner-death-v2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 705
+        width: 409
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6c4cafbfd790e20800000000000000
+      internalID: 3317321121732544216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 409
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5e00913e98cceb0800000000000000
+      internalID: -4698228702784199248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 705
+        width: 410
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496ee92cd83f8aed0800000000000000
+      internalID: -2402402611021027692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 355
+        width: 410
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: defb8136c6d9e79a0800000000000000
+      internalID: -6233371745389592595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_4
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 705
+        width: 410
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e785821dd1a37cc0800000000000000
+      internalID: -3714447296779941919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_5
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 355
+        width: 410
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbca7210af070aeb0800000000000000
+      internalID: -4710640991166026565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_6
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 705
+        width: 410
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3b6cf24388c0af0800000000000000
+      internalID: -428818106785811491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_7
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 355
+        width: 410
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789e4ca24deea34a0800000000000000
+      internalID: -6612710507822126713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_8
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 705
+        width: 410
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf256406d0f779d30800000000000000
+      internalID: 4438155653223437051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 355
+        width: 410
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0079ffe093c52e790800000000000000
+      internalID: -7502332629111302400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_10
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 705
+        width: 409
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfaf5778fefa13e0800000000000000
+      internalID: -2082071534597328965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_11
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 355
+        width: 409
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654250b58582aedd0800000000000000
+      internalID: -2456106286827887530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 409
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a8b939b11211a00800000000000000
+      internalID: 725397417307638320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_13
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 410
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fef5d2bc652f7da0800000000000000
+      internalID: -5944991834318700816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_14
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 0
+        width: 410
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34bf8fc3fc275e90800000000000000
+      internalID: -7037106467072134085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_15
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 0
+        width: 410
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f41ab8077848500800000000000000
+      internalID: 397591584564137836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_16
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 0
+        width: 410
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa41d0513a4723380800000000000000
+      internalID: -8992997262123789137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-death-v2_17
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 0
+        width: 409
+        height: 355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5476c443bfdf510800000000000000
+      internalID: 1584698845942990278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spawner-death-v2_0: 3317321121732544216
+      spawner-death-v2_1: -4698228702784199248
+      spawner-death-v2_10: -2082071534597328965
+      spawner-death-v2_11: -2456106286827887530
+      spawner-death-v2_12: 725397417307638320
+      spawner-death-v2_13: -5944991834318700816
+      spawner-death-v2_14: -7037106467072134085
+      spawner-death-v2_15: 397591584564137836
+      spawner-death-v2_16: -8992997262123789137
+      spawner-death-v2_17: 1584698845942990278
+      spawner-death-v2_2: -2402402611021027692
+      spawner-death-v2_3: -6233371745389592595
+      spawner-death-v2_4: -3714447296779941919
+      spawner-death-v2_5: -4710640991166026565
+      spawner-death-v2_6: -428818106785811491
+      spawner-death-v2_7: -6612710507822126713
+      spawner-death-v2_8: 4438155653223437051
+      spawner-death-v2_9: -7502332629111302400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

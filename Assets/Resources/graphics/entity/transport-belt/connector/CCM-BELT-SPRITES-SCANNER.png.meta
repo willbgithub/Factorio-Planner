@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 3be7bcfaf798f9040964d6d93d1128c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7591480789991437065
+    second: CCM-BELT-SPRITES-SCANNER_0
+  - first:
+      213: -2245649887290272455
+    second: CCM-BELT-SPRITES-SCANNER_1
+  - first:
+      213: -1795172514389000530
+    second: CCM-BELT-SPRITES-SCANNER_2
+  - first:
+      213: 1025710086060580269
+    second: CCM-BELT-SPRITES-SCANNER_3
+  - first:
+      213: -8442140197007243718
+    second: CCM-BELT-SPRITES-SCANNER_4
+  - first:
+      213: 5350426099232532893
+    second: CCM-BELT-SPRITES-SCANNER_5
+  - first:
+      213: 7921563716870452380
+    second: CCM-BELT-SPRITES-SCANNER_6
+  - first:
+      213: 6938125061439720622
+    second: CCM-BELT-SPRITES-SCANNER_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CCM-BELT-SPRITES-SCANNER_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 22
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90334ae9e8b5a5960800000000000000
+      internalID: 7591480789991437065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCM-BELT-SPRITES-SCANNER_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 935da225359d5d0e0800000000000000
+      internalID: -2245649887290272455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCM-BELT-SPRITES-SCANNER_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 0
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae7c410c144617e0800000000000000
+      internalID: -1795172514389000530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCM-BELT-SPRITES-SCANNER_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad1d2a83ed0c3e00800000000000000
+      internalID: 1025710086060580269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCM-BELT-SPRITES-SCANNER_4
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36465d183e77da80800000000000000
+      internalID: -8442140197007243718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCM-BELT-SPRITES-SCANNER_5
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 0
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99ebb18038804a40800000000000000
+      internalID: 5350426099232532893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCM-BELT-SPRITES-SCANNER_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94bfa1fa3c0fed60800000000000000
+      internalID: 7921563716870452380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CCM-BELT-SPRITES-SCANNER_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 23
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac895ecbfb294060800000000000000
+      internalID: 6938125061439720622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CCM-BELT-SPRITES-SCANNER_0: 7591480789991437065
+      CCM-BELT-SPRITES-SCANNER_1: -2245649887290272455
+      CCM-BELT-SPRITES-SCANNER_2: -1795172514389000530
+      CCM-BELT-SPRITES-SCANNER_3: 1025710086060580269
+      CCM-BELT-SPRITES-SCANNER_4: -8442140197007243718
+      CCM-BELT-SPRITES-SCANNER_5: 5350426099232532893
+      CCM-BELT-SPRITES-SCANNER_6: 7921563716870452380
+      CCM-BELT-SPRITES-SCANNER_7: 6938125061439720622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

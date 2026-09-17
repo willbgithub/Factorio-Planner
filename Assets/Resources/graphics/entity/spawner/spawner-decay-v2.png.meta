@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 62cbab165b434344fa857c141382c914
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5589160840333668409
+    second: spawner-decay-v2_0
+  - first:
+      213: -6689997474985259819
+    second: spawner-decay-v2_1
+  - first:
+      213: 5843043280450531352
+    second: spawner-decay-v2_2
+  - first:
+      213: -6211589444410898852
+    second: spawner-decay-v2_3
+  - first:
+      213: 6791298214175708819
+    second: spawner-decay-v2_4
+  - first:
+      213: -1114037941691396003
+    second: spawner-decay-v2_5
+  - first:
+      213: -7288657026397701969
+    second: spawner-decay-v2_6
+  - first:
+      213: 3562503635770944364
+    second: spawner-decay-v2_7
+  - first:
+      213: -3750031324391038898
+    second: spawner-decay-v2_8
+  - first:
+      213: -1123445426047804109
+    second: spawner-decay-v2_9
+  - first:
+      213: 1683497580726811550
+    second: spawner-decay-v2_10
+  - first:
+      213: -9037045707460543751
+    second: spawner-decay-v2_11
+  - first:
+      213: -7980748980350912527
+    second: spawner-decay-v2_12
+  - first:
+      213: -1636645141445804242
+    second: spawner-decay-v2_13
+  - first:
+      213: 5484029118795985582
+    second: spawner-decay-v2_14
+  - first:
+      213: -1965751291868805302
+    second: spawner-decay-v2_15
+  - first:
+      213: -6493054405832802570
+    second: spawner-decay-v2_16
+  - first:
+      213: 5522934259771343400
+    second: spawner-decay-v2_17
+  - first:
+      213: -7000761107025267070
+    second: spawner-decay-v2_18
+  - first:
+      213: -6902156475167267270
+    second: spawner-decay-v2_19
+  - first:
+      213: 629422549525130384
+    second: spawner-decay-v2_20
+  - first:
+      213: 8853378135726476676
+    second: spawner-decay-v2_21
+  - first:
+      213: 5361795885963496346
+    second: spawner-decay-v2_22
+  - first:
+      213: -2908836380920397209
+    second: spawner-decay-v2_23
+  - first:
+      213: 3712985666971466377
+    second: spawner-decay-v2_24
+  - first:
+      213: -5219520022225444071
+    second: spawner-decay-v2_25
+  - first:
+      213: 6515445063281074809
+    second: spawner-decay-v2_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spawner-decay-v2_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1218
+        width: 409
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930bc90fb20b09d40800000000000000
+      internalID: 5589160840333668409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_1
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1218
+        width: 409
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc4e3bddba5823a0800000000000000
+      internalID: -6689997474985259819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_2
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1218
+        width: 409
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810bc72e7e8a61150800000000000000
+      internalID: 5843043280450531352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_3
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1218
+        width: 409
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56825b8f400cc9a0800000000000000
+      internalID: -6211589444410898852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_4
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 1218
+        width: 409
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39610b37eb98f3e50800000000000000
+      internalID: 6791298214175708819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_5
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 1218
+        width: 409
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d505d2bf4642a80f0800000000000000
+      internalID: -1114037941691396003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 823
+        width: 409
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8f8eb2d0d79da90800000000000000
+      internalID: -7288657026397701969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_7
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 823
+        width: 409
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b2a298e2e807130800000000000000
+      internalID: 3562503635770944364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_8
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 823
+        width: 409
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40a515016635fbc0800000000000000
+      internalID: -3750031324391038898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_9
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 823
+        width: 409
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d12e75658b860f0800000000000000
+      internalID: -1123445426047804109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_10
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 823
+        width: 409
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b737f412cfc5710800000000000000
+      internalID: 1683497580726811550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_11
+      rect:
+        serializedVersion: 2
+        x: 2508
+        y: 823
+        width: 409
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa78d33fc6f59280800000000000000
+      internalID: -9037045707460543751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 424
+        width: 409
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f77f90161fae3190800000000000000
+      internalID: -7980748980350912527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_13
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 424
+        width: 409
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ff0c84ae77949e0800000000000000
+      internalID: -1636645141445804242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_14
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 424
+        width: 409
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2bbbb8d6f2b1c40800000000000000
+      internalID: 5484029118795985582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_15
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 424
+        width: 409
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4705637d9f38b4e0800000000000000
+      internalID: -1965751291868805302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_16
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 423
+        width: 408
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fefc096b6904e5a0800000000000000
+      internalID: -6493054405832802570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_17
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 424
+        width: 400
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822818f827765ac40800000000000000
+      internalID: 5522934259771343400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 379
+        height: 365
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28673626ddc48de90800000000000000
+      internalID: -7000761107025267070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_19
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 34
+        width: 377
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a362e79414d9630a0800000000000000
+      internalID: -6902156475167267270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_20
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 34
+        width: 369
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ce01659782cb800800000000000000
+      internalID: 629422549525130384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_21
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 34
+        width: 367
+        height: 335
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dcf2ad1848dda70800000000000000
+      internalID: 8853378135726476676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_22
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 34
+        width: 367
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b410543fce86a40800000000000000
+      internalID: 5361795885963496346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_23
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 343
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762c18529bcb1a7d0800000000000000
+      internalID: -2908836380920397209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_24
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 34
+        width: 361
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a73f7bacc278330800000000000000
+      internalID: 3712985666971466377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_25
+      rect:
+        serializedVersion: 2
+        x: 2546
+        y: 224
+        width: 181
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913a639a13a8097b0800000000000000
+      internalID: -5219520022225444071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spawner-decay-v2_26
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 255
+        width: 82
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972e076c3c28b6a50800000000000000
+      internalID: 6515445063281074809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spawner-decay-v2_0: 5589160840333668409
+      spawner-decay-v2_1: -6689997474985259819
+      spawner-decay-v2_10: 1683497580726811550
+      spawner-decay-v2_11: -9037045707460543751
+      spawner-decay-v2_12: -7980748980350912527
+      spawner-decay-v2_13: -1636645141445804242
+      spawner-decay-v2_14: 5484029118795985582
+      spawner-decay-v2_15: -1965751291868805302
+      spawner-decay-v2_16: -6493054405832802570
+      spawner-decay-v2_17: 5522934259771343400
+      spawner-decay-v2_18: -7000761107025267070
+      spawner-decay-v2_19: -6902156475167267270
+      spawner-decay-v2_2: 5843043280450531352
+      spawner-decay-v2_20: 629422549525130384
+      spawner-decay-v2_21: 8853378135726476676
+      spawner-decay-v2_22: 5361795885963496346
+      spawner-decay-v2_23: -2908836380920397209
+      spawner-decay-v2_24: 3712985666971466377
+      spawner-decay-v2_25: -5219520022225444071
+      spawner-decay-v2_26: 6515445063281074809
+      spawner-decay-v2_3: -6211589444410898852
+      spawner-decay-v2_4: 6791298214175708819
+      spawner-decay-v2_5: -1114037941691396003
+      spawner-decay-v2_6: -7288657026397701969
+      spawner-decay-v2_7: 3562503635770944364
+      spawner-decay-v2_8: -3750031324391038898
+      spawner-decay-v2_9: -1123445426047804109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

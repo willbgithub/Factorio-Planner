@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: cf95aa9ae7b1eb84fb01baaa1c7d3e80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8703548797965581912
+    second: express-splitter-north_0
+  - first:
+      213: -2154171792553298982
+    second: express-splitter-north_1
+  - first:
+      213: 1229830673006743991
+    second: express-splitter-north_2
+  - first:
+      213: -7576701716607306265
+    second: express-splitter-north_3
+  - first:
+      213: 1582459368352962845
+    second: express-splitter-north_4
+  - first:
+      213: -4006459771292581365
+    second: express-splitter-north_5
+  - first:
+      213: -737064455431655009
+    second: express-splitter-north_6
+  - first:
+      213: 7067017585244480646
+    second: express-splitter-north_7
+  - first:
+      213: 7805486601436215724
+    second: express-splitter-north_8
+  - first:
+      213: -4616235875046805281
+    second: express-splitter-north_9
+  - first:
+      213: 8361193839369397373
+    second: express-splitter-north_10
+  - first:
+      213: 5432232252704745470
+    second: express-splitter-north_11
+  - first:
+      213: -7659805294739150188
+    second: express-splitter-north_12
+  - first:
+      213: -3016948806520836573
+    second: express-splitter-north_13
+  - first:
+      213: 7532367339304940074
+    second: express-splitter-north_14
+  - first:
+      213: 2984283705800996906
+    second: express-splitter-north_15
+  - first:
+      213: -312292186897908197
+    second: express-splitter-north_16
+  - first:
+      213: -6284650566373952620
+    second: express-splitter-north_17
+  - first:
+      213: 2243693419725903943
+    second: express-splitter-north_18
+  - first:
+      213: 1487264735315596082
+    second: express-splitter-north_19
+  - first:
+      213: 3654417997314145025
+    second: express-splitter-north_20
+  - first:
+      213: -4095101446710823139
+    second: express-splitter-north_21
+  - first:
+      213: -1931644173965585097
+    second: express-splitter-north_22
+  - first:
+      213: 4060919089901112893
+    second: express-splitter-north_23
+  - first:
+      213: 5720739973693697537
+    second: express-splitter-north_24
+  - first:
+      213: 5771270013063291271
+    second: express-splitter-north_25
+  - first:
+      213: 2523680534039864901
+    second: express-splitter-north_26
+  - first:
+      213: -6465594639938650074
+    second: express-splitter-north_27
+  - first:
+      213: -7267048404788921781
+    second: express-splitter-north_28
+  - first:
+      213: 8386740624607339864
+    second: express-splitter-north_29
+  - first:
+      213: 3103339749130073889
+    second: express-splitter-north_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: express-splitter-north_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 210
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1cbfb4b78c63780800000000000000
+      internalID: -8703548797965581912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3b1bffa28da12e0800000000000000
+      internalID: -2154171792553298982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1527e2b7c311110800000000000000
+      internalID: 1229830673006743991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_3
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5778c8ee52ad690800000000000000
+      internalID: -7576701716607306265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_4
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19da2a496606f510800000000000000
+      internalID: 1582459368352962845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_5
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02863da0123668c0800000000000000
+      internalID: -4006459771292581365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91fd6d68cb65c5f0800000000000000
+      internalID: -737064455431655009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_7
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 209
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684afe51d07131260800000000000000
+      internalID: 7067017585244480646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca93da175b8a25c60800000000000000
+      internalID: 7805486601436215724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 139
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0bb64fde5dfefb0800000000000000
+      internalID: -4616235875046805281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 139
+        width: 161
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d742cc55f7de80470800000000000000
+      internalID: 8361193839369397373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 139
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7e2efd37a236b40800000000000000
+      internalID: 5432232252704745470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 139
+        width: 162
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49aaa66faa7e2b590800000000000000
+      internalID: -7659805294739150188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_13
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 140
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e69c18b05a126d0800000000000000
+      internalID: -3016948806520836573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_14
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 140
+        width: 162
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a227609df28588860800000000000000
+      internalID: 7532367339304940074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_15
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 140
+        width: 160
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a283141183e4a6920800000000000000
+      internalID: 2984283705800996906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 70
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ef1dd19e38aabf0800000000000000
+      internalID: -312292186897908197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 70
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493b2dd7b9f68c8a0800000000000000
+      internalID: -6284650566373952620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_18
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 69
+        width: 322
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748d4a31743332f10800000000000000
+      internalID: 2243693419725903943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_19
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 69
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233937b9563d3a410800000000000000
+      internalID: 1487264735315596082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 69
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b34be7ec917b230800000000000000
+      internalID: 3654417997314145025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_21
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 69
+        width: 162
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17fc955ee64b27c0800000000000000
+      internalID: -4095101446710823139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_22
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 69
+        width: 160
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735145aabdb6135e0800000000000000
+      internalID: -1931644173965585097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e882785684b5830800000000000000
+      internalID: 4060919089901112893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_24
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 161
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ee36042b6246f40800000000000000
+      internalID: 5720739973693697537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7816087df7ba71050800000000000000
+      internalID: 5771270013063291271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_26
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 162
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546a30e131ae50320800000000000000
+      internalID: 2523680534039864901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_27
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 162
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62089c06ee79546a0800000000000000
+      internalID: -6465594639938650074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_28
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 0
+        width: 162
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4abcf27af1462b90800000000000000
+      internalID: -7267048404788921781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855ee09c920b36470800000000000000
+      internalID: 8386740624607339864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: express-splitter-north_30
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 0
+        width: 161
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1277f344f07411b20800000000000000
+      internalID: 3103339749130073889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      express-splitter-north_0: -8703548797965581912
+      express-splitter-north_1: -2154171792553298982
+      express-splitter-north_10: 8361193839369397373
+      express-splitter-north_11: 5432232252704745470
+      express-splitter-north_12: -7659805294739150188
+      express-splitter-north_13: -3016948806520836573
+      express-splitter-north_14: 7532367339304940074
+      express-splitter-north_15: 2984283705800996906
+      express-splitter-north_16: -312292186897908197
+      express-splitter-north_17: -6284650566373952620
+      express-splitter-north_18: 2243693419725903943
+      express-splitter-north_19: 1487264735315596082
+      express-splitter-north_2: 1229830673006743991
+      express-splitter-north_20: 3654417997314145025
+      express-splitter-north_21: -4095101446710823139
+      express-splitter-north_22: -1931644173965585097
+      express-splitter-north_23: 4060919089901112893
+      express-splitter-north_24: 5720739973693697537
+      express-splitter-north_25: 5771270013063291271
+      express-splitter-north_26: 2523680534039864901
+      express-splitter-north_27: -6465594639938650074
+      express-splitter-north_28: -7267048404788921781
+      express-splitter-north_29: 8386740624607339864
+      express-splitter-north_3: -7576701716607306265
+      express-splitter-north_30: 3103339749130073889
+      express-splitter-north_4: 1582459368352962845
+      express-splitter-north_5: -4006459771292581365
+      express-splitter-north_6: -737064455431655009
+      express-splitter-north_7: 7067017585244480646
+      express-splitter-north_8: 7805486601436215724
+      express-splitter-north_9: -4616235875046805281
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

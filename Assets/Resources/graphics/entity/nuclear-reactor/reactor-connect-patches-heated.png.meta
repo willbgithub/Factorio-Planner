@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: ced082f95868b224c9d5d27121545830
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -136542027023660795
+    second: reactor-connect-patches-heated_0
+  - first:
+      213: -2915550817207008505
+    second: reactor-connect-patches-heated_1
+  - first:
+      213: -7192195652059089985
+    second: reactor-connect-patches-heated_2
+  - first:
+      213: -5733834811844947149
+    second: reactor-connect-patches-heated_3
+  - first:
+      213: 8370932731914607807
+    second: reactor-connect-patches-heated_4
+  - first:
+      213: -3651289933275287621
+    second: reactor-connect-patches-heated_5
+  - first:
+      213: -2037066401447513970
+    second: reactor-connect-patches-heated_6
+  - first:
+      213: -4320499836352204958
+    second: reactor-connect-patches-heated_7
+  - first:
+      213: 2906476185539187023
+    second: reactor-connect-patches-heated_8
+  - first:
+      213: -5664852872515394831
+    second: reactor-connect-patches-heated_9
+  - first:
+      213: -810516719304911385
+    second: reactor-connect-patches-heated_10
+  - first:
+      213: -4108518233080106255
+    second: reactor-connect-patches-heated_11
+  - first:
+      213: 4334674801156256101
+    second: reactor-connect-patches-heated_12
+  - first:
+      213: -6797966627289815779
+    second: reactor-connect-patches-heated_13
+  - first:
+      213: -3992486598775683040
+    second: reactor-connect-patches-heated_14
+  - first:
+      213: -2010207967651784514
+    second: reactor-connect-patches-heated_15
+  - first:
+      213: -9198748556220779845
+    second: reactor-connect-patches-heated_16
+  - first:
+      213: -31141971640060487
+    second: reactor-connect-patches-heated_17
+  - first:
+      213: 1955505012272440531
+    second: reactor-connect-patches-heated_18
+  - first:
+      213: -7854758743598793476
+    second: reactor-connect-patches-heated_19
+  - first:
+      213: 3525391847386212435
+    second: reactor-connect-patches-heated_20
+  - first:
+      213: 669635210401079386
+    second: reactor-connect-patches-heated_21
+  - first:
+      213: -3476726944933222503
+    second: reactor-connect-patches-heated_22
+  - first:
+      213: -2494253923756698774
+    second: reactor-connect-patches-heated_23
+  - first:
+      213: -5123620305267599243
+    second: reactor-connect-patches-heated_24
+  - first:
+      213: -1177000692645509636
+    second: reactor-connect-patches-heated_25
+  - first:
+      213: -2712520698530417874
+    second: reactor-connect-patches-heated_26
+  - first:
+      213: -3188604665854379549
+    second: reactor-connect-patches-heated_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 114
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509c756ffb7ea1ef0800000000000000
+      internalID: -136542027023660795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 120
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703c6cf9af1e987d0800000000000000
+      internalID: -2915550817207008505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 114
+        width: 35
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3b8eb0920303c90800000000000000
+      internalID: -7192195652059089985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_3
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 76
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33396372e935d60b0800000000000000
+      internalID: -5733834811844947149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_4
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 118
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcd574f7f68b2470800000000000000
+      internalID: 8370932731914607807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfaa2ba623045dc0800000000000000
+      internalID: -3651289933275287621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 76
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8076d596e2eab3e0800000000000000
+      internalID: -2037066401447513970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_7
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 76
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fe7123a408a04c0800000000000000
+      internalID: -4320499836352204958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_8
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 82
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41123b01b0e55820800000000000000
+      internalID: 2906476185539187023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_9
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 75
+        width: 32
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f26edc73566261b0800000000000000
+      internalID: -5664852872515394831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_10
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 77
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5d05d865770c4f0800000000000000
+      internalID: -810516719304911385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 43
+        width: 47
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f27b045f6c9bf6c0800000000000000
+      internalID: -4108518233080106255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_12
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 45
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56171cbf3cbd72c30800000000000000
+      internalID: 4334674801156256101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_13
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 41
+        width: 67
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d152e61ae55c8a1a0800000000000000
+      internalID: -6797966627289815779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_14
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 63
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028c77d6796d798c0800000000000000
+      internalID: -3992486598775683040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_15
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 63
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb89473018e4a14e0800000000000000
+      internalID: -2010207967651784514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_16
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 63
+        width: 50
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2b258dcea775080800000000000000
+      internalID: -9198748556220779845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_17
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 63
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5f9c2ba8c519ff0800000000000000
+      internalID: -31141971640060487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_18
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 63
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4aefca279532b10800000000000000
+      internalID: 1955505012272440531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_19
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 5
+        width: 24
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc766bf98a4ef290800000000000000
+      internalID: -7854758743598793476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_20
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 10
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3586385f435bce030800000000000000
+      internalID: 3525391847386212435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_21
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 9
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50ec0d0da50b4900800000000000000
+      internalID: 669635210401079386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_22
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 49
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997e93a934f20cfc0800000000000000
+      internalID: -3476726944933222503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_23
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 45
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a639bde7541a26dd0800000000000000
+      internalID: -2494253923756698774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_24
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578db8c7a7e35e8b0800000000000000
+      internalID: -5123620305267599243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_25
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 11
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5c9762b147aafe0800000000000000
+      internalID: -1177000692645509636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_26
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 9
+        width: 28
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e233336dbc03b5ad0800000000000000
+      internalID: -2712520698530417874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: reactor-connect-patches-heated_27
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 11
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e9b89a43fccfb3d0800000000000000
+      internalID: -3188604665854379549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      reactor-connect-patches-heated_0: -136542027023660795
+      reactor-connect-patches-heated_1: -2915550817207008505
+      reactor-connect-patches-heated_10: -810516719304911385
+      reactor-connect-patches-heated_11: -4108518233080106255
+      reactor-connect-patches-heated_12: 4334674801156256101
+      reactor-connect-patches-heated_13: -6797966627289815779
+      reactor-connect-patches-heated_14: -3992486598775683040
+      reactor-connect-patches-heated_15: -2010207967651784514
+      reactor-connect-patches-heated_16: -9198748556220779845
+      reactor-connect-patches-heated_17: -31141971640060487
+      reactor-connect-patches-heated_18: 1955505012272440531
+      reactor-connect-patches-heated_19: -7854758743598793476
+      reactor-connect-patches-heated_2: -7192195652059089985
+      reactor-connect-patches-heated_20: 3525391847386212435
+      reactor-connect-patches-heated_21: 669635210401079386
+      reactor-connect-patches-heated_22: -3476726944933222503
+      reactor-connect-patches-heated_23: -2494253923756698774
+      reactor-connect-patches-heated_24: -5123620305267599243
+      reactor-connect-patches-heated_25: -1177000692645509636
+      reactor-connect-patches-heated_26: -2712520698530417874
+      reactor-connect-patches-heated_27: -3188604665854379549
+      reactor-connect-patches-heated_3: -5733834811844947149
+      reactor-connect-patches-heated_4: 8370932731914607807
+      reactor-connect-patches-heated_5: -3651289933275287621
+      reactor-connect-patches-heated_6: -2037066401447513970
+      reactor-connect-patches-heated_7: -4320499836352204958
+      reactor-connect-patches-heated_8: 2906476185539187023
+      reactor-connect-patches-heated_9: -5664852872515394831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

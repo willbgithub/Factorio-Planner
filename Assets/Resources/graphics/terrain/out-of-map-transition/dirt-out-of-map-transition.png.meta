@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: ba67e084f950c2f48bedba78546ee37b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1323265996345493188
+    second: dirt-out-of-map-transition_0
+  - first:
+      213: -1088525850851265902
+    second: dirt-out-of-map-transition_1
+  - first:
+      213: 2210784024816137133
+    second: dirt-out-of-map-transition_2
+  - first:
+      213: -4088706532645322281
+    second: dirt-out-of-map-transition_3
+  - first:
+      213: 7966266257052276428
+    second: dirt-out-of-map-transition_4
+  - first:
+      213: 4521746845882487473
+    second: dirt-out-of-map-transition_5
+  - first:
+      213: -3526697295196747293
+    second: dirt-out-of-map-transition_6
+  - first:
+      213: -6144440351844782781
+    second: dirt-out-of-map-transition_7
+  - first:
+      213: -8127181005712208715
+    second: dirt-out-of-map-transition_8
+  - first:
+      213: 8401886480695954170
+    second: dirt-out-of-map-transition_9
+  - first:
+      213: -3895888875819354308
+    second: dirt-out-of-map-transition_10
+  - first:
+      213: 4100104572092495302
+    second: dirt-out-of-map-transition_11
+  - first:
+      213: 9043795897256724030
+    second: dirt-out-of-map-transition_12
+  - first:
+      213: 4427128816823792126
+    second: dirt-out-of-map-transition_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_0
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2111
+        width: 194
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3939785690d2ade0800000000000000
+      internalID: -1323265996345493188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_1
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1535
+        width: 194
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2923e238187c4e0f0800000000000000
+      internalID: -1088525850851265902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_2
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 1087
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3364a7b584eae10800000000000000
+      internalID: 2210784024816137133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_3
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1162
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d14bda421ff147c0800000000000000
+      internalID: -4088706532645322281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_4
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 959
+        width: 194
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc618c524fcdd8e60800000000000000
+      internalID: 7966266257052276428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_5
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 959
+        width: 48
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b291119cc870ce30800000000000000
+      internalID: 4521746845882487473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_6
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1032
+        width: 39
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e98779ce77ae0fc0800000000000000
+      internalID: -3526697295196747293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_7
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 1023
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d27bcfd009abaa0800000000000000
+      internalID: -6144440351844782781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_8
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 895
+        width: 61
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcc8395fe3763f80800000000000000
+      internalID: -8127181005712208715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_9
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 895
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa0a053d3f799470800000000000000
+      internalID: 8401886480695954170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_10
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 895
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37346075b50fe9c0800000000000000
+      internalID: -3895888875819354308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_11
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 773
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c53781926f76e830800000000000000
+      internalID: 4100104572092495302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_12
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 714
+        width: 44
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e364f15d374028d70800000000000000
+      internalID: 9043795897256724030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt-out-of-map-transition_13
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 767
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef17da5f332507d30800000000000000
+      internalID: 4427128816823792126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dirt-out-of-map-transition_0: -1323265996345493188
+      dirt-out-of-map-transition_1: -1088525850851265902
+      dirt-out-of-map-transition_10: -3895888875819354308
+      dirt-out-of-map-transition_11: 4100104572092495302
+      dirt-out-of-map-transition_12: 9043795897256724030
+      dirt-out-of-map-transition_13: 4427128816823792126
+      dirt-out-of-map-transition_2: 2210784024816137133
+      dirt-out-of-map-transition_3: -4088706532645322281
+      dirt-out-of-map-transition_4: 7966266257052276428
+      dirt-out-of-map-transition_5: 4521746845882487473
+      dirt-out-of-map-transition_6: -3526697295196747293
+      dirt-out-of-map-transition_7: -6144440351844782781
+      dirt-out-of-map-transition_8: -8127181005712208715
+      dirt-out-of-map-transition_9: 8401886480695954170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

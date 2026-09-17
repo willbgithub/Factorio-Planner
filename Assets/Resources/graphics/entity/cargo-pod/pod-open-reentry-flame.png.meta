@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: cb4f8b8227432be448c4f2070a055443
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6295018340269096761
+    second: pod-open-reentry-flame_0
+  - first:
+      213: 5235985824836809232
+    second: pod-open-reentry-flame_1
+  - first:
+      213: 8355720909861315777
+    second: pod-open-reentry-flame_2
+  - first:
+      213: -6948414168183664632
+    second: pod-open-reentry-flame_3
+  - first:
+      213: -7493533798128283403
+    second: pod-open-reentry-flame_4
+  - first:
+      213: 7822690709666362720
+    second: pod-open-reentry-flame_5
+  - first:
+      213: -6334452732688527207
+    second: pod-open-reentry-flame_6
+  - first:
+      213: -51474965111757172
+    second: pod-open-reentry-flame_7
+  - first:
+      213: 2936418880253426860
+    second: pod-open-reentry-flame_8
+  - first:
+      213: 3278779771249690211
+    second: pod-open-reentry-flame_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 270
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ffe4af3d56c5750800000000000000
+      internalID: 6295018340269096761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012f062cd55f9a840800000000000000
+      internalID: 5235985824836809232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c46692a5eb75f370800000000000000
+      internalID: 8355720909861315777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_3
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8001f19d026429f90800000000000000
+      internalID: -6948414168183664632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_4
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f01e2a86be910890800000000000000
+      internalID: -7493533798128283403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_5
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065796901c7cf8c60800000000000000
+      internalID: 7822690709666362720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_6
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990199d0dc08718a0800000000000000
+      internalID: -6334452732688527207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_7
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8620bdbacf194ff0800000000000000
+      internalID: -51474965111757172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_8
+      rect:
+        serializedVersion: 2
+        x: 2159
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac714de96140c820800000000000000
+      internalID: 2936418880253426860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pod-open-reentry-flame_9
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 0
+        width: 271
+        height: 906
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366031a84d0908d20800000000000000
+      internalID: 3278779771249690211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pod-open-reentry-flame_0: 6295018340269096761
+      pod-open-reentry-flame_1: 5235985824836809232
+      pod-open-reentry-flame_2: 8355720909861315777
+      pod-open-reentry-flame_3: -6948414168183664632
+      pod-open-reentry-flame_4: -7493533798128283403
+      pod-open-reentry-flame_5: 7822690709666362720
+      pod-open-reentry-flame_6: -6334452732688527207
+      pod-open-reentry-flame_7: -51474965111757172
+      pod-open-reentry-flame_8: 2936418880253426860
+      pod-open-reentry-flame_9: 3278779771249690211
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

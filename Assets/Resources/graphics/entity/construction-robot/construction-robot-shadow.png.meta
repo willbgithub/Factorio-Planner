@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: 66d281879cd2a4945b48c5fce2d5f605
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -796635488352039143
+    second: construction-robot-shadow_0
+  - first:
+      213: 4149882342813851787
+    second: construction-robot-shadow_1
+  - first:
+      213: 1174784419797202850
+    second: construction-robot-shadow_2
+  - first:
+      213: -2992235888098562524
+    second: construction-robot-shadow_3
+  - first:
+      213: 1854430468444982013
+    second: construction-robot-shadow_4
+  - first:
+      213: -704668735026918568
+    second: construction-robot-shadow_5
+  - first:
+      213: 4615793538341624859
+    second: construction-robot-shadow_6
+  - first:
+      213: -2425552736095224477
+    second: construction-robot-shadow_7
+  - first:
+      213: 2628552299649319291
+    second: construction-robot-shadow_8
+  - first:
+      213: 8501138843148816436
+    second: construction-robot-shadow_9
+  - first:
+      213: 4046380320809559047
+    second: construction-robot-shadow_10
+  - first:
+      213: -3820495223824241789
+    second: construction-robot-shadow_11
+  - first:
+      213: 2520177657541842504
+    second: construction-robot-shadow_12
+  - first:
+      213: 3800151757009391281
+    second: construction-robot-shadow_13
+  - first:
+      213: -4901552702946035035
+    second: construction-robot-shadow_14
+  - first:
+      213: 858631026720079625
+    second: construction-robot-shadow_15
+  - first:
+      213: -7194299531706440731
+    second: construction-robot-shadow_16
+  - first:
+      213: 6116786396090625296
+    second: construction-robot-shadow_17
+  - first:
+      213: -2654165757797443958
+    second: construction-robot-shadow_18
+  - first:
+      213: 6623785070088686659
+    second: construction-robot-shadow_19
+  - first:
+      213: -1055586195917102052
+    second: construction-robot-shadow_20
+  - first:
+      213: -4446369643178737357
+    second: construction-robot-shadow_21
+  - first:
+      213: -5104725507262913572
+    second: construction-robot-shadow_22
+  - first:
+      213: 1423414291735180546
+    second: construction-robot-shadow_23
+  - first:
+      213: -3209988627886838835
+    second: construction-robot-shadow_24
+  - first:
+      213: 4924880645139245220
+    second: construction-robot-shadow_25
+  - first:
+      213: 7122079796146169258
+    second: construction-robot-shadow_26
+  - first:
+      213: 3337134259589069694
+    second: construction-robot-shadow_27
+  - first:
+      213: -8542324334785168966
+    second: construction-robot-shadow_28
+  - first:
+      213: -8410334229287431881
+    second: construction-robot-shadow_29
+  - first:
+      213: -4657870330260334394
+    second: construction-robot-shadow_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: construction-robot-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 48
+        width: 89
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f8e4d7e38c1f4f0800000000000000
+      internalID: -796635488352039143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 49
+        width: 85
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80e517f008579930800000000000000
+      internalID: 4149882342813851787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 49
+        width: 81
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7fcad943cad4010800000000000000
+      internalID: 1174784419797202850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 49
+        width: 79
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ea5b530517976d0800000000000000
+      internalID: -2992235888098562524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 52
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa03549fa24cb910800000000000000
+      internalID: 1854430468444982013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 56
+        width: 79
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b856cd4838836f0800000000000000
+      internalID: -704668735026918568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 56
+        width: 81
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c556184c79e0040800000000000000
+      internalID: 4615793538341624859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 51
+        width: 85
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d311d33a4b65ed0800000000000000
+      internalID: -2425552736095224477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 49
+        width: 90
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71422ec36e7a7420800000000000000
+      internalID: 2628552299649319291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 50
+        width: 94
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4301924acbc1af570800000000000000
+      internalID: 8501138843148816436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 54
+        width: 99
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7042cff8671a72830800000000000000
+      internalID: 4046380320809559047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 52
+        width: 208
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38b21e5f5dfdafac0800000000000000
+      internalID: -3820495223824241789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 49
+        width: 104
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84658a02a3879f220800000000000000
+      internalID: 2520177657541842504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 49
+        width: 100
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be0f1193e9dcb430800000000000000
+      internalID: 3800151757009391281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 49
+        width: 94
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aabb0549cf2afbb0800000000000000
+      internalID: -4901552702946035035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_15
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 3
+        width: 90
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f77cc9e587aeb00800000000000000
+      internalID: 858631026720079625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 4
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3e0e461b6b82c90800000000000000
+      internalID: -7194299531706440731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 4
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d6ce1b1d033e450800000000000000
+      internalID: 6116786396090625296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_18
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 2
+        width: 89
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a865a7f3e428a2bd0800000000000000
+      internalID: -2654165757797443958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 3
+        width: 87
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c0c2b4d696ceb50800000000000000
+      internalID: 6623785070088686659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_20
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 5
+        width: 89
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c142e8292fdc951f0800000000000000
+      internalID: -1055586195917102052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_21
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3
+        width: 92
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331404e0e525b42c0800000000000000
+      internalID: -4446369643178737357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_22
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 3
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3e7b7723f5829b0800000000000000
+      internalID: -5104725507262913572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_23
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 2
+        width: 90
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205f61bb1cbf0c310800000000000000
+      internalID: 1423414291735180546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_24
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 3
+        width: 93
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbe2c5a954d373d0800000000000000
+      internalID: -3209988627886838835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_25
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 3
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a8a8b68ad0b85440800000000000000
+      internalID: 4924880645139245220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_26
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 5
+        width: 98
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5674717d5b6d260800000000000000
+      internalID: 7122079796146169258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_27
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 3
+        width: 101
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bb79e9de1ef4e20800000000000000
+      internalID: 3337134259589069694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_28
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 2
+        width: 98
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab974f4d641937980800000000000000
+      internalID: -8542324334785168966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_29
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 4
+        width: 96
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731930d049d784b80800000000000000
+      internalID: -8410334229287431881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: construction-robot-shadow_30
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 4
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c85003fc9beb5fb0800000000000000
+      internalID: -4657870330260334394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      construction-robot-shadow_0: -796635488352039143
+      construction-robot-shadow_1: 4149882342813851787
+      construction-robot-shadow_10: 4046380320809559047
+      construction-robot-shadow_11: -3820495223824241789
+      construction-robot-shadow_12: 2520177657541842504
+      construction-robot-shadow_13: 3800151757009391281
+      construction-robot-shadow_14: -4901552702946035035
+      construction-robot-shadow_15: 858631026720079625
+      construction-robot-shadow_16: -7194299531706440731
+      construction-robot-shadow_17: 6116786396090625296
+      construction-robot-shadow_18: -2654165757797443958
+      construction-robot-shadow_19: 6623785070088686659
+      construction-robot-shadow_2: 1174784419797202850
+      construction-robot-shadow_20: -1055586195917102052
+      construction-robot-shadow_21: -4446369643178737357
+      construction-robot-shadow_22: -5104725507262913572
+      construction-robot-shadow_23: 1423414291735180546
+      construction-robot-shadow_24: -3209988627886838835
+      construction-robot-shadow_25: 4924880645139245220
+      construction-robot-shadow_26: 7122079796146169258
+      construction-robot-shadow_27: 3337134259589069694
+      construction-robot-shadow_28: -8542324334785168966
+      construction-robot-shadow_29: -8410334229287431881
+      construction-robot-shadow_3: -2992235888098562524
+      construction-robot-shadow_30: -4657870330260334394
+      construction-robot-shadow_4: 1854430468444982013
+      construction-robot-shadow_5: -704668735026918568
+      construction-robot-shadow_6: 4615793538341624859
+      construction-robot-shadow_7: -2425552736095224477
+      construction-robot-shadow_8: 2628552299649319291
+      construction-robot-shadow_9: 8501138843148816436
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 111b7322308164c4eb7aa4ed79f8f1d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6147602601447949364
+    second: red-desert-0_0
+  - first:
+      213: 7220110148687186955
+    second: red-desert-0_1
+  - first:
+      213: -216686941967303726
+    second: red-desert-0_2
+  - first:
+      213: -8482252666355533175
+    second: red-desert-0_3
+  - first:
+      213: 8341183720823119943
+    second: red-desert-0_4
+  - first:
+      213: 5687664134069157977
+    second: red-desert-0_5
+  - first:
+      213: -5349594062717584214
+    second: red-desert-0_6
+  - first:
+      213: -611488704171932421
+    second: red-desert-0_7
+  - first:
+      213: 4103232411448746986
+    second: red-desert-0_8
+  - first:
+      213: 7592185982919855586
+    second: red-desert-0_9
+  - first:
+      213: -4003664518477090536
+    second: red-desert-0_10
+  - first:
+      213: 6143850998620956753
+    second: red-desert-0_11
+  - first:
+      213: 3317388211591962645
+    second: red-desert-0_12
+  - first:
+      213: 6071485668492578250
+    second: red-desert-0_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: red-desert-0_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 1025
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434829f9efba05550800000000000000
+      internalID: 6147602601447949364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_1
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 319
+        width: 514
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c41bb2debf23460800000000000000
+      internalID: 7220110148687186955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_2
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 319
+        width: 514
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbb294df5c2efcf0800000000000000
+      internalID: -216686941967303726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_3
+      rect:
+        serializedVersion: 2
+        x: 3008
+        y: 511
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ab4ce042cf84a80800000000000000
+      internalID: -8482252666355533175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_4
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 511
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740eeed8666d1c370800000000000000
+      internalID: 8341183720823119943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_5
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 511
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9500ce83564aeee40800000000000000
+      internalID: 5687664134069157977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_6
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 511
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacfd271b8c62c5b0800000000000000
+      internalID: -5349594062717584214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_7
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 511
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf40bab634e8387f0800000000000000
+      internalID: -611488704171932421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_8
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 511
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3a54b632c91f830800000000000000
+      internalID: 4103232411448746986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_9
+      rect:
+        serializedVersion: 2
+        x: 3392
+        y: 511
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed43a42decdc5960800000000000000
+      internalID: 7592185982919855586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_10
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 511
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811765035502078c0800000000000000
+      internalID: -4003664518477090536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_11
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 319
+        width: 513
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1582bb58ee7534550800000000000000
+      internalID: 6143850998620956753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 2049
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510e10e800bb90e20800000000000000
+      internalID: 3317388211591962645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-desert-0_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4096
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd00612c00424450800000000000000
+      internalID: 6071485668492578250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      red-desert-0_0: 6147602601447949364
+      red-desert-0_1: 7220110148687186955
+      red-desert-0_10: -4003664518477090536
+      red-desert-0_11: 6143850998620956753
+      red-desert-0_12: 3317388211591962645
+      red-desert-0_13: 6071485668492578250
+      red-desert-0_2: -216686941967303726
+      red-desert-0_3: -8482252666355533175
+      red-desert-0_4: 8341183720823119943
+      red-desert-0_5: 5687664134069157977
+      red-desert-0_6: -5349594062717584214
+      red-desert-0_7: -611488704171932421
+      red-desert-0_8: 4103232411448746986
+      red-desert-0_9: 7592185982919855586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

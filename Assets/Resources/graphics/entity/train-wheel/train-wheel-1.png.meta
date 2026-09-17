@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 6d62f3b2175aea8488aca3e494c87da5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9196657710337412702
+    second: train-wheel-1_0
+  - first:
+      213: -5139669296037697379
+    second: train-wheel-1_1
+  - first:
+      213: 6239038612348891660
+    second: train-wheel-1_2
+  - first:
+      213: -2333168608686915950
+    second: train-wheel-1_3
+  - first:
+      213: -1771926472310847793
+    second: train-wheel-1_4
+  - first:
+      213: 3967497676085416865
+    second: train-wheel-1_5
+  - first:
+      213: 5782951095141298629
+    second: train-wheel-1_6
+  - first:
+      213: 3516655710495207008
+    second: train-wheel-1_7
+  - first:
+      213: 7425229831291935854
+    second: train-wheel-1_8
+  - first:
+      213: 5480275499387002094
+    second: train-wheel-1_9
+  - first:
+      213: 7375299388127872488
+    second: train-wheel-1_10
+  - first:
+      213: 4752147824414214659
+    second: train-wheel-1_11
+  - first:
+      213: -127055037547649938
+    second: train-wheel-1_12
+  - first:
+      213: 6804130904689140589
+    second: train-wheel-1_13
+  - first:
+      213: -3463364133319462991
+    second: train-wheel-1_14
+  - first:
+      213: -3585484987440546537
+    second: train-wheel-1_15
+  - first:
+      213: 4395488444395137899
+    second: train-wheel-1_16
+  - first:
+      213: 7243136981461575870
+    second: train-wheel-1_17
+  - first:
+      213: 6777912378968283729
+    second: train-wheel-1_18
+  - first:
+      213: -4022368793398381310
+    second: train-wheel-1_19
+  - first:
+      213: -9139792798123309626
+    second: train-wheel-1_20
+  - first:
+      213: -1326327626552113494
+    second: train-wheel-1_21
+  - first:
+      213: -287146418243370727
+    second: train-wheel-1_22
+  - first:
+      213: -4010471402285613208
+    second: train-wheel-1_23
+  - first:
+      213: 2672859270682560406
+    second: train-wheel-1_24
+  - first:
+      213: -7867182939430440172
+    second: train-wheel-1_25
+  - first:
+      213: 8873719149769396945
+    second: train-wheel-1_26
+  - first:
+      213: 1592728689038242183
+    second: train-wheel-1_27
+  - first:
+      213: -4234171823288746222
+    second: train-wheel-1_28
+  - first:
+      213: 8272410623529186145
+    second: train-wheel-1_29
+  - first:
+      213: -7929683057258009305
+    second: train-wheel-1_30
+  - first:
+      213: 1118814159269102398
+    second: train-wheel-1_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: train-wheel-1_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1596
+        width: 120
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ec489267711af70800000000000000
+      internalID: 9196657710337412702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_1
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1596
+        width: 120
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98e0b2a10a3ca8b0800000000000000
+      internalID: -5139669296037697379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_2
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 1596
+        width: 122
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c027005ef84859650800000000000000
+      internalID: 6239038612348891660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_3
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1596
+        width: 124
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ebf16138bee9fd0800000000000000
+      internalID: -2333168608686915950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1369
+        width: 126
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc60dc1f24ad867e0800000000000000
+      internalID: -1771926472310847793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_5
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1369
+        width: 128
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3524e9d126f0730800000000000000
+      internalID: 3967497676085416865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_6
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1370
+        width: 132
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c17a53b16b214050800000000000000
+      internalID: 5782951095141298629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_7
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 1371
+        width: 134
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e6a659cbbadc030800000000000000
+      internalID: 3516655710495207008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1143
+        width: 136
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c1ac5e037bb0760800000000000000
+      internalID: 7425229831291935854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_9
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1144
+        width: 138
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec1d3ce789dd0c40800000000000000
+      internalID: 5480275499387002094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_10
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1145
+        width: 140
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5848da7b35a5660800000000000000
+      internalID: 7375299388127872488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_11
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1146
+        width: 142
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aca52b44503f140800000000000000
+      internalID: 4752147824414214659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 920
+        width: 144
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e646c04dd1c9c3ef0800000000000000
+      internalID: -127055037547649938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_13
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 921
+        width: 145
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63e04b02012d6e50800000000000000
+      internalID: 6804130904689140589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_14
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 922
+        width: 146
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf2aa1aba8afefc0800000000000000
+      internalID: -3463364133319462991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_15
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 924
+        width: 148
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d3c10966ccd3ec0800000000000000
+      internalID: -3585484987440546537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 697
+        width: 150
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ba18ea379effc30800000000000000
+      internalID: 4395488444395137899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_17
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 699
+        width: 150
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8238775bac48460800000000000000
+      internalID: 7243136981461575870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_18
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 701
+        width: 152
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a9023d56bff0e50800000000000000
+      internalID: 6777912378968283729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_19
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 703
+        width: 152
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2057fd1d4ecad28c0800000000000000
+      internalID: -4022368793398381310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_20
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 476
+        width: 156
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5cf23ffdee82180800000000000000
+      internalID: -9139792798123309626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_21
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 478
+        width: 158
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa603930d00f79de0800000000000000
+      internalID: -1326327626552113494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_22
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 480
+        width: 161
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911041e9ad9d30cf0800000000000000
+      internalID: -287146418243370727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_23
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 482
+        width: 164
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f37ec0281f758c0800000000000000
+      internalID: -4010471402285613208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 256
+        width: 166
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697c4a36857e71520800000000000000
+      internalID: 2672859270682560406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_25
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 258
+        width: 169
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4133c387cc622d290800000000000000
+      internalID: -7867182939430440172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_26
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 260
+        width: 171
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2169e3d88c52b70800000000000000
+      internalID: 8873719149769396945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_27
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 262
+        width: 172
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781b2b5dd428a1610800000000000000
+      internalID: 1592728689038242183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 36
+        width: 174
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ff7ea09233d35c0800000000000000
+      internalID: -4234171823288746222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_29
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 38
+        width: 176
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163ff9b02a18dc270800000000000000
+      internalID: 8272410623529186145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_30
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 40
+        width: 178
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72de3bec54b14f190800000000000000
+      internalID: -7929683057258009305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: train-wheel-1_31
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 42
+        width: 179
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3389e4dc83d68f00800000000000000
+      internalID: 1118814159269102398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      train-wheel-1_0: 9196657710337412702
+      train-wheel-1_1: -5139669296037697379
+      train-wheel-1_10: 7375299388127872488
+      train-wheel-1_11: 4752147824414214659
+      train-wheel-1_12: -127055037547649938
+      train-wheel-1_13: 6804130904689140589
+      train-wheel-1_14: -3463364133319462991
+      train-wheel-1_15: -3585484987440546537
+      train-wheel-1_16: 4395488444395137899
+      train-wheel-1_17: 7243136981461575870
+      train-wheel-1_18: 6777912378968283729
+      train-wheel-1_19: -4022368793398381310
+      train-wheel-1_2: 6239038612348891660
+      train-wheel-1_20: -9139792798123309626
+      train-wheel-1_21: -1326327626552113494
+      train-wheel-1_22: -287146418243370727
+      train-wheel-1_23: -4010471402285613208
+      train-wheel-1_24: 2672859270682560406
+      train-wheel-1_25: -7867182939430440172
+      train-wheel-1_26: 8873719149769396945
+      train-wheel-1_27: 1592728689038242183
+      train-wheel-1_28: -4234171823288746222
+      train-wheel-1_29: 8272410623529186145
+      train-wheel-1_3: -2333168608686915950
+      train-wheel-1_30: -7929683057258009305
+      train-wheel-1_31: 1118814159269102398
+      train-wheel-1_4: -1771926472310847793
+      train-wheel-1_5: 3967497676085416865
+      train-wheel-1_6: 5782951095141298629
+      train-wheel-1_7: 3516655710495207008
+      train-wheel-1_8: 7425229831291935854
+      train-wheel-1_9: 5480275499387002094
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

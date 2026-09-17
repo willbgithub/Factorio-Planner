@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: af70b7a9b32afae479c6cc1da9cadf88
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5785200520822358684
+    second: legacy-curved-rail-horizontal-right-top-ties_0
+  - first:
+      213: -3287136373148029692
+    second: legacy-curved-rail-horizontal-right-top-ties_1
+  - first:
+      213: 8886260769113768693
+    second: legacy-curved-rail-horizontal-right-top-ties_2
+  - first:
+      213: -6765907487098774253
+    second: legacy-curved-rail-horizontal-right-top-ties_3
+  - first:
+      213: -5583647712757972716
+    second: legacy-curved-rail-horizontal-right-top-ties_4
+  - first:
+      213: -5291977678230768298
+    second: legacy-curved-rail-horizontal-right-top-ties_5
+  - first:
+      213: 9040999816392689369
+    second: legacy-curved-rail-horizontal-right-top-ties_6
+  - first:
+      213: 3195703458768544147
+    second: legacy-curved-rail-horizontal-right-top-ties_7
+  - first:
+      213: 7465447775163439127
+    second: legacy-curved-rail-horizontal-right-top-ties_8
+  - first:
+      213: -3557609813552550952
+    second: legacy-curved-rail-horizontal-right-top-ties_9
+  - first:
+      213: -4923746944433641590
+    second: legacy-curved-rail-horizontal-right-top-ties_10
+  - first:
+      213: -5612663356888543189
+    second: legacy-curved-rail-horizontal-right-top-ties_11
+  - first:
+      213: 3181009571958442285
+    second: legacy-curved-rail-horizontal-right-top-ties_12
+  - first:
+      213: 507225577396042374
+    second: legacy-curved-rail-horizontal-right-top-ties_13
+  - first:
+      213: -5125100860437548166
+    second: legacy-curved-rail-horizontal-right-top-ties_14
+  - first:
+      213: 2432117953849787155
+    second: legacy-curved-rail-horizontal-right-top-ties_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 331
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92850ee839294050800000000000000
+      internalID: 5785200520822358684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 310
+        width: 90
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dee3672eeb162d0800000000000000
+      internalID: -3287136373148029692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 289
+        width: 92
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2048c8617525b70800000000000000
+      internalID: 8886260769113768693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 266
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d5250ecfaaa12a0800000000000000
+      internalID: -6765907487098774253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 244
+        width: 85
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411832a1df5e282b0800000000000000
+      internalID: -5583647712757972716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_5
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 224
+        width: 81
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65532c9f65e1f86b0800000000000000
+      internalID: -5291977678230768298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 205
+        width: 78
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d645768e65187d70800000000000000
+      internalID: 9040999816392689369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_7
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 185
+        width: 74
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391e26b3d5b695c20800000000000000
+      internalID: 3195703458768544147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_8
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 169
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718d8d7a2399a9760800000000000000
+      internalID: 7465447775163439127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_9
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 155
+        width: 61
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dba1cd39b4d0aec0800000000000000
+      internalID: -3557609813552550952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_10
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 143
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a872e1dbd365babb0800000000000000
+      internalID: -4923746944433641590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 132
+        width: 45
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b209ec00a60db12b0800000000000000
+      internalID: -5612663356888543189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_12
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 125
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2943bb1a57352c20800000000000000
+      internalID: 3181009571958442285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_13
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 120
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68afea9a9f60a0700800000000000000
+      internalID: 507225577396042374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_14
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 117
+        width: 22
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73329fdbebffd8b0800000000000000
+      internalID: -5125100860437548166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: legacy-curved-rail-horizontal-right-top-ties_15
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 116
+        width: 18
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3130113a46e90c120800000000000000
+      internalID: 2432117953849787155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      legacy-curved-rail-horizontal-right-top-ties_0: 5785200520822358684
+      legacy-curved-rail-horizontal-right-top-ties_1: -3287136373148029692
+      legacy-curved-rail-horizontal-right-top-ties_10: -4923746944433641590
+      legacy-curved-rail-horizontal-right-top-ties_11: -5612663356888543189
+      legacy-curved-rail-horizontal-right-top-ties_12: 3181009571958442285
+      legacy-curved-rail-horizontal-right-top-ties_13: 507225577396042374
+      legacy-curved-rail-horizontal-right-top-ties_14: -5125100860437548166
+      legacy-curved-rail-horizontal-right-top-ties_15: 2432117953849787155
+      legacy-curved-rail-horizontal-right-top-ties_2: 8886260769113768693
+      legacy-curved-rail-horizontal-right-top-ties_3: -6765907487098774253
+      legacy-curved-rail-horizontal-right-top-ties_4: -5583647712757972716
+      legacy-curved-rail-horizontal-right-top-ties_5: -5291977678230768298
+      legacy-curved-rail-horizontal-right-top-ties_6: 9040999816392689369
+      legacy-curved-rail-horizontal-right-top-ties_7: 3195703458768544147
+      legacy-curved-rail-horizontal-right-top-ties_8: 7465447775163439127
+      legacy-curved-rail-horizontal-right-top-ties_9: -3557609813552550952
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

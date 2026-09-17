@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f156edbc038483947bb6ebaac2f2b11c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6738837624072589222
+    second: rail-endings-metals_0
+  - first:
+      213: 2950230113288601801
+    second: rail-endings-metals_1
+  - first:
+      213: 5999220037353875677
+    second: rail-endings-metals_2
+  - first:
+      213: -3210787339075719304
+    second: rail-endings-metals_3
+  - first:
+      213: -3134121205814112661
+    second: rail-endings-metals_4
+  - first:
+      213: -2264965827584558129
+    second: rail-endings-metals_5
+  - first:
+      213: 7402353024269595595
+    second: rail-endings-metals_6
+  - first:
+      213: -6296023749443262264
+    second: rail-endings-metals_7
+  - first:
+      213: -367086297135128336
+    second: rail-endings-metals_8
+  - first:
+      213: 5561493952444320656
+    second: rail-endings-metals_9
+  - first:
+      213: -1056097609932822454
+    second: rail-endings-metals_10
+  - first:
+      213: -5989550043726007176
+    second: rail-endings-metals_11
+  - first:
+      213: -6794522354275402101
+    second: rail-endings-metals_12
+  - first:
+      213: -8494286864347909107
+    second: rail-endings-metals_13
+  - first:
+      213: 2978293690777189530
+    second: rail-endings-metals_14
+  - first:
+      213: -6379218519587324562
+    second: rail-endings-metals_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rail-endings-metals_0
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 127
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af42ed7d19258d50800000000000000
+      internalID: 6738837624072589222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_1
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 147
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c04a3438a251f820800000000000000
+      internalID: 2950230113288601801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_2
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 118
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd822e7b6d2814350800000000000000
+      internalID: 5999220037353875677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_3
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 127
+        width: 7
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fe1153dedf073d0800000000000000
+      internalID: -3210787339075719304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_4
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 127
+        width: 7
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e4e6c5e5d5184d0800000000000000
+      internalID: -3134121205814112661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_5
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 114
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb7c6284993190e0800000000000000
+      internalID: -2264965827584558129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_6
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 147
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3b0a13bd07ab660800000000000000
+      internalID: 7402353024269595595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_7
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 125
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8e205f1c700a8a0800000000000000
+      internalID: -6296023749443262264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_8
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 63
+        width: 7
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0e85925f8d7eaf0800000000000000
+      internalID: -367086297135128336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 63
+        width: 7
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b4def98456e2d40800000000000000
+      internalID: 5561493952444320656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_10
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 75
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48a0d7b1dcf751f0800000000000000
+      internalID: -1056097609932822454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_11
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 93
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874394f18f7d0eca0800000000000000
+      internalID: -5989550043726007176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_12
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 88
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eb6feeae105b1a0800000000000000
+      internalID: -6794522354275402101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_13
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 84
+        width: 51
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d04b64ef91b3e1a80800000000000000
+      internalID: -8494286864347909107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_14
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 93
+        width: 66
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cbf830556055920800000000000000
+      internalID: 2978293690777189530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rail-endings-metals_15
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 74
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d77631e867877a0800000000000000
+      internalID: -6379218519587324562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rail-endings-metals_0: 6738837624072589222
+      rail-endings-metals_1: 2950230113288601801
+      rail-endings-metals_10: -1056097609932822454
+      rail-endings-metals_11: -5989550043726007176
+      rail-endings-metals_12: -6794522354275402101
+      rail-endings-metals_13: -8494286864347909107
+      rail-endings-metals_14: 2978293690777189530
+      rail-endings-metals_15: -6379218519587324562
+      rail-endings-metals_2: 5999220037353875677
+      rail-endings-metals_3: -3210787339075719304
+      rail-endings-metals_4: -3134121205814112661
+      rail-endings-metals_5: -2264965827584558129
+      rail-endings-metals_6: 7402353024269595595
+      rail-endings-metals_7: -6296023749443262264
+      rail-endings-metals_8: -367086297135128336
+      rail-endings-metals_9: 5561493952444320656
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

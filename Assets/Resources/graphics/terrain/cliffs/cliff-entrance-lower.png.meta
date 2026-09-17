@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: a147045c21c41f848a31d12209c50589
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7246360176367993783
+    second: cliff-entrance-lower_0
+  - first:
+      213: -1358470115941561633
+    second: cliff-entrance-lower_1
+  - first:
+      213: -5026156488925530301
+    second: cliff-entrance-lower_2
+  - first:
+      213: -6401421389118356643
+    second: cliff-entrance-lower_3
+  - first:
+      213: -6450110270966669264
+    second: cliff-entrance-lower_4
+  - first:
+      213: -3395458666789184579
+    second: cliff-entrance-lower_5
+  - first:
+      213: -7177698831190321049
+    second: cliff-entrance-lower_6
+  - first:
+      213: -3046700900405921238
+    second: cliff-entrance-lower_7
+  - first:
+      213: 1831356203915506102
+    second: cliff-entrance-lower_8
+  - first:
+      213: -8575314390498431423
+    second: cliff-entrance-lower_9
+  - first:
+      213: 5747582438438961536
+    second: cliff-entrance-lower_10
+  - first:
+      213: -6436882656924910732
+    second: cliff-entrance-lower_11
+  - first:
+      213: -4667769309227541345
+    second: cliff-entrance-lower_12
+  - first:
+      213: -4003969054281101365
+    second: cliff-entrance-lower_13
+  - first:
+      213: -5667445081525727384
+    second: cliff-entrance-lower_14
+  - first:
+      213: -7299681905081212468
+    second: cliff-entrance-lower_15
+  - first:
+      213: 4677952628103079132
+    second: cliff-entrance-lower_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cliff-entrance-lower_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 830
+        width: 97
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b383f2003e309460800000000000000
+      internalID: 7246360176367993783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 817
+        width: 90
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdac15580aeb52de0800000000000000
+      internalID: -1358470115941561633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_2
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 853
+        width: 111
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347b1149d418f3ab0800000000000000
+      internalID: -5026156488925530301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_3
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 818
+        width: 116
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53430ca9259927a0800000000000000
+      internalID: -6401421389118356643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 781
+        width: 90
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030eee8f1ea9c76a0800000000000000
+      internalID: -6450110270966669264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 773
+        width: 192
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb528c1558e0e0d0800000000000000
+      internalID: -3395458666789184579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 772
+        width: 111
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7681a2e21f0b36c90800000000000000
+      internalID: -7177698831190321049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 760
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a31765ca1f7b5d0800000000000000
+      internalID: -3046700900405921238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 612
+        width: 80
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b17797b3c84a6910800000000000000
+      internalID: 1831356203915506102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_9
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 624
+        width: 93
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14eab0deefc5ef880800000000000000
+      internalID: -8575314390498431423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 679
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0818d6896c383cf40800000000000000
+      internalID: 5747582438438961536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_11
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 511
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b3e1dd3599ba6a0800000000000000
+      internalID: -6436882656924910732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_12
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 511
+        width: 76
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c950e4b80c83fb0800000000000000
+      internalID: -4667769309227541345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_13
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 138
+        width: 88
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf0bebeb5b0f68c0800000000000000
+      internalID: -4003969054281101365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_14
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 127
+        width: 90
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fcf9bc9b03951b0800000000000000
+      internalID: -5667445081525727384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 105
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1a9429bf152ba90800000000000000
+      internalID: -7299681905081212468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cliff-entrance-lower_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 0
+        width: 86
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd46032612d6be040800000000000000
+      internalID: 4677952628103079132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cliff-entrance-lower_0: 7246360176367993783
+      cliff-entrance-lower_1: -1358470115941561633
+      cliff-entrance-lower_10: 5747582438438961536
+      cliff-entrance-lower_11: -6436882656924910732
+      cliff-entrance-lower_12: -4667769309227541345
+      cliff-entrance-lower_13: -4003969054281101365
+      cliff-entrance-lower_14: -5667445081525727384
+      cliff-entrance-lower_15: -7299681905081212468
+      cliff-entrance-lower_16: 4677952628103079132
+      cliff-entrance-lower_2: -5026156488925530301
+      cliff-entrance-lower_3: -6401421389118356643
+      cliff-entrance-lower_4: -6450110270966669264
+      cliff-entrance-lower_5: -3395458666789184579
+      cliff-entrance-lower_6: -7177698831190321049
+      cliff-entrance-lower_7: -3046700900405921238
+      cliff-entrance-lower_8: 1831356203915506102
+      cliff-entrance-lower_9: -8575314390498431423
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

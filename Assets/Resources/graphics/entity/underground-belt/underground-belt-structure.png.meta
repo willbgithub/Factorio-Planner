@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 75043293aacad6c4eaac55e8a3f9de64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1010818841889673217
+    second: underground-belt-structure_0
+  - first:
+      213: 8771028587339870436
+    second: underground-belt-structure_1
+  - first:
+      213: 2822697942791218398
+    second: underground-belt-structure_2
+  - first:
+      213: -5875532619824263489
+    second: underground-belt-structure_3
+  - first:
+      213: 5731086056946890583
+    second: underground-belt-structure_4
+  - first:
+      213: -3182440796974414584
+    second: underground-belt-structure_5
+  - first:
+      213: -5479904018728205307
+    second: underground-belt-structure_6
+  - first:
+      213: -5366243956404392471
+    second: underground-belt-structure_7
+  - first:
+      213: 869274211144410170
+    second: underground-belt-structure_8
+  - first:
+      213: -2441087549534821318
+    second: underground-belt-structure_9
+  - first:
+      213: -326605016642267970
+    second: underground-belt-structure_10
+  - first:
+      213: -3431115599446797462
+    second: underground-belt-structure_11
+  - first:
+      213: -4576944087754032858
+    second: underground-belt-structure_12
+  - first:
+      213: 2164696559986424139
+    second: underground-belt-structure_13
+  - first:
+      213: 6822895470695479609
+    second: underground-belt-structure_14
+  - first:
+      213: -7251919840758194773
+    second: underground-belt-structure_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: underground-belt-structure_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 631
+        width: 132
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1001b139166270e00800000000000000
+      internalID: 1010818841889673217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 633
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0703f7704f8b970800000000000000
+      internalID: 8771028587339870436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 628
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed4eb4cd2dc3c2720800000000000000
+      internalID: 2822697942791218398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 626
+        width: 118
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe8721563ae57ea0800000000000000
+      internalID: -5875532619824263489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_4
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 629
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75773897768e88f40800000000000000
+      internalID: 5731086056946890583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 440
+        width: 132
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80501a9d4f2b5d3d0800000000000000
+      internalID: -3182440796974414584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 441
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5044878245873f3b0800000000000000
+      internalID: -5479904018728205307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 436
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eded60ad854785b0800000000000000
+      internalID: -5366243956404392471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_8
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 434
+        width: 118
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34aba71a48401c00800000000000000
+      internalID: 869274211144410170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 437
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a342950aec38f1ed0800000000000000
+      internalID: -2441087549534821318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 249
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb45d21c77aa77bf0800000000000000
+      internalID: -326605016642267970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 244
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a631ca78a8a3260d0800000000000000
+      internalID: -3431115599446797462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 245
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629b8941a9d6b70c0800000000000000
+      internalID: -4576944087754032858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4930806d0c8a0e10800000000000000
+      internalID: 2164696559986424139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 52
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939fc66084bcfae50800000000000000
+      internalID: 6822895470695479609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: underground-belt-structure_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 53
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad1000c3510c5b90800000000000000
+      internalID: -7251919840758194773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      underground-belt-structure_0: 1010818841889673217
+      underground-belt-structure_1: 8771028587339870436
+      underground-belt-structure_10: -326605016642267970
+      underground-belt-structure_11: -3431115599446797462
+      underground-belt-structure_12: -4576944087754032858
+      underground-belt-structure_13: 2164696559986424139
+      underground-belt-structure_14: 6822895470695479609
+      underground-belt-structure_15: -7251919840758194773
+      underground-belt-structure_2: 2822697942791218398
+      underground-belt-structure_3: -5875532619824263489
+      underground-belt-structure_4: 5731086056946890583
+      underground-belt-structure_5: -3182440796974414584
+      underground-belt-structure_6: -5479904018728205307
+      underground-belt-structure_7: -5366243956404392471
+      underground-belt-structure_8: 869274211144410170
+      underground-belt-structure_9: -2441087549534821318
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede59ed7cf41376409bc8f0473636b4c, type: 3}
+  m_Name: cargo-landing-pad
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  prefabName: cargo-landing-pad
+  englishName: Cargo landing pad
+  typeName: item
+  icon: {fileID: 6654451305413317798, guid: c0e64f35e3488294ca8e8e799f82c51a, type: 3}
+  craftedIn: []
+  bestRecipe: {fileID: 0}

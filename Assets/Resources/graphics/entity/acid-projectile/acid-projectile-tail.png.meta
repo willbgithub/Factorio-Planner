@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 4c17fffcb9b96444aa1f3db548e55fe5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4885116752721563529
+    second: acid-projectile-tail_0
+  - first:
+      213: 5899872979450012158
+    second: acid-projectile-tail_1
+  - first:
+      213: 1254800175403349385
+    second: acid-projectile-tail_2
+  - first:
+      213: 1245297155104260408
+    second: acid-projectile-tail_3
+  - first:
+      213: 4351017233165902033
+    second: acid-projectile-tail_4
+  - first:
+      213: 7656394191274330650
+    second: acid-projectile-tail_5
+  - first:
+      213: -6706559239022997748
+    second: acid-projectile-tail_6
+  - first:
+      213: -75651660386551269
+    second: acid-projectile-tail_7
+  - first:
+      213: 3176954950537467966
+    second: acid-projectile-tail_8
+  - first:
+      213: -174276338122016128
+    second: acid-projectile-tail_9
+  - first:
+      213: 638692364976583300
+    second: acid-projectile-tail_10
+  - first:
+      213: 5819558776634449622
+    second: acid-projectile-tail_11
+  - first:
+      213: 281277178143223431
+    second: acid-projectile-tail_12
+  - first:
+      213: 8277954024213775817
+    second: acid-projectile-tail_13
+  - first:
+      213: -2177632041859310732
+    second: acid-projectile-tail_14
+  - first:
+      213: -2096283792924459072
+    second: acid-projectile-tail_15
+  - first:
+      213: -1540211438660681514
+    second: acid-projectile-tail_16
+  - first:
+      213: -3856945058365366551
+    second: acid-projectile-tail_17
+  - first:
+      213: 7874649157421687505
+    second: acid-projectile-tail_18
+  - first:
+      213: -4206410317593799673
+    second: acid-projectile-tail_19
+  - first:
+      213: 3972503010854653981
+    second: acid-projectile-tail_20
+  - first:
+      213: -7619126278830193982
+    second: acid-projectile-tail_21
+  - first:
+      213: -8382219144230888646
+    second: acid-projectile-tail_22
+  - first:
+      213: 7657113294011396186
+    second: acid-projectile-tail_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: acid-projectile-tail_0
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 24
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f474cddcb6bc340800000000000000
+      internalID: 4885116752721563529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 24
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef12b08473f80e150800000000000000
+      internalID: 5899872979450012158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_2
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 45
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985b30f7c12f96110800000000000000
+      internalID: 1254800175403349385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_3
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 45
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8314bc92a2f284110800000000000000
+      internalID: 1245297155104260408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_4
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 30
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0e472fe1be16c30800000000000000
+      internalID: 4351017233165902033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_5
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 25
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a454f93f9f04a60800000000000000
+      internalID: 7656394191274330650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_6
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 10
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f8beca7e38de2a0800000000000000
+      internalID: -6706559239022997748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 24
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1abdf7373b33fef0800000000000000
+      internalID: -75651660386551269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 10
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38543ef1bfc61c20800000000000000
+      internalID: 3176954950537467966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 23
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a3b750898d49df0800000000000000
+      internalID: -174276338122016128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 11
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482fe2f62571dd800800000000000000
+      internalID: 638692364976583300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 21
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de9dcebfd933c050800000000000000
+      internalID: 5819558776634449622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_12
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 29
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ea6ae6a1c47e300800000000000000
+      internalID: 281277178143223431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_13
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 23
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c50748935331e270800000000000000
+      internalID: 8277954024213775817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_14
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 20
+        width: 47
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b977d023f77c1e0800000000000000
+      internalID: -2177632041859310732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_15
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 22
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf34563ff088e2e0800000000000000
+      internalID: -2096283792924459072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_16
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 67
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d003af5bd110aae0800000000000000
+      internalID: -1540211438660681514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 72
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee1fe587e0697ac0800000000000000
+      internalID: -3856945058365366551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_18
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 76
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2e2fedfaf584d60800000000000000
+      internalID: 7874649157421687505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_19
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 82
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70498484a14df95c0800000000000000
+      internalID: -4206410317593799673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_20
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 11
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10592fe07a212730800000000000000
+      internalID: 3972503010854653981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_21
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 5
+        width: 27
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c28b7b640d634690800000000000000
+      internalID: -7619126278830193982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_22
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 0
+        width: 77
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b93a669106cab80800000000000000
+      internalID: -8382219144230888646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: acid-projectile-tail_23
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 11
+        width: 27
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a507876c8f7834a60800000000000000
+      internalID: 7657113294011396186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      acid-projectile-tail_0: 4885116752721563529
+      acid-projectile-tail_1: 5899872979450012158
+      acid-projectile-tail_10: 638692364976583300
+      acid-projectile-tail_11: 5819558776634449622
+      acid-projectile-tail_12: 281277178143223431
+      acid-projectile-tail_13: 8277954024213775817
+      acid-projectile-tail_14: -2177632041859310732
+      acid-projectile-tail_15: -2096283792924459072
+      acid-projectile-tail_16: -1540211438660681514
+      acid-projectile-tail_17: -3856945058365366551
+      acid-projectile-tail_18: 7874649157421687505
+      acid-projectile-tail_19: -4206410317593799673
+      acid-projectile-tail_2: 1254800175403349385
+      acid-projectile-tail_20: 3972503010854653981
+      acid-projectile-tail_21: -7619126278830193982
+      acid-projectile-tail_22: -8382219144230888646
+      acid-projectile-tail_23: 7657113294011396186
+      acid-projectile-tail_3: 1245297155104260408
+      acid-projectile-tail_4: 4351017233165902033
+      acid-projectile-tail_5: 7656394191274330650
+      acid-projectile-tail_6: -6706559239022997748
+      acid-projectile-tail_7: -75651660386551269
+      acid-projectile-tail_8: 3176954950537467966
+      acid-projectile-tail_9: -174276338122016128
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: bed86e2417627a5418526d9dd275665a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3492892849473155017
+    second: water-shallow-out-of-map-transition-to-water_0
+  - first:
+      213: 5346509358724849762
+    second: water-shallow-out-of-map-transition-to-water_1
+  - first:
+      213: -9017832675808967651
+    second: water-shallow-out-of-map-transition-to-water_2
+  - first:
+      213: -5912825192451103209
+    second: water-shallow-out-of-map-transition-to-water_3
+  - first:
+      213: -3159948653366827236
+    second: water-shallow-out-of-map-transition-to-water_4
+  - first:
+      213: -5774369029468398475
+    second: water-shallow-out-of-map-transition-to-water_5
+  - first:
+      213: 4737107603043542352
+    second: water-shallow-out-of-map-transition-to-water_6
+  - first:
+      213: 7869498172064548188
+    second: water-shallow-out-of-map-transition-to-water_7
+  - first:
+      213: 6128478313983738858
+    second: water-shallow-out-of-map-transition-to-water_8
+  - first:
+      213: 4518200281679942302
+    second: water-shallow-out-of-map-transition-to-water_9
+  - first:
+      213: 7275207762874246869
+    second: water-shallow-out-of-map-transition-to-water_10
+  - first:
+      213: 6454889046917776114
+    second: water-shallow-out-of-map-transition-to-water_11
+  - first:
+      213: -5077224236675926707
+    second: water-shallow-out-of-map-transition-to-water_12
+  - first:
+      213: 2948098165058661608
+    second: water-shallow-out-of-map-transition-to-water_13
+  - first:
+      213: 5322632315180286973
+    second: water-shallow-out-of-map-transition-to-water_14
+  - first:
+      213: -5741344480445398543
+    second: water-shallow-out-of-map-transition-to-water_15
+  - first:
+      213: 5936550478840311891
+    second: water-shallow-out-of-map-transition-to-water_16
+  - first:
+      213: 3774163373184957562
+    second: water-shallow-out-of-map-transition-to-water_17
+  - first:
+      213: -2876157351528533830
+    second: water-shallow-out-of-map-transition-to-water_18
+  - first:
+      213: -4621902760338471112
+    second: water-shallow-out-of-map-transition-to-water_19
+  - first:
+      213: 3281278416238027821
+    second: water-shallow-out-of-map-transition-to-water_20
+  - first:
+      213: -6296930822274973817
+    second: water-shallow-out-of-map-transition-to-water_21
+  - first:
+      213: 6612019836043212622
+    second: water-shallow-out-of-map-transition-to-water_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_0
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 2239
+        width: 194
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf695b5a8f397030800000000000000
+      internalID: 3492892849473155017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_1
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 2175
+        width: 194
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 260a81b4fed923a40800000000000000
+      internalID: 5346509358724849762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_2
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 2111
+        width: 194
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d140f7ab5f83ad280800000000000000
+      internalID: -9017832675808967651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_3
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 2047
+        width: 194
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716a8f0a0dc61fda0800000000000000
+      internalID: -5912825192451103209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_4
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1855
+        width: 194
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17a89f117b9524d0800000000000000
+      internalID: -3159948653366827236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_5
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1678
+        width: 32
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cd48c26f15ddfa0800000000000000
+      internalID: -5774369029468398475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_6
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1678
+        width: 32
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055663644469db140800000000000000
+      internalID: 4737107603043542352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_7
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1535
+        width: 194
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c554e72a4e2163d60800000000000000
+      internalID: 7869498172064548188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_8
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1535
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae38fa67e8abc0550800000000000000
+      internalID: 6128478313983738858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_9
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 1599
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e925a9db73fd3be30800000000000000
+      internalID: 4518200281679942302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_10
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1471
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6a8452aeab6f460800000000000000
+      internalID: 7275207762874246869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_11
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1407
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f20812836f549950800000000000000
+      internalID: 6454889046917776114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_12
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1294
+        width: 32
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d457deff4731a89b0800000000000000
+      internalID: -5077224236675926707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_13
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 1294
+        width: 32
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec6d4359afb9e820800000000000000
+      internalID: 2948098165058661608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_14
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1102
+        width: 194
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df30650e3e9cdd940800000000000000
+      internalID: 5322632315180286973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_15
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 959
+        width: 194
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f107ed2d95a250b0800000000000000
+      internalID: -5741344480445398543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_16
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 959
+        width: 32
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350b372153dd26250800000000000000
+      internalID: 5936550478840311891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_17
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1023
+        width: 25
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cbafe6795806430800000000000000
+      internalID: 3774163373184957562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_18
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1023
+        width: 25
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab073089026d518d0800000000000000
+      internalID: -2876157351528533830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_19
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 895
+        width: 194
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837c0a76de3bbdfb0800000000000000
+      internalID: -4621902760338471112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_20
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 767
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d242609a551798d20800000000000000
+      internalID: 3281278416238027821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_21
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 703
+        width: 32
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f771b97cecc98a0800000000000000
+      internalID: -6296930822274973817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: water-shallow-out-of-map-transition-to-water_22
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 767
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e473137420d92cb50800000000000000
+      internalID: 6612019836043212622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      water-shallow-out-of-map-transition-to-water_0: 3492892849473155017
+      water-shallow-out-of-map-transition-to-water_1: 5346509358724849762
+      water-shallow-out-of-map-transition-to-water_10: 7275207762874246869
+      water-shallow-out-of-map-transition-to-water_11: 6454889046917776114
+      water-shallow-out-of-map-transition-to-water_12: -5077224236675926707
+      water-shallow-out-of-map-transition-to-water_13: 2948098165058661608
+      water-shallow-out-of-map-transition-to-water_14: 5322632315180286973
+      water-shallow-out-of-map-transition-to-water_15: -5741344480445398543
+      water-shallow-out-of-map-transition-to-water_16: 5936550478840311891
+      water-shallow-out-of-map-transition-to-water_17: 3774163373184957562
+      water-shallow-out-of-map-transition-to-water_18: -2876157351528533830
+      water-shallow-out-of-map-transition-to-water_19: -4621902760338471112
+      water-shallow-out-of-map-transition-to-water_2: -9017832675808967651
+      water-shallow-out-of-map-transition-to-water_20: 3281278416238027821
+      water-shallow-out-of-map-transition-to-water_21: -6296930822274973817
+      water-shallow-out-of-map-transition-to-water_22: 6612019836043212622
+      water-shallow-out-of-map-transition-to-water_3: -5912825192451103209
+      water-shallow-out-of-map-transition-to-water_4: -3159948653366827236
+      water-shallow-out-of-map-transition-to-water_5: -5774369029468398475
+      water-shallow-out-of-map-transition-to-water_6: 4737107603043542352
+      water-shallow-out-of-map-transition-to-water_7: 7869498172064548188
+      water-shallow-out-of-map-transition-to-water_8: 6128478313983738858
+      water-shallow-out-of-map-transition-to-water_9: 4518200281679942302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

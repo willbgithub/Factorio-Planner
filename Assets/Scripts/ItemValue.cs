@@ -1,0 +1,43 @@
+// ItemValue.cs
+// A Factorio item with an associated value.
+// 2 September 2026
+// will b. gaming
+
+using System;
+using UnityEngine;
+[Serializable]
+public class ItemValue
+{
+    // Constructor
+    public ItemValue(Item item, Fraction value)
+    {
+        this.item = item;
+        this.value = value;
+    }
+    // Mutators
+    public void SetItem(Item item)
+    {
+        this.item = item;
+    }
+    public void SetValue(Fraction value)
+    {
+        this.value = value;
+    }
+    // Accessors
+    public Item GetItem()
+    {
+        return item;
+    }
+    public Fraction GetValue()
+    {
+        return value;
+    }
+    // Utility
+    public ItemValue Multiply(Fraction factor)
+    {
+        return new ItemValue(item, value * factor);
+    }
+    // Member data
+    Item item;
+    Fraction value;
+}

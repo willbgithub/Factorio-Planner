@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 44c162cdbe647d64e9d1d942d3be1a65
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1273608279710807148
+    second: locomotive-shadow-4_0
+  - first:
+      213: -1932084727297982481
+    second: locomotive-shadow-4_1
+  - first:
+      213: 293583379798010182
+    second: locomotive-shadow-4_2
+  - first:
+      213: -8723879925574479963
+    second: locomotive-shadow-4_3
+  - first:
+      213: 3629893197311324277
+    second: locomotive-shadow-4_4
+  - first:
+      213: -6107084206893908470
+    second: locomotive-shadow-4_5
+  - first:
+      213: 8043097077989074102
+    second: locomotive-shadow-4_6
+  - first:
+      213: -8947372246818038689
+    second: locomotive-shadow-4_7
+  - first:
+      213: -4117949048788112595
+    second: locomotive-shadow-4_8
+  - first:
+      213: -155180543999149401
+    second: locomotive-shadow-4_9
+  - first:
+      213: 6100599144008608507
+    second: locomotive-shadow-4_10
+  - first:
+      213: -655754160385244551
+    second: locomotive-shadow-4_11
+  - first:
+      213: -3687407077601079395
+    second: locomotive-shadow-4_12
+  - first:
+      213: -8197554028809238139
+    second: locomotive-shadow-4_13
+  - first:
+      213: 431166455774818173
+    second: locomotive-shadow-4_14
+  - first:
+      213: -4976143266884766560
+    second: locomotive-shadow-4_15
+  - first:
+      213: 7665499208224582340
+    second: locomotive-shadow-4_16
+  - first:
+      213: -3829577551062419780
+    second: locomotive-shadow-4_17
+  - first:
+      213: 8923259597747615113
+    second: locomotive-shadow-4_18
+  - first:
+      213: -1623674125223217006
+    second: locomotive-shadow-4_19
+  - first:
+      213: -3600781722605166738
+    second: locomotive-shadow-4_20
+  - first:
+      213: 6387877567761972598
+    second: locomotive-shadow-4_21
+  - first:
+      213: -7435298554504449645
+    second: locomotive-shadow-4_22
+  - first:
+      213: -2436058098800944929
+    second: locomotive-shadow-4_23
+  - first:
+      213: 6945086891290507612
+    second: locomotive-shadow-4_24
+  - first:
+      213: -1967505847471329407
+    second: locomotive-shadow-4_25
+  - first:
+      213: 96554301849458251
+    second: locomotive-shadow-4_26
+  - first:
+      213: 149332049048642333
+    second: locomotive-shadow-4_27
+  - first:
+      213: 193838204002462512
+    second: locomotive-shadow-4_28
+  - first:
+      213: 2211106128231563239
+    second: locomotive-shadow-4_29
+  - first:
+      213: 2264886185969954788
+    second: locomotive-shadow-4_30
+  - first:
+      213: 5675898643724024461
+    second: locomotive-shadow-4_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: locomotive-shadow-4_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 3002
+        width: 412
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64b8278bf3cca110800000000000000
+      internalID: 1273608279710807148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_1
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2999
+        width: 408
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef32795d2bdf25e0800000000000000
+      internalID: -1932084727297982481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_2
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 2997
+        width: 403
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649a1d84784031400800000000000000
+      internalID: 293583379798010182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_3
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 2994
+        width: 398
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afc8f4cd6d8ee680800000000000000
+      internalID: -8723879925574479963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2571
+        width: 392
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570395681a8ff5230800000000000000
+      internalID: 3629893197311324277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_5
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 2569
+        width: 386
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0eb0b245474f3ba0800000000000000
+      internalID: -6107084206893908470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_6
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 2566
+        width: 380
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b46583ad22de9f60800000000000000
+      internalID: 8043097077989074102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_7
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2564
+        width: 374
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cd833c85c84d380800000000000000
+      internalID: -8947372246818038689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2141
+        width: 367
+        height: 338
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ba3df682b1ad6c0800000000000000
+      internalID: -4117949048788112595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_9
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2139
+        width: 361
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaf0ee0e10b8ddf0800000000000000
+      internalID: -155180543999149401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_10
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 2136
+        width: 354
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa6faf599ea9a450800000000000000
+      internalID: 6100599144008608507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_11
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 2133
+        width: 347
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972c042c01b46e6f0800000000000000
+      internalID: -655754160385244551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1710
+        width: 340
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f8355bcc2b3dcc0800000000000000
+      internalID: -3687407077601079395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_13
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1708
+        width: 333
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589c0c51b007c3e80800000000000000
+      internalID: -8197554028809238139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_14
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1705
+        width: 324
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fa58b6b9fcbf500800000000000000
+      internalID: 431166455774818173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_15
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 1702
+        width: 316
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a4b1e1401031fab0800000000000000
+      internalID: -4976143266884766560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1279
+        width: 308
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4caa3449ae2516a60800000000000000
+      internalID: 7665499208224582340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1277
+        width: 299
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb63d1dd18b9adac0800000000000000
+      internalID: -3829577551062419780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_18
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1275
+        width: 290
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9857752a359c5db70800000000000000
+      internalID: 8923259597747615113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_19
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1273
+        width: 281
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298b3175cfc8779e0800000000000000
+      internalID: -1623674125223217006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 851
+        width: 270
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f566ed914770ec0800000000000000
+      internalID: -3600781722605166738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_21
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 849
+        width: 261
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d732fadcc46a850800000000000000
+      internalID: 6387877567761972598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_22
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 847
+        width: 251
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39179cbcb5380d890800000000000000
+      internalID: -7435298554504449645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_23
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 845
+        width: 241
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd891c0e012613ed0800000000000000
+      internalID: -2436058098800944929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_24
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 424
+        width: 231
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59b7912bb7e16060800000000000000
+      internalID: 6945086891290507612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_25
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 423
+        width: 221
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fa7f32bd302b4e0800000000000000
+      internalID: -1967505847471329407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_26
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 422
+        width: 211
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d54f30a7075100800000000000000
+      internalID: 96554301849458251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_27
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 421
+        width: 201
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13202915b8821200800000000000000
+      internalID: 149332049048642333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_28
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 0
+        width: 193
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b677dc1d6a0b200800000000000000
+      internalID: 193838204002462512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_29
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 0
+        width: 186
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef7ee50f4d6fae10800000000000000
+      internalID: 2211106128231563239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_30
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 0
+        width: 179
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efad6b7cfd7e6f10800000000000000
+      internalID: 2264886185969954788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-shadow-4_31
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 0
+        width: 171
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8aba488eb7d4ce40800000000000000
+      internalID: 5675898643724024461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      locomotive-shadow-4_0: 1273608279710807148
+      locomotive-shadow-4_1: -1932084727297982481
+      locomotive-shadow-4_10: 6100599144008608507
+      locomotive-shadow-4_11: -655754160385244551
+      locomotive-shadow-4_12: -3687407077601079395
+      locomotive-shadow-4_13: -8197554028809238139
+      locomotive-shadow-4_14: 431166455774818173
+      locomotive-shadow-4_15: -4976143266884766560
+      locomotive-shadow-4_16: 7665499208224582340
+      locomotive-shadow-4_17: -3829577551062419780
+      locomotive-shadow-4_18: 8923259597747615113
+      locomotive-shadow-4_19: -1623674125223217006
+      locomotive-shadow-4_2: 293583379798010182
+      locomotive-shadow-4_20: -3600781722605166738
+      locomotive-shadow-4_21: 6387877567761972598
+      locomotive-shadow-4_22: -7435298554504449645
+      locomotive-shadow-4_23: -2436058098800944929
+      locomotive-shadow-4_24: 6945086891290507612
+      locomotive-shadow-4_25: -1967505847471329407
+      locomotive-shadow-4_26: 96554301849458251
+      locomotive-shadow-4_27: 149332049048642333
+      locomotive-shadow-4_28: 193838204002462512
+      locomotive-shadow-4_29: 2211106128231563239
+      locomotive-shadow-4_3: -8723879925574479963
+      locomotive-shadow-4_30: 2264886185969954788
+      locomotive-shadow-4_31: 5675898643724024461
+      locomotive-shadow-4_4: 3629893197311324277
+      locomotive-shadow-4_5: -6107084206893908470
+      locomotive-shadow-4_6: 8043097077989074102
+      locomotive-shadow-4_7: -8947372246818038689
+      locomotive-shadow-4_8: -4117949048788112595
+      locomotive-shadow-4_9: -155180543999149401
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

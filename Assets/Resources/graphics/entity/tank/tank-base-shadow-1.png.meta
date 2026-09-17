@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 940be27a7bf82ff4e841491b56683d2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7407453667713997056
+    second: tank-base-shadow-1_0
+  - first:
+      213: 3922822902159201566
+    second: tank-base-shadow-1_1
+  - first:
+      213: -565116249960920343
+    second: tank-base-shadow-1_2
+  - first:
+      213: 1233208072501093646
+    second: tank-base-shadow-1_3
+  - first:
+      213: -1030549635473971740
+    second: tank-base-shadow-1_4
+  - first:
+      213: -3619727879165883891
+    second: tank-base-shadow-1_5
+  - first:
+      213: 7253531469007444060
+    second: tank-base-shadow-1_6
+  - first:
+      213: -8456669453631743427
+    second: tank-base-shadow-1_7
+  - first:
+      213: 6656544254875024451
+    second: tank-base-shadow-1_8
+  - first:
+      213: -5605779804279376526
+    second: tank-base-shadow-1_9
+  - first:
+      213: 5607859797893995514
+    second: tank-base-shadow-1_10
+  - first:
+      213: 6926560413704163212
+    second: tank-base-shadow-1_11
+  - first:
+      213: 5216358127948595347
+    second: tank-base-shadow-1_12
+  - first:
+      213: -8842281653887193716
+    second: tank-base-shadow-1_13
+  - first:
+      213: -538406630365589111
+    second: tank-base-shadow-1_14
+  - first:
+      213: -2077713694581551480
+    second: tank-base-shadow-1_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tank-base-shadow-1_0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 2934
+        width: 205
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0072eb5b220733990800000000000000
+      internalID: -7407453667713997056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 2740
+        width: 206
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1557ff35aaa07630800000000000000
+      internalID: 3922822902159201566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 2544
+        width: 210
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea4748c3cd4828f0800000000000000
+      internalID: -565116249960920343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_3
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 2350
+        width: 218
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e056297453c3d1110800000000000000
+      internalID: 1233208072501093646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 2156
+        width: 231
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e56a2e0190c2b1f0800000000000000
+      internalID: -1030549635473971740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1962
+        width: 243
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a4dba0ca424cdc0800000000000000
+      internalID: -3619727879165883891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_6
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1769
+        width: 253
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c585e41b078b9a460800000000000000
+      internalID: 7253531469007444060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_7
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1577
+        width: 260
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a1261ffefd3aa80800000000000000
+      internalID: -8456669453631743427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1384
+        width: 267
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c3e7f5bbbc06c50800000000000000
+      internalID: 6656544254875024451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1192
+        width: 274
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2757edcf7f44432b0800000000000000
+      internalID: -5605779804279376526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_10
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1000
+        width: 278
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb5aa346ce13dd40800000000000000
+      internalID: 5607859797893995514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 810
+        width: 281
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f8e1e6ff5102060800000000000000
+      internalID: 6926560413704163212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 619
+        width: 282
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3900995741a346840800000000000000
+      internalID: 5216358127948595347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 429
+        width: 282
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8da9182fa7e94580800000000000000
+      internalID: -8842281653887193716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 240
+        width: 279
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9811854b5023788f0800000000000000
+      internalID: -538406630365589111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tank-base-shadow-1_15
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 48
+        width: 275
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e8089276a7a23e0800000000000000
+      internalID: -2077713694581551480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tank-base-shadow-1_0: -7407453667713997056
+      tank-base-shadow-1_1: 3922822902159201566
+      tank-base-shadow-1_10: 5607859797893995514
+      tank-base-shadow-1_11: 6926560413704163212
+      tank-base-shadow-1_12: 5216358127948595347
+      tank-base-shadow-1_13: -8842281653887193716
+      tank-base-shadow-1_14: -538406630365589111
+      tank-base-shadow-1_15: -2077713694581551480
+      tank-base-shadow-1_2: -565116249960920343
+      tank-base-shadow-1_3: 1233208072501093646
+      tank-base-shadow-1_4: -1030549635473971740
+      tank-base-shadow-1_5: -3619727879165883891
+      tank-base-shadow-1_6: 7253531469007444060
+      tank-base-shadow-1_7: -8456669453631743427
+      tank-base-shadow-1_8: 6656544254875024451
+      tank-base-shadow-1_9: -5605779804279376526
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

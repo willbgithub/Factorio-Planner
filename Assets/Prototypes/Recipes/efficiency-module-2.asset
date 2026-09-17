@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: efficiency-module-2
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: efficiency-module-2
+  englishName: Efficiency module 2
+  typeName: recipe
+  icon: {fileID: -7926630669983656839, guid: 04f69f8d481e4d74198c315b48368001, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 4637f6dd3d4794947bb747cb63812238, type: 2}
+      consumption:
+        numerator: 4
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: af28a662f4bf17540902e2b3143b63b6, type: 2}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 5530e1fc6e535914d9339a401a8dad89, type: 2}
+      consumption:
+        numerator: 5
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: d28512da17bf1584cb29aa3a552096d1, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

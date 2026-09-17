@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d4936ca92f091f947bc2ec2415cbc60f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 549416506090106828
+    second: fast-underground-belt-structure_0
+  - first:
+      213: -4129640936491972921
+    second: fast-underground-belt-structure_1
+  - first:
+      213: -1154099984507816241
+    second: fast-underground-belt-structure_2
+  - first:
+      213: -2235112948171592688
+    second: fast-underground-belt-structure_3
+  - first:
+      213: 8193721934854454819
+    second: fast-underground-belt-structure_4
+  - first:
+      213: -945411703001806930
+    second: fast-underground-belt-structure_5
+  - first:
+      213: 1124127152068822750
+    second: fast-underground-belt-structure_6
+  - first:
+      213: -5710844110849082896
+    second: fast-underground-belt-structure_7
+  - first:
+      213: 2790288170071258104
+    second: fast-underground-belt-structure_8
+  - first:
+      213: -2719155649207016732
+    second: fast-underground-belt-structure_9
+  - first:
+      213: -7194826248069346276
+    second: fast-underground-belt-structure_10
+  - first:
+      213: -3479595964531649517
+    second: fast-underground-belt-structure_11
+  - first:
+      213: 1390125135250768150
+    second: fast-underground-belt-structure_12
+  - first:
+      213: -4604997393288479433
+    second: fast-underground-belt-structure_13
+  - first:
+      213: -6684502998766989459
+    second: fast-underground-belt-structure_14
+  - first:
+      213: 8417615743517868693
+    second: fast-underground-belt-structure_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 631
+        width: 132
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfac3fb66bef9700800000000000000
+      internalID: 549416506090106828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 633
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c60c72b27190b6c0800000000000000
+      internalID: -4129640936491972921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 628
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6b024cd20dbffe0800000000000000
+      internalID: -1154099984507816241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 626
+        width: 118
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c2b53ad984bf0e0800000000000000
+      internalID: -2235112948171592688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_4
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 629
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e735300b2f5b170800000000000000
+      internalID: 8193721934854454819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 440
+        width: 132
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7841ca01931e2f0800000000000000
+      internalID: -945411703001806930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 441
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed60f6d50b3b99f00800000000000000
+      internalID: 1124127152068822750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 436
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9753dd9810fb0b0800000000000000
+      internalID: -5710844110849082896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_8
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 434
+        width: 118
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3721e9e4819b620800000000000000
+      internalID: 2790288170071258104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 437
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2e400085e934ad0800000000000000
+      internalID: -2719155649207016732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 249
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c8b2fa5a7d62c90800000000000000
+      internalID: -7194826248069346276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 244
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314553ce7edf5bfc0800000000000000
+      internalID: -3479595964531649517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 245
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611c6fff177ba4310800000000000000
+      internalID: 1390125135250768150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73db075e443c710c0800000000000000
+      internalID: -4604997393288479433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 52
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fc57a40ffdb33a0800000000000000
+      internalID: -6684502998766989459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fast-underground-belt-structure_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 53
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5924e189be061d470800000000000000
+      internalID: 8417615743517868693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fast-underground-belt-structure_0: 549416506090106828
+      fast-underground-belt-structure_1: -4129640936491972921
+      fast-underground-belt-structure_10: -7194826248069346276
+      fast-underground-belt-structure_11: -3479595964531649517
+      fast-underground-belt-structure_12: 1390125135250768150
+      fast-underground-belt-structure_13: -4604997393288479433
+      fast-underground-belt-structure_14: -6684502998766989459
+      fast-underground-belt-structure_15: 8417615743517868693
+      fast-underground-belt-structure_2: -1154099984507816241
+      fast-underground-belt-structure_3: -2235112948171592688
+      fast-underground-belt-structure_4: 8193721934854454819
+      fast-underground-belt-structure_5: -945411703001806930
+      fast-underground-belt-structure_6: 1124127152068822750
+      fast-underground-belt-structure_7: -5710844110849082896
+      fast-underground-belt-structure_8: 2790288170071258104
+      fast-underground-belt-structure_9: -2719155649207016732
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

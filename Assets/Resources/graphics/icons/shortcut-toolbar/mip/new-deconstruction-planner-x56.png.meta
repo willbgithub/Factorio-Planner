@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: a20ca71e2d21b0b45af3ccd12d58b072
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4620841472731038491
+    second: new-deconstruction-planner-x56_0
+  - first:
+      213: 3811952865406128854
+    second: new-deconstruction-planner-x56_1
+  - first:
+      213: 425085614140801921
+    second: new-deconstruction-planner-x56_2
+  - first:
+      213: 4998735425353322030
+    second: new-deconstruction-planner-x56_3
+  - first:
+      213: 5522025018450885672
+    second: new-deconstruction-planner-x56_4
+  - first:
+      213: 2462300715953888629
+    second: new-deconstruction-planner-x56_5
+  - first:
+      213: 4733255502763048669
+    second: new-deconstruction-planner-x56_6
+  - first:
+      213: 3795569953358216581
+    second: new-deconstruction-planner-x56_7
+  - first:
+      213: 6719809183039846330
+    second: new-deconstruction-planner-x56_8
+  - first:
+      213: 4925498578919776746
+    second: new-deconstruction-planner-x56_9
+  - first:
+      213: -4960604309883218817
+    second: new-deconstruction-planner-x56_10
+  - first:
+      213: 6484686429378227265
+    second: new-deconstruction-planner-x56_11
+  - first:
+      213: -7489368436630751525
+    second: new-deconstruction-planner-x56_12
+  - first:
+      213: 5773524417206668076
+    second: new-deconstruction-planner-x56_13
+  - first:
+      213: -457719493618653596
+    second: new-deconstruction-planner-x56_14
+  - first:
+      213: -2355468144054173878
+    second: new-deconstruction-planner-x56_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 46
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b13c68156d6802040800000000000000
+      internalID: 4620841472731038491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 51
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2901b3fe6c6e430800000000000000
+      internalID: 3811952865406128854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 51
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183cdf52d1536e500800000000000000
+      internalID: 425085614140801921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 43
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e885a82631f5540800000000000000
+      internalID: 4998735425353322030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 43
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cb5915f7c22ac40800000000000000
+      internalID: 5522025018450885672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d1f909479db2220800000000000000
+      internalID: 2462300715953888629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddeba594dc6efa140800000000000000
+      internalID: 4733255502763048669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_7
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 27
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58dff0643c29ca430800000000000000
+      internalID: 3795569953358216581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_8
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 35
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab77f7159de814d50800000000000000
+      internalID: 6719809183039846330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_9
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 27
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae164327cd2ea5440800000000000000
+      internalID: 4925498578919776746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74932e99a4682bb0800000000000000
+      internalID: -4960604309883218817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_11
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 15
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ca2ee33fb3ef950800000000000000
+      internalID: 6484686429378227265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6f996561b601890800000000000000
+      internalID: -7489368436630751525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_13
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bc5a53eddaf1050800000000000000
+      internalID: 5773524417206668076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466a610bb8ad5a9f0800000000000000
+      internalID: -457719493618653596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: new-deconstruction-planner-x56_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ff6e9e332bf4fd0800000000000000
+      internalID: -2355468144054173878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      new-deconstruction-planner-x56_0: 4620841472731038491
+      new-deconstruction-planner-x56_1: 3811952865406128854
+      new-deconstruction-planner-x56_10: -4960604309883218817
+      new-deconstruction-planner-x56_11: 6484686429378227265
+      new-deconstruction-planner-x56_12: -7489368436630751525
+      new-deconstruction-planner-x56_13: 5773524417206668076
+      new-deconstruction-planner-x56_14: -457719493618653596
+      new-deconstruction-planner-x56_15: -2355468144054173878
+      new-deconstruction-planner-x56_2: 425085614140801921
+      new-deconstruction-planner-x56_3: 4998735425353322030
+      new-deconstruction-planner-x56_4: 5522025018450885672
+      new-deconstruction-planner-x56_5: 2462300715953888629
+      new-deconstruction-planner-x56_6: 4733255502763048669
+      new-deconstruction-planner-x56_7: 3795569953358216581
+      new-deconstruction-planner-x56_8: 6719809183039846330
+      new-deconstruction-planner-x56_9: 4925498578919776746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

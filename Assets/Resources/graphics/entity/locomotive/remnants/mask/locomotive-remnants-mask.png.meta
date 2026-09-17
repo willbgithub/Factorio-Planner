@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: eab0972b6d1786b4396a5b979b266fa8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3098132665308222059
+    second: locomotive-remnants-mask_0
+  - first:
+      213: -8963107131363438160
+    second: locomotive-remnants-mask_1
+  - first:
+      213: -3347708685945900452
+    second: locomotive-remnants-mask_2
+  - first:
+      213: 7781615351247612907
+    second: locomotive-remnants-mask_3
+  - first:
+      213: -3574157754863716407
+    second: locomotive-remnants-mask_4
+  - first:
+      213: 3841596385156162207
+    second: locomotive-remnants-mask_5
+  - first:
+      213: -3077924870102369283
+    second: locomotive-remnants-mask_6
+  - first:
+      213: 8957778448125482413
+    second: locomotive-remnants-mask_7
+  - first:
+      213: 2342451881375220193
+    second: locomotive-remnants-mask_8
+  - first:
+      213: 1927689340380566565
+    second: locomotive-remnants-mask_9
+  - first:
+      213: 2836082899119257612
+    second: locomotive-remnants-mask_10
+  - first:
+      213: 1339187740016038599
+    second: locomotive-remnants-mask_11
+  - first:
+      213: -27663594411997771
+    second: locomotive-remnants-mask_12
+  - first:
+      213: 5219098831081780306
+    second: locomotive-remnants-mask_13
+  - first:
+      213: 5953752482950395949
+    second: locomotive-remnants-mask_14
+  - first:
+      213: -8120044418883660573
+    second: locomotive-remnants-mask_15
+  - first:
+      213: 2069600016411480956
+    second: locomotive-remnants-mask_16
+  - first:
+      213: 1786801483116085935
+    second: locomotive-remnants-mask_17
+  - first:
+      213: 5773938926106230133
+    second: locomotive-remnants-mask_18
+  - first:
+      213: -158470223791333948
+    second: locomotive-remnants-mask_19
+  - first:
+      213: 7855827840411437736
+    second: locomotive-remnants-mask_20
+  - first:
+      213: -1265925673334139737
+    second: locomotive-remnants-mask_21
+  - first:
+      213: -2123386355228187345
+    second: locomotive-remnants-mask_22
+  - first:
+      213: 4540868072312289049
+    second: locomotive-remnants-mask_23
+  - first:
+      213: -5060998858451183255
+    second: locomotive-remnants-mask_24
+  - first:
+      213: -4441923469549058255
+    second: locomotive-remnants-mask_25
+  - first:
+      213: 7633576777970066898
+    second: locomotive-remnants-mask_26
+  - first:
+      213: -5608699901274065341
+    second: locomotive-remnants-mask_27
+  - first:
+      213: 6239526337954070017
+    second: locomotive-remnants-mask_28
+  - first:
+      213: 5732214399420590719
+    second: locomotive-remnants-mask_29
+  - first:
+      213: 3916635327333023250
+    second: locomotive-remnants-mask_30
+  - first:
+      213: -7893340504156401203
+    second: locomotive-remnants-mask_31
+  - first:
+      213: 4495199353501910541
+    second: locomotive-remnants-mask_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_0
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 2284
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b621bb69e37cefa20800000000000000
+      internalID: 3098132665308222059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2151
+        width: 114
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1df477d85ac9380800000000000000
+      internalID: -8963107131363438160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_2
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 2220
+        width: 75
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5274b2efac8a81d0800000000000000
+      internalID: -3347708685945900452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_3
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 2043
+        width: 85
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb27d5eee9ddfb60800000000000000
+      internalID: 7781615351247612907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_4
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1882
+        width: 115
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7f32a657a066ec0800000000000000
+      internalID: -3574157754863716407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_5
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1895
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9268a30f87105530800000000000000
+      internalID: 3841596385156162207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 1889
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb353063a30945d0800000000000000
+      internalID: -3077924870102369283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_7
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1804
+        width: 127
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da55b29c90c605c70800000000000000
+      internalID: 8957778448125482413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_8
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1850
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1c0d4439f028020800000000000000
+      internalID: 2342451881375220193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1575
+        width: 123
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524d0b2ed3780ca10800000000000000
+      internalID: 1927689340380566565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_10
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 1580
+        width: 122
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08309bde5acb5720800000000000000
+      internalID: 2836082899119257612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_11
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1610
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2d63b7720c59210800000000000000
+      internalID: 1339187740016038599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_12
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1592
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5ccd18b18bd9ff0800000000000000
+      internalID: -27663594411997771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_13
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1343
+        width: 84
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25439422cb6fd6840800000000000000
+      internalID: 5219098831081780306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1341
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28bbd2c65aff9250800000000000000
+      internalID: 5953752482950395949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_15
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1272
+        width: 95
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4db047f9ecf4f80800000000000000
+      internalID: -8120044418883660573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_16
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1303
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73595def32b8bc10800000000000000
+      internalID: 2069600016411480956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_17
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1095
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa286456b7efbc810800000000000000
+      internalID: 1786801483116085935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_18
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 1123
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dbc559cd6212050800000000000000
+      internalID: 5773938926106230133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_19
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 965
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdd07bcb200dcdf0800000000000000
+      internalID: -158470223791333948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_20
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 992
+        width: 113
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa09548cc1850d60800000000000000
+      internalID: 7855827840411437736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_21
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 754
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a41fd8ae478e6ee0800000000000000
+      internalID: -1265925673334139737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_22
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 776
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2566bf2c573882e0800000000000000
+      internalID: -2123386355228187345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_23
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 767
+        width: 126
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91736160477640f30800000000000000
+      internalID: 4540868072312289049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 679
+        width: 156
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9691c514a58b3c9b0800000000000000
+      internalID: -5060998858451183255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 397
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137ce06832e1b52c0800000000000000
+      internalID: -4441923469549058255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_26
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 375
+        width: 123
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5a39892a9efe960800000000000000
+      internalID: 7633576777970066898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_27
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 395
+        width: 122
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3467acce725e922b0800000000000000
+      internalID: -5608699901274065341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_28
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 187
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e327c5520479650800000000000000
+      internalID: 6239526337954070017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 174
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ae7dd20aaec8f40800000000000000
+      internalID: 5732214399420590719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_30
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 78
+        width: 83
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e3e68341faa5630800000000000000
+      internalID: 3916635327333023250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_31
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 105
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc11e86d1a8357290800000000000000
+      internalID: -7893340504156401203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: locomotive-remnants-mask_32
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 27
+        width: 84
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d060c04def7226e30800000000000000
+      internalID: 4495199353501910541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      locomotive-remnants-mask_0: 3098132665308222059
+      locomotive-remnants-mask_1: -8963107131363438160
+      locomotive-remnants-mask_10: 2836082899119257612
+      locomotive-remnants-mask_11: 1339187740016038599
+      locomotive-remnants-mask_12: -27663594411997771
+      locomotive-remnants-mask_13: 5219098831081780306
+      locomotive-remnants-mask_14: 5953752482950395949
+      locomotive-remnants-mask_15: -8120044418883660573
+      locomotive-remnants-mask_16: 2069600016411480956
+      locomotive-remnants-mask_17: 1786801483116085935
+      locomotive-remnants-mask_18: 5773938926106230133
+      locomotive-remnants-mask_19: -158470223791333948
+      locomotive-remnants-mask_2: -3347708685945900452
+      locomotive-remnants-mask_20: 7855827840411437736
+      locomotive-remnants-mask_21: -1265925673334139737
+      locomotive-remnants-mask_22: -2123386355228187345
+      locomotive-remnants-mask_23: 4540868072312289049
+      locomotive-remnants-mask_24: -5060998858451183255
+      locomotive-remnants-mask_25: -4441923469549058255
+      locomotive-remnants-mask_26: 7633576777970066898
+      locomotive-remnants-mask_27: -5608699901274065341
+      locomotive-remnants-mask_28: 6239526337954070017
+      locomotive-remnants-mask_29: 5732214399420590719
+      locomotive-remnants-mask_3: 7781615351247612907
+      locomotive-remnants-mask_30: 3916635327333023250
+      locomotive-remnants-mask_31: -7893340504156401203
+      locomotive-remnants-mask_32: 4495199353501910541
+      locomotive-remnants-mask_4: -3574157754863716407
+      locomotive-remnants-mask_5: 3841596385156162207
+      locomotive-remnants-mask_6: -3077924870102369283
+      locomotive-remnants-mask_7: 8957778448125482413
+      locomotive-remnants-mask_8: 2342451881375220193
+      locomotive-remnants-mask_9: 1927689340380566565
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: landfill
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: landfill
+  englishName: Landfill
+  typeName: recipe
+  icon: {fileID: -9176574725427988741, guid: 8e97ca4428d23a340b20beb1cfc3e6ce, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: f7acdb2c6370e3243930ee0b1b939632, type: 2}
+      consumption:
+        numerator: 50
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: df8745e158cdbda4e8c64933ea94600e, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

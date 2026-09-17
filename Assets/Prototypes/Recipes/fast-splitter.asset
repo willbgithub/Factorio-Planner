@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: fast-splitter
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: fast-splitter
+  englishName: Fast splitter
+  typeName: recipe
+  icon: {fileID: -3917937169554277205, guid: 6dee1953ccc93634d877df1537e1499d, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: a89b2a26714842a41896b2b8dec6b0d3, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 83129ddf9a5521a48b1cbf457474a8b6, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 208e48441c853ca4491af18e9284d21f, type: 2}
+      consumption:
+        numerator: 10
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: f3fe3e243786ffd408cefe1d437bc87e, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

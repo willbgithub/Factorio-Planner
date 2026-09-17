@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: d316bdd9fdaa2d64290924deb451ed1e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4220347156596294239
+    second: linked-belt-structure_0
+  - first:
+      213: 3821589521743470150
+    second: linked-belt-structure_1
+  - first:
+      213: -5865379429156518424
+    second: linked-belt-structure_2
+  - first:
+      213: -2213434860514367772
+    second: linked-belt-structure_3
+  - first:
+      213: 8782996736480992609
+    second: linked-belt-structure_4
+  - first:
+      213: 3522612450568536194
+    second: linked-belt-structure_5
+  - first:
+      213: 588842764432421799
+    second: linked-belt-structure_6
+  - first:
+      213: 8847082844253815861
+    second: linked-belt-structure_7
+  - first:
+      213: -140539451907590069
+    second: linked-belt-structure_8
+  - first:
+      213: -6277402264115831573
+    second: linked-belt-structure_9
+  - first:
+      213: 5473966859975248824
+    second: linked-belt-structure_10
+  - first:
+      213: -8711993531850173434
+    second: linked-belt-structure_11
+  - first:
+      213: 6955053289564741792
+    second: linked-belt-structure_12
+  - first:
+      213: 6184360957371765238
+    second: linked-belt-structure_13
+  - first:
+      213: -2782699959840020459
+    second: linked-belt-structure_14
+  - first:
+      213: 3627789196735825246
+    second: linked-belt-structure_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: linked-belt-structure_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 631
+        width: 132
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5280c9e06fa19a30800000000000000
+      internalID: 4220347156596294239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 633
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64edfd02c63090530800000000000000
+      internalID: 3821589521743470150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 628
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e50e3c3c7cf99ea0800000000000000
+      internalID: -5865379429156518424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 626
+        width: 118
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6239db8bc4841e0800000000000000
+      internalID: -2213434860514367772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_4
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 629
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d5d5d5ff873e970800000000000000
+      internalID: 8782996736480992609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_5
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 440
+        width: 132
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28081853c55d2e030800000000000000
+      internalID: 3522612450568536194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_6
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 441
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a3bd8adf5dfb2800800000000000000
+      internalID: 588842764432421799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_7
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 436
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534833619f627ca70800000000000000
+      internalID: 8847082844253815861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_8
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 434
+        width: 118
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48be14fc14bc0ef0800000000000000
+      internalID: -140539451907590069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 437
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec942f56ef22e8a0800000000000000
+      internalID: -6277402264115831573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 249
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bbc5195bdf67fb40800000000000000
+      internalID: 5473966859975248824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_11
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 244
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604d1987a08c81780800000000000000
+      internalID: -8711993531850173434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_12
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 245
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a02b6e0e10558060800000000000000
+      internalID: 6955053289564741792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f150fa468343d550800000000000000
+      internalID: 6184360957371765238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 52
+        width: 93
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518ed31412dd169d0800000000000000
+      internalID: -2782699959840020459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: linked-belt-structure_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 53
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e554077bd0f785230800000000000000
+      internalID: 3627789196735825246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      linked-belt-structure_0: 4220347156596294239
+      linked-belt-structure_1: 3821589521743470150
+      linked-belt-structure_10: 5473966859975248824
+      linked-belt-structure_11: -8711993531850173434
+      linked-belt-structure_12: 6955053289564741792
+      linked-belt-structure_13: 6184360957371765238
+      linked-belt-structure_14: -2782699959840020459
+      linked-belt-structure_15: 3627789196735825246
+      linked-belt-structure_2: -5865379429156518424
+      linked-belt-structure_3: -2213434860514367772
+      linked-belt-structure_4: 8782996736480992609
+      linked-belt-structure_5: 3522612450568536194
+      linked-belt-structure_6: 588842764432421799
+      linked-belt-structure_7: 8847082844253815861
+      linked-belt-structure_8: -140539451907590069
+      linked-belt-structure_9: -6277402264115831573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

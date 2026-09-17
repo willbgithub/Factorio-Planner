@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 6a86ba733c2897645a44940c2d7d81b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7145243035284082561
+    second: defender-robot_0
+  - first:
+      213: 960457192530397228
+    second: defender-robot_1
+  - first:
+      213: -4536558737213363461
+    second: defender-robot_2
+  - first:
+      213: 8116172052819181389
+    second: defender-robot_3
+  - first:
+      213: -8832030888589253021
+    second: defender-robot_4
+  - first:
+      213: -6050989574732608580
+    second: defender-robot_5
+  - first:
+      213: 6985221550597952500
+    second: defender-robot_6
+  - first:
+      213: -3537422295711764223
+    second: defender-robot_7
+  - first:
+      213: -2778294620145505810
+    second: defender-robot_8
+  - first:
+      213: 3252904595555273486
+    second: defender-robot_9
+  - first:
+      213: -1585710888131276395
+    second: defender-robot_10
+  - first:
+      213: 2169176543746335964
+    second: defender-robot_11
+  - first:
+      213: 1252925273888933321
+    second: defender-robot_12
+  - first:
+      213: -6264040349810974110
+    second: defender-robot_13
+  - first:
+      213: 8253655252753867793
+    second: defender-robot_14
+  - first:
+      213: -892869628518619622
+    second: defender-robot_15
+  - first:
+      213: 3399365138852593750
+    second: defender-robot_16
+  - first:
+      213: 7743593296513529739
+    second: defender-robot_17
+  - first:
+      213: 3704479596550615162
+    second: defender-robot_18
+  - first:
+      213: 7988507061159431653
+    second: defender-robot_19
+  - first:
+      213: -8336384119685177415
+    second: defender-robot_20
+  - first:
+      213: 2166176510132780219
+    second: defender-robot_21
+  - first:
+      213: 8083198631296228780
+    second: defender-robot_22
+  - first:
+      213: -5591125681439263552
+    second: defender-robot_23
+  - first:
+      213: -4635586146590612020
+    second: defender-robot_24
+  - first:
+      213: -8752999760963085374
+    second: defender-robot_25
+  - first:
+      213: -4190505907342917433
+    second: defender-robot_26
+  - first:
+      213: -3548981822740587761
+    second: defender-robot_27
+  - first:
+      213: -8177357807757775190
+    second: defender-robot_28
+  - first:
+      213: -224303909215838691
+    second: defender-robot_29
+  - first:
+      213: 1525899531737368090
+    second: defender-robot_30
+  - first:
+      213: 5733696661477708786
+    second: defender-robot_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: defender-robot_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 69
+        width: 54
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70fe08015ff6dc90800000000000000
+      internalID: -7145243035284082561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 69
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c284eb65aba345d00800000000000000
+      internalID: 960457192530397228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 66
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfae3bd3dd7ea01c0800000000000000
+      internalID: -4536558737213363461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 62
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f7d301b7f62a070800000000000000
+      internalID: 8116172052819181389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 61
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3662c5073b25e6580800000000000000
+      internalID: -8832030888589253021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 62
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb88729a01960ca0800000000000000
+      internalID: -6050989574732608580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_6
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 64
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f35bc0bdfd70f060800000000000000
+      internalID: 6985221550597952500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_7
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 60
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101bd830a2d88eec0800000000000000
+      internalID: -3537422295711764223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 59
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee929d453c38179d0800000000000000
+      internalID: -2778294620145505810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_9
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 60
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bce4abe73a42d20800000000000000
+      internalID: 3252904595555273486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_10
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 64
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5915774495c6ef9e0800000000000000
+      internalID: -1585710888131276395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_11
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 62
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd42c11e2967a1e10800000000000000
+      internalID: 2169176543746335964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_12
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 61
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c54248f5e8436110800000000000000
+      internalID: 1252925273888933321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_13
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 63
+        width: 46
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262adca7d78a119a0800000000000000
+      internalID: -6264040349810974110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_14
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 66
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1146eeef8bfda8270800000000000000
+      internalID: 8253655252753867793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_15
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 69
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16a961bdc3eb93f0800000000000000
+      internalID: -892869628518619622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 12
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650c72b4598fc2f20800000000000000
+      internalID: 3399365138852593750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 10
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87f8cb6315c67b60800000000000000
+      internalID: 7743593296513529739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_18
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 5
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70f41ed094f86330800000000000000
+      internalID: 3704479596550615162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed8b12e8d0ecde60800000000000000
+      internalID: 7988507061159431653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_20
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 3
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf15faafc63f4c80800000000000000
+      internalID: -8336384119685177415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_21
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 5
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc724f1f0ecf0e10800000000000000
+      internalID: 2166176510132780219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_22
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 3
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadd55b145a4d2070800000000000000
+      internalID: 8083198631296228780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_23
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 0
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4bf37d0d45862b0800000000000000
+      internalID: -5591125681439263552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_24
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 0
+        width: 54
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5aeb6c5f61bafb0800000000000000
+      internalID: -4635586146590612020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_25
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 0
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb57b0c719178680800000000000000
+      internalID: -8752999760963085374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_26
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 3
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c046ab541558d5c0800000000000000
+      internalID: -4190505907342917433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_27
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 5
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b9a35e5db7fbec0800000000000000
+      internalID: -3548981822740587761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_28
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 3
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaea45b3660348e80800000000000000
+      internalID: -8177357807757775190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_29
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 3
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e557178cc13ecf0800000000000000
+      internalID: -224303909215838691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 5
+        width: 43
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1604202a851d2510800000000000000
+      internalID: 1525899531737368090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: defender-robot_31
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 10
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3d8353cbe229f40800000000000000
+      internalID: 5733696661477708786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      defender-robot_0: -7145243035284082561
+      defender-robot_1: 960457192530397228
+      defender-robot_10: -1585710888131276395
+      defender-robot_11: 2169176543746335964
+      defender-robot_12: 1252925273888933321
+      defender-robot_13: -6264040349810974110
+      defender-robot_14: 8253655252753867793
+      defender-robot_15: -892869628518619622
+      defender-robot_16: 3399365138852593750
+      defender-robot_17: 7743593296513529739
+      defender-robot_18: 3704479596550615162
+      defender-robot_19: 7988507061159431653
+      defender-robot_2: -4536558737213363461
+      defender-robot_20: -8336384119685177415
+      defender-robot_21: 2166176510132780219
+      defender-robot_22: 8083198631296228780
+      defender-robot_23: -5591125681439263552
+      defender-robot_24: -4635586146590612020
+      defender-robot_25: -8752999760963085374
+      defender-robot_26: -4190505907342917433
+      defender-robot_27: -3548981822740587761
+      defender-robot_28: -8177357807757775190
+      defender-robot_29: -224303909215838691
+      defender-robot_3: 8116172052819181389
+      defender-robot_30: 1525899531737368090
+      defender-robot_31: 5733696661477708786
+      defender-robot_4: -8832030888589253021
+      defender-robot_5: -6050989574732608580
+      defender-robot_6: 6985221550597952500
+      defender-robot_7: -3537422295711764223
+      defender-robot_8: -2778294620145505810
+      defender-robot_9: 3252904595555273486
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

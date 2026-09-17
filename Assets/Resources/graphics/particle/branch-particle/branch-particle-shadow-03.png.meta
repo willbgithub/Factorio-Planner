@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 731f2ef8e2e51f140bf7627edaa4db73
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2234763572182335522
+    second: branch-particle-shadow-03_0
+  - first:
+      213: -3160396652936612704
+    second: branch-particle-shadow-03_1
+  - first:
+      213: -8163203126084753495
+    second: branch-particle-shadow-03_2
+  - first:
+      213: 2010915527217572213
+    second: branch-particle-shadow-03_3
+  - first:
+      213: 3884016666010137543
+    second: branch-particle-shadow-03_4
+  - first:
+      213: -7449291668303550718
+    second: branch-particle-shadow-03_5
+  - first:
+      213: -1141252085820607872
+    second: branch-particle-shadow-03_6
+  - first:
+      213: -9205187355424156755
+    second: branch-particle-shadow-03_7
+  - first:
+      213: 6530468681342769825
+    second: branch-particle-shadow-03_8
+  - first:
+      213: 6221444142902915647
+    second: branch-particle-shadow-03_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 135
+        width: 75
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfb6131f568cf0e0800000000000000
+      internalID: -2234763572182335522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_1
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 118
+        width: 98
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a431681df30424d0800000000000000
+      internalID: -3160396652936612704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_2
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 140
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a72c50e10a76be80800000000000000
+      internalID: -8163203126084753495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_3
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 159
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579ee19840538eb10800000000000000
+      internalID: 2010915527217572213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 38
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c33b3f449cc6e530800000000000000
+      internalID: 3884016666010137543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_5
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 118
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2076d7a12bcce9890800000000000000
+      internalID: -7449291668303550718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_6
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 40
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0823d7946457920f0800000000000000
+      internalID: -1141252085820607872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 39
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da396051fda904080800000000000000
+      internalID: -9205187355424156755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_8
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 90
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aadf307aa2e0aa50800000000000000
+      internalID: 6530468681342769825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: branch-particle-shadow-03_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32b9af3c72075650800000000000000
+      internalID: 6221444142902915647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      branch-particle-shadow-03_0: -2234763572182335522
+      branch-particle-shadow-03_1: -3160396652936612704
+      branch-particle-shadow-03_2: -8163203126084753495
+      branch-particle-shadow-03_3: 2010915527217572213
+      branch-particle-shadow-03_4: 3884016666010137543
+      branch-particle-shadow-03_5: -7449291668303550718
+      branch-particle-shadow-03_6: -1141252085820607872
+      branch-particle-shadow-03_7: -9205187355424156755
+      branch-particle-shadow-03_8: 6530468681342769825
+      branch-particle-shadow-03_9: 6221444142902915647
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

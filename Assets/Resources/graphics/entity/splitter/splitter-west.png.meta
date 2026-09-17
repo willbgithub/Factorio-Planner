@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: a8c0109641b98994d8e10c72cea9d858
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2695225106614981977
+    second: splitter-west_0
+  - first:
+      213: 2448915009240148131
+    second: splitter-west_1
+  - first:
+      213: 8753063598822374697
+    second: splitter-west_2
+  - first:
+      213: 978293028291682801
+    second: splitter-west_3
+  - first:
+      213: 6884643840386219730
+    second: splitter-west_4
+  - first:
+      213: -6239822258186088350
+    second: splitter-west_5
+  - first:
+      213: 6399296741495111609
+    second: splitter-west_6
+  - first:
+      213: 1432685433191196686
+    second: splitter-west_7
+  - first:
+      213: -2533996515993866558
+    second: splitter-west_8
+  - first:
+      213: 6796261234502495743
+    second: splitter-west_9
+  - first:
+      213: 7614531204981483796
+    second: splitter-west_10
+  - first:
+      213: 2804187015003123584
+    second: splitter-west_11
+  - first:
+      213: -2834604331395685574
+    second: splitter-west_12
+  - first:
+      213: 2543778610567555605
+    second: splitter-west_13
+  - first:
+      213: -2955275438617988537
+    second: splitter-west_14
+  - first:
+      213: -1146019774270797872
+    second: splitter-west_15
+  - first:
+      213: 8154511896393690286
+    second: splitter-west_16
+  - first:
+      213: -5291013089908647324
+    second: splitter-west_17
+  - first:
+      213: -3499812295076155002
+    second: splitter-west_18
+  - first:
+      213: -2577311946009065256
+    second: splitter-west_19
+  - first:
+      213: -2467823320487286915
+    second: splitter-west_20
+  - first:
+      213: -343646233466540431
+    second: splitter-west_21
+  - first:
+      213: -6543799860318256541
+    second: splitter-west_22
+  - first:
+      213: 5994218858434923498
+    second: splitter-west_23
+  - first:
+      213: 3663411566960337359
+    second: splitter-west_24
+  - first:
+      213: -4963314706225117927
+    second: splitter-west_25
+  - first:
+      213: -4260707972356099138
+    second: splitter-west_26
+  - first:
+      213: -4008260974340358064
+    second: splitter-west_27
+  - first:
+      213: 1532965898448673456
+    second: splitter-west_28
+  - first:
+      213: 7456657318003880029
+    second: splitter-west_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: splitter-west_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaef72ab03a89ad0800000000000000
+      internalID: -2695225106614981977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 257
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8a1ead93b4cf120800000000000000
+      internalID: 2448915009240148131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 257
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92db538a7f0297970800000000000000
+      internalID: 8753063598822374697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_3
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 257
+        width: 182
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f121957358939d00800000000000000
+      internalID: 978293028291682801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 257
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de3d4fa81b2b8f50800000000000000
+      internalID: 6884643840386219730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_5
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 257
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2601e3757b2b769a0800000000000000
+      internalID: -6239822258186088350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_6
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 257
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf71214b7edec850800000000000000
+      internalID: 6399296741495111609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 171
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08ec309fcbe1e310800000000000000
+      internalID: 1432685433191196686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_8
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 171
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ceab1a289f65dcd0800000000000000
+      internalID: -2533996515993866558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 171
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd674ba59b215e50800000000000000
+      internalID: 6796261234502495743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_10
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 171
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4196c0499cf3ca960800000000000000
+      internalID: 7614531204981483796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_11
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 171
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f2601ab397ae620800000000000000
+      internalID: 2804187015003123584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_12
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 171
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a336064016679a8d0800000000000000
+      internalID: -2834604331395685574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_13
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 171
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aad163b215d4320800000000000000
+      internalID: 2543778610567555605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_14
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 171
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742fcb375a0ccf6d0800000000000000
+      internalID: -2955275438617988537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 90
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7040156158810f0800000000000000
+      internalID: -1146019774270797872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_16
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 85
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac2e358d55aa2170800000000000000
+      internalID: 8154511896393690286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_17
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 85
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a9d02b0ab8296b0800000000000000
+      internalID: -5291013089908647324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_18
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 85
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681f07ba24b2e6fc0800000000000000
+      internalID: -3499812295076155002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_19
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 85
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d842c6b07c8b3cd0800000000000000
+      internalID: -2577311946009065256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_20
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 85
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d772eedd3c780cdd0800000000000000
+      internalID: -2467823320487286915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_21
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 85
+        width: 92
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e63d5429f1b3bf0800000000000000
+      internalID: -343646233466540431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_22
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 85
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362ca7492b0cf25a0800000000000000
+      internalID: -6543799860318256541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb06f20b4ebf2350800000000000000
+      internalID: 5994218858434923498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc16aba196d07d230800000000000000
+      internalID: 3663411566960337359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_25
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 0
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915cafa4293ce1bb0800000000000000
+      internalID: -4963314706225117927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_26
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 182
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb33a006caceed4c0800000000000000
+      internalID: -4260707972356099138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_27
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 0
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050c16961ebcf58c0800000000000000
+      internalID: -4008260974340358064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_28
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 0
+        width: 92
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba12d5dc50364510800000000000000
+      internalID: 1532965898448673456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splitter-west_29
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 0
+        width: 91
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50307bd25e5b7760800000000000000
+      internalID: 7456657318003880029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      splitter-west_0: -2695225106614981977
+      splitter-west_1: 2448915009240148131
+      splitter-west_10: 7614531204981483796
+      splitter-west_11: 2804187015003123584
+      splitter-west_12: -2834604331395685574
+      splitter-west_13: 2543778610567555605
+      splitter-west_14: -2955275438617988537
+      splitter-west_15: -1146019774270797872
+      splitter-west_16: 8154511896393690286
+      splitter-west_17: -5291013089908647324
+      splitter-west_18: -3499812295076155002
+      splitter-west_19: -2577311946009065256
+      splitter-west_2: 8753063598822374697
+      splitter-west_20: -2467823320487286915
+      splitter-west_21: -343646233466540431
+      splitter-west_22: -6543799860318256541
+      splitter-west_23: 5994218858434923498
+      splitter-west_24: 3663411566960337359
+      splitter-west_25: -4963314706225117927
+      splitter-west_26: -4260707972356099138
+      splitter-west_27: -4008260974340358064
+      splitter-west_28: 1532965898448673456
+      splitter-west_29: 7456657318003880029
+      splitter-west_3: 978293028291682801
+      splitter-west_4: 6884643840386219730
+      splitter-west_5: -6239822258186088350
+      splitter-west_6: 6399296741495111609
+      splitter-west_7: 1432685433191196686
+      splitter-west_8: -2533996515993866558
+      splitter-west_9: 6796261234502495743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

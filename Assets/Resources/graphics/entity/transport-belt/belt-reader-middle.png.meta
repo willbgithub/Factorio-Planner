@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 521f0829dacfbb948a36de995d3abd60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4558244512884139679
+    second: belt-reader-middle_0
+  - first:
+      213: 3450819631237537990
+    second: belt-reader-middle_1
+  - first:
+      213: -6337402066600692314
+    second: belt-reader-middle_2
+  - first:
+      213: 9002124602402653641
+    second: belt-reader-middle_3
+  - first:
+      213: -2280308358350940555
+    second: belt-reader-middle_4
+  - first:
+      213: -9166293728693943303
+    second: belt-reader-middle_5
+  - first:
+      213: 2738311347816533819
+    second: belt-reader-middle_6
+  - first:
+      213: 1785549471814536590
+    second: belt-reader-middle_7
+  - first:
+      213: -8764612878628071335
+    second: belt-reader-middle_8
+  - first:
+      213: 6479337746072386839
+    second: belt-reader-middle_9
+  - first:
+      213: 2714822667032107981
+    second: belt-reader-middle_10
+  - first:
+      213: -3781719751326685555
+    second: belt-reader-middle_11
+  - first:
+      213: 3538024651993832362
+    second: belt-reader-middle_12
+  - first:
+      213: 842647514973406039
+    second: belt-reader-middle_13
+  - first:
+      213: -3776219175439523441
+    second: belt-reader-middle_14
+  - first:
+      213: -7141370034087536813
+    second: belt-reader-middle_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: belt-reader-middle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 65
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9625dddb33224f30800000000000000
+      internalID: 4558244512884139679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 447
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c0abdfdb26c3ef20800000000000000
+      internalID: 3450819631237537990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 447
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5707db5660d08a0800000000000000
+      internalID: -6337402066600692314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 65
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5c30e61a8fdec70800000000000000
+      internalID: 9002124602402653641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576532231a7ba50e0800000000000000
+      internalID: -2280308358350940555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 370
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f38e4a3b68cac080800000000000000
+      internalID: -9166293728693943303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 368
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f8603a9af600620800000000000000
+      internalID: 2738311347816533819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 319
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d446cc8cb87c810800000000000000
+      internalID: 1785549471814536590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9585f871607dd5680800000000000000
+      internalID: -8764612878628071335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 256
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71dbc6ed95b3be950800000000000000
+      internalID: 6479337746072386839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb90a8f4dcfca520800000000000000
+      internalID: 2714822667032107981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 109
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86281e2ce1a48bc0800000000000000
+      internalID: -3781719751326685555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 105
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabdaacfca6991130800000000000000
+      internalID: 3538024651993832362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_13
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 105
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7530bd8437fa1bb00800000000000000
+      internalID: 842647514973406039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 30
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81a8edcaac289bc0800000000000000
+      internalID: -3776219175439523441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: belt-reader-middle_15
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 30
+        width: 49
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357d7946ac1c4ec90800000000000000
+      internalID: -7141370034087536813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      belt-reader-middle_0: 4558244512884139679
+      belt-reader-middle_1: 3450819631237537990
+      belt-reader-middle_10: 2714822667032107981
+      belt-reader-middle_11: -3781719751326685555
+      belt-reader-middle_12: 3538024651993832362
+      belt-reader-middle_13: 842647514973406039
+      belt-reader-middle_14: -3776219175439523441
+      belt-reader-middle_15: -7141370034087536813
+      belt-reader-middle_2: -6337402066600692314
+      belt-reader-middle_3: 9002124602402653641
+      belt-reader-middle_4: -2280308358350940555
+      belt-reader-middle_5: -9166293728693943303
+      belt-reader-middle_6: 2738311347816533819
+      belt-reader-middle_7: 1785549471814536590
+      belt-reader-middle_8: -8764612878628071335
+      belt-reader-middle_9: 6479337746072386839
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

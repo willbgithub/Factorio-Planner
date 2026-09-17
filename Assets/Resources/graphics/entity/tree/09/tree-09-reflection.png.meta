@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: d32888576eb559a448a5764fcd848aac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1289272365461360915
+    second: tree-09-reflection_0
+  - first:
+      213: 8763354620115054258
+    second: tree-09-reflection_1
+  - first:
+      213: -811965451693165563
+    second: tree-09-reflection_2
+  - first:
+      213: 804701983190674647
+    second: tree-09-reflection_3
+  - first:
+      213: 8823089112526052324
+    second: tree-09-reflection_4
+  - first:
+      213: 8289628980185077040
+    second: tree-09-reflection_5
+  - first:
+      213: 7960250663409561171
+    second: tree-09-reflection_6
+  - first:
+      213: 7723636098764843152
+    second: tree-09-reflection_7
+  - first:
+      213: 7848696862019478695
+    second: tree-09-reflection_8
+  - first:
+      213: 1130539629243515494
+    second: tree-09-reflection_9
+  - first:
+      213: 7451087357930852591
+    second: tree-09-reflection_10
+  - first:
+      213: -8363662354695195184
+    second: tree-09-reflection_11
+  - first:
+      213: 6290681483206333805
+    second: tree-09-reflection_12
+  - first:
+      213: -8350137100925350638
+    second: tree-09-reflection_13
+  - first:
+      213: 3586729144183667084
+    second: tree-09-reflection_14
+  - first:
+      213: -6470931264711243882
+    second: tree-09-reflection_15
+  - first:
+      213: -7405315067707045751
+    second: tree-09-reflection_16
+  - first:
+      213: -4273595916074032580
+    second: tree-09-reflection_17
+  - first:
+      213: 8606776030624373775
+    second: tree-09-reflection_18
+  - first:
+      213: -6411250779264954174
+    second: tree-09-reflection_19
+  - first:
+      213: -1944061792925746064
+    second: tree-09-reflection_20
+  - first:
+      213: 7623072146841608108
+    second: tree-09-reflection_21
+  - first:
+      213: -2929388216653062092
+    second: tree-09-reflection_22
+  - first:
+      213: 1070987478630993833
+    second: tree-09-reflection_23
+  - first:
+      213: -69339123761143401
+    second: tree-09-reflection_24
+  - first:
+      213: 3086564600429301572
+    second: tree-09-reflection_25
+  - first:
+      213: 3653368870890078469
+    second: tree-09-reflection_26
+  - first:
+      213: -930549023051509603
+    second: tree-09-reflection_27
+  - first:
+      213: -6851053600635689851
+    second: tree-09-reflection_28
+  - first:
+      213: 3240929731196852091
+    second: tree-09-reflection_29
+  - first:
+      213: -4797475339625316459
+    second: tree-09-reflection_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree-09-reflection_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3115d02b26a64e110800000000000000
+      internalID: 1289272365461360915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 336
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be6cb4c890bd9970800000000000000
+      internalID: 8763354620115054258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 338
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50470f149b15bb4f0800000000000000
+      internalID: -811965451693165563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 339
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dce122b030ea2b00800000000000000
+      internalID: 804701983190674647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_4
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 239
+        width: 41
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb5bb51dc8e17a70800000000000000
+      internalID: 8823089112526052324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 290
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03517bb13adaa0370800000000000000
+      internalID: 8289628980185077040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 290
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e289b9dcd787e60800000000000000
+      internalID: 7960250663409561171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_7
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 290
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09823493c1edf2b60800000000000000
+      internalID: 7723636098764843152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_8
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 241
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4e46a363c2cec60800000000000000
+      internalID: 7848696862019478695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_9
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 242
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662cf8d8dcb70bf00800000000000000
+      internalID: 1130539629243515494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_10
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 243
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe05fd77974976760800000000000000
+      internalID: 7451087357930852591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 196
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5f517a66d4eeb80800000000000000
+      internalID: -8363662354695195184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_12
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 196
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6514a1ca7dfc4750800000000000000
+      internalID: 6290681483206333805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_13
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 199
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dc8813c8a5e1c80800000000000000
+      internalID: -8350137100925350638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_14
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 199
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89bb90472f96c130800000000000000
+      internalID: 3586729144183667084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 155
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697cae89c42a236a0800000000000000
+      internalID: -6470931264711243882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 155
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98849735e290b3990800000000000000
+      internalID: -7405315067707045751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 157
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32e8d4282321b4c0800000000000000
+      internalID: -4273595916074032580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 157
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c56bef239617770800000000000000
+      internalID: 8606776030624373775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 105
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c057ff6269a607a0800000000000000
+      internalID: -6411250779264954174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 105
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c7043791e4505e0800000000000000
+      internalID: -1944061792925746064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_21
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 107
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf1ba19ab79ac960800000000000000
+      internalID: 7623072146841608108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 108
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430ed2100f8b857d0800000000000000
+      internalID: -2929388216653062092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 55
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af01beff69ecde00800000000000000
+      internalID: 1070987478630993833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_24
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 55
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7912e2f2f68a90ff0800000000000000
+      internalID: -69339123761143401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_25
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 57
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f42e8962ea5da20800000000000000
+      internalID: 3086564600429301572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_26
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 57
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5018fd6b1af53b230800000000000000
+      internalID: 3653368870890078469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_27
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 7
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d909de208960613f0800000000000000
+      internalID: -930549023051509603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_28
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 7
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584e2f47c0b2ce0a0800000000000000
+      internalID: -6851053600635689851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_29
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 10
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b779df95b681afc20800000000000000
+      internalID: 3240929731196852091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-09-reflection_30
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 10
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fbfe2c891fb6db0800000000000000
+      internalID: -4797475339625316459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tree-09-reflection_0: 1289272365461360915
+      tree-09-reflection_1: 8763354620115054258
+      tree-09-reflection_10: 7451087357930852591
+      tree-09-reflection_11: -8363662354695195184
+      tree-09-reflection_12: 6290681483206333805
+      tree-09-reflection_13: -8350137100925350638
+      tree-09-reflection_14: 3586729144183667084
+      tree-09-reflection_15: -6470931264711243882
+      tree-09-reflection_16: -7405315067707045751
+      tree-09-reflection_17: -4273595916074032580
+      tree-09-reflection_18: 8606776030624373775
+      tree-09-reflection_19: -6411250779264954174
+      tree-09-reflection_2: -811965451693165563
+      tree-09-reflection_20: -1944061792925746064
+      tree-09-reflection_21: 7623072146841608108
+      tree-09-reflection_22: -2929388216653062092
+      tree-09-reflection_23: 1070987478630993833
+      tree-09-reflection_24: -69339123761143401
+      tree-09-reflection_25: 3086564600429301572
+      tree-09-reflection_26: 3653368870890078469
+      tree-09-reflection_27: -930549023051509603
+      tree-09-reflection_28: -6851053600635689851
+      tree-09-reflection_29: 3240929731196852091
+      tree-09-reflection_3: 804701983190674647
+      tree-09-reflection_30: -4797475339625316459
+      tree-09-reflection_4: 8823089112526052324
+      tree-09-reflection_5: 8289628980185077040
+      tree-09-reflection_6: 7960250663409561171
+      tree-09-reflection_7: 7723636098764843152
+      tree-09-reflection_8: 7848696862019478695
+      tree-09-reflection_9: 1130539629243515494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

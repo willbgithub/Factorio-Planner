@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: f443318fcaa8b304692a8599e975f220
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6382202260099198185
+    second: distractor-robot_0
+  - first:
+      213: -916373129274995131
+    second: distractor-robot_1
+  - first:
+      213: 6268770130802329233
+    second: distractor-robot_2
+  - first:
+      213: 1893559774511130234
+    second: distractor-robot_3
+  - first:
+      213: 8227987266581313786
+    second: distractor-robot_4
+  - first:
+      213: 8722191298394873103
+    second: distractor-robot_5
+  - first:
+      213: 7360580425183498576
+    second: distractor-robot_6
+  - first:
+      213: 3290639363783014787
+    second: distractor-robot_7
+  - first:
+      213: -9066763433967981284
+    second: distractor-robot_8
+  - first:
+      213: -5443553647957390418
+    second: distractor-robot_9
+  - first:
+      213: 5664793232155838638
+    second: distractor-robot_10
+  - first:
+      213: -7269598097881805477
+    second: distractor-robot_11
+  - first:
+      213: 7852431364833674271
+    second: distractor-robot_12
+  - first:
+      213: 7704996552360407936
+    second: distractor-robot_13
+  - first:
+      213: 7250171084090089292
+    second: distractor-robot_14
+  - first:
+      213: 4492415539382627456
+    second: distractor-robot_15
+  - first:
+      213: -7793209755248808453
+    second: distractor-robot_16
+  - first:
+      213: 7049842373740127563
+    second: distractor-robot_17
+  - first:
+      213: -8442501188400681610
+    second: distractor-robot_18
+  - first:
+      213: -745244448711281372
+    second: distractor-robot_19
+  - first:
+      213: -2495512286772672450
+    second: distractor-robot_20
+  - first:
+      213: -3536263613685217992
+    second: distractor-robot_21
+  - first:
+      213: -2042159912576495358
+    second: distractor-robot_22
+  - first:
+      213: -4460152110053907475
+    second: distractor-robot_23
+  - first:
+      213: -6950049007997364240
+    second: distractor-robot_24
+  - first:
+      213: -1367754748374723855
+    second: distractor-robot_25
+  - first:
+      213: 190953742889760499
+    second: distractor-robot_26
+  - first:
+      213: 2266179053203157043
+    second: distractor-robot_27
+  - first:
+      213: 5676713246880808163
+    second: distractor-robot_28
+  - first:
+      213: -7900623303817885598
+    second: distractor-robot_29
+  - first:
+      213: 6277314758240842220
+    second: distractor-robot_30
+  - first:
+      213: -4655148282906619320
+    second: distractor-robot_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: distractor-robot_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec68e52423229850800000000000000
+      internalID: 6382202260099198185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 65
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ec9db7e736843f0800000000000000
+      internalID: -916373129274995131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 70
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1964d0978352ff650800000000000000
+      internalID: 6268770130802329233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 65
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7664b81596474a10800000000000000
+      internalID: 1893559774511130234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 63
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8340143deaf2270800000000000000
+      internalID: 8227987266581313786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 65
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d54d316c27b0970800000000000000
+      internalID: 8722191298394873103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_6
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 70
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05191cf06e8062660800000000000000
+      internalID: 7360580425183498576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_7
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 65
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389343a1113baad20800000000000000
+      internalID: 3290639363783014787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_8
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 64
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d66dfc1b26c2280800000000000000
+      internalID: -9066763433967981284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_9
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 65
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eabc7b16ccc9474b0800000000000000
+      internalID: -5443553647957390418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_10
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 70
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea88fa86e636d9e40800000000000000
+      internalID: 5664793232155838638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_11
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 65
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d46e3cb033d1b90800000000000000
+      internalID: -7269598097881805477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_12
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 64
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f140c0ce8b079fc60800000000000000
+      internalID: 7852431364833674271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_13
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 65
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0833d03aa85adea60800000000000000
+      internalID: 7704996552360407936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_14
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 70
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f9ffb1038cd9460800000000000000
+      internalID: 7250171084090089292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_15
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 65
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ca8589124485e30800000000000000
+      internalID: 4492415539382627456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 8
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd294e8405f8d390800000000000000
+      internalID: -7793209755248808453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_17
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 10
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45e649894216d160800000000000000
+      internalID: 7049842373740127563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 6
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d609146e536da80800000000000000
+      internalID: -8442501188400681610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_19
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4257bb35f1c58a5f0800000000000000
+      internalID: -745244448711281372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_20
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 2
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38ca460cc82e5dd0800000000000000
+      internalID: -2495512286772672450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_21
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 5
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8354722bafaaceec0800000000000000
+      internalID: -3536263613685217992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_22
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 4
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201d55c116ac8a3e0800000000000000
+      internalID: -2042159912576495358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_23
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 1
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3270c694b5a12c0800000000000000
+      internalID: -4460152110053907475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_24
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 0
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7d2ca00477c8f90800000000000000
+      internalID: -6950049007997364240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_25
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f255439d42c40de0800000000000000
+      internalID: -1367754748374723855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_26
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 4
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6b97dda6766a200800000000000000
+      internalID: 190953742889760499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_27
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 5
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330fa9797d5137f10800000000000000
+      internalID: 2266179053203157043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_28
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 2
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecb51c1f9cb7ce40800000000000000
+      internalID: 5676713246880808163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_29
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 3
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26803c7e6f85b5290800000000000000
+      internalID: -7900623303817885598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_30
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 6
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1334493808d1750800000000000000
+      internalID: 6277314758240842220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot_31
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 9
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842d49cfc47956fb0800000000000000
+      internalID: -4655148282906619320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      distractor-robot_0: 6382202260099198185
+      distractor-robot_1: -916373129274995131
+      distractor-robot_10: 5664793232155838638
+      distractor-robot_11: -7269598097881805477
+      distractor-robot_12: 7852431364833674271
+      distractor-robot_13: 7704996552360407936
+      distractor-robot_14: 7250171084090089292
+      distractor-robot_15: 4492415539382627456
+      distractor-robot_16: -7793209755248808453
+      distractor-robot_17: 7049842373740127563
+      distractor-robot_18: -8442501188400681610
+      distractor-robot_19: -745244448711281372
+      distractor-robot_2: 6268770130802329233
+      distractor-robot_20: -2495512286772672450
+      distractor-robot_21: -3536263613685217992
+      distractor-robot_22: -2042159912576495358
+      distractor-robot_23: -4460152110053907475
+      distractor-robot_24: -6950049007997364240
+      distractor-robot_25: -1367754748374723855
+      distractor-robot_26: 190953742889760499
+      distractor-robot_27: 2266179053203157043
+      distractor-robot_28: 5676713246880808163
+      distractor-robot_29: -7900623303817885598
+      distractor-robot_3: 1893559774511130234
+      distractor-robot_30: 6277314758240842220
+      distractor-robot_31: -4655148282906619320
+      distractor-robot_4: 8227987266581313786
+      distractor-robot_5: 8722191298394873103
+      distractor-robot_6: 7360580425183498576
+      distractor-robot_7: 3290639363783014787
+      distractor-robot_8: -9066763433967981284
+      distractor-robot_9: -5443553647957390418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

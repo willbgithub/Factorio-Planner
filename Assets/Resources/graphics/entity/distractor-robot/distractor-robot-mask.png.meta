@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 9ad006f2086833b45b4b4577eaaf4fb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1723397203090763651
+    second: distractor-robot-mask_0
+  - first:
+      213: -7997804587407881236
+    second: distractor-robot-mask_1
+  - first:
+      213: 5065042021217024167
+    second: distractor-robot-mask_2
+  - first:
+      213: 5204757896452892528
+    second: distractor-robot-mask_3
+  - first:
+      213: -2923937257169777290
+    second: distractor-robot-mask_4
+  - first:
+      213: -8782609049428121328
+    second: distractor-robot-mask_5
+  - first:
+      213: 4488633338232044831
+    second: distractor-robot-mask_6
+  - first:
+      213: -5191979852333330398
+    second: distractor-robot-mask_7
+  - first:
+      213: 2091170109103499256
+    second: distractor-robot-mask_8
+  - first:
+      213: 1733653997708258364
+    second: distractor-robot-mask_9
+  - first:
+      213: -2910703093645010770
+    second: distractor-robot-mask_10
+  - first:
+      213: -8914558768293765239
+    second: distractor-robot-mask_11
+  - first:
+      213: -1295207767019354282
+    second: distractor-robot-mask_12
+  - first:
+      213: 7992961834109657427
+    second: distractor-robot-mask_13
+  - first:
+      213: -3255390819789261406
+    second: distractor-robot-mask_14
+  - first:
+      213: -5016045674530230591
+    second: distractor-robot-mask_15
+  - first:
+      213: 8561182327663179316
+    second: distractor-robot-mask_16
+  - first:
+      213: -4952436977053170571
+    second: distractor-robot-mask_17
+  - first:
+      213: 3208694944291214751
+    second: distractor-robot-mask_18
+  - first:
+      213: 2948692028539108258
+    second: distractor-robot-mask_19
+  - first:
+      213: -3312214169113423739
+    second: distractor-robot-mask_20
+  - first:
+      213: 5042740098147849505
+    second: distractor-robot-mask_21
+  - first:
+      213: -5162652573221291269
+    second: distractor-robot-mask_22
+  - first:
+      213: 9023950844327412253
+    second: distractor-robot-mask_23
+  - first:
+      213: -7641054239193422578
+    second: distractor-robot-mask_24
+  - first:
+      213: 2031512963850346025
+    second: distractor-robot-mask_25
+  - first:
+      213: -2162724997123172303
+    second: distractor-robot-mask_26
+  - first:
+      213: 1845508218820384721
+    second: distractor-robot-mask_27
+  - first:
+      213: 973604943126152694
+    second: distractor-robot-mask_28
+  - first:
+      213: -8732448748646441609
+    second: distractor-robot-mask_29
+  - first:
+      213: 3417393974965216122
+    second: distractor-robot-mask_30
+  - first:
+      213: -2395921511960831928
+    second: distractor-robot-mask_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: distractor-robot-mask_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 41
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38f602110acbae710800000000000000
+      internalID: 1723397203090763651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 40
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb40981a17120190800000000000000
+      internalID: -7997804587407881236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_2
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 41
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8311fe1e4aa4640800000000000000
+      internalID: 5065042021217024167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 41
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077ebf71bb30b3840800000000000000
+      internalID: 5204757896452892528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 41
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67d8dd86e861c67d0800000000000000
+      internalID: -2923937257169777290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_5
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 41
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019a4bf0a97ed1680800000000000000
+      internalID: -8782609049428121328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_6
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 41
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dfb444d34da4e30800000000000000
+      internalID: 4488633338232044831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 40
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220dfa425d162f7b0800000000000000
+      internalID: -5191979852333330398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 41
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7670e7224550d10800000000000000
+      internalID: 2091170109103499256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_9
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 41
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c26d8202d2f0810800000000000000
+      internalID: 1733653997708258364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_10
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 41
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea898a835fa1b97d0800000000000000
+      internalID: -2910703093645010770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_11
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 41
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f91861800294480800000000000000
+      internalID: -8914558768293765239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_12
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 42
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6570c70f56f760ee0800000000000000
+      internalID: -1295207767019354282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_13
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 40
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3516c598074bcee60800000000000000
+      internalID: 7992961834109657427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_14
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 41
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5b4651c4782d2d0800000000000000
+      internalID: -3255390819789261406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_15
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 41
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cead70090d636ab0800000000000000
+      internalID: -5016045674530230591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 10
+        width: 41
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43637b9c7fd6fc670800000000000000
+      internalID: 8561182327663179316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 9
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5748c3afec8654bb0800000000000000
+      internalID: -4952436977053170571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 7
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95d11b2d03978c20800000000000000
+      internalID: 3208694944291214751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 6
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab7911f6cbdbe820800000000000000
+      internalID: 2948692028539108258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_20
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 3
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5809af513c6a802d0800000000000000
+      internalID: -3312214169113423739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_21
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12598b4d6696bf540800000000000000
+      internalID: 5042740098147849505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_22
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 0
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa736a66d29a58b0800000000000000
+      internalID: -5162652573221291269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_23
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12c8b26b738b3d70800000000000000
+      internalID: 9023950844327412253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_24
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05226b47a585f590800000000000000
+      internalID: -7641054239193422578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_25
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 0
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e96e6f642613c10800000000000000
+      internalID: 2031512963850346025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_26
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1389d9fd2157cf1e0800000000000000
+      internalID: -2162724997123172303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_27
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 2
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d75ad472ff8c9910800000000000000
+      internalID: 1845508218820384721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_28
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 3
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f549929980f28d00800000000000000
+      internalID: 973604943126152694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_29
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 6
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ddf9d212c10d680800000000000000
+      internalID: -8732448748646441609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_30
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 7
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73ac5fc6b50d6f20800000000000000
+      internalID: 3417393974965216122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: distractor-robot-mask_31
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 9
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8489bd9341affbed0800000000000000
+      internalID: -2395921511960831928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      distractor-robot-mask_0: 1723397203090763651
+      distractor-robot-mask_1: -7997804587407881236
+      distractor-robot-mask_10: -2910703093645010770
+      distractor-robot-mask_11: -8914558768293765239
+      distractor-robot-mask_12: -1295207767019354282
+      distractor-robot-mask_13: 7992961834109657427
+      distractor-robot-mask_14: -3255390819789261406
+      distractor-robot-mask_15: -5016045674530230591
+      distractor-robot-mask_16: 8561182327663179316
+      distractor-robot-mask_17: -4952436977053170571
+      distractor-robot-mask_18: 3208694944291214751
+      distractor-robot-mask_19: 2948692028539108258
+      distractor-robot-mask_2: 5065042021217024167
+      distractor-robot-mask_20: -3312214169113423739
+      distractor-robot-mask_21: 5042740098147849505
+      distractor-robot-mask_22: -5162652573221291269
+      distractor-robot-mask_23: 9023950844327412253
+      distractor-robot-mask_24: -7641054239193422578
+      distractor-robot-mask_25: 2031512963850346025
+      distractor-robot-mask_26: -2162724997123172303
+      distractor-robot-mask_27: 1845508218820384721
+      distractor-robot-mask_28: 973604943126152694
+      distractor-robot-mask_29: -8732448748646441609
+      distractor-robot-mask_3: 5204757896452892528
+      distractor-robot-mask_30: 3417393974965216122
+      distractor-robot-mask_31: -2395921511960831928
+      distractor-robot-mask_4: -2923937257169777290
+      distractor-robot-mask_5: -8782609049428121328
+      distractor-robot-mask_6: 4488633338232044831
+      distractor-robot-mask_7: -5191979852333330398
+      distractor-robot-mask_8: 2091170109103499256
+      distractor-robot-mask_9: 1733653997708258364
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

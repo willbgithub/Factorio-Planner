@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 9f19a3154d916a04598f643ad8f7f3e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9179094923338545595
+    second: tree-01-c-leaves_0
+  - first:
+      213: 9032781099969098757
+    second: tree-01-c-leaves_1
+  - first:
+      213: 8808071633037254804
+    second: tree-01-c-leaves_2
+  - first:
+      213: -5610311371659848777
+    second: tree-01-c-leaves_3
+  - first:
+      213: -4296707311827813563
+    second: tree-01-c-leaves_4
+  - first:
+      213: -2468562171945905852
+    second: tree-01-c-leaves_5
+  - first:
+      213: 1543935759409981668
+    second: tree-01-c-leaves_6
+  - first:
+      213: 4531957549658937163
+    second: tree-01-c-leaves_7
+  - first:
+      213: -971714994058139861
+    second: tree-01-c-leaves_8
+  - first:
+      213: -943309603095069504
+    second: tree-01-c-leaves_9
+  - first:
+      213: -4791525630907478977
+    second: tree-01-c-leaves_10
+  - first:
+      213: 7650906164686126552
+    second: tree-01-c-leaves_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tree-01-c-leaves_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 181
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54680d6dccd4d9080800000000000000
+      internalID: -9179094923338545595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 2
+        width: 170
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504358d7d82ea5d70800000000000000
+      internalID: 9032781099969098757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_2
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 297
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490616bab7e8c3a70800000000000000
+      internalID: 8808071633037254804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 179
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b351ec388b2422b0800000000000000
+      internalID: -5610311371659848777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 168
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bfdaef6770f54c0800000000000000
+      internalID: -4296707311827813563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 17
+        width: 97
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441923b98c7edbdd0800000000000000
+      internalID: -2468562171945905852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_6
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 112
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8a7af94692d6510800000000000000
+      internalID: 1543935759409981668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 149
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47129c416fb4ee30800000000000000
+      internalID: 4531957549658937163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_8
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 125
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b276e3c7c56c382f0800000000000000
+      internalID: -971714994058139861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_9
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 105
+        width: 42
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccbd42f9e0b8e2f0800000000000000
+      internalID: -943309603095069504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_10
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 110
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c849543d4118db0800000000000000
+      internalID: -4791525630907478977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tree-01-c-leaves_11
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 87
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd76fbde9a7d2a60800000000000000
+      internalID: 7650906164686126552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tree-01-c-leaves_0: -9179094923338545595
+      tree-01-c-leaves_1: 9032781099969098757
+      tree-01-c-leaves_10: -4791525630907478977
+      tree-01-c-leaves_11: 7650906164686126552
+      tree-01-c-leaves_2: 8808071633037254804
+      tree-01-c-leaves_3: -5610311371659848777
+      tree-01-c-leaves_4: -4296707311827813563
+      tree-01-c-leaves_5: -2468562171945905852
+      tree-01-c-leaves_6: 1543935759409981668
+      tree-01-c-leaves_7: 4531957549658937163
+      tree-01-c-leaves_8: -971714994058139861
+      tree-01-c-leaves_9: -943309603095069504
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

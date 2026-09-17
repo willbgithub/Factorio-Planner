@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 5c997026c4cf27948bfaf4bdded0c54c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5337317926442180735
+    second: grenade-shadow_0
+  - first:
+      213: 5096947846623342804
+    second: grenade-shadow_1
+  - first:
+      213: 6859761114923724983
+    second: grenade-shadow_2
+  - first:
+      213: 7899762384592986660
+    second: grenade-shadow_3
+  - first:
+      213: 9047860392853554482
+    second: grenade-shadow_4
+  - first:
+      213: 6616255898710309363
+    second: grenade-shadow_5
+  - first:
+      213: 2937811099359220111
+    second: grenade-shadow_6
+  - first:
+      213: -2832911681176209609
+    second: grenade-shadow_7
+  - first:
+      213: -5525228876949506849
+    second: grenade-shadow_8
+  - first:
+      213: -8655437725812355720
+    second: grenade-shadow_9
+  - first:
+      213: 5207371341183003695
+    second: grenade-shadow_10
+  - first:
+      213: -4228184646756336290
+    second: grenade-shadow_11
+  - first:
+      213: 8796707703241292182
+    second: grenade-shadow_12
+  - first:
+      213: -2474988533256920631
+    second: grenade-shadow_13
+  - first:
+      213: -1125993193488815947
+    second: grenade-shadow_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: grenade-shadow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 45
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fd61dcf990ee5b0800000000000000
+      internalID: -5337317926442180735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 44
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d03daccf0ffbb640800000000000000
+      internalID: 5096947846623342804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 43
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0f013b364c23f50800000000000000
+      internalID: 6859761114923724983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_3
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 43
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42268a7b80891ad60800000000000000
+      internalID: 7899762384592986660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_4
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 43
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235cc55f615709d70800000000000000
+      internalID: 9047860392853554482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 43
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9f5b97fa9a1db50800000000000000
+      internalID: 6616255898710309363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 45
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81918231a335c820800000000000000
+      internalID: 2937811099359220111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_7
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 44
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737ff6bd5d97fa8d0800000000000000
+      internalID: -2832911681176209609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4b1be3c917253b0800000000000000
+      internalID: -5525228876949506849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_9
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d80713f35b1e780800000000000000
+      internalID: -8655437725812355720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c23cc15ac444840800000000000000
+      internalID: 5207371341183003695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_11
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5df35537787255c0800000000000000
+      internalID: -4228184646756336290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699b3a49c0f241a70800000000000000
+      internalID: 8796707703241292182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_13
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1
+        width: 46
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c16e04ca0317add0800000000000000
+      internalID: -2474988533256920631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grenade-shadow_14
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 4
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b86792082baf50f0800000000000000
+      internalID: -1125993193488815947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      grenade-shadow_0: -5337317926442180735
+      grenade-shadow_1: 5096947846623342804
+      grenade-shadow_10: 5207371341183003695
+      grenade-shadow_11: -4228184646756336290
+      grenade-shadow_12: 8796707703241292182
+      grenade-shadow_13: -2474988533256920631
+      grenade-shadow_14: -1125993193488815947
+      grenade-shadow_2: 6859761114923724983
+      grenade-shadow_3: 7899762384592986660
+      grenade-shadow_4: 9047860392853554482
+      grenade-shadow_5: 6616255898710309363
+      grenade-shadow_6: 2937811099359220111
+      grenade-shadow_7: -2832911681176209609
+      grenade-shadow_8: -5525228876949506849
+      grenade-shadow_9: -8655437725812355720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

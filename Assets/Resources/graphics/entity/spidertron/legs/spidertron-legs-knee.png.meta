@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 0614739b6a2ebd84bbe0b857c1fa1e1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8229742000639710537
+    second: spidertron-legs-knee_0
+  - first:
+      213: -7681439702215928256
+    second: spidertron-legs-knee_1
+  - first:
+      213: -489144300650459678
+    second: spidertron-legs-knee_2
+  - first:
+      213: -2568015994035805558
+    second: spidertron-legs-knee_3
+  - first:
+      213: -1121223627998447263
+    second: spidertron-legs-knee_4
+  - first:
+      213: 2503857796382574863
+    second: spidertron-legs-knee_5
+  - first:
+      213: -8512663341897603696
+    second: spidertron-legs-knee_6
+  - first:
+      213: -4950646349127153161
+    second: spidertron-legs-knee_7
+  - first:
+      213: -793889608701223234
+    second: spidertron-legs-knee_8
+  - first:
+      213: -8726406675421438680
+    second: spidertron-legs-knee_9
+  - first:
+      213: 1856028515641697638
+    second: spidertron-legs-knee_10
+  - first:
+      213: -7133534295516829701
+    second: spidertron-legs-knee_11
+  - first:
+      213: -7328059581381371989
+    second: spidertron-legs-knee_12
+  - first:
+      213: 2476162733325142901
+    second: spidertron-legs-knee_13
+  - first:
+      213: -6948515112069555672
+    second: spidertron-legs-knee_14
+  - first:
+      213: -6144957001623837825
+    second: spidertron-legs-knee_15
+  - first:
+      213: -7419591818920080113
+    second: spidertron-legs-knee_16
+  - first:
+      213: 6384568612398220827
+    second: spidertron-legs-knee_17
+  - first:
+      213: -3481087857705706727
+    second: spidertron-legs-knee_18
+  - first:
+      213: -1148122341218831597
+    second: spidertron-legs-knee_19
+  - first:
+      213: 5782061323260737101
+    second: spidertron-legs-knee_20
+  - first:
+      213: 6921073508351202450
+    second: spidertron-legs-knee_21
+  - first:
+      213: -3991885769873444136
+    second: spidertron-legs-knee_22
+  - first:
+      213: -890080322715682789
+    second: spidertron-legs-knee_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spidertron-legs-knee_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 59
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9451e3d1fbae53270800000000000000
+      internalID: 8229742000639710537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 57
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04656d1f94b066590800000000000000
+      internalID: -7681439702215928256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 57
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed82d3a9d53639f0800000000000000
+      internalID: -489144300650459678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 56
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8269f13f039c5cd0800000000000000
+      internalID: -2568015994035805558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_4
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 59
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169b0630d0d9070f0800000000000000
+      internalID: -1121223627998447263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_5
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 57
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09c979566d7fb220800000000000000
+      internalID: 2503857796382574863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 56
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09524b5eac1fcd980800000000000000
+      internalID: -8512663341897603696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_7
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 57
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f901b70065cb4bb0800000000000000
+      internalID: -4950646349127153161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe5d7a6b998bf4f0800000000000000
+      internalID: -793889608701223234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 29
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d58e9fc5395e680800000000000000
+      internalID: -8726406675421438680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 29
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 665a1dfe910f1c910800000000000000
+      internalID: 1856028515641697638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_11
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 28
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf727a27a58900d90800000000000000
+      internalID: -7133534295516829701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_12
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 31
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba79ddee2a08d4a90800000000000000
+      internalID: -7328059581381371989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 29
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bc7edf2e81d5220800000000000000
+      internalID: 2476162733325142901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 28
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a19a4025ae19f90800000000000000
+      internalID: -6948515112069555672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_15
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 29
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7369261a2ab8baa0800000000000000
+      internalID: -6144957001623837825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dcfd62d80580990800000000000000
+      internalID: -7419591818920080113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 2
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16ca1a735b8a9850800000000000000
+      internalID: 6384568612398220827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 2
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b96897901b0bfc0800000000000000
+      internalID: -3481087857705706727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31336fc40dc0110f0800000000000000
+      internalID: -1148122341218831597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_20
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 3
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d463b7a83220e3050800000000000000
+      internalID: 5782061323260737101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294d3a9bfa79c0060800000000000000
+      internalID: 6921073508351202450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_22
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2b1ceca09f998c0800000000000000
+      internalID: -3991885769873444136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spidertron-legs-knee_23
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1877fe89acc5a3f0800000000000000
+      internalID: -890080322715682789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spidertron-legs-knee_0: 8229742000639710537
+      spidertron-legs-knee_1: -7681439702215928256
+      spidertron-legs-knee_10: 1856028515641697638
+      spidertron-legs-knee_11: -7133534295516829701
+      spidertron-legs-knee_12: -7328059581381371989
+      spidertron-legs-knee_13: 2476162733325142901
+      spidertron-legs-knee_14: -6948515112069555672
+      spidertron-legs-knee_15: -6144957001623837825
+      spidertron-legs-knee_16: -7419591818920080113
+      spidertron-legs-knee_17: 6384568612398220827
+      spidertron-legs-knee_18: -3481087857705706727
+      spidertron-legs-knee_19: -1148122341218831597
+      spidertron-legs-knee_2: -489144300650459678
+      spidertron-legs-knee_20: 5782061323260737101
+      spidertron-legs-knee_21: 6921073508351202450
+      spidertron-legs-knee_22: -3991885769873444136
+      spidertron-legs-knee_23: -890080322715682789
+      spidertron-legs-knee_3: -2568015994035805558
+      spidertron-legs-knee_4: -1121223627998447263
+      spidertron-legs-knee_5: 2503857796382574863
+      spidertron-legs-knee_6: -8512663341897603696
+      spidertron-legs-knee_7: -4950646349127153161
+      spidertron-legs-knee_8: -793889608701223234
+      spidertron-legs-knee_9: -8726406675421438680
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

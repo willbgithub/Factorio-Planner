@@ -1,0 +1,585 @@
+fileFormatVersion: 2
+guid: e5694284e788671449dbc7cabad5cb89
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 378435137477163034
+    second: 1x2-remnants_0
+  - first:
+      213: 6497869126985942971
+    second: 1x2-remnants_1
+  - first:
+      213: -6691242877460618961
+    second: 1x2-remnants_2
+  - first:
+      213: -7461908373792103747
+    second: 1x2-remnants_3
+  - first:
+      213: -1043708908565772789
+    second: 1x2-remnants_4
+  - first:
+      213: 2431418161188095062
+    second: 1x2-remnants_5
+  - first:
+      213: 2454097917159475229
+    second: 1x2-remnants_6
+  - first:
+      213: -7788149584506176109
+    second: 1x2-remnants_7
+  - first:
+      213: -7246016363136757623
+    second: 1x2-remnants_8
+  - first:
+      213: -6239199168491783597
+    second: 1x2-remnants_9
+  - first:
+      213: -4011910413775552996
+    second: 1x2-remnants_10
+  - first:
+      213: 6409924962000078687
+    second: 1x2-remnants_11
+  - first:
+      213: -6547807384978339823
+    second: 1x2-remnants_12
+  - first:
+      213: 5510568700405517890
+    second: 1x2-remnants_13
+  - first:
+      213: -3467092071581301100
+    second: 1x2-remnants_14
+  - first:
+      213: -5779188580193777372
+    second: 1x2-remnants_15
+  - first:
+      213: -5750490467545324907
+    second: 1x2-remnants_16
+  - first:
+      213: 1615369200183889434
+    second: 1x2-remnants_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1x2-remnants_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 426
+        width: 100
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a183ad3a0c8704500800000000000000
+      internalID: 378435137477163034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 335
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb789f63b811d2a50800000000000000
+      internalID: 6497869126985942971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 326
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21e81ffd0ee323a0800000000000000
+      internalID: -6691242877460618961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_3
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 315
+        width: 157
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2eb917ed9f17890800000000000000
+      internalID: -7461908373792103747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 326
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06c60807400481f0800000000000000
+      internalID: -1043708908565772789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 320
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654cc067fe12eb120800000000000000
+      internalID: 2431418161188095062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 316
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d180154ad05be0220800000000000000
+      internalID: 2454097917159475229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_7
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 316
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d37ed573feae390800000000000000
+      internalID: -7788149584506176109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_8
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 318
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980d09e328af07b90800000000000000
+      internalID: -7246016363136757623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 142
+        width: 100
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a7227b969e969a0800000000000000
+      internalID: -6239199168491783597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1eb7341cb4d258c0800000000000000
+      internalID: -4011910413775552996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 42
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f578cecaac0a4f850800000000000000
+      internalID: 6409924962000078687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 31
+        width: 157
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118cfa800e38125a0800000000000000
+      internalID: -6547807384978339823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 42
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e8e0a6909797c40800000000000000
+      internalID: 5510568700405517890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 36
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496c2dd512a62efc0800000000000000
+      internalID: -3467092071581301100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4294e831b923ccfa0800000000000000
+      internalID: -5779188580193777372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 32
+        width: 27
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592e0bd13672230b0800000000000000
+      internalID: -5750490467545324907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1x2-remnants_17
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 34
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e411e9ab1fa6610800000000000000
+      internalID: 1615369200183889434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1x2-remnants_0: 378435137477163034
+      1x2-remnants_1: 6497869126985942971
+      1x2-remnants_10: -4011910413775552996
+      1x2-remnants_11: 6409924962000078687
+      1x2-remnants_12: -6547807384978339823
+      1x2-remnants_13: 5510568700405517890
+      1x2-remnants_14: -3467092071581301100
+      1x2-remnants_15: -5779188580193777372
+      1x2-remnants_16: -5750490467545324907
+      1x2-remnants_17: 1615369200183889434
+      1x2-remnants_2: -6691242877460618961
+      1x2-remnants_3: -7461908373792103747
+      1x2-remnants_4: -1043708908565772789
+      1x2-remnants_5: 2431418161188095062
+      1x2-remnants_6: 2454097917159475229
+      1x2-remnants_7: -7788149584506176109
+      1x2-remnants_8: -7246016363136757623
+      1x2-remnants_9: -6239199168491783597
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

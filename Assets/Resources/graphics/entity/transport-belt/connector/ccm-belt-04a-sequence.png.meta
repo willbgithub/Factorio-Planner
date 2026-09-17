@@ -1,0 +1,845 @@
+fileFormatVersion: 2
+guid: 57ec7a887ebdd384d85513f982dd0e56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7685380985710170177
+    second: ccm-belt-04a-sequence_0
+  - first:
+      213: -8345481058618559195
+    second: ccm-belt-04a-sequence_1
+  - first:
+      213: 4777062254803811170
+    second: ccm-belt-04a-sequence_2
+  - first:
+      213: 9047103725954863443
+    second: ccm-belt-04a-sequence_3
+  - first:
+      213: 1459876872551932155
+    second: ccm-belt-04a-sequence_4
+  - first:
+      213: 5085355525697812393
+    second: ccm-belt-04a-sequence_5
+  - first:
+      213: 6236458063429738957
+    second: ccm-belt-04a-sequence_6
+  - first:
+      213: 1774672036519003277
+    second: ccm-belt-04a-sequence_7
+  - first:
+      213: -1872359320036536098
+    second: ccm-belt-04a-sequence_8
+  - first:
+      213: 2408693562116515740
+    second: ccm-belt-04a-sequence_9
+  - first:
+      213: -4095153132244460241
+    second: ccm-belt-04a-sequence_10
+  - first:
+      213: 1360075725468751931
+    second: ccm-belt-04a-sequence_11
+  - first:
+      213: -4055405850081430092
+    second: ccm-belt-04a-sequence_12
+  - first:
+      213: 7106512713790972816
+    second: ccm-belt-04a-sequence_13
+  - first:
+      213: -4141712431338663810
+    second: ccm-belt-04a-sequence_14
+  - first:
+      213: 1247318677705017451
+    second: ccm-belt-04a-sequence_15
+  - first:
+      213: -7616491295591818145
+    second: ccm-belt-04a-sequence_16
+  - first:
+      213: -8178195484392542879
+    second: ccm-belt-04a-sequence_17
+  - first:
+      213: 1837500023176831052
+    second: ccm-belt-04a-sequence_18
+  - first:
+      213: -6607740039214867328
+    second: ccm-belt-04a-sequence_19
+  - first:
+      213: -7870485015100273568
+    second: ccm-belt-04a-sequence_20
+  - first:
+      213: -5398411762405013923
+    second: ccm-belt-04a-sequence_21
+  - first:
+      213: 9208911245858857061
+    second: ccm-belt-04a-sequence_22
+  - first:
+      213: -4076932560327528528
+    second: ccm-belt-04a-sequence_23
+  - first:
+      213: -5268210727107681127
+    second: ccm-belt-04a-sequence_24
+  - first:
+      213: -6422693666026679381
+    second: ccm-belt-04a-sequence_25
+  - first:
+      213: -4870534715702224089
+    second: ccm-belt-04a-sequence_26
+  - first:
+      213: 13710660013341092
+    second: ccm-belt-04a-sequence_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 567
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf243f56ba085590800000000000000
+      internalID: -7685380985710170177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 567
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5253a458135ee2c80800000000000000
+      internalID: -8345481058618559195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_2
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 567
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bf18f8fc88b4240800000000000000
+      internalID: 4777062254803811170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 567
+        width: 81
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35117a7b7e4cd8d70800000000000000
+      internalID: 9047103725954863443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 469
+        width: 74
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf02444e746824410800000000000000
+      internalID: 1459876872551932155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_5
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 469
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7b9c148efc29640800000000000000
+      internalID: 5085355525697812393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_6
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 469
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1a95701995c8650800000000000000
+      internalID: 6236458063429738957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 469
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84c88980d6e0a810800000000000000
+      internalID: 1774672036519003277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 379
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0945d5e1b0406e0800000000000000
+      internalID: -1872359320036536098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_9
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 379
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97a9be68066d6120800000000000000
+      internalID: 2408693562116515740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_10
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 379
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d9dbb5ce71b27c0800000000000000
+      internalID: -4095153132244460241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_11
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 379
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3852349aa5ffd210800000000000000
+      internalID: 1360075725468751931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 285
+        width: 78
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5fad5addd48b7c0800000000000000
+      internalID: -4055405850081430092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_13
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 285
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093ee4949a76f9260800000000000000
+      internalID: 7106512713790972816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 285
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e705d38cc7ea586c0800000000000000
+      internalID: -4141712431338663810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_15
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 285
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6841529abd5f4110800000000000000
+      internalID: 1247318677705017451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 73
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c15634589cc4690800000000000000
+      internalID: -7616491295591818145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_17
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 191
+        width: 74
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d24117986318e80800000000000000
+      internalID: -8178195484392542879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_18
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 191
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c402a3c198c108910800000000000000
+      internalID: 1837500023176831052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 191
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cd87291779c44a0800000000000000
+      internalID: -6607740039214867328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 93
+        width: 77
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cc9e0149b66c290800000000000000
+      internalID: -7870485015100273568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_21
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 93
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d560f86aa1df415b0800000000000000
+      internalID: -5398411762405013923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_22
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 93
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5606489bcff9ccf70800000000000000
+      internalID: 9208911245858857061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 93
+        width: 78
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf2478df63db67c0800000000000000
+      internalID: -4076932560327528528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 79
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99428d0814e83e6b0800000000000000
+      internalID: -5268210727107681127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_25
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3145fb3220ed6a0800000000000000
+      internalID: -6422693666026679381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_26
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b5c543b72686cb0800000000000000
+      internalID: -4870534715702224089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ccm-belt-04a-sequence_27
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a93bbbc5c5b03000800000000000000
+      internalID: 13710660013341092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ccm-belt-04a-sequence_0: -7685380985710170177
+      ccm-belt-04a-sequence_1: -8345481058618559195
+      ccm-belt-04a-sequence_10: -4095153132244460241
+      ccm-belt-04a-sequence_11: 1360075725468751931
+      ccm-belt-04a-sequence_12: -4055405850081430092
+      ccm-belt-04a-sequence_13: 7106512713790972816
+      ccm-belt-04a-sequence_14: -4141712431338663810
+      ccm-belt-04a-sequence_15: 1247318677705017451
+      ccm-belt-04a-sequence_16: -7616491295591818145
+      ccm-belt-04a-sequence_17: -8178195484392542879
+      ccm-belt-04a-sequence_18: 1837500023176831052
+      ccm-belt-04a-sequence_19: -6607740039214867328
+      ccm-belt-04a-sequence_2: 4777062254803811170
+      ccm-belt-04a-sequence_20: -7870485015100273568
+      ccm-belt-04a-sequence_21: -5398411762405013923
+      ccm-belt-04a-sequence_22: 9208911245858857061
+      ccm-belt-04a-sequence_23: -4076932560327528528
+      ccm-belt-04a-sequence_24: -5268210727107681127
+      ccm-belt-04a-sequence_25: -6422693666026679381
+      ccm-belt-04a-sequence_26: -4870534715702224089
+      ccm-belt-04a-sequence_27: 13710660013341092
+      ccm-belt-04a-sequence_3: 9047103725954863443
+      ccm-belt-04a-sequence_4: 1459876872551932155
+      ccm-belt-04a-sequence_5: 5085355525697812393
+      ccm-belt-04a-sequence_6: 6236458063429738957
+      ccm-belt-04a-sequence_7: 1774672036519003277
+      ccm-belt-04a-sequence_8: -1872359320036536098
+      ccm-belt-04a-sequence_9: 2408693562116515740
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

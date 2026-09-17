@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500f82c68218fbc46a41db2d82a467f2, type: 3}
+  m_Name: burner-mining-drill
+  m_EditorClassIdentifier: Assembly-CSharp::Recipe
+  prefabName: burner-mining-drill
+  englishName: Burner mining drill
+  typeName: recipe
+  icon: {fileID: -3370363032712790772, guid: c5ebf8425dc77f745bd0a7750edb8341, type: 3}
+  contribution:
+    itemRates:
+    - item: {fileID: 11400000, guid: 83129ddf9a5521a48b1cbf457474a8b6, type: 2}
+      consumption:
+        numerator: 3
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 7e0f09bf22463594a9210b814baceae3, type: 2}
+      consumption:
+        numerator: 1
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: f555dd9cf35016947af6eb7e8b02a372, type: 2}
+      consumption:
+        numerator: 3
+        denominator: 1
+      production:
+        numerator: 0
+        denominator: 1
+    - item: {fileID: 11400000, guid: 39607f88d0102314988a00cee35669dc, type: 2}
+      consumption:
+        numerator: 0
+        denominator: 1
+      production:
+        numerator: 1
+        denominator: 1

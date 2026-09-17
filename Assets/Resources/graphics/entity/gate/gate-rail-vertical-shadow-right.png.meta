@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: f0faf74996db3aa4f8833fe02f92b499
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4926356778034337968
+    second: gate-rail-vertical-shadow-right_0
+  - first:
+      213: 5962257010481043656
+    second: gate-rail-vertical-shadow-right_1
+  - first:
+      213: 1290227310995804281
+    second: gate-rail-vertical-shadow-right_2
+  - first:
+      213: 9099852121190277269
+    second: gate-rail-vertical-shadow-right_3
+  - first:
+      213: -4179739849929255973
+    second: gate-rail-vertical-shadow-right_4
+  - first:
+      213: 5937299731265620791
+    second: gate-rail-vertical-shadow-right_5
+  - first:
+      213: -3552970470089317943
+    second: gate-rail-vertical-shadow-right_6
+  - first:
+      213: 2054235442219461086
+    second: gate-rail-vertical-shadow-right_7
+  - first:
+      213: -1404632653523429247
+    second: gate-rail-vertical-shadow-right_8
+  - first:
+      213: 339362845175310941
+    second: gate-rail-vertical-shadow-right_9
+  - first:
+      213: -2545041563471689799
+    second: gate-rail-vertical-shadow-right_10
+  - first:
+      213: 672901150565267107
+    second: gate-rail-vertical-shadow-right_11
+  - first:
+      213: -2072959503204321571
+    second: gate-rail-vertical-shadow-right_12
+  - first:
+      213: -8549370052028238117
+    second: gate-rail-vertical-shadow-right_13
+  - first:
+      213: 6235938520215333229
+    second: gate-rail-vertical-shadow-right_14
+  - first:
+      213: 1589382560829681784
+    second: gate-rail-vertical-shadow-right_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 82
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8139f736fed5440800000000000000
+      internalID: 4926356778034337968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 105
+        width: 79
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c81e4169213eb250800000000000000
+      internalID: 5962257010481043656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 108
+        width: 74
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970996747eec7e110800000000000000
+      internalID: 1290227310995804281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 110
+        width: 69
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590a1288a4b294e70800000000000000
+      internalID: 9099852121190277269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_4
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 112
+        width: 65
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd31c6f60c49ef5c0800000000000000
+      internalID: -4179739849929255973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 115
+        width: 60
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b0c1ff5a6856250800000000000000
+      internalID: 5937299731265620791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_6
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 117
+        width: 56
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1afd09e2051bec0800000000000000
+      internalID: -3552970470089317943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_7
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 120
+        width: 52
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9228a304c128c10800000000000000
+      internalID: 2054235442219461086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 18
+        width: 48
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18852de2b0eb18ce0800000000000000
+      internalID: -1404632653523429247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_9
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 21
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5ae3aca5b8a5b400800000000000000
+      internalID: 339362845175310941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 23
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b74aa6ae223eacd0800000000000000
+      internalID: -2545041563471689799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 25
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6f4600800a65900800000000000000
+      internalID: 672901150565267107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_12
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 28
+        width: 30
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd67cb9905e5b33e0800000000000000
+      internalID: -2072959503204321571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_13
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 30
+        width: 26
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd67e73fb398a5980800000000000000
+      internalID: -8549370052028238117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_14
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 73
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d692c927b018a8650800000000000000
+      internalID: 6235938520215333229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gate-rail-vertical-shadow-right_15
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 33
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8703476a40f9e0610800000000000000
+      internalID: 1589382560829681784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gate-rail-vertical-shadow-right_0: 4926356778034337968
+      gate-rail-vertical-shadow-right_1: 5962257010481043656
+      gate-rail-vertical-shadow-right_10: -2545041563471689799
+      gate-rail-vertical-shadow-right_11: 672901150565267107
+      gate-rail-vertical-shadow-right_12: -2072959503204321571
+      gate-rail-vertical-shadow-right_13: -8549370052028238117
+      gate-rail-vertical-shadow-right_14: 6235938520215333229
+      gate-rail-vertical-shadow-right_15: 1589382560829681784
+      gate-rail-vertical-shadow-right_2: 1290227310995804281
+      gate-rail-vertical-shadow-right_3: 9099852121190277269
+      gate-rail-vertical-shadow-right_4: -4179739849929255973
+      gate-rail-vertical-shadow-right_5: 5937299731265620791
+      gate-rail-vertical-shadow-right_6: -3552970470089317943
+      gate-rail-vertical-shadow-right_7: 2054235442219461086
+      gate-rail-vertical-shadow-right_8: -1404632653523429247
+      gate-rail-vertical-shadow-right_9: 339362845175310941
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
