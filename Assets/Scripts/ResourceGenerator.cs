@@ -102,7 +102,11 @@ class ResourceGenerator
                 if (recipe.GetRate(prefabName) > 0)
                 {
                     craftedIn.Add(recipe);
-                    bestRecipe = recipe;
+                    
+                }
+                if (craftedIn.Count > 0)
+                {
+                    bestRecipe = craftedIn[0];
                 }
                 else if (!isUsed && recipe.GetRate(prefabName) < 0)
                 {

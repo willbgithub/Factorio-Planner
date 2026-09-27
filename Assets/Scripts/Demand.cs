@@ -31,6 +31,10 @@ public class Demand
     {
         return recipe;
     }
+    public override string ToString()
+    {
+        return demandValue + " fulfilled by " + recipe;
+    }
     // Member data
     ItemValue demandValue;
     Recipe recipe;

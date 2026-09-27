@@ -37,6 +37,10 @@ public class ItemValue
     {
         return new ItemValue(item, value * factor);
     }
+    public override string ToString()
+    {
+        return item + ": " + value;
+    }
     // Member data
     Item item;
     Fraction value;

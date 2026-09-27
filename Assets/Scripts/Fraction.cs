@@ -109,6 +109,11 @@ public class Fraction
     }
 
     // Constructor
+    public Fraction()
+    {
+        numerator = 0;
+        denominator = 1;
+    }
     public Fraction(int numerator, int denominator=1)
     {
         this.numerator = numerator;

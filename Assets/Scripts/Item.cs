@@ -71,6 +71,10 @@ public class Item : Prototype
     }
     public Recipe GetBestRecipe()
     {
+        if (bestRecipe.IsUnityNull())
+        {
+            Debug.LogError("ERROR: \"" + prefabName + "\" has no set best recipe!");
+        }
         return bestRecipe;
     }
     // Member data

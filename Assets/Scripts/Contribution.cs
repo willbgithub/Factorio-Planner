@@ -55,6 +55,19 @@ public class Contribution
         }
         Count = itemRates.Count;
     }
+    public Contribution(Demand demand)
+    {
+        Recipe recipe = demand.GetRecipe();
+        Fraction factor = demand.GetDemandValue().GetValue() / recipe.GetRate(demand.GetDemandValue().GetItem());
+
+        Contribution contribution = recipe.GetContribution();
+        itemRates = new List<ItemRate>();
+        for (int i = 0; i < contribution.itemRates.Count; i++)
+        {
+            itemRates.Add(contribution.Index(i).Multiply(factor));
+        }
+        Count = itemRates.Count;
+    }
     // Mutators
     public void Add(ItemRate itemRate)
     {
@@ -152,6 +165,9 @@ public class Contribution
         List<ItemValue> inputs = new List<ItemValue>();
         for (int i = 0; i < Count; i++)
         {
+            ItemValue input = itemRates[i].GetInput();
+            if (input.GetValue() == 0)
+                continue;
             inputs.Add(itemRates[i].GetInput());
         }
         return inputs;
@@ -161,6 +177,9 @@ public class Contribution
         List<ItemValue> intermediates = new List<ItemValue>();
         for (int i = 0; i < Count; i++)
         {
+            ItemValue intermediate = itemRates[i].GetIntermediate();
+            if (intermediate.GetValue() == 0)
+                continue;
             intermediates.Add(itemRates[i].GetIntermediate());
         }
         return intermediates;
@@ -170,6 +189,9 @@ public class Contribution
         List<ItemValue> products = new List<ItemValue>();
         for (int i = 0; i < Count; i++)
         {
+            ItemValue product = itemRates[i].GetProduct();
+            if (product.GetValue() == 0)
+                continue;
             products.Add(itemRates[i].GetProduct());
         }
         return products;
