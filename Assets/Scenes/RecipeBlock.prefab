@@ -773,6 +773,7 @@ GameObject:
   - component: {fileID: 4553502373828487392}
   - component: {fileID: 3434065144046455418}
   - component: {fileID: 6138194511787903108}
+  - component: {fileID: 6986654763011318264}
   m_Layer: 0
   m_Name: RecipeBlock
   m_TagString: Untagged
@@ -833,6 +834,32 @@ MonoBehaviour:
   recipeIcon: {fileID: 207466545480612164}
   inputs: {fileID: 7604292095366688271}
   products: {fileID: 6188512804277213801}
+  factor:
+    numerator: 0
+    denominator: 1
+  recipe: {fileID: 0}
+  ITEM_DISPLAY_PREFAB: {fileID: 1924494175432583918, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
+--- !u!114 &6986654763011318264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7218609612689906979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &7604292095366688271
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,6 +1013,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4601737185361535420, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 8039102255405972467, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1086,6 +1121,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3162355288237209745, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7457265692954841881, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
