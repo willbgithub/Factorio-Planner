@@ -12,6 +12,11 @@ public class UIPlanner : MonoBehaviour
         RecipeBlock block = Instantiate(recipeBlockPrefab, canvas.transform);
         block.Initialize(this, recipe, 1);
     }
+    public void OnPointerClick(BaseEventData data)
+    {
+        PointerEventData data2 = (PointerEventData)data;
+        Debug.Log(data2.button);
+    }
     public void RecipeBlockOnDrag(RecipeBlock block, BaseEventData data)
     {
         PointerEventData data2 = (PointerEventData)data;
