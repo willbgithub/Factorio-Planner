@@ -27,13 +27,9 @@ public class RecipeBlock : MonoBehaviour
         SetFactor(factor);
         UpdateItems();
     }
-    public void OnPointerDown(BaseEventData data)
+    public void OnDrag(BaseEventData data)
     {
-        parent.OnRecipeBlockPointerDown(this, data);
-    }
-    public void OnPointerUp(BaseEventData data)
-    {
-        parent.OnRecipeBlockPointerUp(this, data);
+        parent.RecipeBlockOnDrag(this, data);
     }
     public void UpdateItems()
     {
