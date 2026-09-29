@@ -31,23 +31,27 @@ class ResourceGenerator
     //[MenuItem("Factorio/Debug")]
     static void DebugFunc()
     {
-
+        
     }
-    [MenuItem("Factorio/Create Items")]
+    [MenuItem("Factorio/Set Icons")]
+    static void SetIcons()
+    {
+        Texture2D texture = Resources.Load<Texture2D>("factorioLogo");
+        EditorGUIUtility.SetIconForObject(ScriptableObject.CreateInstance<Item>(), texture);
+        EditorGUIUtility.SetIconForObject(ScriptableObject.CreateInstance<Recipe>(), texture);
+        Debug.Log("Set icons.");
+    }
+    //[MenuItem("Factorio/Create Items")]
     static void CreateItems()
     {
         CreateFiles(ITEM_PATH);
         CreateFiles(FLUID_PATH);
-        Item item = GetItem("stone-brick");
-        Texture2D texture = Resources.Load<Texture2D>("factorioLogo");
-        Debug.Log("item: " + item);
-        Debug.Log("texture: " + texture);
-        EditorGUIUtility.SetIconForObject(item, texture);
+        
         DirectoryInfo itemDirectory = Directory.CreateDirectory(UNITY_ITEM_PATH);
         FileInfo[] itemFiles = itemDirectory.GetFiles();
         Debug.Log("Generated " + itemFiles.Length + " items.");
     }
-    [MenuItem("Factorio/Create Recipes")]
+    //[MenuItem("Factorio/Create Recipes")]
     static void CreateRecipes()
     {
         // If there are no items, refuse to generate recipes
@@ -58,11 +62,12 @@ class ResourceGenerator
             Debug.LogError("ERROR: Cannot generate recipes as there are no items!");
         }
         CreateFiles(RECIPE_PATH);
+        
         DirectoryInfo recipeDirectory = Directory.CreateDirectory(UNITY_RECIPE_PATH);
         FileInfo[] recipeFiles = recipeDirectory.GetFiles();
         Debug.Log("Generated " + recipeFiles.Length + " recipes.");
     }
-    [MenuItem("Factorio/Item Post-init")]
+    //[MenuItem("Factorio/Item Post-init")]
     static void UpdateItems()
     {
         // if there are no recipe files, ignore
@@ -133,7 +138,7 @@ class ResourceGenerator
         }
         Debug.Log("Updated " + itemFiles.Length/2 + " items.");
     }
-    [MenuItem("Factorio/Everything")]
+    //[MenuItem("Factorio/Everything")]
     static void Everything()
     {
         CreateItems();

@@ -17,9 +17,14 @@ public class RecipeBlock : MonoBehaviour
     public Image recipeIcon;
     public GameObject inputs;
     public GameObject products;
+    public Image background;
     public Fraction factor;
     public Recipe recipe;
     public GameObject ITEM_DISPLAY_PREFAB;
+    public Color DEFAULT_COLOR = new Color(43 / 255, 43 / 255, 43/255);
+    public Color FOCUS_COLOR = new Color(70/255, 70/255, 70/255);
+    bool dragging = false;
+    bool pointed = false;
     public void Initialize(UIPlanner parent, Recipe recipe, Fraction factor)
     {
         this.parent = parent;
@@ -27,9 +32,48 @@ public class RecipeBlock : MonoBehaviour
         SetFactor(factor);
         UpdateItems();
     }
+    public void ItemDisplayOnPointerEnter()
+    {
+        background.color = DEFAULT_COLOR;
+    }
+    public void ItemDisplayOnPointerExit()
+    {
+        if (!pointed)
+        {
+            return;
+        }
+        background.color = FOCUS_COLOR;
+    }
+    public void OnPointerEnter(BaseEventData data)
+    {
+        pointed = true;
+        background.color = FOCUS_COLOR;
+    }
+    public void OnPointerExit(BaseEventData data)
+    {
+        pointed = false;
+        if (dragging)
+        {
+            return;
+        }
+        background.color = DEFAULT_COLOR;
+    }
+    public void OnDragStart(BaseEventData data)
+    {
+        dragging = true;
+    }
     public void OnDrag(BaseEventData data)
     {
         parent.RecipeBlockOnDrag(this, data);
+    }
+    public void OnDragEnd(BaseEventData data)
+    {
+        dragging = false;
+        if (pointed)
+        {
+            return;
+        }
+        background.color = DEFAULT_COLOR;
     }
     public void UpdateItems()
     {
@@ -57,12 +101,12 @@ public class RecipeBlock : MonoBehaviour
     public void AddInput(ItemValue input)
     {
         ItemDisplay itemDisplay = Instantiate(ITEM_DISPLAY_PREFAB, inputs.transform).GetComponent<ItemDisplay>();
-        itemDisplay.Initialize(input.GetItem(), input.GetValue(), false);
+        itemDisplay.Initialize(this, input.GetItem(), input.GetValue(), false);
     }
     public void AddProduct(ItemValue product)
     {
         ItemDisplay itemDisplay = Instantiate(ITEM_DISPLAY_PREFAB, products.transform).GetComponent<ItemDisplay>();
-        itemDisplay.Initialize(product.GetItem(), product.GetValue(), true);
+        itemDisplay.Initialize(this, product.GetItem(), product.GetValue(), true);
     }
     public int GetHeight()
     {

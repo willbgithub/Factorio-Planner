@@ -21,7 +21,7 @@ public class Planner
 
     static List<Demand> demands = new List<Demand>();
 
-    [MenuItem("Factorio/Utility Debug")]
+    //[MenuItem("Factorio/Utility Debug")]
     public static void Debug2()
     {
         DirectoryInfo itemDirectory = Directory.CreateDirectory(UNITY_ITEM_PATH);
@@ -42,7 +42,7 @@ public class Planner
             }
         }
     }
-    [MenuItem("Factorio/Planner Debug")]
+    //[MenuItem("Factorio/Planner Debug")]
     public static void DebugFunc()
     {
         

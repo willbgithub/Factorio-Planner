@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ItemDisplay : MonoBehaviour
@@ -7,12 +8,24 @@ public class ItemDisplay : MonoBehaviour
     public GameObject NODE_PREFAB;
     public GameObject inputLabel;
     public GameObject productLabel;
-    public void Initialize(Item item, Fraction rate, bool isProduct, bool satisfied=false)
+    public RecipeBlock parent;
+    public Item item;
+    public bool satisfied;
+    public Image itemDisplay;
+    public Image colorBackground;
+    public Image background;
+    public Color UNSATISFIED_COLOR = new Color(255, 71, 93);
+    public Color SATISFIED_COLOR = new Color(148, 255, 157);
+    public Color DEFAULT_COLOR;
+    public Color FOCUSED_COLOR;
+    public Node node;
+    public void Initialize(RecipeBlock parent, Item item, Fraction rate, bool isProduct, bool satisfied=false)
     {
+        this.parent = parent;
         itemDisplay.sprite = item.GetIcon();
         this.satisfied = satisfied;
         this.item = item;
-        Node node = Instantiate(NODE_PREFAB, transform).GetComponent<Node>();
+        node = Instantiate(NODE_PREFAB, transform).GetComponent<Node>();
         node.parent = this;
         node.item = item;
         node.value = rate;
@@ -29,6 +42,20 @@ public class ItemDisplay : MonoBehaviour
             inputLabel.GetComponent<TMP_Text>().text = rate.ToString();
         }
     }
+    public void OnPointerEnter(BaseEventData data)
+    {
+        background.color = FOCUSED_COLOR;
+        parent.ItemDisplayOnPointerEnter();
+    }
+    public void OnPointerExit(BaseEventData data)
+    {
+        background.color = DEFAULT_COLOR;
+        parent.ItemDisplayOnPointerExit();
+    }
+    public void OnPointerClick(BaseEventData data)
+    {
+        node.OnPointerClick(data);
+    }
     public void SetSatisfied(bool satisfied)
     {
         this.satisfied = satisfied;
@@ -41,10 +68,4 @@ public class ItemDisplay : MonoBehaviour
             colorBackground.color = UNSATISFIED_COLOR;
         }
     }
-    public Item item;
-    public bool satisfied;
-    public Image itemDisplay;
-    public Image colorBackground;
-    public static Color UNSATISFIED_COLOR = new Color(255, 71, 93);
-    public static Color SATISFIED_COLOR = new Color(148, 255, 157);
 }
