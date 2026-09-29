@@ -17,17 +17,20 @@ public class UIPlanner : MonoBehaviour
         PointerEventData data2 = (PointerEventData)data;
         RectTransform blockRect = block.GetComponent<RectTransform>();
         blockRect.position += (Vector3)data2.delta;
-        Vector2 clamp = block.GetComponent<RectTransform>().localPosition;
-        float blockX = blockRect.sizeDelta.x;
-        float blockY = blockRect.sizeDelta.y;
-        if (clamp.x < blockX/2 - 960)
-            clamp.x = blockX/2 - 960;
-        else if (clamp.x > 960 - blockX/2)
-            clamp.x = 960 - blockX/2;
-        if (clamp.y < blockY - 540)
-            clamp.y = blockY - 540;
-        else if (clamp.y > 540-blockY)
-            clamp.y = 540 - blockY;
+        Vector2 clamp = blockRect.localPosition;
+
+        float blockX = blockRect.sizeDelta.x * blockRect.localScale.x;
+        float blockY = blockRect.sizeDelta.y * blockRect.localScale.y;
+        float canvasX = canvas.GetComponent<RectTransform>().sizeDelta.x;
+        float canvasY = canvas.GetComponent<RectTransform>().sizeDelta.y;
+        if (clamp.x < blockX/2 - canvasX/2)
+            clamp.x = blockX/2 - canvasX/2;
+        else if (clamp.x > canvasX/2 - blockX/2)
+            clamp.x = canvasX/2 - blockX/2;
+        if (clamp.y < blockY/2 - canvasY/2)
+            clamp.y = blockY/2 - canvasY/2;
+        else if (clamp.y > canvasY/2-blockY/2)
+            clamp.y = canvasY/2 - blockY/2;
         blockRect.localPosition = clamp;
     }
 }

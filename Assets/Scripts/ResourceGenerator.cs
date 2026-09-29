@@ -5,11 +5,12 @@
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text.RegularExpressions;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
-using System.IO;
+using static UnityEditor.Progress;
 class ResourceGenerator
 {
     const string FACTORIO_PATH = @"C:/Program Files (x86)/Steam/steamapps/common/Factorio/";
@@ -20,6 +21,7 @@ class ResourceGenerator
 
     const string UNITY_ITEM_PATH = @"Assets/Prototypes/Items/";
     const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
+    const string UNITY_ICON_PATH = @"Assets/Icons/";
 
     static List<string> BLACKLISTED_PREFABS = new List<string>()
     {
@@ -31,14 +33,21 @@ class ResourceGenerator
     {
 
     }
-    //[MenuItem("Factorio/Create Items")]
+    [MenuItem("Factorio/Create Items")]
     static void CreateItems()
     {
         CreateFiles(ITEM_PATH);
         CreateFiles(FLUID_PATH);
-        Debug.Log("Generated items.");
+        Item item = GetItem("stone-brick");
+        Texture2D texture = Resources.Load<Texture2D>("factorioLogo");
+        Debug.Log("item: " + item);
+        Debug.Log("texture: " + texture);
+        EditorGUIUtility.SetIconForObject(item, texture);
+        DirectoryInfo itemDirectory = Directory.CreateDirectory(UNITY_ITEM_PATH);
+        FileInfo[] itemFiles = itemDirectory.GetFiles();
+        Debug.Log("Generated " + itemFiles.Length + " items.");
     }
-    //[MenuItem("Factorio/Create Recipes")]
+    [MenuItem("Factorio/Create Recipes")]
     static void CreateRecipes()
     {
         // If there are no items, refuse to generate recipes
@@ -49,7 +58,9 @@ class ResourceGenerator
             Debug.LogError("ERROR: Cannot generate recipes as there are no items!");
         }
         CreateFiles(RECIPE_PATH);
-        Debug.Log("Generated recipes.");
+        DirectoryInfo recipeDirectory = Directory.CreateDirectory(UNITY_RECIPE_PATH);
+        FileInfo[] recipeFiles = recipeDirectory.GetFiles();
+        Debug.Log("Generated " + recipeFiles.Length + " recipes.");
     }
     [MenuItem("Factorio/Item Post-init")]
     static void UpdateItems()
@@ -120,8 +131,14 @@ class ResourceGenerator
             item.SetCraftedIn(craftedIn);
             item.SetBestRecipe(bestRecipe);
         }
-        
         Debug.Log("Updated " + itemFiles.Length/2 + " items.");
+    }
+    [MenuItem("Factorio/Everything")]
+    static void Everything()
+    {
+        CreateItems();
+        CreateRecipes();
+        UpdateItems();
     }
     static void CreateFiles(string filePath)
     {
@@ -193,7 +210,11 @@ class ResourceGenerator
             return item.GetIcon();
         }
         iconPath = Regex.Match(iconPath, "/(.+)\\.png").Groups[1].Value;
-        return Resources.Load<Sprite>(iconPath);
+        Texture2D texture = Resources.Load<Texture2D>(iconPath);
+        Rect rect = new Rect(0, 0, 64, 64);
+        Sprite sprite = Sprite.Create(texture, rect, Vector2.zero);
+        AssetDatabase.CreateAsset(sprite, UNITY_ICON_PATH + GetStringProperty(prototype, "name") + "-icon.asset");
+        return sprite;
         
     }
     static Contribution GetRecipeContribution(string prototype)

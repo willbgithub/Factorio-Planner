@@ -15,9 +15,6 @@ MonoBehaviour:
   prefabName: light-oil
   englishName: Light oil
   typeName: fluid
-  icon: {fileID: -2560680007517915403, guid: 64733448717e6034793aa8ef93ed33c0, type: 3}
-  craftedIn:
-  - {fileID: 11400000, guid: 11f45572faf11fa47bbc735fff88dafe, type: 2}
-  - {fileID: 11400000, guid: 59633d064cd310a4e939b41e8ef8a316, type: 2}
-  - {fileID: 11400000, guid: 6bce11e988aee6b45bea6834d18e419e, type: 2}
-  bestRecipe: {fileID: 11400000, guid: 11f45572faf11fa47bbc735fff88dafe, type: 2}
+  icon: {fileID: 21300000, guid: ff8a1d746a6a6c4489cc7f2a2886ae5e, type: 2}
+  craftedIn: []
+  bestRecipe: {fileID: 0}

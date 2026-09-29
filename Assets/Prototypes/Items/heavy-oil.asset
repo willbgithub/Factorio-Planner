@@ -15,8 +15,6 @@ MonoBehaviour:
   prefabName: heavy-oil
   englishName: Heavy oil
   typeName: fluid
-  icon: {fileID: -9095497992430393404, guid: 00674f129f4983a4eb41f5a72ff66a4e, type: 3}
-  craftedIn:
-  - {fileID: 11400000, guid: 11f45572faf11fa47bbc735fff88dafe, type: 2}
-  - {fileID: 11400000, guid: 59633d064cd310a4e939b41e8ef8a316, type: 2}
-  bestRecipe: {fileID: 11400000, guid: 11f45572faf11fa47bbc735fff88dafe, type: 2}
+  icon: {fileID: 21300000, guid: a5581d8640fa8a94e83fbbaf133dc9ae, type: 2}
+  craftedIn: []
+  bestRecipe: {fileID: 0}

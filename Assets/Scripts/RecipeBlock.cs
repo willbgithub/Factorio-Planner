@@ -75,7 +75,7 @@ public class RecipeBlock : MonoBehaviour
     public void UpdateHeight()
     {
         int height = GetHeight();
-        GetComponent<RectTransform>().sizeDelta = new Vector2(GetComponent<RectTransform>().sizeDelta.x, EMPTY_SIZE + height * CELL_SIZE);
+        GetComponent<RectTransform>().sizeDelta = new Vector2(GetComponent<RectTransform>().sizeDelta.x, EMPTY_SIZE + height * (CELL_SIZE+5));
     }
     public void SetRecipe(Recipe recipe)
     {
