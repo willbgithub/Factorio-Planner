@@ -1,3 +1,4 @@
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -13,10 +14,7 @@ public class UIPlanner : MonoBehaviour
     public RecipeBlock recipeBlock2;
     public Recipe recipe;
     public Node selectedNode = null;
-    void Start()
-    {
-        
-    }
+    public TMP_Text cursorPos;
     public void OnItemDisplayPointerClick(ItemDisplay itemDisplay, BaseEventData data)
     {
         if (selectedNode.IsUnityNull())
@@ -52,12 +50,12 @@ public class UIPlanner : MonoBehaviour
         }
         // Create arrow
         Arrow arrow = Instantiate(arrowPrefab, arrows.transform);
-        arrow.Instantiate(node1, node2);
+        arrow.Instantiate(node1, node2, canvas.GetComponent<RectTransform>().localScale);
     }
     public void OnPointerClick(BaseEventData data)
     {
         PointerEventData data2 = (PointerEventData)data;
-        Debug.Log(data2.button);
+        Debug.Log(data2.pressPosition);
     }
     public void RecipeBlockOnDrag(RecipeBlock block, BaseEventData data)
     {
