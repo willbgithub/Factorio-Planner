@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 public class UIPlanner : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject recipeBlocks;
+    public GameObject arrows;
     public RecipeBlock recipeBlockPrefab;
     public Arrow arrowPrefab;
     public RecipeBlock recipeBlock1;
@@ -29,6 +31,7 @@ public class UIPlanner : MonoBehaviour
             itemDisplay.SetSelected(false);
             return;
         }
+        // CHECK IF NODES ARE ALREADY CONNECTED TO EACH OTHER!
         Debug.Log("Node is ready to connect");
         Connect(selectedNode, itemDisplay.node);
         
@@ -48,7 +51,7 @@ public class UIPlanner : MonoBehaviour
             return;
         }
         // Create arrow
-        Arrow arrow = Instantiate(arrowPrefab, canvas.transform);
+        Arrow arrow = Instantiate(arrowPrefab, arrows.transform);
         arrow.Instantiate(node1, node2);
     }
     public void OnPointerClick(BaseEventData data)

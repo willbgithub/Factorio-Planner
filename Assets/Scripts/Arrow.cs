@@ -4,6 +4,7 @@ public class Arrow : MonoBehaviour
 {
     public Node leftNode;
     public Node rightNode;
+    public LineRenderer line;
     const int HEIGHT = 100;
 
     // start at point on left
@@ -15,9 +16,9 @@ public class Arrow : MonoBehaviour
     }
     public void UpdateGraphic()
     {
-        Vector2 left = leftNode.transform.localPosition;
-        Vector2 right = rightNode.transform.localPosition;
-        Debug.Log("left node: " + leftNode + " at " + left);
-        Debug.Log("left node: " + rightNode + " at " + right);
+        Vector2 left = leftNode.GetComponent<RectTransform>().position;
+        Vector2 right = rightNode.GetComponent<RectTransform>().position;
+        line.SetPosition(0, left);
+        line.SetPosition(1, right);
     }
 }
