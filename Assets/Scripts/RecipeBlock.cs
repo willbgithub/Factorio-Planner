@@ -25,12 +25,35 @@ public class RecipeBlock : MonoBehaviour
     public Color FOCUS_COLOR = new Color(70/255, 70/255, 70/255);
     bool dragging = false;
     bool pointed = false;
+    
     public void Initialize(UIPlanner parent, Recipe recipe, Fraction factor)
     {
         this.parent = parent;
         SetRecipe(recipe);
         SetFactor(factor);
         UpdateItems();
+        UpdateValues();
+    }
+    public void OnItemDisplayPointerClick(ItemDisplay itemDisplay, BaseEventData data)
+    {
+        parent.OnItemDisplayPointerClick(itemDisplay, data);
+    }
+    public void Start()
+    {
+        if (recipe.IsUnityNull())
+            return;
+        SetRecipe(recipe);
+        SetFactor(factor);
+        UpdateItems();
+        UpdateValues();
+    }
+    
+    public void UpdateValues()
+    {
+        for (int i = 0; i < inputs.transform.childCount; i++)
+        {
+
+        }
     }
     public void ItemDisplayOnPointerEnter()
     {

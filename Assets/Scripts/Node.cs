@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using static UnityEngine.Rendering.DebugUI;
@@ -14,10 +15,80 @@ public class Node : MonoBehaviour
     public List<Arrow> relatedArrows;
     public TYPE type;
 
-    // Called when the ItemDisplay is clicked
-    public void OnPointerClick(BaseEventData data)
+    public override string ToString()
     {
-        Debug.Log(new ItemValue(item, value));
+        return "{Node: " + item + ", " + value + ", " + TypeToString() + "}";
+    }
+    public bool Incompatible(Node node)
+    {
+        bool returnValue = false;
+        if (item != node.item)
+        {
+            Debug.LogError("Incompatible: This node is of item \"" + item + "\", but the other node is of item \"" + node.item + "\"!");
+            returnValue = true;
+        }
+        if ((type == node.type) && type != TYPE.COMBINATION)
+        {
+            Debug.LogError("Incompatible: This node is of type \"" + TypeToString() + "\", but the other node is of type \"" + node.TypeToString() + "\"!");
+            returnValue = true;
+        }
+        return returnValue;
+    }
+    public bool Incompatible(ItemDisplay itemDisplay)
+    {
+        bool returnValue = false;
+        if (item != itemDisplay.node.item)
+        {
+            Debug.LogError("Incompatible: This node is of item \"" + item + "\", but the other node is of item \"" + itemDisplay.node.item + "\"!");
+            returnValue = true;
+        }
+        if ((type == itemDisplay.node.type) && type != TYPE.COMBINATION)
+        {
+            Debug.LogError("Incompatible: This node is of type \"" + TypeToString() + "\", but the other node is of type \"" + itemDisplay.node.TypeToString() + "\"!");
+            returnValue = true;
+        }
+        return returnValue;
+    }
+    public string TypeToString()
+    {
+        if (type == TYPE.INPUT)
+            return "input";
+        if (type == TYPE.PRODUCT)
+            return "product";
+        return "combination";
+    }
+    public Fraction GetUnaccountedInput()
+    {
+        if (type == TYPE.PRODUCT)
+        {
+            Debug.LogError("ERROR: GetUnaccountedInput called on node of type product!");
+            return null;
+        }
+        Fraction leftRates = GetRates(leftNodes);
+        Fraction rightRates = GetRates(rightNodes);
+        if (type == TYPE.INPUT)
+        {
+            return value - leftRates;
+        }
+        // Combination
+        return rightRates - leftRates;
+    }
+    public Fraction GetUnaccountedProduct()
+    {
+        if (type == TYPE.INPUT)
+        {
+            Debug.LogError("ERROR: GetUnaccountedProduct called on node of type input!");
+            return null;
+        }
+        Fraction leftRates = GetRates(leftNodes);
+        Fraction rightRates = GetRates(rightNodes);
+        if (type == TYPE.PRODUCT)
+        {
+            return value - rightRates;
+        }
+        
+        // Combination
+        return leftRates - rightRates;
     }
     public bool IsSatisfied()
     {

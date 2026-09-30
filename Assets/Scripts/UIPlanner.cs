@@ -6,11 +6,46 @@ public class UIPlanner : MonoBehaviour
 {
     public GameObject canvas;
     public RecipeBlock recipeBlockPrefab;
+    public RecipeBlock recipeBlock1;
+    public RecipeBlock recipeBlock2;
     public Recipe recipe;
+    public Node selectedNode = null;
     void Start()
     {
-        RecipeBlock block = Instantiate(recipeBlockPrefab, canvas.transform);
-        block.Initialize(this, recipe, 1);
+
+    }
+    public void OnItemDisplayPointerClick(ItemDisplay itemDisplay, BaseEventData data)
+    {
+        if (selectedNode.IsUnityNull())
+        {
+            selectedNode = itemDisplay.node;
+            itemDisplay.SetSelected(true);
+            return;
+        }
+        if (selectedNode == itemDisplay.node)
+        {
+            selectedNode = null;
+            itemDisplay.SetSelected(false);
+            return;
+        }
+        if (itemDisplay.Incompatible(selectedNode))
+        {
+            Debug.Log("node 1: " + selectedNode);
+            Debug.Log("node 2: " + itemDisplay.node);
+            Debug.LogError("Cannot connect these two nodes!");
+            selectedNode.parent.SetSelected(false);
+            itemDisplay.SetSelected(false);
+            selectedNode = null;
+            return;
+        }
+        else
+        {
+            Debug.Log("Node is ready to connect");
+            selectedNode.parent.SetSelected(false);
+            itemDisplay.SetSelected(false);
+            selectedNode = null;
+        }
+        // connect them
     }
     public void OnPointerClick(BaseEventData data)
     {
