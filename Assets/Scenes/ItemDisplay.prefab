@@ -227,7 +227,10 @@ MonoBehaviour:
   SATISFIED_COLOR: {r: 0.5803922, g: 1, b: 0.6156863, a: 1}
   DEFAULT_COLOR: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 0.9843137}
   FOCUSED_COLOR: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 0.9843137}
+  SELECTED_COLOR: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
   node: {fileID: 0}
+  selected: 0
+  focused: 0
 --- !u!114 &3024774882215380779
 MonoBehaviour:
   m_ObjectHideFlags: 0
