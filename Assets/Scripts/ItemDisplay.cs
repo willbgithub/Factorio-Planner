@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class ItemDisplay : MonoBehaviour
 {
@@ -11,9 +12,9 @@ public class ItemDisplay : MonoBehaviour
     public RecipeBlock parent;
     public Item item;
     public bool satisfied;
-    public Image itemDisplay;
-    public Image colorBackground;
-    public Image background;
+    public UnityEngine.UI.Image itemDisplay;
+    public UnityEngine.UI.Image colorBackground;
+    public UnityEngine.UI.Image background;
     public Color UNSATISFIED_COLOR = new Color(255/255, 71 / 255, 93 / 255);
     public Color SATISFIED_COLOR = new Color(148 / 255, 255 / 255, 157 / 255);
     public Color DEFAULT_COLOR;
@@ -34,18 +35,20 @@ public class ItemDisplay : MonoBehaviour
         node.value = rate;
         if (isProduct)
         {
-            Debug.Log("isProduct is true: this is for item \"" + item + "\" of rate " + rate);
             node.type = Node.TYPE.PRODUCT;
             inputLabel.SetActive(false);
             productLabel.GetComponent<TMP_Text>().text = rate.ToString();
         }
         else
         {
-            Debug.Log("isInput is true: this is for item \"" + item + "\" of rate " + rate);
             node.type = Node.TYPE.INPUT;
             productLabel.SetActive(false);
             inputLabel.GetComponent<TMP_Text>().text = rate.ToString();
         }
+    }
+    public void UpdateArrows(Vector2 scale)
+    {
+        node.UpdateArrows(scale);
     }
     public override string ToString()
     {

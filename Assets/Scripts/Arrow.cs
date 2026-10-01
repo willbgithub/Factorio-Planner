@@ -8,7 +8,7 @@ public class Arrow : MonoBehaviour
     public UILineRenderer line;
 
     // start at point on left
-    public void Instantiate(Node leftNode, Node rightNode, Vector2 scale)
+    public void Initialize(Node leftNode, Node rightNode, Vector2 scale)
     {
         this.leftNode = leftNode;
         this.rightNode = rightNode;
@@ -17,9 +17,12 @@ public class Arrow : MonoBehaviour
     }
     public void UpdateGraphic(Vector2 scale)
     {
-        Debug.Log("point 1: " + leftNode.transform.position/scale);
-        Debug.Log("point 2: " + rightNode.transform.position / scale);
-        line.points[0] = leftNode.transform.position / scale;
-        line.points[1] = rightNode.transform.position / scale;
+        Vector2 leftPos = leftNode.transform.position / scale;
+        Vector2 rightPos = rightNode.transform.position / scale;
+        //Debug.Log("point 1: " + leftPos);
+        //Debug.Log("point 2: " + rightPos);
+        line.points[0] = leftPos;
+        line.points[1] = rightPos;
+        line.OnRebuildRequested();
     }
 }

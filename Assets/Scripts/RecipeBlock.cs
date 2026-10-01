@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 using UnityEngine.Windows;
 
 public class RecipeBlock : MonoBehaviour
@@ -13,11 +14,11 @@ public class RecipeBlock : MonoBehaviour
     public UIPlanner parent;
     public TMP_Text recipeLabel;
     public TMP_Text factorLabel;
-    public Image recipeIconBackground;
-    public Image recipeIcon;
+    public UnityEngine.UI.Image recipeIconBackground;
+    public UnityEngine.UI.Image recipeIcon;
     public GameObject inputs;
     public GameObject products;
-    public Image background;
+    public UnityEngine.UI.Image background;
     public Fraction factor;
     public Recipe recipe;
     public GameObject ITEM_DISPLAY_PREFAB;
@@ -47,7 +48,17 @@ public class RecipeBlock : MonoBehaviour
         UpdateItems();
         UpdateValues();
     }
-    
+    public void UpdateArrows(Vector2 scale)
+    {
+        for (int i = 0; i < inputs.transform.childCount; i++)
+        {
+            inputs.transform.GetChild(i).gameObject.GetComponent<ItemDisplay>().UpdateArrows(scale);
+        }
+        for (int i = 0; i < products.transform.childCount; i++)
+        {
+            products.transform.GetChild(i).gameObject.GetComponent<ItemDisplay>().UpdateArrows(scale);
+        }
+    }
     public void UpdateValues()
     {
         for (int i = 0; i < inputs.transform.childCount; i++)

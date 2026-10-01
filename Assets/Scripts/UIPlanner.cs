@@ -2,6 +2,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UIElements;
 
 public class UIPlanner : MonoBehaviour
 {
@@ -29,17 +30,10 @@ public class UIPlanner : MonoBehaviour
             itemDisplay.SetSelected(false);
             return;
         }
-        // CHECK IF NODES ARE ALREADY CONNECTED TO EACH OTHER!
-        Debug.Log("Node is ready to connect");
         Connect(selectedNode, itemDisplay.node);
-        
-        
-
-
         selectedNode.parent.SetSelected(false);
         itemDisplay.SetSelected(false);
         selectedNode = null;
-        
     }
     public void Connect(Node node1, Node node2)
     {
@@ -50,7 +44,24 @@ public class UIPlanner : MonoBehaviour
         }
         // Create arrow
         Arrow arrow = Instantiate(arrowPrefab, arrows.transform);
-        arrow.Instantiate(node1, node2, canvas.GetComponent<RectTransform>().localScale);
+        arrow.Initialize(node1, node2, canvas.GetComponent<RectTransform>().localScale);
+        node1.relatedArrows.Add(arrow);
+        node2.relatedArrows.Add(arrow);
+        // Update info
+        if (node1.type == Node.TYPE.INPUT || node2.type == Node.TYPE.PRODUCT)
+        {
+            node1.leftNodes.Add(node2);
+            node2.rightNodes.Add(node1);
+        }
+        else if (node1.type == Node.TYPE.PRODUCT || node2.type == Node.TYPE.INPUT)
+        {
+            node1.rightNodes.Add(node2);
+            node2.leftNodes.Add(node1);
+        }
+        else
+        {
+            Debug.LogError("ERROR: You are connecting two combination nodes which is NOT SUPPORTED YET!!!");
+        }
     }
     public void OnPointerClick(BaseEventData data)
     {
@@ -77,5 +88,7 @@ public class UIPlanner : MonoBehaviour
         else if (clamp.y > canvasY/2-blockY/2)
             clamp.y = canvasY/2 - blockY/2;
         blockRect.localPosition = clamp;
+
+        block.UpdateArrows(canvas.GetComponent<RectTransform>().localScale);
     }
 }

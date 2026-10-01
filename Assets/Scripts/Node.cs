@@ -6,7 +6,7 @@ using static UnityEngine.Rendering.DebugUI;
 
 public class Node : MonoBehaviour
 {
-    public enum TYPE {INPUT, PRODUCT, COMBINATION};
+    public enum TYPE { INPUT, PRODUCT, COMBINATION };
     public ItemDisplay parent;
     public Item item;
     public Fraction value;
@@ -15,12 +15,28 @@ public class Node : MonoBehaviour
     public List<Arrow> relatedArrows;
     public TYPE type;
 
+    public bool IsConnected(Node node)
+    {
+        return leftNodes.Contains(node) || rightNodes.Contains(node);
+    }
+    public void UpdateArrows(Vector2 scale)
+    {
+        for (int i = 0; i < relatedArrows.Count; i++)
+        {
+            relatedArrows[i].UpdateGraphic(scale);
+        }
+    }
     public override string ToString()
     {
         return "{Node: " + item + ", " + value + ", " + TypeToString() + "}";
     }
     public bool Incompatible(Node node)
     {
+        if (IsConnected(node))
+        {
+            Debug.LogError("These nodes are already connected!");
+            return true;
+        }
         bool returnValue = false;
         if (item != node.item)
         {
