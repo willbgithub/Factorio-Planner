@@ -67,7 +67,7 @@ class ResourceGenerator
         FileInfo[] recipeFiles = recipeDirectory.GetFiles();
         Debug.Log("Generated " + recipeFiles.Length + " recipes.");
     }
-    //[MenuItem("Factorio/Item Post-init")]
+    [MenuItem("Factorio/Item Post-init")]
     static void UpdateItems()
     {
         // if there are no recipe files, ignore

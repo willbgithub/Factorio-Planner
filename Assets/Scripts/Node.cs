@@ -15,7 +15,28 @@ public class Node : MonoBehaviour
     public List<Arrow> relatedArrows;
     public TYPE type;
 
-    
+
+    public void Disconnect(Node node)
+    {
+        if (!IsConnected(node))
+            return;
+        for (int i = 0; i < relatedArrows.Count; i++)
+        {
+            if (relatedArrows[i].Contains(node))
+            {
+                relatedArrows.Remove(relatedArrows[i]);
+                i = relatedArrows.Count;
+            }
+        }
+        if (leftNodes.Contains(node))
+        {
+            leftNodes.Remove(node);
+        }
+        else if (rightNodes.Contains(node))
+        {
+            rightNodes.Remove(node);
+        }
+    }
     public bool IsConnected(Node node)
     {
         return leftNodes.Contains(node) || rightNodes.Contains(node);

@@ -18,10 +18,14 @@ public class UIPlanner : MonoBehaviour
     public Recipe recipe;
     public Node selectedNode = null;
     public TMP_Text cursorPos;
+    public void Start()
+    {
+        CreateRecipeBlock(recipe, 2);
+    }
     public void RecipeBlockUpdateValues(RecipeBlock recipeBlock)
     {
         //Debug.Log("UIPLANNER: RecipeBlockUpdateValues");
-        //Debug.Log("Recipe block has " + (recipeBlock.inputs.transform.childCount-1).ToString() + " inputs and " + (recipeBlock.products.transform.childCount-1).ToString() + " products.");
+        //Debug.Log("Recipe block has " + (recipeBlock.inputs.transform.childCount).ToString() + " inputs and " + (recipeBlock.products.transform.childCount).ToString() + " products.");
         for (int i = 1; i < recipeBlock.inputs.transform.childCount; i++)
         {
             //Debug.Log("recipeBlock: " + recipeBlock);
@@ -41,6 +45,38 @@ public class UIPlanner : MonoBehaviour
     }
     public void OnItemDisplayPointerClick(ItemDisplay itemDisplay, BaseEventData data)
     {
+        PointerEventData data2 = (PointerEventData)data;
+        if (data2.button == PointerEventData.InputButton.Left)
+        {
+            SelectOrConnect(itemDisplay);
+        }
+        else if (data2.button == PointerEventData.InputButton.Right)
+        {
+            Resolve(itemDisplay);
+        }
+    }
+    public void Resolve(ItemDisplay itemDisplay)
+    {
+        Debug.Log("Resolve");
+        if (itemDisplay.node.type == Node.TYPE.INPUT)
+        {
+            Fraction unresolved = itemDisplay.GetUnaccountedInput();
+            Item item = itemDisplay.item;
+            Recipe recipe = item.GetBestRecipe();
+            Fraction factor = unresolved / recipe.GetRate(item);
+            RecipeBlock block = CreateRecipeBlock(recipe, factor);
+            block.Connect(itemDisplay.node);
+        }
+        
+    }
+    public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor)
+    {
+        RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, recipeBlocks.transform);
+        recipeBlock.Initialize(this, recipe, factor);
+        return recipeBlock;
+    }
+    public void SelectOrConnect(ItemDisplay itemDisplay)
+    {
         if (selectedNode.IsUnityNull())
         {
             selectedNode = itemDisplay.node;
@@ -55,12 +91,13 @@ public class UIPlanner : MonoBehaviour
         }
         Connect(selectedNode, itemDisplay.node);
         selectedNode.parent.SetSelected(false);
-        itemDisplay.SetSelected(false); 
+        itemDisplay.SetSelected(false);
         selectedNode = null;
     }
     public void UpdateRawValues(Node node)
     {
-        Debug.Log("UpdateRawValues called on " + node);
+        node.Disconnect(rawInput);
+        node.Disconnect(rawProduct);
         Fraction rawInputValue = 0;
         Fraction rawProductValue = 0;
         if (node.type == Node.TYPE.INPUT)

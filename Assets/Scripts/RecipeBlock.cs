@@ -22,11 +22,16 @@ public class RecipeBlock : MonoBehaviour
     public Fraction factor;
     public Recipe recipe;
     public GameObject ITEM_DISPLAY_PREFAB;
+    public GameObject updateFactorButton;
     public Color DEFAULT_COLOR = new Color(43 / 255, 43 / 255, 43/255);
     public Color FOCUS_COLOR = new Color(70/255, 70/255, 70/255);
+    public Color FACTOR_DEFAULT_COLOR = new Color(236 / 255, 97 / 255, 111 / 255);
+    public Color FACTOR_FOCUS_COLOR = new Color(236 / 255, 160 / 255, 160 / 255);
+
     bool dragging = false;
     bool pointed = false;
-    
+    bool taken = false;
+
     public void Initialize(UIPlanner parent, Recipe recipe, Fraction factor)
     {
         this.parent = parent;
@@ -35,18 +40,51 @@ public class RecipeBlock : MonoBehaviour
         UpdateItems();
         UpdateValues();
     }
+    public void Connect(Node node)
+    {
+        if (node.type == Node.TYPE.INPUT)
+        {
+            for (int i = 0; i < products.transform.childCount; i++)
+            {
+                ItemDisplay product = products.transform.GetChild(i).GetComponent<ItemDisplay>();
+                if (product.item == node.item)
+                {
+                    parent.Connect(product.node, node);
+                    i = products.transform.childCount;
+                }
+            }
+        }
+    }
+    public void OnFactorPointerEnter(BaseEventData data)
+    {
+        taken = true;
+        background.color = DEFAULT_COLOR;
+        updateFactorButton.transform.GetChild(0).GetComponent<UnityEngine.UI.Image>().color = FACTOR_FOCUS_COLOR;
+    }
+    public void OnFactorPointerExit(BaseEventData data)
+    {
+        taken = false;
+        if (pointed)
+        {
+            background.color = FOCUS_COLOR;
+        }
+        updateFactorButton.transform.GetChild(0).GetComponent<UnityEngine.UI.Image>().color = FACTOR_DEFAULT_COLOR;
+    }
+    public void OnFactorPointerClick(BaseEventData data)
+    {
+        Debug.Log("OnFactorPointerClick");
+
+    }
     public void OnItemDisplayPointerClick(ItemDisplay itemDisplay, BaseEventData data)
     {
         parent.OnItemDisplayPointerClick(itemDisplay, data);
     }
     public void Start()
     {
-        if (recipe.IsUnityNull())
-            return;
-        SetRecipe(recipe);
-        SetFactor(factor);
-        UpdateItems();
-        UpdateValues();
+        if (!parent.IsUnityNull() && !recipe.IsUnityNull() && !factor.IsUnityNull())
+        {
+            Initialize(parent, recipe, factor);
+        }
     }
     public void UpdateArrows(Vector2 scale)
     {
@@ -78,12 +116,16 @@ public class RecipeBlock : MonoBehaviour
     public void OnPointerEnter(BaseEventData data)
     {
         pointed = true;
+        if (taken)
+        {
+            return;
+        }
         background.color = FOCUS_COLOR;
     }
     public void OnPointerExit(BaseEventData data)
     {
         pointed = false;
-        if (dragging)
+        if (dragging || taken)
         {
             return;
         }
@@ -110,12 +152,14 @@ public class RecipeBlock : MonoBehaviour
     {
         for (int i = 0; i < inputs.transform.childCount; i++)
         {
-            Destroy(inputs.transform.GetChild(0).gameObject);
+            Destroy(inputs.transform.GetChild(i).gameObject);
         }
+        inputs.transform.DetachChildren();
         for (int i = 0; i < products.transform.childCount; i++)
         {
-            Destroy(products.transform.GetChild(0).gameObject);
+            Destroy(products.transform.GetChild(i).gameObject);
         }
+        products.transform.DetachChildren();
         Contribution contribution = recipe.GetContribution();
         List<ItemValue> inputValues = contribution.GetInputs();
         for (int i = 0; i < inputValues.Count; i++)
@@ -143,9 +187,9 @@ public class RecipeBlock : MonoBehaviour
     {
         if (inputs.transform.childCount > products.transform.childCount)
         {
-            return inputs.transform.childCount-1;
+            return inputs.transform.childCount;
         }
-        return products.transform.childCount-1;
+        return products.transform.childCount;
     }
     public void UpdateHeight()
     {

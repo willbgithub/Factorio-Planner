@@ -7,7 +7,6 @@ public class Arrow : MonoBehaviour
     public Node rightNode;
     public UILineRenderer line;
 
-    // start at point on left
     public void Initialize(Node leftNode, Node rightNode, Vector2 scale)
     {
         this.leftNode = leftNode;
@@ -19,10 +18,12 @@ public class Arrow : MonoBehaviour
     {
         Vector2 leftPos = leftNode.transform.position / scale;
         Vector2 rightPos = rightNode.transform.position / scale;
-        //Debug.Log("point 1: " + leftPos);
-        //Debug.Log("point 2: " + rightPos);
         line.points[0] = leftPos;
         line.points[1] = rightPos;
         line.OnRebuildRequested();
+    }
+    public bool Contains(Node node)
+    {
+        return leftNode == node || rightNode == node;
     }
 }
