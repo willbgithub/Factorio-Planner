@@ -61,10 +61,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void UpdateValues()
     {
-        for (int i = 0; i < inputs.transform.childCount; i++)
-        {
-
-        }
+        parent.RecipeBlockUpdateValues(this);
     }
     public void ItemDisplayOnPointerEnter()
     {

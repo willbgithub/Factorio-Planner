@@ -13,9 +13,32 @@ public class UIPlanner : MonoBehaviour
     public Arrow arrowPrefab;
     public RecipeBlock recipeBlock1;
     public RecipeBlock recipeBlock2;
+    public Node rawInput;
+    public Node rawProduct;
     public Recipe recipe;
     public Node selectedNode = null;
     public TMP_Text cursorPos;
+    public void RecipeBlockUpdateValues(RecipeBlock recipeBlock)
+    {
+        //Debug.Log("UIPLANNER: RecipeBlockUpdateValues");
+        //Debug.Log("Recipe block has " + (recipeBlock.inputs.transform.childCount-1).ToString() + " inputs and " + (recipeBlock.products.transform.childCount-1).ToString() + " products.");
+        for (int i = 1; i < recipeBlock.inputs.transform.childCount; i++)
+        {
+            //Debug.Log("recipeBlock: " + recipeBlock);
+            //Debug.Log(".inputs: " + recipeBlock.inputs);
+            //Debug.Log(".transform: " + recipeBlock.inputs.transform);
+            //Debug.Log(".GetChild(i): " + recipeBlock.inputs.transform.GetChild(i));
+            //Debug.Log(".gameObject: " + recipeBlock.inputs.transform.GetChild(i).gameObject);
+            //Debug.Log(".ItemDisplay: " + recipeBlock.inputs.transform.GetChild(i).gameObject.GetComponent<ItemDisplay>());
+            //Debug.Log(".node: " + recipeBlock.inputs.transform.GetChild(i).gameObject.GetComponent<ItemDisplay>().node);
+            UpdateRawValues(recipeBlock.inputs.transform.GetChild(i).GetComponent<ItemDisplay>().node);
+        }
+        for (int i = 1; i < recipeBlock.products.transform.childCount; i++)
+        {
+            //Debug.Log("Product node: " + recipeBlock.products.transform.GetChild(i).GetComponent<ItemDisplay>().node);
+            UpdateRawValues(recipeBlock.products.transform.GetChild(i).GetComponent<ItemDisplay>().node);
+        }
+    }
     public void OnItemDisplayPointerClick(ItemDisplay itemDisplay, BaseEventData data)
     {
         if (selectedNode.IsUnityNull())
@@ -32,8 +55,30 @@ public class UIPlanner : MonoBehaviour
         }
         Connect(selectedNode, itemDisplay.node);
         selectedNode.parent.SetSelected(false);
-        itemDisplay.SetSelected(false);
+        itemDisplay.SetSelected(false); 
         selectedNode = null;
+    }
+    public void UpdateRawValues(Node node)
+    {
+        Debug.Log("UpdateRawValues called on " + node);
+        Fraction rawInputValue = 0;
+        Fraction rawProductValue = 0;
+        if (node.type == Node.TYPE.INPUT)
+        {
+            rawInputValue = node.GetUnaccountedInput();
+        }
+        else if (node.type == Node.TYPE.PRODUCT)
+        {
+            rawProductValue = node.GetUnaccountedProduct();
+        }
+        if (rawInputValue != 0)
+        {
+            Connect(node, rawInput);
+        }
+        if (rawProductValue != 0)
+        {
+            Connect(node, rawProduct);
+        }
     }
     public void Connect(Node node1, Node node2)
     {

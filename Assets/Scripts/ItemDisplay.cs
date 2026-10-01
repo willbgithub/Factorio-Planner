@@ -52,6 +52,8 @@ public class ItemDisplay : MonoBehaviour
     }
     public override string ToString()
     {
+        Debug.Log("item: " + item);
+        Debug.Log("node: " + node);
         return "{ItemDisplay: " + item + ", " + node.TypeToString() + "}";
     }
     public void SetSelected(bool selected)

@@ -6,7 +6,7 @@ using static UnityEngine.Rendering.DebugUI;
 
 public class Node : MonoBehaviour
 {
-    public enum TYPE { INPUT, PRODUCT, COMBINATION };
+    public enum TYPE { INPUT, PRODUCT, COMBINATION, RAWINPUT, RAWPRODUCT };
     public ItemDisplay parent;
     public Item item;
     public Fraction value;
@@ -15,6 +15,7 @@ public class Node : MonoBehaviour
     public List<Arrow> relatedArrows;
     public TYPE type;
 
+    
     public bool IsConnected(Node node)
     {
         return leftNodes.Contains(node) || rightNodes.Contains(node);
@@ -36,6 +37,10 @@ public class Node : MonoBehaviour
         {
             Debug.LogError("These nodes are already connected!");
             return true;
+        }
+        if (type == TYPE.RAWINPUT || type == TYPE.RAWPRODUCT || node.type == TYPE.RAWINPUT || node.type == TYPE.RAWPRODUCT)
+        {
+            return false;
         }
         bool returnValue = false;
         if (item != node.item)
