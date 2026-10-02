@@ -24,17 +24,11 @@ public class Node : MonoBehaviour
         {
             if (relatedArrows[i].Contains(node))
             {
-                relatedArrows.Remove(relatedArrows[i]);
+                Arrow relatedArrow = relatedArrows[i];
+                relatedArrows.Remove(relatedArrow);
+                Destroy(relatedArrow.gameObject);
                 i = relatedArrows.Count;
             }
-        }
-        if (leftNodes.Contains(node))
-        {
-            leftNodes.Remove(node);
-        }
-        else if (rightNodes.Contains(node))
-        {
-            rightNodes.Remove(node);
         }
     }
     public bool IsConnected(Node node)

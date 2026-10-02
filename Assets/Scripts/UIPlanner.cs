@@ -1,5 +1,6 @@
 using TMPro;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
@@ -17,10 +18,33 @@ public class UIPlanner : MonoBehaviour
     public Node rawProduct;
     public Recipe recipe;
     public Node selectedNode = null;
+
+    const string UNITY_ITEM_PATH = @"Assets/Prototypes/Items/";
+    const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
+
     public void Start()
     {
         //Debug.Log("UIPLANNER: Start");
-        CreateRecipeBlock(recipe, 2);
+        CreateRecipeBlock(GetRecipe("iron-plate"), 2);
+        CreateRecipeBlock(GetRecipe("iron-gear-wheel"), 1);
+    }
+    public Item GetItem(string prefabName)
+    {
+        Item item = AssetDatabase.LoadAssetAtPath<Item>(UNITY_ITEM_PATH + prefabName + ".asset");
+        if (item.IsUnityNull())
+        {
+            Debug.LogError("ERROR: Could not find item \"" + prefabName + "\"");
+        }
+        return item;
+    }
+    public Recipe GetRecipe(string prefabName)
+    {
+        Recipe recipe = AssetDatabase.LoadAssetAtPath<Recipe>(UNITY_RECIPE_PATH + prefabName + ".asset");
+        if (recipe.IsUnityNull())
+        {
+            Debug.LogError("ERROR: Could not find recipe \"" + prefabName + "\"");
+        }
+        return recipe;
     }
     public void OnDestroy()
     {
@@ -139,11 +163,27 @@ public class UIPlanner : MonoBehaviour
         {
             node1.leftNodes.Add(node2);
             node2.rightNodes.Add(node1);
+            if (node1.IsConnected(rawInput) && node1.GetUnaccountedInput() == 0)
+            {
+                node1.Disconnect(rawInput);
+            }
+            if (node2.IsConnected(rawProduct) && node2.GetUnaccountedProduct() == 0)
+            {
+                node2.Disconnect(rawProduct);
+            }
         }
         else if (node1.type == Node.TYPE.PRODUCT || node2.type == Node.TYPE.INPUT)
         {
             node1.rightNodes.Add(node2);
             node2.leftNodes.Add(node1);
+            if (node1.IsConnected(rawProduct) && node1.GetUnaccountedProduct() == 0)
+            {
+                node1.Disconnect(rawProduct);
+            }
+            if (node2.IsConnected(rawInput) && node2.GetUnaccountedInput() == 0)
+            {
+                node2.Disconnect(rawInput);
+            }
         }
         else
         {
