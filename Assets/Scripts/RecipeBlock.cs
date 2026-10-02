@@ -178,12 +178,12 @@ public class RecipeBlock : MonoBehaviour
         List<ItemValue> inputValues = contribution.GetInputs();
         for (int i = 0; i < inputValues.Count; i++)
         {
-            AddInput(inputValues[i]);
+            AddInput(inputValues[i].Multiply(factor));
         }
         List<ItemValue> productValues = contribution.GetProducts();
         for (int i = 0; i < productValues.Count; i++)
         {
-            AddProduct(productValues[i]);
+            AddProduct(productValues[i].Multiply(factor));
         }
         UpdateHeight();
     }
