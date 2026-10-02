@@ -1,4 +1,5 @@
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -46,14 +47,29 @@ public class ItemDisplay : MonoBehaviour
             inputLabel.GetComponent<TMP_Text>().text = rate.ToString();
         }
     }
+    public void OnDestroy()
+    {
+        //Debug.Log("ITEMDISPLAY: OnDestroy");
+        if (node.IsUnityNull())
+        {
+            //Debug.Log("Node is null. Could not kill arrows.");
+            return;
+        }
+        //Debug.Log("ITEMDISPLAY: Itemdisplay has " + node.relatedArrows.Count + " related arrows.");
+        for (int i = 0; i < node.relatedArrows.Count; i++)
+        {
+            Destroy(node.relatedArrows[i].gameObject);
+            //Debug.Log("Killed arrow.");
+        }
+    }
     public void UpdateArrows(Vector2 scale)
     {
         node.UpdateArrows(scale);
     }
     public override string ToString()
     {
-        Debug.Log("item: " + item);
-        Debug.Log("node: " + node);
+        //Debug.Log("item: " + item);
+        //Debug.Log("node: " + node);
         return "{ItemDisplay: " + item + ", " + node.TypeToString() + "}";
     }
     public void SetSelected(bool selected)

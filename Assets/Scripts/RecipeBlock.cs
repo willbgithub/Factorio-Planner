@@ -31,17 +31,25 @@ public class RecipeBlock : MonoBehaviour
     bool dragging = false;
     bool pointed = false;
     bool taken = false;
+    bool initialized = false;
 
     public void Initialize(UIPlanner parent, Recipe recipe, Fraction factor)
     {
+        //Debug.Log("RECIPEBLOCK: Initialize(" + parent + ", " + recipe + ", " + factor + ")");
         this.parent = parent;
         SetRecipe(recipe);
         SetFactor(factor);
         UpdateItems();
         UpdateValues();
+        initialized = true;
+    }
+    public void OnDestroy()
+    {
+        //Debug.Log("RECIPEBLOCK: OnDestroy");
     }
     public void Connect(Node node)
     {
+        //Debug.Log("RECIPEBLOCK: Connect");
         if (node.type == Node.TYPE.INPUT)
         {
             for (int i = 0; i < products.transform.childCount; i++)
@@ -72,7 +80,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void OnFactorPointerClick(BaseEventData data)
     {
-        Debug.Log("OnFactorPointerClick");
+        //Debug.Log("RECIPEBLOCK: OnFactorPointerClick");
 
     }
     public void OnItemDisplayPointerClick(ItemDisplay itemDisplay, BaseEventData data)
@@ -81,13 +89,15 @@ public class RecipeBlock : MonoBehaviour
     }
     public void Start()
     {
-        if (!parent.IsUnityNull() && !recipe.IsUnityNull() && !factor.IsUnityNull())
+        //Debug.Log("RECIPEBLOCK: Start()");
+        if (!initialized && !parent.IsUnityNull() && !recipe.IsUnityNull() && !factor.IsUnityNull())
         {
             Initialize(parent, recipe, factor);
         }
     }
     public void UpdateArrows(Vector2 scale)
     {
+        //Debug.Log("RECIPEBLOCK: UpdateArrows");
         for (int i = 0; i < inputs.transform.childCount; i++)
         {
             inputs.transform.GetChild(i).gameObject.GetComponent<ItemDisplay>().UpdateArrows(scale);
@@ -99,6 +109,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void UpdateValues()
     {
+        //Debug.Log("RECIPEBLOCK: UpdateValues");
         parent.RecipeBlockUpdateValues(this);
     }
     public void ItemDisplayOnPointerEnter()
@@ -150,11 +161,14 @@ public class RecipeBlock : MonoBehaviour
     }
     public void UpdateItems()
     {
+        //.Log("RECIPEBLOCK: UpdateItems");
+        //Debug.Log("RECIPEBLOCK: Block has " + inputs.transform.childCount + " inputs.");
         for (int i = 0; i < inputs.transform.childCount; i++)
         {
             Destroy(inputs.transform.GetChild(i).gameObject);
         }
         inputs.transform.DetachChildren();
+        //Debug.Log("RECIPEBLOCK: Block has " + products.transform.childCount + " products.");
         for (int i = 0; i < products.transform.childCount; i++)
         {
             Destroy(products.transform.GetChild(i).gameObject);
@@ -175,11 +189,13 @@ public class RecipeBlock : MonoBehaviour
     }
     public void AddInput(ItemValue input)
     {
+        //Debug.Log("AddInput(" + input + ")");
         ItemDisplay itemDisplay = Instantiate(ITEM_DISPLAY_PREFAB, inputs.transform).GetComponent<ItemDisplay>();
         itemDisplay.Initialize(this, input.GetItem(), input.GetValue(), false);
     }
     public void AddProduct(ItemValue product)
     {
+        //Debug.Log("AddProduct(" + product + ")");
         ItemDisplay itemDisplay = Instantiate(ITEM_DISPLAY_PREFAB, products.transform).GetComponent<ItemDisplay>();
         itemDisplay.Initialize(this, product.GetItem(), product.GetValue(), true);
     }

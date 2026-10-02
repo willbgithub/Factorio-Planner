@@ -26,4 +26,8 @@ public class Arrow : MonoBehaviour
     {
         return leftNode == node || rightNode == node;
     }
+    public void OnDestroy()
+    {
+        //Debug.Log("ARROW: OnDestroy");
+    }
 }

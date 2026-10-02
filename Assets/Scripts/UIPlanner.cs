@@ -17,16 +17,20 @@ public class UIPlanner : MonoBehaviour
     public Node rawProduct;
     public Recipe recipe;
     public Node selectedNode = null;
-    public TMP_Text cursorPos;
     public void Start()
     {
+        //Debug.Log("UIPLANNER: Start");
         CreateRecipeBlock(recipe, 2);
+    }
+    public void OnDestroy()
+    {
+        //Debug.Log("UIPLANNER: OnDestroy");
     }
     public void RecipeBlockUpdateValues(RecipeBlock recipeBlock)
     {
         //Debug.Log("UIPLANNER: RecipeBlockUpdateValues");
         //Debug.Log("Recipe block has " + (recipeBlock.inputs.transform.childCount).ToString() + " inputs and " + (recipeBlock.products.transform.childCount).ToString() + " products.");
-        for (int i = 1; i < recipeBlock.inputs.transform.childCount; i++)
+        for (int i = 0; i < recipeBlock.inputs.transform.childCount; i++)
         {
             //Debug.Log("recipeBlock: " + recipeBlock);
             //Debug.Log(".inputs: " + recipeBlock.inputs);
@@ -37,7 +41,7 @@ public class UIPlanner : MonoBehaviour
             //Debug.Log(".node: " + recipeBlock.inputs.transform.GetChild(i).gameObject.GetComponent<ItemDisplay>().node);
             UpdateRawValues(recipeBlock.inputs.transform.GetChild(i).GetComponent<ItemDisplay>().node);
         }
-        for (int i = 1; i < recipeBlock.products.transform.childCount; i++)
+        for (int i = 0; i < recipeBlock.products.transform.childCount; i++)
         {
             //Debug.Log("Product node: " + recipeBlock.products.transform.GetChild(i).GetComponent<ItemDisplay>().node);
             UpdateRawValues(recipeBlock.products.transform.GetChild(i).GetComponent<ItemDisplay>().node);
@@ -57,7 +61,7 @@ public class UIPlanner : MonoBehaviour
     }
     public void Resolve(ItemDisplay itemDisplay)
     {
-        Debug.Log("Resolve");
+        //Debug.Log("UIPLANNER: Resolve");
         if (itemDisplay.node.type == Node.TYPE.INPUT)
         {
             Fraction unresolved = itemDisplay.GetUnaccountedInput();
@@ -71,6 +75,7 @@ public class UIPlanner : MonoBehaviour
     }
     public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor)
     {
+        //Debug.Log("UIPLANNER: CreateRecipeBlock(" + recipe + ", " + factor + ")");
         RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, recipeBlocks.transform);
         recipeBlock.Initialize(this, recipe, factor);
         return recipeBlock;
@@ -147,8 +152,6 @@ public class UIPlanner : MonoBehaviour
     }
     public void OnPointerClick(BaseEventData data)
     {
-        PointerEventData data2 = (PointerEventData)data;
-        Debug.Log(data2.pressPosition);
     }
     public void RecipeBlockOnDrag(RecipeBlock block, BaseEventData data)
     {
