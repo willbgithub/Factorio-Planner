@@ -10,14 +10,16 @@ public class UIPlanner : MonoBehaviour
     public GameObject canvas;
     public GameObject recipeBlocks;
     public GameObject arrows;
+    public GameObject recipePrompt;
+    public GameObject recipeInput;
+    //public GameObject factorInput;
     public RecipeBlock recipeBlockPrefab;
     public Arrow arrowPrefab;
-    public RecipeBlock recipeBlock1;
-    public RecipeBlock recipeBlock2;
     public Node rawInput;
     public Node rawProduct;
-    public Recipe recipe;
-    public Node selectedNode = null;
+    [DoNotSerialize] public Node selectedNode = null;
+    public Vector2 targetPosition;
+    bool prompting = false;
 
     const string UNITY_ITEM_PATH = @"Assets/Prototypes/Items/";
     const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
@@ -25,8 +27,7 @@ public class UIPlanner : MonoBehaviour
     public void Start()
     {
         //Debug.Log("UIPLANNER: Start");
-        CreateRecipeBlock(GetRecipe("iron-plate"), 2);
-        CreateRecipeBlock(GetRecipe("iron-gear-wheel"), 1);
+        recipePrompt.SetActive(false);
     }
     public Item GetItem(string prefabName)
     {
@@ -36,6 +37,35 @@ public class UIPlanner : MonoBehaviour
             Debug.LogError("ERROR: Could not find item \"" + prefabName + "\"");
         }
         return item;
+    }
+    public void OnPointerClick(BaseEventData data)
+    {
+        Debug.Log("OnPointerClick");
+        PointerEventData data2 = (PointerEventData)data;
+        if (data2.button == PointerEventData.InputButton.Right && !prompting)
+        {
+            Debug.Log("RMB pressed");
+            targetPosition = data2.position;
+            CreateRecipeBlock();
+        }
+    }
+    public void CreateRecipeBlock()
+    {
+        Debug.Log("CreateRecipeBlock1");
+        recipePrompt.SetActive(true);
+        prompting = true;
+        // Next call at OnRecipePromptConfirm
+    }
+    public void OnRecipePromptConfirm()
+    {
+        Recipe recipe = GetRecipe(recipeInput.GetComponent<TMP_InputField>().text);
+        if (recipe.IsUnityNull())
+        {
+            return;
+        }
+        CreateRecipeBlock(recipe, 1, targetPosition);
+        recipePrompt.SetActive(false);
+        prompting = false;
     }
     public Recipe GetRecipe(string prefabName)
     {
@@ -92,15 +122,16 @@ public class UIPlanner : MonoBehaviour
             Item item = itemDisplay.item;
             Recipe recipe = item.GetBestRecipe();
             Fraction factor = unresolved / recipe.GetRate(item);
-            RecipeBlock block = CreateRecipeBlock(recipe, factor);
+            RecipeBlock block = CreateRecipeBlock(recipe, factor, Vector2.zero);
             block.Connect(itemDisplay.node);
         }
         
     }
-    public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor)
+    public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor, Vector2 position)
     {
         //Debug.Log("UIPLANNER: CreateRecipeBlock(" + recipe + ", " + factor + ")");
         RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, recipeBlocks.transform);
+        recipeBlock.transform.position = position;
         recipeBlock.Initialize(this, recipe, factor);
         return recipeBlock;
     }
@@ -190,9 +221,7 @@ public class UIPlanner : MonoBehaviour
             Debug.LogError("ERROR: You are connecting two combination nodes which is NOT SUPPORTED YET!!!");
         }
     }
-    public void OnPointerClick(BaseEventData data)
-    {
-    }
+    
     public void RecipeBlockOnDrag(RecipeBlock block, BaseEventData data)
     {
         PointerEventData data2 = (PointerEventData)data;
