@@ -28,6 +28,8 @@ public class UIPlanner : MonoBehaviour
     {
         //Debug.Log("UIPLANNER: Start");
         recipePrompt.SetActive(false);
+        CreateRecipeBlock(GetRecipe("iron-gear-wheel"), 1, new Vector2(1500, 540));
+        CreateRecipeBlock(GetRecipe("iron-plate"), 1, new Vector2(500, 540));
     }
     public Item GetItem(string prefabName)
     {
@@ -40,18 +42,18 @@ public class UIPlanner : MonoBehaviour
     }
     public void OnPointerClick(BaseEventData data)
     {
-        Debug.Log("OnPointerClick");
+        //Debug.Log("OnPointerClick");
         PointerEventData data2 = (PointerEventData)data;
         if (data2.button == PointerEventData.InputButton.Right && !prompting)
         {
-            Debug.Log("RMB pressed");
-            targetPosition = data2.position;
+            //Debug.Log("RMB pressed");
+            targetPosition = data2.position / canvas.GetComponent<RectTransform>().localScale;
             CreateRecipeBlock();
         }
     }
     public void CreateRecipeBlock()
     {
-        Debug.Log("CreateRecipeBlock1");
+        //Debug.Log("CreateRecipeBlock1");
         recipePrompt.SetActive(true);
         prompting = true;
         // Next call at OnRecipePromptConfirm
@@ -125,13 +127,12 @@ public class UIPlanner : MonoBehaviour
             RecipeBlock block = CreateRecipeBlock(recipe, factor, Vector2.zero);
             block.Connect(itemDisplay.node);
         }
-        
     }
     public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor, Vector2 position)
     {
         //Debug.Log("UIPLANNER: CreateRecipeBlock(" + recipe + ", " + factor + ")");
         RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, recipeBlocks.transform);
-        recipeBlock.transform.position = position;
+        recipeBlock.transform.position = position* canvas.GetComponent<RectTransform>().localScale;
         recipeBlock.Initialize(this, recipe, factor);
         return recipeBlock;
     }
@@ -156,25 +157,31 @@ public class UIPlanner : MonoBehaviour
     }
     public void UpdateRawValues(Node node)
     {
+        Debug.Log("UpdateRawValues on " + node);
         node.Disconnect(rawInput);
         node.Disconnect(rawProduct);
+        Debug.Log("Disconnected node from raw inputs and raw products.");
         Fraction rawInputValue = 0;
         Fraction rawProductValue = 0;
         if (node.type == Node.TYPE.INPUT)
         {
             rawInputValue = node.GetUnaccountedInput();
+            Debug.Log("Node has " + rawInputValue + " unsatisfied demand");
         }
         else if (node.type == Node.TYPE.PRODUCT)
         {
             rawProductValue = node.GetUnaccountedProduct();
+            Debug.Log("Node has " + rawProductValue + " extra production");
         }
-        if (rawInputValue != 0)
+        if (rawInputValue > 0)
         {
             Connect(node, rawInput);
+            Debug.Log("Connected node to raw input");
         }
-        if (rawProductValue != 0)
+        if (rawProductValue > 0)
         {
             Connect(node, rawProduct);
+            Debug.Log("Connected node to raw product");
         }
     }
     public void Connect(Node node1, Node node2)
@@ -194,11 +201,11 @@ public class UIPlanner : MonoBehaviour
         {
             node1.leftNodes.Add(node2);
             node2.rightNodes.Add(node1);
-            if (node1.IsConnected(rawInput) && node1.GetUnaccountedInput() == 0)
+            if (node1.IsConnected(rawInput) && node1.GetUnaccountedInput() <= 0)
             {
                 node1.Disconnect(rawInput);
             }
-            if (node2.IsConnected(rawProduct) && node2.GetUnaccountedProduct() == 0)
+            if (node2.IsConnected(rawProduct) && node2.GetUnaccountedProduct() <= 0)
             {
                 node2.Disconnect(rawProduct);
             }
@@ -207,11 +214,11 @@ public class UIPlanner : MonoBehaviour
         {
             node1.rightNodes.Add(node2);
             node2.leftNodes.Add(node1);
-            if (node1.IsConnected(rawProduct) && node1.GetUnaccountedProduct() == 0)
+            if (node1.IsConnected(rawProduct) && node1.GetUnaccountedProduct() <= 0)
             {
                 node1.Disconnect(rawProduct);
             }
-            if (node2.IsConnected(rawInput) && node2.GetUnaccountedInput() == 0)
+            if (node2.IsConnected(rawInput) && node2.GetUnaccountedInput() <= 0)
             {
                 node2.Disconnect(rawInput);
             }

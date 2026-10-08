@@ -142,6 +142,46 @@ public class Contribution
         }
         return 0;
     }
+    public Fraction GetRawInput(Item item)
+    {
+        for (int i = 0; i < itemRates.Count; i++)
+        {
+            if (itemRates[i].GetItem().GetPrefabName() == item.GetPrefabName())
+            {
+                return itemRates[i].GetConsumption();
+            }
+        }
+        return 0;
+    }
+    public Fraction GetRawProduct(Item item)
+    {
+        for (int i = 0; i < itemRates.Count; i++)
+        {
+            if (itemRates[i].GetItem().GetPrefabName() == item.GetPrefabName())
+            {
+                return itemRates[i].GetProduction();
+            }
+        }
+        return 0;
+    }
+    public List<ItemValue> GetRawInputs()
+    {
+        List<ItemValue> returnList = new List<ItemValue>();
+        for (int i = 0; i < itemRates.Count; i++)
+        {
+            returnList.Add(new ItemValue(itemRates[i].GetItem(), itemRates[i].GetConsumption()));
+        }
+        return returnList;
+    }
+    public List<ItemValue> GetRawProducts()
+    {
+        List<ItemValue> returnList = new List<ItemValue>();
+        for (int i = 0; i < itemRates.Count; i++)
+        {
+            returnList.Add(new ItemValue(itemRates[i].GetItem(), itemRates[i].GetProduction()));
+        }
+        return returnList;
+    }
     public override string ToString()
     {
         if (itemRates.Count == 0)

@@ -41,6 +41,14 @@ public class Recipe : Prototype
     {
         return contribution.GetRate(prefabName);
     }
+    public Fraction GetRawInput(Item item)
+    {
+        return contribution.GetRawInput(item);
+    }
+    public Fraction GetRawProduct(Item item)
+    {
+        return contribution.GetRawProduct(item);
+    }
     // Member Data
     [SerializeField] Contribution contribution;
 }

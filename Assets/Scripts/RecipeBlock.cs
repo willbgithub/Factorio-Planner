@@ -6,6 +6,7 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 using UnityEngine.Windows;
+using static UnityEngine.EventSystems.StandaloneInputModule;
 
 public class RecipeBlock : MonoBehaviour
 {
@@ -63,6 +64,41 @@ public class RecipeBlock : MonoBehaviour
             }
         }
     }
+    public List<Node> GetInputNodes()
+    {
+        List<Node> inputNodes = new List<Node>();
+        for (int i = 0; i < inputs.transform.childCount; i++)
+        {
+            ItemDisplay input = inputs.transform.GetChild(i).GetComponent<ItemDisplay>();
+            inputNodes.Add(input.node);
+        }
+        return inputNodes;
+    }
+    public List<Node> GetProductNodes()
+    {
+        List<Node> productNodes = new List<Node>();
+        for (int i = 0; i < products.transform.childCount; i++)
+        {
+            ItemDisplay product = products.transform.GetChild(i).GetComponent<ItemDisplay>();
+            productNodes.Add(product.node);
+        }
+        return productNodes;
+    }
+    public List<Node> GetNodes()
+    {
+        List<Node> nodes = new List<Node>();
+        for (int i = 0; i < inputs.transform.childCount; i++)
+        {
+            ItemDisplay input = inputs.transform.GetChild(i).GetComponent<ItemDisplay>();
+            nodes.Add(input.node);
+        }
+        for (int i = 0; i < products.transform.childCount; i++)
+        {
+            ItemDisplay product = products.transform.GetChild(i).GetComponent<ItemDisplay>();
+            nodes.Add(product.node);
+        }
+        return nodes;
+    }
     public void OnFactorPointerEnter(BaseEventData data)
     {
         taken = true;
@@ -80,8 +116,30 @@ public class RecipeBlock : MonoBehaviour
     }
     public void OnFactorPointerClick(BaseEventData data)
     {
-        //Debug.Log("RECIPEBLOCK: OnFactorPointerClick");
-
+        Debug.Log("RECIPEBLOCK: OnFactorPointerClick");
+        List<Node> nodes = GetNodes();
+        Fraction biggestFactor = 0;
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            Node node = nodes[i];
+            if (node.type == Node.TYPE.INPUT || node.type == Node.TYPE.COMBINATION)
+            {
+                Fraction factor = -nodes[i].GetUnaccountedInput() + nodes[i].value / recipe.GetRate(nodes[i].item);
+                if (factor > biggestFactor)
+                {
+                    biggestFactor = factor;
+                }
+            }
+            if (node.type == Node.TYPE.PRODUCT || node.type == Node.TYPE.COMBINATION)
+            {
+                factor = -nodes[i].GetUnaccountedProduct() + nodes[i].value / recipe.GetRate(nodes[i].item);
+                if (factor > biggestFactor)
+                {
+                    biggestFactor = factor;
+                }
+            }        
+        }
+        SetFactor(biggestFactor);
     }
     public void OnItemDisplayPointerClick(ItemDisplay itemDisplay, BaseEventData data)
     {
@@ -175,12 +233,12 @@ public class RecipeBlock : MonoBehaviour
         }
         products.transform.DetachChildren();
         Contribution contribution = recipe.GetContribution();
-        List<ItemValue> inputValues = contribution.GetInputs();
+        List<ItemValue> inputValues = contribution.GetRawInputs();
         for (int i = 0; i < inputValues.Count; i++)
         {
             AddInput(inputValues[i].Multiply(factor));
         }
-        List<ItemValue> productValues = contribution.GetProducts();
+        List<ItemValue> productValues = contribution.GetRawProducts();
         for (int i = 0; i < productValues.Count; i++)
         {
             AddProduct(productValues[i].Multiply(factor));
@@ -190,11 +248,19 @@ public class RecipeBlock : MonoBehaviour
     public void AddInput(ItemValue input)
     {
         //Debug.Log("AddInput(" + input + ")");
+        if (input.GetValue() == 0)
+        {
+            return;
+        }
         ItemDisplay itemDisplay = Instantiate(ITEM_DISPLAY_PREFAB, inputs.transform).GetComponent<ItemDisplay>();
         itemDisplay.Initialize(this, input.GetItem(), input.GetValue(), false);
     }
     public void AddProduct(ItemValue product)
     {
+        if (product.GetValue() == 0)
+        {
+            return;
+        }
         //Debug.Log("AddProduct(" + product + ")");
         ItemDisplay itemDisplay = Instantiate(ITEM_DISPLAY_PREFAB, products.transform).GetComponent<ItemDisplay>();
         itemDisplay.Initialize(this, product.GetItem(), product.GetValue(), true);
@@ -226,5 +292,10 @@ public class RecipeBlock : MonoBehaviour
         }
         this.factor = factor;
         factorLabel.text = factor.ToString();
+        //List<Node> inputNodes = GetInputNodes();
+        //for (int i = 0; i < inputNodes.Count; i++)
+        //{
+        //    inputNodes[i].value = recipe.GetContribution()
+        //}
     }
 }
