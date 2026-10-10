@@ -42,11 +42,11 @@ public class Planner
             }
         }
     }
-    //[MenuItem("Factorio/Planner Debug")]
+    [MenuItem("Factorio/Planner Debug")]
     public static void DebugFunc()
     {
         
-        Item item = GetItem("chemical-science-pack");
+        Item item = GetItem("logistic-science-pack");
         Debug.Log("Item: " + item);
         Fraction demandRate = 1;
         Debug.Log("Demand rate: " + demandRate);

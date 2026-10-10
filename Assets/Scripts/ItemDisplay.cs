@@ -47,6 +47,17 @@ public class ItemDisplay : MonoBehaviour
             inputLabel.GetComponent<TMP_Text>().text = rate.ToString();
         }
     }
+    public void SetValue(Fraction fraction)
+    {
+        if (node.type == Node.TYPE.INPUT)
+        {
+            inputLabel.GetComponent<TMP_Text>().text = fraction.ToString();
+        }
+        else if (node.type == Node.TYPE.PRODUCT)
+        {
+            productLabel.GetComponent<TMP_Text>().text = fraction.ToString();
+        }
+    }
     public void OnDestroy()
     {
         //Debug.Log("ITEMDISPLAY: OnDestroy");

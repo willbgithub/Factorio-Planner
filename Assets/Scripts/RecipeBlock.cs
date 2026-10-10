@@ -40,8 +40,6 @@ public class RecipeBlock : MonoBehaviour
         this.parent = parent;
         SetRecipe(recipe);
         SetFactor(factor);
-        UpdateItems();
-        UpdateValues();
         initialized = true;
     }
     public void OnDestroy()
@@ -244,6 +242,7 @@ public class RecipeBlock : MonoBehaviour
             AddProduct(productValues[i].Multiply(factor));
         }
         UpdateHeight();
+        UpdateValues();
     }
     public void AddInput(ItemValue input)
     {
@@ -292,10 +291,6 @@ public class RecipeBlock : MonoBehaviour
         }
         this.factor = factor;
         factorLabel.text = factor.ToString();
-        //List<Node> inputNodes = GetInputNodes();
-        //for (int i = 0; i < inputNodes.Count; i++)
-        //{
-        //    inputNodes[i].value = recipe.GetContribution()
-        //}
+        UpdateItems();
     }
 }

@@ -16,6 +16,11 @@ public class Node : MonoBehaviour
     public TYPE type;
 
 
+    public void SetValue(Fraction value)
+    {
+        this.value = value;
+        parent.SetValue(value);
+    }
     public void Disconnect(Node node)
     {
         if (!IsConnected(node))
