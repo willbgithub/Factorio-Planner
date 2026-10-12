@@ -889,24 +889,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b411316249f31b40b4dc9a674d47d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  parent: {fileID: 0}
-  recipeLabel: {fileID: 23785965318774540}
-  factorLabel: {fileID: 7413737582651470269}
-  recipeIconBackground: {fileID: 5126719093194714049}
-  recipeIcon: {fileID: 207466545480612164}
   inputs: {fileID: 7604292095366688271}
   products: {fileID: 6188512804277213801}
-  background: {fileID: 9040252024598588687}
-  factor:
-    numerator: 0
-    denominator: 1
-  recipe: {fileID: 0}
-  ITEM_DISPLAY_PREFAB: {fileID: 1924494175432583918, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
-  updateFactorButton: {fileID: 8721196735501941055}
-  DEFAULT_COLOR: {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 1}
-  FOCUS_COLOR: {r: 0.2735849, g: 0.2735849, b: 0.2735849, a: 1}
-  FACTOR_DEFAULT_COLOR: {r: 0.9254902, g: 0.38039216, b: 0.43529412, a: 1}
-  FACTOR_FOCUS_COLOR: {r: 0.9254902, g: 0.627451, b: 0.627451, a: 1}
 --- !u!114 &6986654763011318264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1360,7 +1344,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1924494175432583918, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
       propertyPath: m_Name
-      value: ItemDisplay
+      value: Node
       objectReference: {fileID: 0}
     - target: {fileID: 3162355288237209745, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
       propertyPath: m_Pivot.x
@@ -1470,7 +1454,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1924494175432583918, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
       propertyPath: m_Name
-      value: ItemDisplay
+      value: Node
       objectReference: {fileID: 0}
     - target: {fileID: 3162355288237209745, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
       propertyPath: m_Pivot.x

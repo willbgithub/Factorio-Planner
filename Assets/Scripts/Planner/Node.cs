@@ -11,16 +11,25 @@ public class Node : MonoBehaviour
     Item item;
     Fraction value;
     List<Arrow> relatedArrows;
+    List<Node> inputNodes;
+    List<Node> productNodes;
+    [SerializeField] GameObject nodePrefab;
     public void Start()
     {
         Debug.Log("Node: Start");
     }
-    public void Initialize(Item item, Fraction value, NODETYPE nodeType)
+    public Node CreateNode(Transform parent, NODETYPE nodeType, Item item, Fraction value)
     {
-        Debug.Log("Node: Initialize");
-        this.nodeType = nodeType;
-        this.item = item;
-        SetValue(value);
+        Debug.Log("Node: CreateNode");
+        Node node = Instantiate(nodePrefab, parent).GetComponent<Node>();
+        node.nodeType = nodeType;
+        node.item = item;
+        node.SetValue(value);
+        return node;
+    }
+    public void SetItem(Item item)
+    {
+
     }
     public void SetValue(Fraction value)
     {
