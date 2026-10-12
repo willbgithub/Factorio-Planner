@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -15,23 +16,20 @@ public class Node : MonoBehaviour
     List<Node> inputNodes;
     List<Node> productNodes;
 
-    [SerializeField] static GameObject nodePrefab;
+    
     [SerializeField] Image itemIcon;
     [SerializeField] TMP_Text inputLabel;
     [SerializeField] TMP_Text productLabel;
     public void Start()
     {
         Debug.Log("Node: Start");
+        relatedArrows = new List<Arrow>();
+        inputNodes = new List<Node>();
+        productNodes = new List<Node>();
     }
-    public static Node CreateNode(RecipeBlock caller, Transform parent, NODETYPE nodeType, Item item, Fraction value)
+    public void SetParent(RecipeBlock parent)
     {
-        Debug.Log("Node: CreateNode");
-        Node node = Instantiate(nodePrefab, parent).GetComponent<Node>();
-        node.parent = caller;
-        node.SetNodeType(nodeType);
-        node.SetItem(item);
-        node.SetValue(value);
-        return node;
+        this.parent = parent;
     }
     public void SetNodeType(NODETYPE nodeType)
     {
@@ -71,6 +69,10 @@ public class Node : MonoBehaviour
     public void OnDestroy()
     {
         Debug.Log("Node: OnDestroy");
+        if (relatedArrows.IsUnityNull())
+        {
+            return;
+        }
         for (int i = 0; i < relatedArrows.Count; i++)
         {
             Destroy(relatedArrows[i].gameObject);

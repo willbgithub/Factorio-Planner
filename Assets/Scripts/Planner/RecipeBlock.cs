@@ -12,21 +12,27 @@ public class RecipeBlock : MonoBehaviour
     Recipe recipe;
     Fraction factor;
 
-    [SerializeField] static RecipeBlock recipeBlockPrefab;
     [SerializeField] GameObject inputs;
     [SerializeField] GameObject products;
+
+    [SerializeField] GameObject nodePrefab;
     public void Start()
     {
         Debug.Log("RecipeBlock: Start");
     }
-    public static RecipeBlock CreateRecipeBlock(UIPlanner caller, Transform parent, Recipe recipe, Fraction factor)
+    public Node CreateNode(Transform parent, NODETYPE nodeType, Item item, Fraction value)
     {
-        Debug.Log("RecipeBlock: CreateRecipeBlock");
-        RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, parent);
-        recipeBlock.parent = caller;
-        recipeBlock.SetRecipe(recipe);
-        recipeBlock.SetFactor(factor);
-        return recipeBlock;
+        Debug.Log("Node: CreateNode");
+        Node node = Instantiate(nodePrefab, parent).GetComponent<Node>();
+        node.SetParent(this);
+        node.SetNodeType(nodeType);
+        node.SetItem(item);
+        node.SetValue(value);
+        return node;
+    }
+    public void SetParent(UIPlanner parent)
+    {
+        this.parent = parent;
     }
     public void SetRecipe(Recipe recipe)
     {
@@ -41,12 +47,12 @@ public class RecipeBlock : MonoBehaviour
         List<ItemValue> recipeInputs = recipe.GetRawInputs();
         for (int i = 0; i < recipeInputs.Count; i++)
         {
-            Node.CreateNode(this, inputs.transform, NODETYPE.INPUT, recipeInputs[i].GetItem(), recipeInputs[i].GetValue());
+            CreateNode(inputs.transform, NODETYPE.INPUT, recipeInputs[i].GetItem(), recipeInputs[i].GetValue());
         }
         List<ItemValue> recipeProducts = recipe.GetRawProducts();
         for (int i = 0; i < recipeProducts.Count; i++)
         {
-            Node.CreateNode(this, products.transform, NODETYPE.PRODUCT, recipeProducts[i].GetItem(), recipeProducts[i].GetValue());
+            CreateNode(products.transform, NODETYPE.PRODUCT, recipeProducts[i].GetItem(), recipeProducts[i].GetValue());
         }
         // Update height of recipe block
         int height = GetHeight();
@@ -62,14 +68,20 @@ public class RecipeBlock : MonoBehaviour
     public void SetFactor(Fraction factor)
     {
         Debug.Log("RecipeBlock: SetFactor");
+        Debug.Log("factor: " + factor);
+        Debug.Log("recipe: " + recipe);
         if (factor == 0)
         {
             Destroy(gameObject);
             return;
         }
         List<Node> inputs = GetInputs();
+        Debug.Log("inputs: " + inputs);
         for (int i = 0; i < inputs.Count; i++)
         {
+            Debug.Log("inputs[i]: " + inputs[i]);
+            Debug.Log("inputs[i].GetItem(): " + inputs[i].GetItem());
+            Debug.Log("recipe.GetRawInput(inputs[i].GetItem()): " + recipe.GetRawInput(inputs[i].GetItem()));
             Fraction value = recipe.GetRawInput(inputs[i].GetItem()) * factor;
             inputs[i].SetValue(value);
         }

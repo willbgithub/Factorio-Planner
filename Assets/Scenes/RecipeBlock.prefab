@@ -717,7 +717,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2658997455434065449}
+  - {fileID: 8418455792173201676}
   m_Father: {fileID: 4553502373828487392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
@@ -834,7 +834,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4553502373828487392}
   - component: {fileID: 3434065144046455418}
-  - component: {fileID: 6138194511787903108}
+  - component: {fileID: 6682618902539693682}
   - component: {fileID: 6986654763011318264}
   m_Layer: 0
   m_Name: RecipeBlock
@@ -877,7 +877,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7218609612689906979}
   m_CullTransparentMesh: 1
---- !u!114 &6138194511787903108
+--- !u!114 &6682618902539693682
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -888,9 +888,10 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1b411316249f31b40b4dc9a674d47d05, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
+  m_EditorClassIdentifier: Assembly-CSharp::RecipeBlock
   inputs: {fileID: 7604292095366688271}
   products: {fileID: 6188512804277213801}
+  nodePrefab: {fileID: 1924494175432583918, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
 --- !u!114 &6986654763011318264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -908,10 +909,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6138194511787903108}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: OnDrag
-          m_Mode: 0
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -924,10 +925,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6138194511787903108}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: OnPointerEnter
-          m_Mode: 0
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -940,10 +941,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6138194511787903108}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: OnPointerExit
-          m_Mode: 0
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -956,10 +957,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6138194511787903108}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: OnDragStart
-          m_Mode: 0
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -972,10 +973,10 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6138194511787903108}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: OnDragEnd
-          m_Mode: 0
+          m_MethodName: 
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1088,7 +1089,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5109525973936018435}
+  - {fileID: 6030785590893204448}
   m_Father: {fileID: 4553502373828487392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -1290,7 +1291,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6138194511787903108}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
           m_MethodName: OnFactorPointerEnter
           m_Mode: 0
@@ -1306,7 +1307,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6138194511787903108}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
           m_MethodName: OnFactorPointerExit
           m_Mode: 0
@@ -1322,7 +1323,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 6138194511787903108}
+        - m_Target: {fileID: 0}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
           m_MethodName: OnFactorPointerClick
           m_Mode: 0
@@ -1334,7 +1335,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
---- !u!1001 &1082088183432502968
+--- !u!1001 &6860861923062497693
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1426,10 +1427,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4601737185361535420, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 52
-      objectReference: {fileID: 0}
     - target: {fileID: 8039102255405972467, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1439,12 +1436,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
---- !u!224 &2658997455434065449 stripped
+--- !u!224 &8418455792173201676 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3162355288237209745, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
-  m_PrefabInstance: {fileID: 1082088183432502968}
+  m_PrefabInstance: {fileID: 6860861923062497693}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &7857197694385810578
+--- !u!1001 &8670369278782810993
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -1545,8 +1542,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
---- !u!224 &5109525973936018435 stripped
+--- !u!224 &6030785590893204448 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3162355288237209745, guid: daf4385c5bc7d1849bd5fcf307a8820c, type: 3}
-  m_PrefabInstance: {fileID: 7857197694385810578}
+  m_PrefabInstance: {fileID: 8670369278782810993}
   m_PrefabAsset: {fileID: 0}
