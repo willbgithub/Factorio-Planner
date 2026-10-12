@@ -1369,6 +1369,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6ca4b6f2f59270419d6fa85a4884b57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  testRecipe: {fileID: 11400000, guid: 0a300b32b21abfc42923c319020e3062, type: 2}
+  testFactor:
+    numerator: 1
+    denominator: 1
   recipeBlockPrefab: {fileID: 6682618902539693682, guid: 2a6802205d0b9c7468f5fb0eb9cadcea, type: 3}
   recipeBlocks: {fileID: 1533531147}
 --- !u!4 &1778001484

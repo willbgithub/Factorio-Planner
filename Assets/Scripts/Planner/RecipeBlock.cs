@@ -4,21 +4,30 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 using UnityEngine.Windows;
+using static UnityEngine.EventSystems.StandaloneInputModule;
 
 public class RecipeBlock : MonoBehaviour
 {
     UIPlanner parent;
-    Recipe recipe;
-    Fraction factor;
+    [SerializeField] Recipe recipe;
+    [SerializeField] Fraction factor;
 
+    bool focused = false;
+    bool dragging = false;
+    [SerializeField] Color defaultColor;
+    [SerializeField] Color focusedColor;
     [SerializeField] GameObject inputs;
     [SerializeField] GameObject products;
-
+    [SerializeField] TMP_Text recipeLabel;
+    [SerializeField] TMP_Text factorLabel;
+    [SerializeField] Image recipeIcon;
+    [SerializeField] Image background;
     [SerializeField] GameObject nodePrefab;
-    public void Start()
+    public void Awake()
     {
-        Debug.Log("RecipeBlock: Start");
+        Debug.Log("RecipeBlock: Awake");
     }
     public Node CreateNode(Transform parent, NODETYPE nodeType, Item item, Fraction value)
     {
@@ -37,12 +46,15 @@ public class RecipeBlock : MonoBehaviour
     public void SetRecipe(Recipe recipe)
     {
         Debug.Log("RecipeBlock: SetRecipe");
+        this.recipe = recipe;
         // Erase previous nodes
         List<Node> nodes = GetNodes();
         for (int i = 0; i < nodes.Count; i++)
         {
             Destroy(nodes[i].gameObject);
         }
+        inputs.transform.DetachChildren();
+        products.transform.DetachChildren();
         // Add nodes from recipe
         List<ItemValue> recipeInputs = recipe.GetRawInputs();
         for (int i = 0; i < recipeInputs.Count; i++)
@@ -57,6 +69,9 @@ public class RecipeBlock : MonoBehaviour
         // Update height of recipe block
         int height = GetHeight();
         GetComponent<RectTransform>().sizeDelta = new Vector2(GetComponent<RectTransform>().sizeDelta.x, 35 + 65 * height);
+        // Update UI
+        recipeLabel.text = recipe.GetEnglishName();
+        recipeIcon.sprite = recipe.GetIcon();
     }
     public int GetHeight()
     {
@@ -68,20 +83,16 @@ public class RecipeBlock : MonoBehaviour
     public void SetFactor(Fraction factor)
     {
         Debug.Log("RecipeBlock: SetFactor");
-        Debug.Log("factor: " + factor);
-        Debug.Log("recipe: " + recipe);
+        // If the factor is 0, the block is producing and consuming nothing, so it should really just be deleted
         if (factor == 0)
         {
             Destroy(gameObject);
             return;
         }
+        // Update all nodes
         List<Node> inputs = GetInputs();
-        Debug.Log("inputs: " + inputs);
         for (int i = 0; i < inputs.Count; i++)
         {
-            Debug.Log("inputs[i]: " + inputs[i]);
-            Debug.Log("inputs[i].GetItem(): " + inputs[i].GetItem());
-            Debug.Log("recipe.GetRawInput(inputs[i].GetItem()): " + recipe.GetRawInput(inputs[i].GetItem()));
             Fraction value = recipe.GetRawInput(inputs[i].GetItem()) * factor;
             inputs[i].SetValue(value);
         }
@@ -91,6 +102,8 @@ public class RecipeBlock : MonoBehaviour
             Fraction value = recipe.GetRawProduct(products[i].GetItem()) * factor;
             products[i].SetValue(value);
         }
+        // Update text
+        factorLabel.text = factor.ToString();
     }
     public List<Node> GetInputs()
     {
@@ -129,5 +142,67 @@ public class RecipeBlock : MonoBehaviour
     public void OnDestroy()
     {
         Debug.Log("RecipeBlock: OnDestroy");
+    }
+    public override string ToString()
+    {
+        return "{RecipeBlock: " + recipe + "}";
+    }
+
+    // POINTER EVENTS
+    public void SetFocused(bool focused)
+    {
+        this.focused = focused;
+        if (focused)
+        {
+            background.color = focusedColor;
+        }
+        else if (!dragging)
+        {
+            background.color = defaultColor;
+        }
+    }
+    public void SetDragging(bool dragging)
+    {
+        this.dragging = dragging;
+        if (!dragging && !focused)
+        {
+            background.color = defaultColor;
+        }
+    }
+    public void OnPointerEnter(BaseEventData data)
+    {
+        SetFocused(true);
+    }
+    public void OnPointerExit(BaseEventData data)
+    {
+        SetFocused(false);
+    }
+    public void OnPointerClick(BaseEventData data)
+    {
+        float scale = parent.GetScale();
+        Debug.Log(scale);
+    }
+    public void OnBeginDrag(BaseEventData data)
+    {
+        SetDragging(true);
+    }
+    public void OnEndDrag(BaseEventData data)
+    {
+        SetDragging(false);
+    }
+    public void OnDrag(BaseEventData data)
+    {
+        PointerEventData data2 = (PointerEventData)data;
+        float scale = parent.GetScale();
+        Vector2Int pos = new Vector2Int((int)data2.position.x, (int)data2.position.y);
+        if (pos.x < 100)
+            pos.x = 100;
+        else if (pos.x > 1820)
+            pos.x = 1820;
+        if (pos.y < GetComponent<RectTransform>().sizeDelta.y / 2)
+            pos.y = (int)GetComponent<RectTransform>().sizeDelta.y / 2;
+        else if (pos.y > 1080 - GetComponent<RectTransform>().sizeDelta.y / 2)
+            pos.y = 1080 - (int)GetComponent<RectTransform>().sizeDelta.y / 2;
+        transform.position = new Vector3(pos.x*scale, pos.y*scale);
     }
 }

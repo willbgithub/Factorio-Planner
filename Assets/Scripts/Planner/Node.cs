@@ -9,20 +9,20 @@ public enum NODETYPE { INPUT, PRODUCT }
 public class Node : MonoBehaviour
 {
     RecipeBlock parent;
-    NODETYPE nodeType;
-    Item item;
-    Fraction value;
-    List<Arrow> relatedArrows;
-    List<Node> inputNodes;
-    List<Node> productNodes;
+    [SerializeField] NODETYPE nodeType;
+    [SerializeField] Item item;
+    [SerializeField] Fraction value;
+    [SerializeField] List<Arrow> relatedArrows;
+    [SerializeField] List<Node> inputNodes;
+    [SerializeField] List<Node> productNodes;
 
     
     [SerializeField] Image itemIcon;
     [SerializeField] TMP_Text inputLabel;
     [SerializeField] TMP_Text productLabel;
-    public void Start()
+    public void Awake()
     {
-        Debug.Log("Node: Start");
+        Debug.Log("Node: Awake");
         relatedArrows = new List<Arrow>();
         inputNodes = new List<Node>();
         productNodes = new List<Node>();
@@ -41,8 +41,15 @@ public class Node : MonoBehaviour
             productLabel.gameObject.SetActive(false);
             return;
         }
-        inputLabel.gameObject.SetActive(false);
-        productLabel.gameObject.SetActive(true);
+        else if (nodeType == NODETYPE.PRODUCT)
+        {
+            inputLabel.gameObject.SetActive(false);
+            productLabel.gameObject.SetActive(true);
+        }
+        else
+        {
+            Debug.LogError("ERROR: Unhandled node type!");
+        }
     }
     public void SetItem(Item item)
     {
@@ -59,7 +66,19 @@ public class Node : MonoBehaviour
     {
         Debug.Log("Node: SetValue");
         this.value = value;
-
+        if (nodeType == NODETYPE.INPUT)
+        {
+            inputLabel.text = value.ToString();
+        }
+        else if (nodeType == NODETYPE.PRODUCT)
+        {
+            productLabel.text = value.ToString();
+        }
+        else
+        {
+            Debug.LogError("ERROR: Unhandled node type!");
+        }
+            
         UpdateExcess();
     }
     public void UpdateExcess()
@@ -76,6 +95,22 @@ public class Node : MonoBehaviour
         for (int i = 0; i < relatedArrows.Count; i++)
         {
             Destroy(relatedArrows[i].gameObject);
+        }
+    }
+    public override string ToString()
+    {
+        if (nodeType == NODETYPE.INPUT)
+        {
+            return "{InputNode, " + item + ", " + value + "}";
+        }
+        else if (nodeType == NODETYPE.PRODUCT)
+        {
+            return "{ProductNode, " + item + ", " + value + "}";
+        }
+        else
+        {
+            Debug.LogError("ERROR: Unexpected node type!");
+            return null;
         }
     }
 }

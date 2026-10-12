@@ -6,7 +6,11 @@ using UnityEngine.EventSystems;
 
 public class UIPlanner : MonoBehaviour
 {
-    
+    // Test values
+    [SerializeField] Recipe testRecipe;
+    [SerializeField] Fraction testFactor;
+
+    [SerializeField] GameObject canvas;
     [SerializeField] RecipeBlock recipeBlockPrefab;
     [SerializeField] GameObject recipeBlocks;
 
@@ -14,8 +18,11 @@ public class UIPlanner : MonoBehaviour
     public void Start()
     {
         Debug.Log("UIPlanner: Start");
-        Recipe recipe = GetRecipe("automation-science-pack");
-        CreateRecipeBlock(recipeBlocks.transform, recipe, 1);
+        CreateRecipeBlock(testRecipe, testFactor);
+    }
+    public float GetScale()
+    {
+        return GetComponent<RectTransform>().localScale.x;
     }
     static Recipe GetRecipe(string prefabName)
     {
@@ -26,13 +33,12 @@ public class UIPlanner : MonoBehaviour
         }
         return recipe;
     }
-    public RecipeBlock CreateRecipeBlock(Transform parent, Recipe recipe, Fraction factor)
+    public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor)
     {
         Debug.Log("RecipeBlock: CreateRecipeBlock");
-        RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, parent);
+        RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, recipeBlocks.transform);
         recipeBlock.SetParent(this);
         recipeBlock.SetRecipe(recipe);
-        Debug.Log("factor: " + factor);
         recipeBlock.SetFactor(factor);
         return recipeBlock;
     }

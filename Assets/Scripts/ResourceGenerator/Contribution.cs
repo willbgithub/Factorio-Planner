@@ -146,7 +146,7 @@ public class Contribution
     {
         for (int i = 0; i < itemRates.Count; i++)
         {
-            if (itemRates[i].GetItem().GetPrefabName() == item.GetPrefabName())
+            if (itemRates[i].GetItem() == item)
             {
                 return itemRates[i].GetConsumption();
             }
@@ -169,6 +169,8 @@ public class Contribution
         List<ItemValue> returnList = new List<ItemValue>();
         for (int i = 0; i < itemRates.Count; i++)
         {
+            if (itemRates[i].GetConsumption() == 0)
+                continue;
             returnList.Add(new ItemValue(itemRates[i].GetItem(), itemRates[i].GetConsumption()));
         }
         return returnList;
@@ -178,6 +180,8 @@ public class Contribution
         List<ItemValue> returnList = new List<ItemValue>();
         for (int i = 0; i < itemRates.Count; i++)
         {
+            if (itemRates[i].GetProduction() == 0)
+                continue;
             returnList.Add(new ItemValue(itemRates[i].GetItem(), itemRates[i].GetProduction()));
         }
         return returnList;
