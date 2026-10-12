@@ -6,5 +6,8 @@ using UnityEngine.EventSystems;
 
 public class UIPlanner : MonoBehaviour
 {
-    
+    public void Start()
+    {
+        Debug.Log("UIPlanner: Start");
+    }
 }
