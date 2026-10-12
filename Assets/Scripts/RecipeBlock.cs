@@ -217,32 +217,20 @@ public class RecipeBlock : MonoBehaviour
     }
     public void UpdateItems()
     {
-        //.Log("RECIPEBLOCK: UpdateItems");
-        //Debug.Log("RECIPEBLOCK: Block has " + inputs.transform.childCount + " inputs.");
-        for (int i = 0; i < inputs.transform.childCount; i++)
+        if (factor == 0)
         {
-            Destroy(inputs.transform.GetChild(i).gameObject);
+            Destroy(gameObject);
         }
-        inputs.transform.DetachChildren();
-        //Debug.Log("RECIPEBLOCK: Block has " + products.transform.childCount + " products.");
-        for (int i = 0; i < products.transform.childCount; i++)
+        List<Node> inputs = GetInputNodes();
+        List<Node> products = GetProductNodes();
+        for (int i = 0; i < inputs.Count; i++)
         {
-            Destroy(products.transform.GetChild(i).gameObject);
+            inputs[i].SetValue(recipe.GetRawInput(inputs[i].item) * factor);
         }
-        products.transform.DetachChildren();
-        Contribution contribution = recipe.GetContribution();
-        List<ItemValue> inputValues = contribution.GetRawInputs();
-        for (int i = 0; i < inputValues.Count; i++)
+        for (int i = 0; i < products.Count; i++)
         {
-            AddInput(inputValues[i].Multiply(factor));
+            products[i].SetValue(recipe.GetRawProduct(products[i].item) * factor);
         }
-        List<ItemValue> productValues = contribution.GetRawProducts();
-        for (int i = 0; i < productValues.Count; i++)
-        {
-            AddProduct(productValues[i].Multiply(factor));
-        }
-        UpdateHeight();
-        UpdateValues();
     }
     public void AddInput(ItemValue input)
     {
@@ -282,6 +270,7 @@ public class RecipeBlock : MonoBehaviour
         this.recipe = recipe;
         recipeLabel.text = recipe.GetEnglishName();
         recipeIcon.sprite = recipe.GetIcon();
+        CreateItems();
     }
     public void SetFactor(Fraction factor)
     {
@@ -292,5 +281,36 @@ public class RecipeBlock : MonoBehaviour
         this.factor = factor;
         factorLabel.text = factor.ToString();
         UpdateItems();
+    }
+    public void CreateItems()
+    {
+        //.Log("RECIPEBLOCK: UpdateItems");
+        //Debug.Log("RECIPEBLOCK: Block has " + inputs.transform.childCount + " inputs.");
+        for (int i = 0; i < inputs.transform.childCount; i++)
+        {
+            Destroy(inputs.transform.GetChild(i).gameObject);
+            Debug.LogError("ERROR: Unexpected input in uninstantiated recipe block!");
+        }
+        inputs.transform.DetachChildren();
+        //Debug.Log("RECIPEBLOCK: Block has " + products.transform.childCount + " products.");
+        for (int i = 0; i < products.transform.childCount; i++)
+        {
+            Destroy(products.transform.GetChild(i).gameObject);
+            Debug.LogError("ERROR: Unexpected product in uninstantiated recipe block!");
+        }
+        products.transform.DetachChildren();
+        Contribution contribution = recipe.GetContribution();
+        List<ItemValue> inputValues = contribution.GetRawInputs();
+        for (int i = 0; i < inputValues.Count; i++)
+        {
+            AddInput(inputValues[i]);
+        }
+        List<ItemValue> productValues = contribution.GetRawProducts();
+        for (int i = 0; i < productValues.Count; i++)
+        {
+            AddProduct(productValues[i]);
+        }
+        UpdateHeight();
+        UpdateValues();
     }
 }
