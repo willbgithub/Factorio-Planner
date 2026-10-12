@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 7779754970825783110}
   - component: {fileID: 1269702631660419885}
   m_Layer: 0
-  m_Name: Item
+  m_Name: ItemIcon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -275,6 +275,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14e87da5fb682f044988725497057468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Node
+  nodePrefab: {fileID: 1924494175432583918}
+  itemIcon: {fileID: 1269702631660419885}
+  inputLabel: {fileID: 5904484207310452359}
+  productLabel: {fileID: 1481356333802796368}
 --- !u!1 &3072771705345535643
 GameObject:
   m_ObjectHideFlags: 0

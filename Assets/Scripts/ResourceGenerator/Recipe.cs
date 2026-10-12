@@ -4,7 +4,7 @@
 // will b. gaming
 using System;
 using UnityEngine;
-using static UnityEditor.Progress;
+using System.Collections.Generic;
 [CreateAssetMenu(fileName = "Recipe", menuName = "Scriptable Objects/Recipe")]
 [Serializable]
 public class Recipe : Prototype
@@ -45,9 +45,17 @@ public class Recipe : Prototype
     {
         return contribution.GetRawInput(item);
     }
+    public List<ItemValue> GetRawInputs()
+    {
+        return contribution.GetRawInputs();
+    }
     public Fraction GetRawProduct(Item item)
     {
         return contribution.GetRawProduct(item);
+    }
+    public List<ItemValue> GetRawProducts()
+    {
+        return contribution.GetRawProducts();
     }
     // Member Data
     [SerializeField] Contribution contribution;

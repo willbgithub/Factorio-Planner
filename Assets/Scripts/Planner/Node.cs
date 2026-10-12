@@ -1,40 +1,67 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum NODETYPE { INPUT, PRODUCT }
 
 public class Node : MonoBehaviour
 {
-    
-    
+    RecipeBlock parent;
     NODETYPE nodeType;
     Item item;
     Fraction value;
     List<Arrow> relatedArrows;
     List<Node> inputNodes;
     List<Node> productNodes;
-    [SerializeField] GameObject nodePrefab;
+
+    [SerializeField] static GameObject nodePrefab;
+    [SerializeField] Image itemIcon;
+    [SerializeField] TMP_Text inputLabel;
+    [SerializeField] TMP_Text productLabel;
     public void Start()
     {
         Debug.Log("Node: Start");
     }
-    public Node CreateNode(Transform parent, NODETYPE nodeType, Item item, Fraction value)
+    public static Node CreateNode(RecipeBlock caller, Transform parent, NODETYPE nodeType, Item item, Fraction value)
     {
         Debug.Log("Node: CreateNode");
         Node node = Instantiate(nodePrefab, parent).GetComponent<Node>();
-        node.nodeType = nodeType;
-        node.item = item;
+        node.parent = caller;
+        node.SetNodeType(nodeType);
+        node.SetItem(item);
         node.SetValue(value);
         return node;
     }
+    public void SetNodeType(NODETYPE nodeType)
+    {
+        Debug.Log("Node: SetNodeType");
+        this.nodeType = nodeType;
+        if (nodeType == NODETYPE.INPUT)
+        {
+            inputLabel.gameObject.SetActive(true);
+            productLabel.gameObject.SetActive(false);
+            return;
+        }
+        inputLabel.gameObject.SetActive(false);
+        productLabel.gameObject.SetActive(true);
+    }
     public void SetItem(Item item)
     {
-
+        Debug.Log("Node: SetItem");
+        this.item = item;
+        itemIcon.sprite = item.GetIcon();
+    }
+    public Item GetItem()
+    {
+        Debug.Log("Node: GetItem");
+        return item;
     }
     public void SetValue(Fraction value)
     {
         Debug.Log("Node: SetValue");
         this.value = value;
+
         UpdateExcess();
     }
     public void UpdateExcess()
