@@ -20,6 +20,14 @@ public class UIPlanner : MonoBehaviour
         Debug.Log("UIPlanner: Start");
         CreateRecipeBlock(testRecipe, testFactor);
     }
+    public float GetWidth()
+    {
+        return canvas.GetComponent<RectTransform>().sizeDelta.x;
+    }
+    public float GetHeight()
+    {
+        return canvas.GetComponent<RectTransform>().sizeDelta.y;
+    }
     public float GetScale()
     {
         return canvas.GetComponent<RectTransform>().localScale.x;

@@ -196,12 +196,24 @@ public class RecipeBlock : MonoBehaviour
     public void OnDrag(BaseEventData data)
     {
         PointerEventData data2 = (PointerEventData)data;
+        float width = GetComponent<RectTransform>().sizeDelta.x;
+        float height = GetComponent<RectTransform>().sizeDelta.y;
         float scale = parent.GetScale();
-        Vector2 pos = data2.position;
-        if (pos.x < 100 * scale)
-        {
-            pos.x = 100 * scale;
-        }
+        float left = width/2 * scale;
+        float right = (parent.GetWidth() - width / 2) * scale;
+        float down = height / 2 * scale;
+        float up = (parent.GetHeight() - height / 2) * scale;
+        
+        transform.position = new Vector2(transform.position.x + data2.delta.x, transform.position.y + data2.delta.y);
+        Vector2 pos = new Vector2(Clamp(transform.position.x, left, right), Clamp(transform.position.y, down, up));
         transform.position = pos;
+    }
+    public float Clamp(float val, float min, float max)
+    {
+        if (val < min)
+            val = min;
+        else if (val > max)
+            val = max;
+        return val;
     }
 }
