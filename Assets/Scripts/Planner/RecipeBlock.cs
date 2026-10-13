@@ -180,7 +180,10 @@ public class RecipeBlock : MonoBehaviour
     public void OnPointerClick(BaseEventData data)
     {
         float scale = parent.GetScale();
-        Debug.Log(scale);
+        Debug.Log("Scale: " + scale);
+        Debug.Log("pos: " + transform.position);
+        Debug.Log("pos * scale: " + transform.position * scale);
+        Debug.Log("pos / scale: " + transform.position / scale);
     }
     public void OnBeginDrag(BaseEventData data)
     {
@@ -194,15 +197,11 @@ public class RecipeBlock : MonoBehaviour
     {
         PointerEventData data2 = (PointerEventData)data;
         float scale = parent.GetScale();
-        Vector2Int pos = new Vector2Int((int)data2.position.x, (int)data2.position.y);
-        if (pos.x < 100)
-            pos.x = 100;
-        else if (pos.x > 1820)
-            pos.x = 1820;
-        if (pos.y < GetComponent<RectTransform>().sizeDelta.y / 2)
-            pos.y = (int)GetComponent<RectTransform>().sizeDelta.y / 2;
-        else if (pos.y > 1080 - GetComponent<RectTransform>().sizeDelta.y / 2)
-            pos.y = 1080 - (int)GetComponent<RectTransform>().sizeDelta.y / 2;
-        transform.position = new Vector3(pos.x*scale, pos.y*scale);
+        Vector2 pos = data2.position;
+        if (pos.x < 100 * scale)
+        {
+            pos.x = 100 * scale;
+        }
+        transform.position = pos;
     }
 }

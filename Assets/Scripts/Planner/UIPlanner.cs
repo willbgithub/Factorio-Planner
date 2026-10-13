@@ -22,7 +22,7 @@ public class UIPlanner : MonoBehaviour
     }
     public float GetScale()
     {
-        return GetComponent<RectTransform>().localScale.x;
+        return canvas.GetComponent<RectTransform>().localScale.x;
     }
     static Recipe GetRecipe(string prefabName)
     {
