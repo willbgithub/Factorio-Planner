@@ -5,9 +5,9 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     UILineRenderer line;
-    public void Start()
+    public void Awake()
     {
-        Debug.Log("Arrow: Start");
+        Debug.Log("Arrow: Awake");
         line = GetComponent<UILineRenderer>();
         line.points = new Vector2[2];
     }

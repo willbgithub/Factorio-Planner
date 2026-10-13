@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
+using Unity.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -14,8 +15,10 @@ public class RecipeBlock : MonoBehaviour
     [SerializeField] Recipe recipe;
     [SerializeField] Fraction factor;
 
-    bool focused = false;
+    bool focused = false; // is the main focus of pointer
+    bool pointed = false; // pointer is over this
     bool dragging = false;
+    bool hasFocusedChild = false; // whether a child is focused or not
     [SerializeField] Color defaultColor;
     [SerializeField] Color focusedColor;
     [SerializeField] GameObject inputs;
@@ -28,6 +31,14 @@ public class RecipeBlock : MonoBehaviour
     public void Awake()
     {
         Debug.Log("RecipeBlock: Awake");
+    }
+    public float Clamp(float val, float min, float max)
+    {
+        if (val < min)
+            val = min;
+        else if (val > max)
+            val = max;
+        return val;
     }
     public Node CreateNode(Transform parent, NODETYPE nodeType, Item item, Fraction value)
     {
@@ -148,9 +159,17 @@ public class RecipeBlock : MonoBehaviour
         return "{RecipeBlock: " + recipe + "}";
     }
 
-    // POINTER EVENTS
+    // EVENT SYSTEMS
+    public void SetFocusedChild(bool focusedChild)
+    {
+        hasFocusedChild = focusedChild;
+    }
     public void SetFocused(bool focused)
     {
+        if (!pointed || hasFocusedChild)
+        {
+            focused = false;
+        }
         this.focused = focused;
         if (focused)
         {
@@ -171,19 +190,19 @@ public class RecipeBlock : MonoBehaviour
     }
     public void OnPointerEnter(BaseEventData data)
     {
+        Debug.Log("RecipeBlock: OnPointerEnter");
+        pointed = true;
         SetFocused(true);
     }
     public void OnPointerExit(BaseEventData data)
     {
+        Debug.Log("RecipeBlock: OnPointerExit");
+        pointed = false;
         SetFocused(false);
     }
     public void OnPointerClick(BaseEventData data)
     {
-        float scale = parent.GetScale();
-        Debug.Log("Scale: " + scale);
-        Debug.Log("pos: " + transform.position);
-        Debug.Log("pos * scale: " + transform.position * scale);
-        Debug.Log("pos / scale: " + transform.position / scale);
+
     }
     public void OnBeginDrag(BaseEventData data)
     {
@@ -208,12 +227,8 @@ public class RecipeBlock : MonoBehaviour
         Vector2 pos = new Vector2(Clamp(transform.position.x, left, right), Clamp(transform.position.y, down, up));
         transform.position = pos;
     }
-    public float Clamp(float val, float min, float max)
+    public void OnNodePointerClick(Node node)
     {
-        if (val < min)
-            val = min;
-        else if (val > max)
-            val = max;
-        return val;
+        parent.OnNodePointerClick(node);
     }
 }

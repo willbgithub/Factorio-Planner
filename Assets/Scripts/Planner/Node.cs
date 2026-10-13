@@ -1,22 +1,31 @@
 using System.Collections.Generic;
+using System.ComponentModel;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.Windows;
 
 public enum NODETYPE { INPUT, PRODUCT }
 
 public class Node : MonoBehaviour
 {
     RecipeBlock parent;
-    [SerializeField] NODETYPE nodeType;
+    NODETYPE nodeType;
     [SerializeField] Item item;
     [SerializeField] Fraction value;
     [SerializeField] List<Arrow> relatedArrows;
     [SerializeField] List<Node> inputNodes;
     [SerializeField] List<Node> productNodes;
 
-    
+    bool focused = false;
+    bool pointed = false;
+    bool selected = false;
+    [SerializeField] Color defaultColor;
+    [SerializeField] Color focusedColor;
+    [SerializeField] Color selectedColor;
+    [SerializeField] Image background;
     [SerializeField] Image itemIcon;
     [SerializeField] TMP_Text inputLabel;
     [SerializeField] TMP_Text productLabel;
@@ -26,6 +35,34 @@ public class Node : MonoBehaviour
         relatedArrows = new List<Arrow>();
         inputNodes = new List<Node>();
         productNodes = new List<Node>();
+    }
+    public void AddInput(Node input)
+    {
+        inputNodes.Add(input);
+    }
+    public void AddProduct(Node product)
+    {
+        productNodes.Add(product);
+    }
+    public void AddArrow(Arrow arrow)
+    {
+        relatedArrows.Add(arrow);
+    }
+    public bool Contains(Node node)
+    {
+        return inputNodes.Contains(node) || productNodes.Contains(node);
+    }
+    public void SetSelected(bool selected)
+    {
+        this.selected = selected;
+        if (selected)
+        {
+            background.color = selectedColor;
+        }
+        else
+        {
+            SetFocused(true);
+        }
     }
     public void SetParent(RecipeBlock parent)
     {
@@ -50,6 +87,10 @@ public class Node : MonoBehaviour
         {
             Debug.LogError("ERROR: Unhandled node type!");
         }
+    }
+    public NODETYPE GetNodeType()
+    {
+        return nodeType;
     }
     public void SetItem(Item item)
     {
@@ -112,5 +153,38 @@ public class Node : MonoBehaviour
             Debug.LogError("ERROR: Unexpected node type!");
             return null;
         }
+    }
+    // POINTER EVENTS
+    public void SetFocused(bool focused)
+    {
+        this.focused = focused;
+        parent.SetFocusedChild(focused);
+        if (focused && !selected && pointed)
+        {
+            background.color = focusedColor;
+        }
+        else if (!selected)
+        {
+            background.color = defaultColor;
+        }
+    }
+    public void OnPointerEnter(BaseEventData data)
+    {
+        Debug.Log("Node: OnPointerEnter");
+        pointed = true;
+        SetFocused(true);
+        parent.SetFocused(false);
+    }
+    public void OnPointerExit(BaseEventData data)
+    {
+        Debug.Log("Node: OnPointerExit");
+        pointed = false;
+        SetFocused(false);
+        parent.SetFocused(true);
+    }
+    public void OnPointerClick(BaseEventData data)
+    {
+        Debug.Log("Node: OnPointerClick");
+        parent.OnNodePointerClick(this);
     }
 }

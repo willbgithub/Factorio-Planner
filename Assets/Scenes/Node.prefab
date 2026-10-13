@@ -219,8 +219,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: ItemDisplay, Assembly-CSharp
+        - m_Target: {fileID: 1685618806805218874}
+          m_TargetAssemblyTypeName: Node, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 0
           m_Arguments:
@@ -235,8 +235,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: ItemDisplay, Assembly-CSharp
+        - m_Target: {fileID: 1685618806805218874}
+          m_TargetAssemblyTypeName: Node, Assembly-CSharp
           m_MethodName: OnPointerExit
           m_Mode: 0
           m_Arguments:
@@ -251,8 +251,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: ItemDisplay, Assembly-CSharp
+        - m_Target: {fileID: 1685618806805218874}
+          m_TargetAssemblyTypeName: Node, Assembly-CSharp
           m_MethodName: OnPointerClick
           m_Mode: 0
           m_Arguments:
@@ -275,7 +275,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14e87da5fb682f044988725497057468, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Node
-  nodePrefab: {fileID: 1924494175432583918}
+  nodeType: 0
+  item: {fileID: 0}
+  value:
+    numerator: 0
+    denominator: 1
+  relatedArrows: []
+  inputNodes: []
+  productNodes: []
+  defaultColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
+  focusedColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
+  background: {fileID: 8046847583574551097}
   itemIcon: {fileID: 1269702631660419885}
   inputLabel: {fileID: 5904484207310452359}
   productLabel: {fileID: 1481356333802796368}
