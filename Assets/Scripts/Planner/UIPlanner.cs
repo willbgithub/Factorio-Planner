@@ -4,6 +4,7 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using System.Collections.Generic;
 
 public class UIPlanner : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class UIPlanner : MonoBehaviour
     const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
     public void Start()
     {
-        Debug.Log("UIPlanner: Start");
+        //Debug.Log("UIPlanner: Start");
         CreateRecipeBlock(testRecipe, testFactor, new Vector2(300, 500));
         CreateRecipeBlock(testRecipe2, testFactor2, new Vector2(1500, 500));
     }
@@ -45,24 +46,24 @@ public class UIPlanner : MonoBehaviour
         Recipe recipe = AssetDatabase.LoadAssetAtPath<Recipe>(UNITY_RECIPE_PATH + prefabName + ".asset");
         if (recipe.IsUnityNull())
         {
-            Debug.LogError("ERROR: Could not find recipe \"" + prefabName + "\"");
+            //Debug.LogError("ERROR: Could not find recipe \"" + prefabName + "\"");
         }
         return recipe;
     }
     public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor, Vector2 position)
     {
-        Debug.Log("RecipeBlock: CreateRecipeBlock");
+        //Debug.Log("RecipeBlock: CreateRecipeBlock");
         if (recipe.IsUnityNull())
         {
-            Debug.LogError("ERROR: Recipe is null!");
+            //Debug.LogError("ERROR: Recipe is null!");
         }
         if (factor.IsUnityNull())
         {
-            Debug.LogError("ERROR: Factor is null!");
+            //Debug.LogError("ERROR: Factor is null!");
         }
         if (position.IsUnityNull())
         {
-            Debug.LogError("ERROR: Position is null!");
+            //Debug.LogError("ERROR: Position is null!");
         }
         RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, recipeBlocks.transform);
         recipeBlock.SetParent(this);
@@ -87,16 +88,15 @@ public class UIPlanner : MonoBehaviour
         else
         {
             Connect(selectedNode, node);
+            DeselectNode();
         }
     }
     public void Connect(Node node1, Node node2)
     {
         if (!Compatible(node1, node2))
-        {
-            DeselectNode();
+        {   
             return;
         }
-
         Node inputNode = node1;
         Node productNode = node2;
         if (node1.GetNodeType() == NODETYPE.PRODUCT)
@@ -104,16 +104,24 @@ public class UIPlanner : MonoBehaviour
             inputNode = node2;
             productNode = node1;
         }
-        inputNode.AddProduct(productNode);
-        productNode.AddInput(inputNode);
-        Arrow arrow = CreateArrow(inputNode.transform.position * GetScale(), productNode.transform.position * GetScale());
+        inputNode.AddNode(productNode);
+        productNode.AddNode(inputNode);
+        Arrow arrow = CreateArrow(inputNode, productNode);
         inputNode.AddArrow(arrow);
         productNode.AddArrow(arrow);
     }
-    public Arrow CreateArrow(Vector2 pos1, Vector2 pos2)
+    public void UpdateArrows(RecipeBlock recipeBlock)
+    {
+        List<Arrow> arrows = recipeBlock.GetRelatedArrows();
+        for (int i = 0; i < arrows.Count; i++)
+        {
+            arrows[i].UpdatePosition(GetScale());
+        }
+    }
+    public Arrow CreateArrow(Node inputNode, Node productNode)
     {
         Arrow arrow = Instantiate(arrowPrefab, arrows);
-        arrow.UpdatePosition(pos1, pos2);
+        arrow.SetNodes(inputNode, productNode, GetScale());
         return arrow;
     }
     public bool Compatible(Node node1, Node node2)
@@ -137,6 +145,7 @@ public class UIPlanner : MonoBehaviour
         if (node1.Contains(node2))
         {
             Debug.LogError("ERROR: Nodes are already connected!");
+            compatible = false;
         }
         return compatible;
     }

@@ -37,7 +37,7 @@ public class Planner
             Item item = AssetDatabase.LoadAssetAtPath<Item>(itemPath);
             if (item.GetCraftedIn().Count > 1)
             {
-                Debug.Log(item);
+                //Debug.Log(item);
             }
         }
     }
@@ -46,19 +46,19 @@ public class Planner
     {
         
         Item item = GetItem("logistic-science-pack");
-        Debug.Log("Item: " + item);
+        //Debug.Log("Item: " + item);
         Fraction demandRate = 1;
-        Debug.Log("Demand rate: " + demandRate);
+        //Debug.Log("Demand rate: " + demandRate);
 
         ItemValue itemValue = new ItemValue(item, demandRate);
-        Debug.Log("itemValue: " + itemValue);
+        //Debug.Log("itemValue: " + itemValue);
         Recipe recipe = item.GetBestRecipe();
-        Debug.Log("recipe: " + recipe);
+        //Debug.Log("recipe: " + recipe);
         Demand demand = new Demand(itemValue, recipe);
-        Debug.Log("demand: " + demand);
+        //Debug.Log("demand: " + demand);
         demands.Add(demand);
         Contribution totalContributions = new Contribution(demand);
-        Debug.Log("initial contribution from demand: " + totalContributions);
+        //Debug.Log("initial contribution from demand: " + totalContributions);
         ResolveInputs(totalContributions);
         ReportLog(totalContributions);
     }
@@ -69,9 +69,9 @@ public class Planner
         List<ItemValue> inputs = contribution.GetInputs();
         //List<ItemValue> byproducts = new List<ItemValue>();
 
-        Debug.Log("Products: " + ListToString(products, "+"));
-        Debug.Log("Intermediates: " + ListToString(intermediates, "±"));
-        Debug.Log("Inputs: " + ListToString(inputs, "-"));
+        //Debug.Log("Products: " + ListToString(products, "+"));
+        //Debug.Log("Intermediates: " + ListToString(intermediates, "±"));
+        //Debug.Log("Inputs: " + ListToString(inputs, "-"));
     }
     static string ListToString(List<ItemValue> list, string prefix = "")
     {
@@ -89,7 +89,7 @@ public class Planner
     }
     static void ResolveInputs(Contribution contribution)
     {
-        Debug.Log("ResolveInputs called on " + contribution);
+        //Debug.Log("ResolveInputs called on " + contribution);
         List<ItemValue> unresolvedInputs = GetUnresolvedInputs(contribution);
         while (unresolvedInputs.Count > 0)
         {
@@ -118,13 +118,13 @@ public class Planner
             }
             unresolvedInputs.Add(input);
         }
-        Debug.Log("unresolved inputs of " + contribution + " : " + ListToString(unresolvedInputs));
+        //Debug.Log("unresolved inputs of " + contribution + " : " + ListToString(unresolvedInputs));
         return unresolvedInputs;
     }
     static bool IsRaw(Item item)
     {
         string prefabName = item.GetPrefabName();
-        //Debug.Log("IsRaw(" + item + ") -> " + RAW_ITEMS.Contains(prefabName));
+        ////Debug.Log("IsRaw(" + item + ") -> " + RAW_ITEMS.Contains(prefabName));
         return RAW_ITEMS.Contains(prefabName);
     }
     static Item GetItem(string prefabName)
@@ -132,7 +132,7 @@ public class Planner
         Item item = AssetDatabase.LoadAssetAtPath<Item>(UNITY_ITEM_PATH + prefabName + ".asset");
         if (item.IsUnityNull())
         {
-            Debug.LogError("ERROR: Could not find item \"" + prefabName + "\"");
+            //Debug.LogError("ERROR: Could not find item \"" + prefabName + "\"");
         }
         return item;
     }

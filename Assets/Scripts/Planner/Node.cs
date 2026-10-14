@@ -16,8 +16,7 @@ public class Node : MonoBehaviour
     [SerializeField] Item item;
     [SerializeField] Fraction value;
     [SerializeField] List<Arrow> relatedArrows;
-    [SerializeField] List<Node> inputNodes;
-    [SerializeField] List<Node> productNodes;
+    [SerializeField] List<Node> nodes;
 
     bool focused = false;
     bool pointed = false;
@@ -31,18 +30,32 @@ public class Node : MonoBehaviour
     [SerializeField] TMP_Text productLabel;
     public void Awake()
     {
-        Debug.Log("Node: Awake");
+        //Debug.Log("Node: Awake");
         relatedArrows = new List<Arrow>();
-        inputNodes = new List<Node>();
-        productNodes = new List<Node>();
+        nodes = new List<Node>();
     }
-    public void AddInput(Node input)
+    public void AddNode(Node node)
     {
-        inputNodes.Add(input);
+        nodes.Add(node);
     }
-    public void AddProduct(Node product)
+    // Only called by a node that has already properly disconnected this one
+    public void RemoveNode(Node node)
     {
-        productNodes.Add(product);
+        nodes.Remove(node);
+    }
+    public string ListToString(List<Node> list)
+    {
+        if (list.Count == 0)
+        {
+            return "{}";
+        }
+        string msg = "{";
+        for (int i = 0; i < list.Count-1; i++)
+        {
+            msg += list[i] + ", ";
+        }
+        msg += list[list.Count - 1] + "}";
+        return msg;
     }
     public void AddArrow(Arrow arrow)
     {
@@ -50,7 +63,7 @@ public class Node : MonoBehaviour
     }
     public bool Contains(Node node)
     {
-        return inputNodes.Contains(node) || productNodes.Contains(node);
+        return nodes.Contains(node);
     }
     public void SetSelected(bool selected)
     {
@@ -70,7 +83,7 @@ public class Node : MonoBehaviour
     }
     public void SetNodeType(NODETYPE nodeType)
     {
-        Debug.Log("Node: SetNodeType");
+        //Debug.Log("Node: SetNodeType");
         this.nodeType = nodeType;
         if (nodeType == NODETYPE.INPUT)
         {
@@ -85,7 +98,7 @@ public class Node : MonoBehaviour
         }
         else
         {
-            Debug.LogError("ERROR: Unhandled node type!");
+            //Debug.LogError("ERROR: Unhandled node type!");
         }
     }
     public NODETYPE GetNodeType()
@@ -94,18 +107,18 @@ public class Node : MonoBehaviour
     }
     public void SetItem(Item item)
     {
-        Debug.Log("Node: SetItem");
+        //Debug.Log("Node: SetItem");
         this.item = item;
         itemIcon.sprite = item.GetIcon();
     }
     public Item GetItem()
     {
-        Debug.Log("Node: GetItem");
+        //Debug.Log("Node: GetItem");
         return item;
     }
     public void SetValue(Fraction value)
     {
-        Debug.Log("Node: SetValue");
+        //Debug.Log("Node: SetValue");
         this.value = value;
         if (nodeType == NODETYPE.INPUT)
         {
@@ -117,25 +130,59 @@ public class Node : MonoBehaviour
         }
         else
         {
-            Debug.LogError("ERROR: Unhandled node type!");
+            //Debug.LogError("ERROR: Unhandled node type!");
         }
             
         UpdateExcess();
     }
     public void UpdateExcess()
     {
-        Debug.Log("Node: UpdateExcess");
+        //Debug.Log("Node: UpdateExcess");
     }
     public void OnDestroy()
     {
-        Debug.Log("Node: OnDestroy");
+        //Debug.Log(this + ": OnDestroy");
         if (relatedArrows.IsUnityNull())
         {
             return;
         }
+        DisconnectAll();
+    }
+    public void DisconnectAll()
+    {
+        //Debug.Log(this + ": DisconnectAll");
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            nodes[i].RemoveNode(this);
+        }
         for (int i = 0; i < relatedArrows.Count; i++)
         {
             Destroy(relatedArrows[i].gameObject);
+        }
+    }
+    public void DisconnectArrow(Arrow arrow)
+    {
+        relatedArrows.Remove(arrow);
+    }
+    public void Disconnect(Node node)
+    {
+        //Debug.Log(this + ": Disconnect(" + node + ")");
+        if (!Contains(node))
+        {
+            Debug.LogError("ERROR: Attempted to disconnect node that wasn't connected!");
+        }
+        nodes.Remove(node);
+        for (int i = 0; i < relatedArrows.Count; i++)
+        {
+            if (relatedArrows[i].Contains(node))
+            {
+                Destroy(relatedArrows[i].gameObject);
+                i = relatedArrows.Count;
+            }
+        }
+        if (node.Contains(this))
+        {
+            node.RemoveNode(this);
         }
     }
     public override string ToString()
@@ -150,7 +197,7 @@ public class Node : MonoBehaviour
         }
         else
         {
-            Debug.LogError("ERROR: Unexpected node type!");
+            //Debug.LogError("ERROR: Unexpected node type!");
             return null;
         }
     }
@@ -170,21 +217,25 @@ public class Node : MonoBehaviour
     }
     public void OnPointerEnter(BaseEventData data)
     {
-        Debug.Log("Node: OnPointerEnter");
+        //Debug.Log("Node: OnPointerEnter");
         pointed = true;
         SetFocused(true);
         parent.SetFocused(false);
     }
     public void OnPointerExit(BaseEventData data)
     {
-        Debug.Log("Node: OnPointerExit");
+        //Debug.Log("Node: OnPointerExit");
         pointed = false;
         SetFocused(false);
         parent.SetFocused(true);
     }
     public void OnPointerClick(BaseEventData data)
     {
-        Debug.Log("Node: OnPointerClick");
+        //Debug.Log("Node: OnPointerClick");
         parent.OnNodePointerClick(this);
+    }
+    public List<Arrow> GetRelatedArrows()
+    {
+        return relatedArrows;
     }
 }

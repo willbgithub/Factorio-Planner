@@ -30,7 +30,7 @@ public class RecipeBlock : MonoBehaviour
     [SerializeField] GameObject nodePrefab;
     public void Awake()
     {
-        Debug.Log("RecipeBlock: Awake");
+        //Debug.Log("RecipeBlock: Awake");
     }
     public float Clamp(float val, float min, float max)
     {
@@ -42,7 +42,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public Node CreateNode(Transform parent, NODETYPE nodeType, Item item, Fraction value)
     {
-        Debug.Log("Node: CreateNode");
+        //Debug.Log("Node: CreateNode");
         Node node = Instantiate(nodePrefab, parent).GetComponent<Node>();
         node.SetParent(this);
         node.SetNodeType(nodeType);
@@ -56,7 +56,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void SetRecipe(Recipe recipe)
     {
-        Debug.Log("RecipeBlock: SetRecipe");
+        //Debug.Log("RecipeBlock: SetRecipe");
         this.recipe = recipe;
         // Erase previous nodes
         List<Node> nodes = GetNodes();
@@ -86,14 +86,14 @@ public class RecipeBlock : MonoBehaviour
     }
     public int GetHeight()
     {
-        Debug.Log("RecipeBlock: GetHeight");
+        //Debug.Log("RecipeBlock: GetHeight");
         if (inputs.transform.childCount > products.transform.childCount)
             return inputs.transform.childCount;
         return products.transform.childCount;
     }
     public void SetFactor(Fraction factor)
     {
-        Debug.Log("RecipeBlock: SetFactor");
+        //Debug.Log("RecipeBlock: SetFactor");
         // If the factor is 0, the block is producing and consuming nothing, so it should really just be deleted
         if (factor == 0)
         {
@@ -118,7 +118,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public List<Node> GetInputs()
     {
-        Debug.Log("RecipeBlock: GetInputs");
+        //Debug.Log("RecipeBlock: GetInputs");
         List<Node> list = new List<Node>();
         for (int i = 0; i < inputs.transform.childCount; i++)
         {
@@ -128,7 +128,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public List<Node> GetProducts()
     {
-        Debug.Log("RecipeBlock: GetProducts");
+        //Debug.Log("RecipeBlock: GetProducts");
         List<Node> list = new List<Node>();
         for (int i = 0; i < products.transform.childCount; i++)
         {
@@ -138,7 +138,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public List<Node> GetNodes()
     {
-        Debug.Log("RecipeBlock: GetNodes");
+        //Debug.Log("RecipeBlock: GetNodes");
         List<Node> list = new List<Node>();
         for (int i = 0; i < inputs.transform.childCount; i++)
         {
@@ -152,7 +152,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void OnDestroy()
     {
-        Debug.Log("RecipeBlock: OnDestroy");
+        //Debug.Log("RecipeBlock: OnDestroy");
     }
     public override string ToString()
     {
@@ -190,13 +190,13 @@ public class RecipeBlock : MonoBehaviour
     }
     public void OnPointerEnter(BaseEventData data)
     {
-        Debug.Log("RecipeBlock: OnPointerEnter");
+        //Debug.Log("RecipeBlock: OnPointerEnter");
         pointed = true;
         SetFocused(true);
     }
     public void OnPointerExit(BaseEventData data)
     {
-        Debug.Log("RecipeBlock: OnPointerExit");
+        //Debug.Log("RecipeBlock: OnPointerExit");
         pointed = false;
         SetFocused(false);
     }
@@ -226,6 +226,22 @@ public class RecipeBlock : MonoBehaviour
         transform.position = new Vector2(transform.position.x + data2.delta.x, transform.position.y + data2.delta.y);
         Vector2 pos = new Vector2(Clamp(transform.position.x, left, right), Clamp(transform.position.y, down, up));
         transform.position = pos;
+
+        parent.UpdateArrows(this);
+    }
+    public List<Arrow> GetRelatedArrows()
+    {
+        List<Arrow> relatedArrows = new List<Arrow>();
+        List<Node> nodes = GetNodes();
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            List<Arrow> nodeRelatedArrows = nodes[i].GetRelatedArrows();
+            for (int j = 0; j < nodeRelatedArrows.Count; j++)
+            {
+                relatedArrows.Add(nodeRelatedArrows[j]);
+            }
+        }
+        return relatedArrows;
     }
     public void OnNodePointerClick(Node node)
     {
