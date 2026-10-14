@@ -14,9 +14,13 @@ public class UIPlanner : MonoBehaviour
     [SerializeField] Fraction testFactor;
     [SerializeField] Fraction testFactor2;
 
-    [ReadOnly] Node selectedNode;
+    Node selectedNode;
+    Vector2 targetPos;
+    bool prompting = false;
 
     [SerializeField] GameObject canvas;
+    [SerializeField] GameObject recipePrompt;
+    [SerializeField] TMP_InputField recipeNameInput;
     [SerializeField] Transform arrows;
     [SerializeField] Transform recipeBlocks;
     [SerializeField] RecipeBlock recipeBlockPrefab;
@@ -26,7 +30,8 @@ public class UIPlanner : MonoBehaviour
     public void Start()
     {
         //Debug.Log("UIPlanner: Start");
-        CreateRecipeBlock(testRecipe, testFactor, new Vector2(300, 500));
+        recipePrompt.SetActive(false);
+        //CreateRecipeBlock(testRecipe, testFactor, new Vector2(300, 500));
         CreateRecipeBlock(testRecipe2, testFactor2, new Vector2(1500, 500));
     }
     public float GetWidth()
@@ -72,24 +77,81 @@ public class UIPlanner : MonoBehaviour
         recipeBlock.SetFactor(factor);
         return recipeBlock;
     }
-
-    // EVENT SYSTEMS
-
-    public void OnNodePointerClick(Node node)
+    public RecipeBlock CreateRecipeBlock(Node node)
     {
-        if (selectedNode.IsUnityNull())
+        Fraction factor = GetFactor(node.GetItem(), node.GetValue());
+        RecipeBlock recipeBlock = CreateRecipeBlock(node.GetItem().GetBestRecipe(), factor, node.transform.position);
+        Node node2;
+        if (node.GetNodeType() == NODETYPE.INPUT)
         {
-            SelectNode(node);
+            node2 = recipeBlock.GetProductNode(node.GetItem());
+            Connect(node, node2);
         }
-        else if (selectedNode == node)
+        return recipeBlock;
+    }
+    // EVENT SYSTEMS
+    public void OnPointerClick(BaseEventData data)
+    {
+        PointerEventData data2 = (PointerEventData)data;
+        if (data2.button == PointerEventData.InputButton.Left)
         {
             DeselectNode();
         }
-        else
+        else if (data2.button == PointerEventData.InputButton.Right)
         {
-            Connect(selectedNode, node);
-            DeselectNode();
+            if (!prompting)
+            {
+                targetPos = data2.position / GetScale();
+            }
+            TogglePrompt();
         }
+        // ON SCALE CHANGE, UPDATE ALL ARROWS
+    }
+    public void TogglePrompt()
+    {
+        prompting = !prompting;
+        recipePrompt.SetActive(prompting);
+    }
+    public void OnRecipeButtonPress()
+    {
+        Recipe recipe = GetRecipe(recipeNameInput.text);
+        CreateRecipeBlock(recipe, 1, targetPos);
+        prompting = false;
+        recipePrompt.SetActive(false);
+    }
+    public void OnNodePointerClick(Node node, BaseEventData data)
+    {
+        PointerEventData pData = (PointerEventData)data;
+        if (pData.button == PointerEventData.InputButton.Left)
+        {
+            if (selectedNode.IsUnityNull())
+            {
+                SelectNode(node);
+            }
+            else if (selectedNode == node)
+            {
+                DeselectNode();
+            }
+            else if (node.Contains(selectedNode))
+            {
+                node.Disconnect(selectedNode);
+                DeselectNode();
+            }
+            else
+            {
+                Connect(selectedNode, node);
+                DeselectNode();
+            }
+        }
+        else if (pData.button == PointerEventData.InputButton.Right)
+        {
+            CreateRecipeBlock(node);
+        }
+    }
+    public Fraction GetFactor(Item desiredItem, Fraction desiredRate)
+    {
+        Recipe recipe = desiredItem.GetBestRecipe();
+        return desiredRate / recipe.GetRate(desiredItem);
     }
     public void Connect(Node node1, Node node2)
     {
@@ -156,6 +218,10 @@ public class UIPlanner : MonoBehaviour
     }
     public void DeselectNode()
     {
+        if (selectedNode.IsUnityNull())
+        {
+            return;
+        }
         selectedNode.SetSelected(false);
         selectedNode = null;
     }

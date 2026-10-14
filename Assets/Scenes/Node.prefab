@@ -280,12 +280,15 @@ MonoBehaviour:
     numerator: 0
     denominator: 1
   relatedArrows: []
-  inputNodes: []
-  productNodes: []
+  nodes: []
   defaultColor: {r: 0.20784314, g: 0.20784314, b: 0.20784314, a: 1}
   focusedColor: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
   selectedColor: {r: 0.8490566, g: 0.8333227, b: 0.6287825, a: 1}
+  inputColor: {r: 1, g: 0, b: 0, a: 1}
+  intermediateColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  productColor: {r: 0, g: 1, b: 0, a: 1}
   background: {fileID: 8046847583574551097}
+  colorBackground: {fileID: 6962288940330415147}
   itemIcon: {fileID: 1269702631660419885}
   inputLabel: {fileID: 5904484207310452359}
   productLabel: {fileID: 1481356333802796368}

@@ -19,10 +19,14 @@ public class RecipeBlock : MonoBehaviour
     bool pointed = false; // pointer is over this
     bool dragging = false;
     bool hasFocusedChild = false; // whether a child is focused or not
+    bool updateFactorButtonFocused = false;
     [SerializeField] Color defaultColor;
     [SerializeField] Color focusedColor;
+    [SerializeField] Color updateFactorButtonDefaultColor;
+    [SerializeField] Color updateFactorButtonFocusedColor;
     [SerializeField] GameObject inputs;
     [SerializeField] GameObject products;
+    [SerializeField] Image updateFactorButton;
     [SerializeField] TMP_Text recipeLabel;
     [SerializeField] TMP_Text factorLabel;
     [SerializeField] Image recipeIcon;
@@ -115,6 +119,26 @@ public class RecipeBlock : MonoBehaviour
         }
         // Update text
         factorLabel.text = factor.ToString();
+        // Update connected nodes
+        List<Node> connectedNotes = GetConnectedNodes();
+        for (int i = 0; i < connectedNotes.Count; i++)
+        {
+            connectedNotes[i].UpdateExcess();
+        }
+    }
+    public List<Node> GetConnectedNodes()
+    {
+        List<Node> nodes = GetNodes();
+        List<Node> connectedNodes = new List<Node>();
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            List<Node> nodeConnections = nodes[i].GetNodes();
+            for (int j = 0; j < nodeConnections.Count; j++)
+            {
+                connectedNodes.Add(nodeConnections[j]);
+            }
+        }
+        return connectedNodes;
     }
     public List<Node> GetInputs()
     {
@@ -135,6 +159,20 @@ public class RecipeBlock : MonoBehaviour
             list.Add(products.transform.GetChild(i).GetComponent<Node>());
         }
         return list;
+    }
+    public Node GetProductNode(Item item)
+    {
+        List<Node> products = GetProducts();
+        for (int i = 0; i < products.Count; i++)
+        {
+            Node product = products[i];
+            if (product.GetItem() == item)
+            {
+                return product;
+            }
+        }
+        Debug.LogError("ERROR: Could not find product \"" + item + "\" in recipe block!");
+        return null;
     }
     public List<Node> GetNodes()
     {
@@ -229,6 +267,49 @@ public class RecipeBlock : MonoBehaviour
 
         parent.UpdateArrows(this);
     }
+    public void SetUpdateFactorButtonFocused(bool updateFactorButtonFocused)
+    {
+        this.updateFactorButtonFocused = updateFactorButtonFocused;
+        if (updateFactorButtonFocused)
+        {
+            updateFactorButton.color = updateFactorButtonFocusedColor;
+        }
+        else
+        {
+            updateFactorButton.color = updateFactorButtonDefaultColor;
+        }
+    }
+    public void OnUpdateFactorButtonPointerEnter(BaseEventData data)
+    {
+        SetUpdateFactorButtonFocused(true);
+    }
+    public void OnUpdateFactorButtonPointerExit(BaseEventData data)
+    {
+        SetUpdateFactorButtonFocused(false);
+    }
+    public void OnUpdateFactorButtonPointerClick(BaseEventData data)
+    {
+        UpdateFactor();
+    }
+    public void UpdateFactor()
+    {
+        Debug.Log("RecipeBlock: UpdateFactor");
+        List<Node> nodes = GetNodes();
+        Node lowestExcess = nodes[0];
+        for (int i = 1; i < nodes.Count; i++)
+        {
+            if (nodes[i].GetExcess() < lowestExcess.GetExcess())
+            {
+                lowestExcess = nodes[i];
+            }
+        }
+        Debug.Log("lowestExcess: " + lowestExcess);
+        Debug.Log("lowestExcess.GetExcess: " + lowestExcess.GetExcess());
+        Debug.Log("lowestExcess.GetValue: " + lowestExcess.GetValue());
+        Fraction factor = (lowestExcess.GetValue() - lowestExcess.GetExcess()) / Fraction.abs(recipe.GetRate(lowestExcess.GetItem()));
+        Debug.Log("Factor: " + factor);
+        SetFactor(factor);
+    }
     public List<Arrow> GetRelatedArrows()
     {
         List<Arrow> relatedArrows = new List<Arrow>();
@@ -243,8 +324,8 @@ public class RecipeBlock : MonoBehaviour
         }
         return relatedArrows;
     }
-    public void OnNodePointerClick(Node node)
+    public void OnNodePointerClick(Node node, BaseEventData data)
     {
-        parent.OnNodePointerClick(node);
+        parent.OnNodePointerClick(node, data);
     }
 }

@@ -24,7 +24,11 @@ public class Node : MonoBehaviour
     [SerializeField] Color defaultColor;
     [SerializeField] Color focusedColor;
     [SerializeField] Color selectedColor;
+    [SerializeField] Color inputColor;
+    [SerializeField] Color intermediateColor;
+    [SerializeField] Color productColor;
     [SerializeField] Image background;
+    [SerializeField] Image colorBackground;
     [SerializeField] Image itemIcon;
     [SerializeField] TMP_Text inputLabel;
     [SerializeField] TMP_Text productLabel;
@@ -37,11 +41,59 @@ public class Node : MonoBehaviour
     public void AddNode(Node node)
     {
         nodes.Add(node);
+        UpdateExcess();
     }
     // Only called by a node that has already properly disconnected this one
     public void RemoveNode(Node node)
     {
         nodes.Remove(node);
+        UpdateExcess();
+    }
+    public void UpdateExcess()
+    {
+        //Debug.Log("Node: UpdateExcess");
+        
+        if (GetExcess() > 0)
+        {
+            if (nodeType == NODETYPE.INPUT)
+            {
+                colorBackground.color = inputColor;
+            }
+            else if (nodeType == NODETYPE.PRODUCT)
+            {
+                colorBackground.color = productColor;
+            }
+        }
+        else
+        {
+            colorBackground.color = intermediateColor;
+        }
+    }
+    public Fraction GetExcess()
+    {
+        return value - GetDemand();
+    }
+    public Fraction GetDemand()
+    {
+        Fraction demand = 0;
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            demand += nodes[i].GetValue() - nodes[i].GetDemand(this);
+        }
+        return demand;
+    }
+    public Fraction GetDemand(Node blacklist)
+    {
+        Fraction demand = 0;
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            if (nodes[i] == blacklist)
+            {
+                continue;
+            }
+            demand += nodes[i].value;
+        }
+        return demand;
     }
     public string ListToString(List<Node> list)
     {
@@ -116,6 +168,10 @@ public class Node : MonoBehaviour
         //Debug.Log("Node: GetItem");
         return item;
     }
+    public List<Node> GetNodes()
+    {
+        return nodes;
+    }
     public void SetValue(Fraction value)
     {
         //Debug.Log("Node: SetValue");
@@ -132,13 +188,13 @@ public class Node : MonoBehaviour
         {
             //Debug.LogError("ERROR: Unhandled node type!");
         }
-            
         UpdateExcess();
     }
-    public void UpdateExcess()
+    public Fraction GetValue()
     {
-        //Debug.Log("Node: UpdateExcess");
+        return value;
     }
+    
     public void OnDestroy()
     {
         //Debug.Log(this + ": OnDestroy");
@@ -232,7 +288,7 @@ public class Node : MonoBehaviour
     public void OnPointerClick(BaseEventData data)
     {
         //Debug.Log("Node: OnPointerClick");
-        parent.OnNodePointerClick(this);
+        parent.OnNodePointerClick(this, data);
     }
     public List<Arrow> GetRelatedArrows()
     {
