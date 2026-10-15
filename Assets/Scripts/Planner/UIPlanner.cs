@@ -17,11 +17,13 @@ public class UIPlanner : MonoBehaviour
     Node selectedNode;
     Vector2 targetPos;
     bool prompting = false;
+    bool productPrompting = false;
 
     [SerializeField] GameObject canvas;
     [SerializeField] GameObject recipePrompt;
     [SerializeField] TMP_InputField recipeNameInput;
     [SerializeField] Transform arrows;
+    [SerializeField] Transform glowingArrows;
     [SerializeField] Transform recipeBlocks;
     [SerializeField] RecipeBlock recipeBlockPrefab;
     [SerializeField] Arrow arrowPrefab;
@@ -31,6 +33,8 @@ public class UIPlanner : MonoBehaviour
     {
         //Debug.Log("UIPlanner: Start");
         recipePrompt.SetActive(false);
+        prompting = false;
+        productPrompting = false;
         //CreateRecipeBlock(testRecipe, testFactor, new Vector2(300, 500));
         CreateRecipeBlock(testRecipe2, testFactor2, new Vector2(1500, 500));
     }
@@ -133,7 +137,14 @@ public class UIPlanner : MonoBehaviour
         }
         else if (pData.button == PointerEventData.InputButton.Right)
         {
-            CreateRecipeBlock(node);
+            if (node.GetNodeType() == NODETYPE.INPUT)
+            {
+                CreateRecipeBlock(node);
+            }
+            else if (node.GetNodeType() == NODETYPE.PRODUCT)
+            {
+
+            }
         }
     }
     public Fraction GetFactor(Item desiredItem, Fraction desiredRate)
@@ -159,6 +170,21 @@ public class UIPlanner : MonoBehaviour
         Arrow arrow = CreateArrow(inputNode, productNode);
         inputNode.AddArrow(arrow);
         productNode.AddArrow(arrow);
+    }
+    public void OnRecipeBlockStart(RecipeBlock recipeBlock)
+    {
+        UpdateArrows(recipeBlock);
+    }
+    public void OnArrowGlow(Arrow arrow, bool glow)
+    {
+        if (glow)
+        {
+            arrow.gameObject.transform.SetParent(glowingArrows);
+        }
+        else
+        {
+            arrow.gameObject.transform.SetParent(arrows);
+        }
     }
     public void UpdateArrows(RecipeBlock recipeBlock)
     {

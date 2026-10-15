@@ -7,11 +7,26 @@ public class Arrow : MonoBehaviour
     UILineRenderer line;
     Node inputNode;
     Node productNode;
+
+    [SerializeField] Color defaultColor;
+    [SerializeField] Color glowColor;
     public void Awake()
     {
         //Debug.Log("Arrow: Awake");
         line = GetComponent<UILineRenderer>();
         line.points = new Vector2[2];
+    }
+
+    public void Glow(bool glow)
+    {
+        if (glow)
+        {
+            line.color = glowColor;
+        }
+        else
+        {
+            line.color = defaultColor;
+        }
     }
     public bool Contains(Node node)
     {

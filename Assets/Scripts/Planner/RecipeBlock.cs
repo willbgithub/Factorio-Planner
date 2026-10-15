@@ -14,12 +14,10 @@ public class RecipeBlock : MonoBehaviour
     UIPlanner parent;
     [SerializeField] Recipe recipe;
     [SerializeField] Fraction factor;
-
     bool focused = false; // is the main focus of pointer
     bool pointed = false; // pointer is over this
     bool dragging = false;
     bool hasFocusedChild = false; // whether a child is focused or not
-    bool updateFactorButtonFocused = false;
     [SerializeField] Color defaultColor;
     [SerializeField] Color focusedColor;
     [SerializeField] Color updateFactorButtonDefaultColor;
@@ -35,6 +33,10 @@ public class RecipeBlock : MonoBehaviour
     public void Awake()
     {
         //Debug.Log("RecipeBlock: Awake");
+    }
+    public void Start()
+    {
+        parent.OnRecipeBlockStart(this);
     }
     public float Clamp(float val, float min, float max)
     {
@@ -218,6 +220,10 @@ public class RecipeBlock : MonoBehaviour
             background.color = defaultColor;
         }
     }
+    public bool IsDragging()
+    {
+        return dragging;
+    }
     public void SetDragging(bool dragging)
     {
         this.dragging = dragging;
@@ -269,7 +275,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void SetUpdateFactorButtonFocused(bool updateFactorButtonFocused)
     {
-        this.updateFactorButtonFocused = updateFactorButtonFocused;
+        //this.updateFactorButtonFocused = updateFactorButtonFocused;
         if (updateFactorButtonFocused)
         {
             updateFactorButton.color = updateFactorButtonFocusedColor;
@@ -291,10 +297,14 @@ public class RecipeBlock : MonoBehaviour
     {
         UpdateFactor();
     }
+    public void OnArrowGlow(Arrow arrow, bool glow)
+    {
+        parent.OnArrowGlow(arrow, glow);
+    }
     public void UpdateFactor()
     {
         Debug.Log("RecipeBlock: UpdateFactor");
-        List<Node> nodes = GetNodes();
+        List<Node> nodes = GetProducts();
         Node lowestExcess = nodes[0];
         for (int i = 1; i < nodes.Count; i++)
         {

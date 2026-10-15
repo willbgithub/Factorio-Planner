@@ -262,21 +262,35 @@ public class Node : MonoBehaviour
     {
         this.focused = focused;
         parent.SetFocusedChild(focused);
+        GlowArrows(true);
         if (focused && !selected && pointed)
         {
             background.color = focusedColor;
+            GlowArrows(true);
         }
         else if (!selected)
         {
             background.color = defaultColor;
+            GlowArrows(false);
         }
     }
     public void OnPointerEnter(BaseEventData data)
     {
         //Debug.Log("Node: OnPointerEnter");
         pointed = true;
+        if (parent.IsDragging())
+        {
+            return;
+        }
         SetFocused(true);
-        parent.SetFocused(false);
+    }
+    public void GlowArrows(bool glow)
+    {
+        for (int i = 0; i < relatedArrows.Count; i++)
+        {
+            relatedArrows[i].Glow(glow);
+            parent.OnArrowGlow(relatedArrows[i], glow);
+        }
     }
     public void OnPointerExit(BaseEventData data)
     {

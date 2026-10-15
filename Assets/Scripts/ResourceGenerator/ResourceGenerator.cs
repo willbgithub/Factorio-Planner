@@ -103,9 +103,8 @@ public class ResourceGenerator
             string prefabName = item.GetPrefabName();
 
             List<Recipe> craftedIn = new List<Recipe>();
+            List<Recipe> usedBy = new List<Recipe>();
             Recipe bestRecipe = null;
-
-            bool isUsed = false;
             for (int j = 0; j < recipeFiles.Length; j++)
             {
                 if (recipeFiles[j].FullName.EndsWith(".asset.meta"))
@@ -118,22 +117,23 @@ public class ResourceGenerator
                 if (recipe.GetRate(prefabName) > 0)
                 {
                     craftedIn.Add(recipe);
-                    
+
+                }
+                else if (recipe.GetRate(prefabName) < 0)
+                {
+                    usedBy.Add(recipe);
                 }
                 if (craftedIn.Count > 0)
                 {
                     bestRecipe = craftedIn[0];
                 }
-                else if (!isUsed && recipe.GetRate(prefabName) < 0)
-                {
-                    isUsed = true;
-                }
             }
-            if (craftedIn.Count == 0 && !isUsed && prefabName != "space-science-pack")
+            if (craftedIn.Count == 0 && usedBy.Count == 0 && prefabName != "space-science-pack")
             {
                 Debug.LogError("ERROR: \"" + prefabName + "\" should be added to the blacklist!");
             }
             item.SetCraftedIn(craftedIn);
+            item.SetUsedBy(usedBy);
             item.SetBestRecipe(bestRecipe);
         }
         Debug.Log("Updated " + itemFiles.Length/2 + " items.");

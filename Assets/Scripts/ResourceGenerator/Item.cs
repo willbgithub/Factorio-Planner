@@ -62,6 +62,14 @@ public class Item : Prototype
     {
         this.bestRecipe = bestRecipe;
     }
+    public void SetUsedBy(List<Recipe> usedBy)
+    {
+        this.usedBy = new List<Recipe>();
+        for (int i = 0; i < usedBy.Count; i++)
+        {
+            this.usedBy.Add(usedBy[i]);
+        }
+    }
     // Accessors
     public List<Recipe> GetCraftedIn()
     {
@@ -79,6 +87,15 @@ public class Item : Prototype
             UpdateBestRecipe();
         }
         return bestRecipe;
+    }
+    public List<Recipe> GetUsedBy()
+    {
+        List<Recipe> returnList = new List<Recipe>();
+        for (int i = 0; i < usedBy.Count; i++)
+        {
+            returnList.Add(usedBy[i]);
+        }
+        return returnList;
     }
     public void UpdateBestRecipe()
     {
@@ -107,7 +124,7 @@ public class Item : Prototype
             }
             else if (recipe.GetRate(prefabName) < 0)
             {
-
+                usedBy.Add(recipe);
             }
             if (craftedIn.Count > 0)
             {
