@@ -11,7 +11,7 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using static UnityEditor.Progress;
-class ResourceGenerator
+public class ResourceGenerator
 {
     const string FACTORIO_PATH = @"C:/Program Files (x86)/Steam/steamapps/common/Factorio/";
     const string ITEM_PATH = FACTORIO_PATH + @"data/base/prototypes/item.lua";
@@ -19,8 +19,8 @@ class ResourceGenerator
     const string RECIPE_PATH = FACTORIO_PATH + @"data/base/prototypes/recipe.lua";
     const string CFG_PATH = FACTORIO_PATH + @"data/base/locale/en/base.cfg";
 
-    const string UNITY_ITEM_PATH = @"Assets/Prototypes/Items/";
-    const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
+    public const string UNITY_ITEM_PATH = @"Assets/Prototypes/Items/";
+    public const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
     const string UNITY_ICON_PATH = @"Assets/Icons/";
 
     static List<string> BLACKLISTED_PREFABS = new List<string>()
@@ -68,7 +68,7 @@ class ResourceGenerator
         Debug.Log("Generated " + recipeFiles.Length + " recipes.");
     }
     [MenuItem("Factorio/Item Post-init")]
-    static void UpdateItems()
+    public static void UpdateItems()
     {
         // if there are no recipe files, ignore
         DirectoryInfo recipeDirectory = Directory.CreateDirectory(UNITY_RECIPE_PATH);

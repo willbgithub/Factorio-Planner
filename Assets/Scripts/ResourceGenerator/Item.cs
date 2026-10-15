@@ -3,10 +3,13 @@
 // 1 September 2026
 // will b. gaming
 
-using UnityEngine;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.RegularExpressions;
+using Unity.VisualScripting;
+using UnityEditor;
+using UnityEngine;
 [CreateAssetMenu(fileName = "Item", menuName = "Scriptable Objects/Item")]
 [Serializable]
 public class Item : Prototype
@@ -73,11 +76,51 @@ public class Item : Prototype
     {
         if (bestRecipe.IsUnityNull())
         {
-            Debug.LogError("ERROR: \"" + prefabName + "\" has no set best recipe!");
+            UpdateBestRecipe();
         }
         return bestRecipe;
     }
+    public void UpdateBestRecipe()
+    {
+        // if there are no recipe files, ignore
+        DirectoryInfo recipeDirectory = Directory.CreateDirectory(ResourceGenerator.UNITY_RECIPE_PATH);
+        FileInfo[] recipeFiles = recipeDirectory.GetFiles();
+        if (recipeFiles.Length == 0)
+        {
+            Debug.LogError("ERROR: Cannot update items as there are no recipes!");
+            return;
+        }
+        craftedIn = new List<Recipe>();
+        for (int j = 0; j < recipeFiles.Length; j++)
+        {
+            if (recipeFiles[j].FullName.EndsWith(".asset.meta"))
+            {
+                continue;
+            }
+            string recipePath = Regex.Replace(recipeFiles[j].FullName, @"\\", "/");
+            recipePath = Regex.Match(recipePath, "Factorio-Planner/(.+)").Groups[1].Value;
+            Recipe recipe = AssetDatabase.LoadAssetAtPath<Recipe>(recipePath);
+            if (recipe.GetRate(prefabName) > 0)
+            {
+                craftedIn.Add(recipe);
+
+            }
+            else if (recipe.GetRate(prefabName) < 0)
+            {
+
+            }
+            if (craftedIn.Count > 0)
+            {
+                bestRecipe = craftedIn[0];
+            }
+        }
+        if (craftedIn.Count == 0)
+        {
+            Debug.LogError("ERROR: No recipe exists for \"" + prefabName + "\"!");
+        }
+        }
     // Member data
     [SerializeField] List<Recipe> craftedIn;
+    [SerializeField] List<Recipe> usedBy;
     [SerializeField] Recipe bestRecipe;
 }

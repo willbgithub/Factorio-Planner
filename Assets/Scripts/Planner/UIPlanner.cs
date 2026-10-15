@@ -34,18 +34,7 @@ public class UIPlanner : MonoBehaviour
         //CreateRecipeBlock(testRecipe, testFactor, new Vector2(300, 500));
         CreateRecipeBlock(testRecipe2, testFactor2, new Vector2(1500, 500));
     }
-    public float GetWidth()
-    {
-        return canvas.GetComponent<RectTransform>().sizeDelta.x;
-    }
-    public float GetHeight()
-    {
-        return canvas.GetComponent<RectTransform>().sizeDelta.y;
-    }
-    public float GetScale()
-    {
-        return canvas.GetComponent<RectTransform>().localScale.x;
-    }
+    
     static Recipe GetRecipe(string prefabName)
     {
         Recipe recipe = AssetDatabase.LoadAssetAtPath<Recipe>(UNITY_RECIPE_PATH + prefabName + ".asset");
@@ -105,7 +94,6 @@ public class UIPlanner : MonoBehaviour
             }
             TogglePrompt();
         }
-        // ON SCALE CHANGE, UPDATE ALL ARROWS
     }
     public void TogglePrompt()
     {
@@ -224,5 +212,17 @@ public class UIPlanner : MonoBehaviour
         }
         selectedNode.SetSelected(false);
         selectedNode = null;
+    }
+    public float GetWidth()
+    {
+        return canvas.GetComponent<RectTransform>().sizeDelta.x;
+    }
+    public float GetHeight()
+    {
+        return canvas.GetComponent<RectTransform>().sizeDelta.y;
+    }
+    public float GetScale()
+    {
+        return canvas.GetComponent<RectTransform>().localScale.x;
     }
 }
