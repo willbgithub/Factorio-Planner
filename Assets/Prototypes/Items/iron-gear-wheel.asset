@@ -16,5 +16,7 @@ MonoBehaviour:
   englishName: Iron gear wheel
   typeName: item
   icon: {fileID: 21300000, guid: 4cf0a7251a63ec84daf6f47e1245c2ca, type: 2}
-  craftedIn: []
-  bestRecipe: {fileID: 0}
+  craftedIn:
+  - {fileID: 11400000, guid: b33f37625165e824f904cc9e29d74b1c, type: 2}
+  usedBy: []
+  bestRecipe: {fileID: 11400000, guid: b33f37625165e824f904cc9e29d74b1c, type: 2}

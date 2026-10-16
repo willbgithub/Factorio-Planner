@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class ContextItem : MonoBehaviour
 {
     UIPlanner parent;
+    Recipe recipe;
     [SerializeField] Image itemIcon;
     [SerializeField] Image background;
     [SerializeField] TMP_Text itemLabel;
@@ -21,6 +22,17 @@ public class ContextItem : MonoBehaviour
     public void SetParent(UIPlanner parent)
     {
         this.parent = parent;
+    }
+    public void Initialize(UIPlanner parent, Recipe recipe)
+    {
+        this.parent = parent;
+        this.recipe = recipe;
+        itemIcon.sprite = recipe.GetIcon();
+        itemLabel.text = recipe.GetEnglishName();
+    }
+    public Recipe GetRecipe()
+    {
+        return recipe;
     }
     // EVENT SYSTEMS
     public void SetFocused(bool focused)
@@ -42,5 +54,9 @@ public class ContextItem : MonoBehaviour
     public void OnPointerExit(BaseEventData d)
     {
         SetFocused(false);
+    }
+    public void OnPointerClick(BaseEventData d)
+    {
+        parent.OnRecipeContextItemPointerClick(this);
     }
 }

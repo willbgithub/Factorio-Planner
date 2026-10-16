@@ -1,10 +1,10 @@
+using System.Collections.Generic;
 using TMPro;
 using Unity.Collections;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using System.Collections.Generic;
 
 public class UIPlanner : MonoBehaviour
 {
@@ -14,27 +14,34 @@ public class UIPlanner : MonoBehaviour
     [SerializeField] Fraction testFactor;
     [SerializeField] Fraction testFactor2;
 
+
     Node selectedNode;
-    Vector2 targetPos;
+
+    // Prompts
     bool prompting = false;
-    bool productPrompting = false;
+    // Recipe prompt
+    Vector2 targetPos;
+    // Product prompt
+    Item demandedItem;
+    Fraction demandRate;
 
     [SerializeField] GameObject canvas;
     [SerializeField] GameObject recipePrompt;
+    [SerializeField] GameObject productPrompt;
+    [SerializeField] Transform recipeContextMenu;
     [SerializeField] TMP_InputField recipeNameInput;
     [SerializeField] Transform arrows;
     [SerializeField] Transform glowingArrows;
     [SerializeField] Transform recipeBlocks;
     [SerializeField] RecipeBlock recipeBlockPrefab;
     [SerializeField] Arrow arrowPrefab;
+    [SerializeField] ContextItem contextitemPrefab;
 
     const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
     public void Start()
     {
         //Debug.Log("UIPlanner: Start");
-        recipePrompt.SetActive(false);
-        prompting = false;
-        productPrompting = false;
+        Unprompt();
         //CreateRecipeBlock(testRecipe, testFactor, new Vector2(300, 500));
         CreateRecipeBlock(testRecipe2, testFactor2, new Vector2(1500, 500));
     }
@@ -82,6 +89,15 @@ public class UIPlanner : MonoBehaviour
         }
         return recipeBlock;
     }
+    public RecipeBlock CreateRecipeBlock(Recipe recipe, Item demandedItem, Fraction demandedRate, Vector2 position)
+    {
+        RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, recipeBlocks.transform);
+        recipeBlock.SetParent(this);
+        recipeBlock.transform.position = position * GetScale();
+        recipeBlock.SetRecipe(recipe);
+        recipeBlock.SetFactor(GetFactor(demandedItem, demandedRate));
+        return recipeBlock;
+    }
     // EVENT SYSTEMS
     public void OnPointerClick(BaseEventData data)
     {
@@ -95,14 +111,23 @@ public class UIPlanner : MonoBehaviour
             if (!prompting)
             {
                 targetPos = data2.position / GetScale();
+                SetRecipePrompt(true);
             }
-            TogglePrompt();
+            else
+            {
+                Unprompt();
+            }
         }
     }
-    public void TogglePrompt()
+    public void Unprompt()
     {
-        prompting = !prompting;
-        recipePrompt.SetActive(prompting);
+        SetRecipePrompt(false);
+        SetProductPrompt(false);
+    }
+    public void SetRecipePrompt(bool prompt)
+    {
+        prompting = prompt;
+        recipePrompt.SetActive(prompt);
     }
     public void OnRecipeButtonPress()
     {
@@ -143,9 +168,37 @@ public class UIPlanner : MonoBehaviour
             }
             else if (node.GetNodeType() == NODETYPE.PRODUCT)
             {
-
+                SetProductPrompt(true, node);
             }
         }
+    }
+    public void SetProductPrompt(bool prompt, Node node = null)
+    {
+        prompting = prompt;
+        productPrompt.SetActive(prompt);
+        if (prompt)
+        {
+            demandRate = node.GetExcess();
+            demandedItem = node.GetItem();
+            List<Recipe> usedBy = demandedItem.GetUsedBy();
+            for (int i = 0; i < usedBy.Count; i++)
+            {
+                Recipe recipe = usedBy[i];
+                ContextItem contextRecipeItem = Instantiate(contextitemPrefab, recipeContextMenu);
+                contextRecipeItem.Initialize(this, recipe);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < recipeContextMenu.childCount; i++)
+            {
+                Destroy(recipeContextMenu.GetChild(0).gameObject);
+            }
+        }
+    }
+    public void OnRecipeContextItemPointerClick(ContextItem item)
+    {
+        CreateRecipeBlock(item.GetRecipe(), demandedItem, demandRate, new Vector2(600, 600));
     }
     public Fraction GetFactor(Item desiredItem, Fraction desiredRate)
     {

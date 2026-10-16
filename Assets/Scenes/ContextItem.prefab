@@ -52,6 +52,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33d5827fb7aa494b89c84bdc1c4a3ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  itemIcon: {fileID: 0}
+  background: {fileID: 0}
+  itemLabel: {fileID: 0}
+  defaultColor: {r: 0, g: 0, b: 0, a: 0}
+  focusedColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!222 &8444954786488228596
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -102,6 +107,7 @@ GameObject:
   - component: {fileID: -7972247232393459545}
   - component: {fileID: 6946958044031686291}
   - component: {fileID: 2799630090632608025}
+  - component: {fileID: 1657969437955167500}
   m_Layer: 0
   m_Name: ContextItem
   m_TagString: Untagged
@@ -141,6 +147,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c33d5827fb7aa494b89c84bdc1c4a3ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  itemIcon: {fileID: 8055930098100263868}
+  background: {fileID: 2169737481933201256}
+  itemLabel: {fileID: 6949010139407481902}
+  defaultColor: {r: 0.18039216, g: 0.09411765, b: 0.21568628, a: 1}
+  focusedColor: {r: 0.37246057, g: 0.26824492, b: 0.41509432, a: 1}
 --- !u!222 &6946958044031686291
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -179,6 +190,67 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1657969437955167500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5527965304627927642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.EventSystems.EventTrigger
+  m_Delegates:
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: -7972247232393459545}
+          m_TargetAssemblyTypeName: ContextItem, Assembly-CSharp
+          m_MethodName: OnPointerEnter
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: -7972247232393459545}
+          m_TargetAssemblyTypeName: ContextItem, Assembly-CSharp
+          m_MethodName: OnPointerExit
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: -7972247232393459545}
+          m_TargetAssemblyTypeName: ContextItem, Assembly-CSharp
+          m_MethodName: OnPointerClick
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &5753776182187731059
 GameObject:
   m_ObjectHideFlags: 0
