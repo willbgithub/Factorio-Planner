@@ -1,13 +1,8 @@
 using System.Collections.Generic;
 using TMPro;
-using Unity.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.Rendering;
 using UnityEngine.UI;
-using UnityEngine.Windows;
-using static UnityEngine.EventSystems.StandaloneInputModule;
 
 public class RecipeBlock : MonoBehaviour
 {
@@ -103,6 +98,7 @@ public class RecipeBlock : MonoBehaviour
         // If the factor is 0, the block is producing and consuming nothing, so it should really just be deleted
         if (factor == 0)
         {
+            Debug.Log("Destroyed recipe block for " + recipe);
             Destroy(gameObject);
             return;
         }
@@ -174,6 +170,20 @@ public class RecipeBlock : MonoBehaviour
             }
         }
         Debug.LogError("ERROR: Could not find product \"" + item + "\" in recipe block!");
+        return null;
+    }
+    public Node GetInputNode(Item item)
+    {
+        List<Node> inputs = GetInputs();
+        for (int i = 0; i < inputs.Count; i++)
+        {
+            Node input = inputs[i];
+            if (input.GetItem() == item)
+            {
+                return input;
+            }
+        }
+        Debug.LogError("ERROR: Could not find input \"" + item + "\" in recipe block!");
         return null;
     }
     public List<Node> GetNodes()

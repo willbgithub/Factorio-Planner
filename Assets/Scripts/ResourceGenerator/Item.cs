@@ -73,6 +73,10 @@ public class Item : Prototype
     // Accessors
     public List<Recipe> GetCraftedIn()
     {
+        if (craftedIn.Count == 0)
+        {
+            UpdateRecipeLists();
+        }
         List<Recipe> returnList = new List<Recipe>();
         for (int i = 0; i < craftedIn.Count; i++)
         {
@@ -84,12 +88,17 @@ public class Item : Prototype
     {
         if (bestRecipe.IsUnityNull())
         {
-            UpdateBestRecipe();
+            UpdateRecipeLists();
+
         }
         return bestRecipe;
     }
     public List<Recipe> GetUsedBy()
     {
+        if (usedBy.Count == 0)
+        {
+            UpdateRecipeLists();
+        }
         List<Recipe> returnList = new List<Recipe>();
         for (int i = 0; i < usedBy.Count; i++)
         {
@@ -97,14 +106,14 @@ public class Item : Prototype
         }
         return returnList;
     }
-    public void UpdateBestRecipe()
+    public void UpdateRecipeLists()
     {
         // if there are no recipe files, ignore
         DirectoryInfo recipeDirectory = Directory.CreateDirectory(ResourceGenerator.UNITY_RECIPE_PATH);
         FileInfo[] recipeFiles = recipeDirectory.GetFiles();
         if (recipeFiles.Length == 0)
         {
-            Debug.LogError("ERROR: Cannot update items as there are no recipes!");
+            Debug.LogError("ERROR: There are no recipe files!");
             return;
         }
         craftedIn = new List<Recipe>();

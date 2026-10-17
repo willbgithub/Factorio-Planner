@@ -1,11 +1,9 @@
 using System.Collections.Generic;
-using System.ComponentModel;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityEngine.Windows;
 
 public enum NODETYPE { INPUT, PRODUCT }
 
@@ -46,12 +44,13 @@ public class Node : MonoBehaviour
     // Only called by a node that has already properly disconnected this one
     public void RemoveNode(Node node)
     {
+        Debug.Log(this + ": RemoveNode(" + node + ")");
         nodes.Remove(node);
         UpdateExcess();
     }
     public void UpdateExcess()
     {
-        //Debug.Log("Node: UpdateExcess");
+        Debug.Log(this + ": UpdateExcess");
         
         if (GetExcess() > 0)
         {
@@ -71,6 +70,7 @@ public class Node : MonoBehaviour
     }
     public Fraction GetExcess()
     {
+        Debug.Log(this + " excess = " + (value - GetDemand()));
         return value - GetDemand();
     }
     public Fraction GetDemand()
@@ -222,12 +222,13 @@ public class Node : MonoBehaviour
     }
     public void Disconnect(Node node)
     {
-        //Debug.Log(this + ": Disconnect(" + node + ")");
+        Debug.Log(this + ": Disconnect(" + node + ")");
         if (!Contains(node))
         {
             Debug.LogError("ERROR: Attempted to disconnect node that wasn't connected!");
         }
         nodes.Remove(node);
+        Debug.Log(this + ": relatedArrows.Count = " + relatedArrows.Count);
         for (int i = 0; i < relatedArrows.Count; i++)
         {
             if (relatedArrows[i].Contains(node))
@@ -238,8 +239,14 @@ public class Node : MonoBehaviour
         }
         if (node.Contains(this))
         {
+            Debug.Log("node.Contains(this) -> true");
             node.RemoveNode(this);
         }
+        else
+        {
+            Debug.Log("node.Contains(this) -> false");
+        }
+        UpdateExcess();
     }
     public override string ToString()
     {
