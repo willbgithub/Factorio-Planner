@@ -36,7 +36,14 @@ public class Node : MonoBehaviour
         relatedArrows = new List<Arrow>();
         nodes = new List<Node>();
     }
-    public void AddNode(Node node)
+    public void SetItem(Item item)
+    {
+        //Debug.Log("Node: SetItem");
+        this.item = item;
+        itemIcon.sprite = item.GetIcon();
+    }
+
+	public void AddNode(Node node)
     {
         nodes.Add(node);
         UpdateExcess();
@@ -157,12 +164,6 @@ public class Node : MonoBehaviour
     {
         return nodeType;
     }
-    public void SetItem(Item item)
-    {
-        //Debug.Log("Node: SetItem");
-        this.item = item;
-        itemIcon.sprite = item.GetIcon();
-    }
     public Item GetItem()
     {
         //Debug.Log("Node: GetItem");
@@ -281,7 +282,7 @@ public class Node : MonoBehaviour
             GlowArrows(false);
         }
     }
-    public void OnPointerEnter(BaseEventData data)
+    public void OnPointerEnter(BaseEventData d)
     {
         //Debug.Log("Node: OnPointerEnter");
         pointed = true;
@@ -299,17 +300,17 @@ public class Node : MonoBehaviour
             parent.OnArrowGlow(relatedArrows[i], glow);
         }
     }
-    public void OnPointerExit(BaseEventData data)
+    public void OnPointerExit(BaseEventData d)
     {
         //Debug.Log("Node: OnPointerExit");
         pointed = false;
         SetFocused(false);
         parent.SetFocused(true);
     }
-    public void OnPointerClick(BaseEventData data)
+    public void OnPointerClick(BaseEventData d)
     {
         //Debug.Log("Node: OnPointerClick");
-        parent.OnNodePointerClick(this, data);
+        parent.OnNodePointerClick(this, d);
     }
     public List<Arrow> GetRelatedArrows()
     {

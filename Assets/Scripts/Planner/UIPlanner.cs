@@ -8,15 +8,13 @@ using UnityEngine.EventSystems;
 
 public class UIPlanner : MonoBehaviour
 {
-    // Test values
-    [SerializeField] Recipe testRecipe;
-    [SerializeField] Recipe testRecipe2;
-    [SerializeField] Fraction testFactor;
-    [SerializeField] Fraction testFactor2;
-
+    /// <summary>
+    /// Starting block
+    /// </summary>
+    [SerializeField] Recipe recipe;
+    [SerializeField] Fraction factor;
 
     Node selectedNode;
-
     // Prompts
     bool prompting = false;
     Node targetNode;
@@ -26,36 +24,26 @@ public class UIPlanner : MonoBehaviour
     Item demandedItem;
     Fraction demandRate;
 
+    /// <summary>
+    /// Serialized objects
+    /// </summary>
     [SerializeField] GameObject canvas;
     [SerializeField] GameObject recipePrompt;
     [SerializeField] GameObject productPrompt;
-    [SerializeField] Transform recipeContextMenu;
     [SerializeField] TMP_InputField recipeNameInput;
+    [SerializeField] Transform recipeContextMenu;
     [SerializeField] Transform arrows;
     [SerializeField] Transform glowingArrows;
     [SerializeField] Transform recipeBlocks;
     [SerializeField] RecipeBlock recipeBlockPrefab;
     [SerializeField] Arrow arrowPrefab;
     [SerializeField] ContextItem contextitemPrefab;
-
     const string UNITY_RECIPE_PATH = @"Assets/Prototypes/Recipes/";
     public void Start()
     {
         Debug.Log("UIPlanner: Start");
         Unprompt();
-        //CreateRecipeBlock(testRecipe, testFactor, new Vector2(300, 500));
-        CreateRecipeBlock(testRecipe2, testFactor2, new Vector2(1500, 500));
-    }
-    
-    static Recipe GetRecipe(string prefabName)
-    {
-        Debug.Log("UIPlanner: GetRecipe");
-        Recipe recipe = AssetDatabase.LoadAssetAtPath<Recipe>(UNITY_RECIPE_PATH + prefabName + ".asset");
-        if (recipe.IsUnityNull())
-        {
-            //Debug.LogError("ERROR: Could not find recipe \"" + prefabName + "\"");
-        }
-        return recipe;
+        CreateRecipeBlock(recipe, factor, new Vector2(900, 500));
     }
     public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor, Vector2 position)
     {
@@ -67,140 +55,11 @@ public class UIPlanner : MonoBehaviour
         recipeBlock.transform.position = position * GetScale();
         return recipeBlock;
     }
-    // EVENT SYSTEMS
-    public void OnPointerClick(BaseEventData data)
-    {
-        //Debug.Log("UIPlanner: OnPointerClick");
-        PointerEventData data2 = (PointerEventData)data;
-        if (data2.button == PointerEventData.InputButton.Left)
-        {
-            DeselectNode();
-        }
-        else if (data2.button == PointerEventData.InputButton.Right)
-        {
-            if (!prompting)
-            {
-                targetPos = data2.position / GetScale();
-                SetRecipePrompt(true);
-            }
-            else
-            {
-                Unprompt();
-            }
-        }
-    }
-    public void Unprompt()
-    {
-        Debug.Log("UIPlanner: Unprompt");
-        SetRecipePrompt(false);
-        SetProductPrompt(false);
-    }
-    public void SetRecipePrompt(bool prompt)
-    {
-        Debug.Log("UIPlanner: SetRecipePrompt");
-        prompting = prompt;
-        recipePrompt.SetActive(prompt);
-    }
-    public void OnRecipeButtonPress()
-    {
-        Debug.Log("UIPlanner: OnRecipeButtonPress");
-        Recipe recipe = GetRecipe(recipeNameInput.text);
-        RecipeBlock recipeBlock = CreateRecipeBlock(recipe, 1, targetPos);
-        prompting = false;
-        recipePrompt.SetActive(false);
-    }
-    public void OnNodePointerClick(Node node, BaseEventData data)
-    {
-        //Debug.Log("UIPlanner: OnNodePointerClick");
-        PointerEventData pData = (PointerEventData)data;
-        if (pData.button == PointerEventData.InputButton.Left)
-        {
-            if (selectedNode.IsUnityNull())
-            {
-                SelectNode(node);
-            }
-            else if (selectedNode == node)
-            {
-                DeselectNode();
-            }
-            else if (node.Contains(selectedNode))
-            {
-                Debug.Log("UIPlanner: Disconnecting these two nodes");
-                node.Disconnect(selectedNode);
-                DeselectNode();
-            }
-            else
-            {
-                Connect(selectedNode, node);
-                DeselectNode();
-            }
-        }
-        else if (pData.button == PointerEventData.InputButton.Right)
-        {
-            if (node.GetNodeType() == NODETYPE.INPUT)
-            {
-                Item item = node.GetItem();
-                Recipe recipe = item.GetBestRecipe();
-                Fraction factor = GetFactor(recipe, item, node.GetValue());
-                RecipeBlock recipeBlock = CreateRecipeBlock(recipe, factor, node.gameObject.transform.position);
-                Connect(recipeBlock, node);
-            }
-            else if (node.GetNodeType() == NODETYPE.PRODUCT)
-            {
-                if (node.GetItem().GetUsedBy().Count == 0 || node.GetExcess() <= 0)
-                {
-                    return;
-                }
-                SetProductPrompt(true, node);
-            }
-        }
-    }
-    public void SetProductPrompt(bool prompt, Node node = null)
-    {
-        Debug.Log("UIPlanner: SetProductPrompt");
-        prompting = prompt;
-        productPrompt.SetActive(prompt);
-        if (prompt)
-        {
-            targetNode = node;
-            demandRate = node.GetExcess();
-            demandedItem = node.GetItem();
-            List<Recipe> usedBy = demandedItem.GetUsedBy();
-            for (int i = 0; i < usedBy.Count; i++)
-            {
-                Recipe recipe = usedBy[i];
-                ContextItem contextRecipeItem = Instantiate(contextitemPrefab, recipeContextMenu);
-                contextRecipeItem.Initialize(this, recipe);
-            }
-        }
-        else
-        {
-            //Debug.Log("recipeContextMenu children: " + recipeContextMenu.childCount);
-            for (int i = 0; i < recipeContextMenu.childCount; i++)
-            {
-                Destroy(recipeContextMenu.GetChild(i).gameObject);
-            }
-        }
-    }
-    public void OnRecipeContextItemPointerClick(ContextItem item)
-    {
-        Debug.Log("UIPlanner: OnRecipeContextItemPointerClick");
-        Fraction factor = GetFactor(item.GetRecipe(), demandedItem, demandRate);
-        RecipeBlock recipeBlock = CreateRecipeBlock(item.GetRecipe(), factor, new Vector2(600, 600));
-        Connect(recipeBlock, targetNode);
-        SetProductPrompt(false);
-    }
-    
-    public Fraction GetFactor(Recipe recipe, Item desiredItem, Fraction desiredRate)
-    {
-        Debug.Log("UIPlanner: GetFactor");
-        return desiredRate / Fraction.abs(recipe.GetRate(desiredItem));
-    }
     public void Connect(Node node1, Node node2)
     {
         Debug.Log("UIPlanner: Connect");
         if (!Compatible(node1, node2))
-        {   
+        {
             return;
         }
         Node inputNode = node1;
@@ -230,39 +89,6 @@ public class UIPlanner : MonoBehaviour
         }
         Connect(node, node2);
     }
-    public void OnRecipeBlockStart(RecipeBlock recipeBlock)
-    {
-        Debug.Log("UIPlanner: OnRecipeBlockStart");
-        UpdateArrows(recipeBlock);
-    }
-    public void OnArrowGlow(Arrow arrow, bool glow)
-    {
-        //Debug.Log("UIPlanner: OnArrowGlow");
-        if (glow)
-        {
-            arrow.gameObject.transform.SetParent(glowingArrows);
-        }
-        else
-        {
-            arrow.gameObject.transform.SetParent(arrows);
-        }
-    }
-    public void UpdateArrows(RecipeBlock recipeBlock)
-    {
-        //Debug.Log("UIPlanner: UpdateArrows");
-        List<Arrow> arrows = recipeBlock.GetRelatedArrows();
-        for (int i = 0; i < arrows.Count; i++)
-        {
-            arrows[i].UpdatePosition(GetScale());
-        }
-    }
-    public Arrow CreateArrow(Node inputNode, Node productNode)
-    {
-        Debug.Log("UIPlanner: CreateArrow");
-        Arrow arrow = Instantiate(arrowPrefab, arrows);
-        arrow.SetNodes(inputNode, productNode, GetScale());
-        return arrow;
-    }
     public bool Compatible(Node node1, Node node2)
     {
         bool compatible = true;
@@ -288,6 +114,87 @@ public class UIPlanner : MonoBehaviour
         }
         return compatible;
     }
+    // UI
+    public void Unprompt()
+    {
+        Debug.Log("UIPlanner: Unprompt");
+        SetRecipePrompt(false);
+        SetProductPrompt(false);
+    }
+    public void SetRecipePrompt(bool prompt)
+    {
+        Debug.Log("UIPlanner: SetRecipePrompt");
+        prompting = prompt;
+        recipePrompt.SetActive(prompt);
+    }
+    public float GetWidth()
+    {
+        return canvas.GetComponent<RectTransform>().sizeDelta.x;
+    }
+    public float GetHeight()
+    {
+        return canvas.GetComponent<RectTransform>().sizeDelta.y;
+    }
+    public float GetScale()
+    {
+        return canvas.GetComponent<RectTransform>().localScale.x;
+    }
+    public void OnPointerClick(BaseEventData d)
+    {
+        //Debug.Log("UIPlanner: OnPointerClick");
+        PointerEventData data = (PointerEventData)d;
+        if (data.button == PointerEventData.InputButton.Left)
+        {
+            DeselectNode();
+        }
+        else if (data.button == PointerEventData.InputButton.Right)
+        {
+            if (!prompting)
+            {
+                targetPos = data.position / GetScale();
+                SetRecipePrompt(true);
+            }
+            else
+            {
+                Unprompt();
+            }
+        }
+    }
+    public void OnRecipeButtonPress()
+    {
+        Debug.Log("UIPlanner: OnRecipeButtonPress");
+        Recipe recipe = ResourceGenerator.GetRecipe(recipeNameInput.text);
+        RecipeBlock recipeBlock = CreateRecipeBlock(recipe, 1, targetPos);
+        prompting = false;
+        recipePrompt.SetActive(false);
+    }
+    public void SetProductPrompt(bool prompt, Node node = null)
+    {
+        Debug.Log("UIPlanner: SetProductPrompt");
+        prompting = prompt;
+        productPrompt.SetActive(prompt);
+        if (prompt)
+        {
+            targetNode = node;
+            demandRate = node.GetExcess();
+            demandedItem = node.GetItem();
+            List<Recipe> usedBy = demandedItem.GetUsedBy();
+            for (int i = 0; i < usedBy.Count; i++)
+            {
+                Recipe recipe = usedBy[i];
+                ContextItem contextRecipeItem = Instantiate(contextitemPrefab, recipeContextMenu);
+                contextRecipeItem.Initialize(this, recipe);
+            }
+        }
+        else
+        {
+            //Debug.Log("recipeContextMenu children: " + recipeContextMenu.childCount);
+            for (int i = 0; i < recipeContextMenu.childCount; i++)
+            {
+                Destroy(recipeContextMenu.GetChild(i).gameObject);
+            }
+        }
+    }
     public void SelectNode(Node node)
     {
         Debug.Log("UIPlanner: SelectNode");
@@ -304,16 +211,93 @@ public class UIPlanner : MonoBehaviour
         selectedNode.SetSelected(false);
         selectedNode = null;
     }
-    public float GetWidth()
+    // Recipe Block
+    public void OnRecipeBlockFactorButtonClick(RecipeBlock recipeBlock)
     {
-        return canvas.GetComponent<RectTransform>().sizeDelta.x;
+
     }
-    public float GetHeight()
+    // Node/Arrow
+    public void OnNodePointerClick(Node node, BaseEventData d)
     {
-        return canvas.GetComponent<RectTransform>().sizeDelta.y;
+        //Debug.Log("UIPlanner: OnNodePointerClick");
+        PointerEventData data = (PointerEventData)d;
+        if (data.button == PointerEventData.InputButton.Left)
+        {
+            if (selectedNode.IsUnityNull())
+            {
+                SelectNode(node);
+            }
+            else if (selectedNode == node)
+            {
+                DeselectNode();
+            }
+            else if (node.Contains(selectedNode))
+            {
+                Debug.Log("UIPlanner: Disconnecting these two nodes");
+                node.Disconnect(selectedNode);
+                DeselectNode();
+            }
+            else
+            {
+                Connect(selectedNode, node);
+                DeselectNode();
+            }
+        }
+        else if (data.button == PointerEventData.InputButton.Right)
+        {
+            if (node.GetNodeType() == NODETYPE.INPUT)
+            {
+                Item item = node.GetItem();
+                Recipe recipe = item.GetBestRecipe();
+                Fraction factor = ResourceGenerator.GetFactor(recipe, item, node.GetValue());
+                RecipeBlock recipeBlock = CreateRecipeBlock(recipe, factor, node.gameObject.transform.position);
+                Connect(recipeBlock, node);
+            }
+            else if (node.GetNodeType() == NODETYPE.PRODUCT)
+            {
+                if (node.GetItem().GetUsedBy().Count == 0 || node.GetExcess() <= 0)
+                {
+                    return;
+                }
+                SetProductPrompt(true, node);
+            }
+        }
     }
-    public float GetScale()
+    public Arrow CreateArrow(Node inputNode, Node productNode)
     {
-        return canvas.GetComponent<RectTransform>().localScale.x;
+        Debug.Log("UIPlanner: CreateArrow");
+        Arrow arrow = Instantiate(arrowPrefab, arrows);
+        arrow.SetNodes(inputNode, productNode, GetScale());
+        return arrow;
+    }
+    public void OnArrowGlow(Arrow arrow, bool glow)
+    {
+        //Debug.Log("UIPlanner: OnArrowGlow");
+        if (glow)
+        {
+            arrow.gameObject.transform.SetParent(glowingArrows);
+        }
+        else
+        {
+            arrow.gameObject.transform.SetParent(arrows);
+        }
+    }
+    public void UpdateArrows(RecipeBlock recipeBlock)
+    {
+        //Debug.Log("UIPlanner: UpdateArrows");
+        List<Arrow> arrows = recipeBlock.GetRelatedArrows();
+        for (int i = 0; i < arrows.Count; i++)
+        {
+            arrows[i].UpdatePosition(GetScale());
+        }
+    }
+    // ContextItem
+    public void OnRecipeContextItemPointerClick(ContextItem item)
+    {
+        Debug.Log("UIPlanner: OnRecipeContextItemPointerClick");
+        Fraction factor = ResourceGenerator.GetFactor(item.GetRecipe(), demandedItem, demandRate);
+        RecipeBlock recipeBlock = CreateRecipeBlock(item.GetRecipe(), factor, new Vector2(600, 600));
+        Connect(recipeBlock, targetNode);
+        SetProductPrompt(false);
     }
 }

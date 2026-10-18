@@ -249,7 +249,7 @@ public class ResourceGenerator
         }
         return contribution;
     }
-    static Item GetItem(string prefabName)
+    public static Item GetItem(string prefabName)
     {
         Item item = AssetDatabase.LoadAssetAtPath<Item>(UNITY_ITEM_PATH + prefabName + ".asset");
         if (item.IsUnityNull())
@@ -257,6 +257,19 @@ public class ResourceGenerator
             Debug.LogError("ERROR: Could not find item \"" + prefabName + "\"");
         }
         return item;
+    }
+    public static Recipe GetRecipe(string prefabName)
+    {
+        Recipe recipe = AssetDatabase.LoadAssetAtPath<Recipe>(UNITY_RECIPE_PATH + prefabName + ".asset");
+        if (recipe.IsUnityNull())
+        {
+            Debug.LogError("ERROR: Could not find recipe \"" + prefabName + "\"");
+        }
+        return recipe;
+    }
+    public static Fraction GetFactor(Recipe recipe, Item desiredItem, Fraction desiredRate)
+    {
+        return desiredRate / Fraction.abs(recipe.GetRate(desiredItem));
     }
     static Fraction GetFractionProperty(string prototype, string propertyName)
     {
@@ -330,5 +343,13 @@ public class ResourceGenerator
             blocks.Add(block);
         }
         return blocks;
+    }
+    public static float Clamp(float val, float min, float max)
+    {
+        if (val < min)
+            val = min;
+        else if (val > max)
+            val = max;
+        return val;
     }
 }
