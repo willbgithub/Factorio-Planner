@@ -212,10 +212,6 @@ public class UIPlanner : MonoBehaviour
         selectedNode = null;
     }
     // Recipe Block
-    public void OnRecipeBlockFactorButtonClick(RecipeBlock recipeBlock)
-    {
-
-    }
     // Node/Arrow
     public void OnNodePointerClick(Node node, BaseEventData d)
     {

@@ -19,15 +19,19 @@ public class RecipeBlock : MonoBehaviour
     [SerializeField] Color buttonFocusedColor;
     [SerializeField] GameObject inputs;
     [SerializeField] GameObject products;
-    [SerializeField] Image updateFactorButton;
-    [SerializeField] Image deleteButton;
     [SerializeField] TMP_Text recipeLabel;
     [SerializeField] TMP_Text factorLabel;
+    [SerializeField] TMP_InputField factorInput;
     [SerializeField] Image recipeIcon;
+    [SerializeField] Image recipeIconBackground;
     [SerializeField] Image background;
     [SerializeField] GameObject nodePrefab;
     const int CELL_SIZE = 65;
     const int BOTTOM_SPACE = 50;
+    public void Start()
+    {
+        SetFactorPrompt(false);
+    }
     public void SetParent(UIPlanner parent)
     {
         this.parent = parent;
@@ -274,51 +278,42 @@ public class RecipeBlock : MonoBehaviour
 
         parent.UpdateArrows(this);
     }
-    public void SetUpdateFactorButtonFocused(bool updateFactorButtonFocused)
+    public void OnFactorLabelPointerClick(BaseEventData d)
     {
-        SetFocusedChild(updateFactorButtonFocused);
-        if (updateFactorButtonFocused)
+        Debug.Log("Factor label clicked");
+        SetFactorPrompt(true);
+    }
+    public void SetFactorPrompt(bool inputPrompt)
+    {
+        factorInput.gameObject.SetActive(inputPrompt);
+        factorLabel.gameObject.SetActive(!inputPrompt);
+    }
+    public void OnFactorEndEdit(string factor)
+    {
+        SetFactor(new Fraction(factor));
+        SetFactorPrompt(false);
+    }
+    public void SetRecipeIconFocused(bool recipeIconBackgroundFocused)
+    {
+        SetFocusedChild(recipeIconBackgroundFocused);
+        if (recipeIconBackgroundFocused)
         {
-            updateFactorButton.color = buttonFocusedColor;
+            recipeIconBackground.color = buttonFocusedColor;
         }
         else
         {
-            updateFactorButton.color = buttonDefaultColor;
+            recipeIconBackground.color = buttonDefaultColor;
         }
     }
-    public void OnUpdateFactorButtonPointerEnter(BaseEventData d)
+    public void OnRecipeIconPointerEnter(BaseEventData d)
     {
-        SetUpdateFactorButtonFocused(true);
+        SetRecipeIconFocused(true);
     }
-    public void OnUpdateFactorButtonPointerExit(BaseEventData d)
+    public void OnRecipeIconPointerExit(BaseEventData d)
     {
-        SetUpdateFactorButtonFocused(false);
+        SetRecipeIconFocused(false);
     }
-    public void OnUpdateFactorButtonPointerClick(BaseEventData d)
-    {
-        parent.OnRecipeBlockFactorButtonClick(this);
-    }
-    public void SetDeleteButtonFocused(bool deleteButtonFocused)
-    {
-        SetFocusedChild(deleteButtonFocused);
-        if (deleteButtonFocused)
-        {
-            deleteButton.color = buttonFocusedColor;
-        }
-        else
-        {
-            deleteButton.color = buttonDefaultColor;
-        }
-    }
-    public void OnDeleteButtonPointerEnter(BaseEventData d)
-    {
-        SetDeleteButtonFocused(true);
-    }
-    public void OnDeleteButtonPointerExit(BaseEventData d)
-    {
-        SetDeleteButtonFocused(false);
-    }
-    public void OnDeleteButtonPointerClick(BaseEventData d)
+    public void OnRecipeIconPointerClick(BaseEventData d)
     {
         Destroy(gameObject);
     }
