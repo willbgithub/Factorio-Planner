@@ -287,6 +287,10 @@ public class RecipeBlock : MonoBehaviour
     {
         factorInput.gameObject.SetActive(inputPrompt);
         factorLabel.gameObject.SetActive(!inputPrompt);
+        if (inputPrompt)
+        {
+            factorInput.Select();
+        }
     }
     public void OnFactorEndEdit(string factor)
     {
