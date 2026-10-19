@@ -55,6 +55,10 @@ public class Node : MonoBehaviour
         nodes.Remove(node);
         UpdateExcess();
     }
+    public Recipe GetRecipe()
+    {
+        return parent.GetRecipe();
+    }
     public void UpdateExcess()
     {
         Debug.Log(this + ": UpdateExcess");
@@ -77,7 +81,7 @@ public class Node : MonoBehaviour
     }
     public Fraction GetExcess()
     {
-        Debug.Log(this + " excess = " + (value - GetDemand()));
+        //Debug.Log(this + " excess = " + (value - GetDemand()));
         return value - GetDemand();
     }
     public Fraction GetDemand()

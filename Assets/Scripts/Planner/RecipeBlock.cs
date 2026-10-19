@@ -102,12 +102,53 @@ public class RecipeBlock : MonoBehaviour
             connectedNotes[i].UpdateExcess();
         }
     }
+    public void UpdateFactor()
+    {
+        Debug.Log("RecipeBlock: UpdateFactor");
+        Fraction greatestFactor = 0;
+        if (inputLocked)
+        {
+            List<Node> connectedProducts = GetConnectedProducts();
+            Debug.Log("Looking at " + connectedProducts.Count + " connected products");
+            for (int i = 0; i < connectedProducts.Count; i++)
+            {
+                Debug.Log(connectedProducts[i]);
+                Fraction factor = ResourceGenerator.GetFactor(connectedProducts[i].GetRecipe(), connectedProducts[i].GetItem(), connectedProducts[i].GetDemand());
+                Debug.Log("factor: " + factor);
+                if (factor > greatestFactor)
+                {
+                    greatestFactor = factor;
+                }
+            }
+        }
+        if (productLocked)
+        {
+            List<Node> connectedInputs = GetConnectedInputs();
+            Debug.Log("Looking at " + connectedInputs.Count + " connected inputs");
+            for (int i = 0; i < connectedInputs.Count; i++)
+            {
+                Debug.Log(connectedInputs[i]);
+                Fraction factor = ResourceGenerator.GetFactor(connectedInputs[i].GetRecipe(), connectedInputs[i].GetItem(), connectedInputs[i].GetDemand());
+                Debug.Log("factor: " + factor);
+                if (factor > greatestFactor)
+                {
+                    greatestFactor = factor;
+                }
+            }
+        }
+        SetFactor(greatestFactor);
+    }
+    public Recipe GetRecipe()
+    {
+        return recipe;
+    }
     public void SetInputLocked(bool inputLocked)
     {
         this.inputLocked = inputLocked;
         if (inputLocked)
         {
             inputButton.color = buttonEnabledDefaultColor;
+            UpdateFactor();
         }
         else
         {
@@ -120,6 +161,7 @@ public class RecipeBlock : MonoBehaviour
         if (productLocked)
         {
             productButton.color = buttonEnabledDefaultColor;
+            UpdateFactor();
         }
         else
         {
@@ -129,6 +171,35 @@ public class RecipeBlock : MonoBehaviour
     public List<Node> GetConnectedNodes()
     {
         List<Node> nodes = GetNodes();
+        List<Node> connectedNodes = new List<Node>();
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            List<Node> nodeConnections = nodes[i].GetNodes();
+            for (int j = 0; j < nodeConnections.Count; j++)
+            {
+                connectedNodes.Add(nodeConnections[j]);
+            }
+        }
+        return connectedNodes;
+    }
+    public List<Node> GetConnectedInputs()
+    {
+        Debug.Log(this + ": GetConnectedInputs");
+        List<Node> nodes = GetProducts();
+        List<Node> connectedNodes = new List<Node>();
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            List<Node> nodeConnections = nodes[i].GetNodes();
+            for (int j = 0; j < nodeConnections.Count; j++)
+            {
+                connectedNodes.Add(nodeConnections[j]);
+            }
+        }
+        return connectedNodes;
+    }
+    public List<Node> GetConnectedProducts()
+    {
+        List<Node> nodes = GetInputs();
         List<Node> connectedNodes = new List<Node>();
         for (int i = 0; i < nodes.Count; i++)
         {
@@ -320,6 +391,7 @@ public class RecipeBlock : MonoBehaviour
         factorLabel.gameObject.SetActive(!inputPrompt);
         if (inputPrompt)
         {
+            factorInput.text = factorLabel.text;
             factorInput.Select();
         }
     }
@@ -357,11 +429,25 @@ public class RecipeBlock : MonoBehaviour
         SetFocusedChild(focus);
         if (focus)
         {
-            inputButton.color = buttonFocusedColor;
+            if (inputLocked)
+            {
+                inputButton.color = buttonEnabledFocusedColor;
+            }
+            else
+            {
+                inputButton.color = buttonFocusedColor;
+            }
         }
         else
         {
-            inputButton.color = buttonDefaultColor;
+            if (inputLocked)
+            {
+                inputButton.color = buttonEnabledDefaultColor;
+            }
+            else
+            {
+                inputButton.color = buttonDefaultColor;
+            }
         }
     }
     public void OnInputButtonPointerEnter(BaseEventData d)
@@ -389,11 +475,25 @@ public class RecipeBlock : MonoBehaviour
         SetFocusedChild(focus);
         if (focus)
         {
-            productButton.color = buttonFocusedColor;
+            if (productLocked)
+            {
+                productButton.color = buttonEnabledFocusedColor;
+            }
+            else
+            {
+                productButton.color = buttonFocusedColor;
+            }
         }
         else
         {
-            productButton.color = buttonDefaultColor;
+            if (productLocked)
+            {
+                productButton.color = buttonEnabledDefaultColor;
+            }
+            else
+            {
+                productButton.color = buttonDefaultColor;
+            }
         }
     }
     public void OnProductButtonPointerEnter(BaseEventData d)

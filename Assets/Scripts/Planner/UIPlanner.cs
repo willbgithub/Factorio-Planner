@@ -43,15 +43,17 @@ public class UIPlanner : MonoBehaviour
     {
         Debug.Log("UIPlanner: Start");
         Unprompt();
-        CreateRecipeBlock(recipe, factor, new Vector2(900, 500));
+        CreateRecipeBlock(recipe, factor, false, false, new Vector2(900, 500));
     }
-    public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor, Vector2 position)
+    public RecipeBlock CreateRecipeBlock(Recipe recipe, Fraction factor, bool inputLocked, bool productLocked, Vector2 position)
     {
         Debug.Log("UIPlanner: CreateRecipeBlock");
         RecipeBlock recipeBlock = Instantiate(recipeBlockPrefab, recipeBlocks.transform);
         recipeBlock.SetParent(this);
         recipeBlock.SetRecipe(recipe);
         recipeBlock.SetFactor(factor);
+        recipeBlock.SetInputLocked(inputLocked);
+        recipeBlock.SetProductLocked(productLocked);
         recipeBlock.transform.position = position * GetScale();
         return recipeBlock;
     }
@@ -164,7 +166,7 @@ public class UIPlanner : MonoBehaviour
     {
         Debug.Log("UIPlanner: OnRecipeButtonPress");
         Recipe recipe = ResourceGenerator.GetRecipe(recipeNameInput.text);
-        RecipeBlock recipeBlock = CreateRecipeBlock(recipe, 1, targetPos);
+        RecipeBlock recipeBlock = CreateRecipeBlock(recipe, 1, false, false, targetPos);
         prompting = false;
         recipePrompt.SetActive(false);
     }
@@ -246,7 +248,7 @@ public class UIPlanner : MonoBehaviour
                 Item item = node.GetItem();
                 Recipe recipe = item.GetBestRecipe();
                 Fraction factor = ResourceGenerator.GetFactor(recipe, item, node.GetValue());
-                RecipeBlock recipeBlock = CreateRecipeBlock(recipe, factor, node.gameObject.transform.position);
+                RecipeBlock recipeBlock = CreateRecipeBlock(recipe, factor, false, true, node.gameObject.transform.position);
                 Connect(recipeBlock, node);
             }
             else if (node.GetNodeType() == NODETYPE.PRODUCT)
@@ -292,7 +294,7 @@ public class UIPlanner : MonoBehaviour
     {
         Debug.Log("UIPlanner: OnRecipeContextItemPointerClick");
         Fraction factor = ResourceGenerator.GetFactor(item.GetRecipe(), demandedItem, demandRate);
-        RecipeBlock recipeBlock = CreateRecipeBlock(item.GetRecipe(), factor, new Vector2(600, 600));
+        RecipeBlock recipeBlock = CreateRecipeBlock(item.GetRecipe(), factor, true, false, new Vector2(600, 600));
         Connect(recipeBlock, targetNode);
         SetProductPrompt(false);
     }

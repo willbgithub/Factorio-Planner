@@ -97,8 +97,8 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 6682618902539693682}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
+          m_MethodName: OnInputButtonPointerEnter
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -113,8 +113,8 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 6682618902539693682}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
+          m_MethodName: OnInputButtonPointerExit
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -129,8 +129,8 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 6682618902539693682}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
+          m_MethodName: OnInputButtonPointerClick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2242,8 +2242,8 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 6682618902539693682}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
+          m_MethodName: OnProductButtonPointerEnter
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2258,8 +2258,8 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 6682618902539693682}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
+          m_MethodName: OnProductButtonPointerExit
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2274,8 +2274,8 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 6682618902539693682}
           m_TargetAssemblyTypeName: RecipeBlock, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 1
+          m_MethodName: OnProductButtonPointerClick
+          m_Mode: 0
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
