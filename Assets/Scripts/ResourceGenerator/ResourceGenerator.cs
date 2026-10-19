@@ -269,6 +269,10 @@ public class ResourceGenerator
     }
     public static Fraction GetFactor(Recipe recipe, Item desiredItem, Fraction desiredRate)
     {
+        Debug.Log("GetFactor()");
+        Debug.Log("Recipe: " + recipe);
+        Debug.Log("Desired Item: " + desiredItem);
+        Debug.Log("Desired Rate: " + desiredRate);
         return desiredRate / Fraction.abs(recipe.GetRate(desiredItem));
     }
     static Fraction GetFractionProperty(string prototype, string propertyName)

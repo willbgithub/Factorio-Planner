@@ -15,6 +15,7 @@ public class RecipeBlock : MonoBehaviour
     bool pointed = false;
     bool dragging = false;
     bool hasFocusedChild = false;
+    bool initialized = false;
     // Serialized objects
     [SerializeField] Color defaultColor;
     [SerializeField] Color focusedColor;
@@ -37,7 +38,12 @@ public class RecipeBlock : MonoBehaviour
     const int BOTTOM_SPACE = 50;
     public void Start()
     {
+        initialized = true;
         SetFactorPrompt(false);
+        if (inputLocked || productLocked)
+        {
+            UpdateFactor();
+        }
     }
     public void SetParent(UIPlanner parent)
     {
@@ -79,7 +85,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void SetFactor(Fraction factor)
     {
-        //Debug.Log("RecipeBlock: SetFactor");
+        Debug.Log("RecipeBlock: SetFactor");
         // Update all nodes
         List<Node> inputs = GetInputs();
         for (int i = 0; i < inputs.Count; i++)
@@ -95,6 +101,25 @@ public class RecipeBlock : MonoBehaviour
         }
         // Update text
         factorLabel.text = factor.ToString();
+        // Update connected blocks
+        List<RecipeBlock> inputBlocks = GetConnectedInputBlocks();
+        Debug.Log(this + " has " + inputBlocks.Count + " input blocks.");
+        for (int i = 0; i < inputBlocks.Count; i++)
+        {
+            if (inputBlocks[i].GetProductLocked())
+            {
+                inputBlocks[i].UpdateFactor();
+            }
+        }
+        List<RecipeBlock> productBlocks = GetConnectedProductBlocks();
+        Debug.Log(this + " has " + productBlocks.Count + " product blocks.");
+        for (int i = 0; i < productBlocks.Count; i++)
+        {
+            if (productBlocks[i].GetInputLocked())
+            {
+                productBlocks[i].UpdateFactor();
+            }
+        }
         // Update connected nodes
         List<Node> connectedNotes = GetConnectedNodes();
         for (int i = 0; i < connectedNotes.Count; i++)
@@ -102,8 +127,65 @@ public class RecipeBlock : MonoBehaviour
             connectedNotes[i].UpdateExcess();
         }
     }
+    public bool GetInputLocked()
+    {
+        return inputLocked;
+    }
+    public bool GetProductLocked()
+    {
+        return productLocked;
+    }
+    public List<RecipeBlock> GetConnectedBlocks()
+    {
+        List<RecipeBlock> blocks = new List<RecipeBlock>();
+        List<Node> nodes = GetConnectedNodes();
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            RecipeBlock block = nodes[i].GetParent();
+            if (blocks.Contains(block))
+            {
+                continue;
+            }
+            blocks.Add(block);
+        }
+        return blocks;
+    }
+    public List<RecipeBlock> GetConnectedInputBlocks()
+    {
+        List<RecipeBlock> blocks = new List<RecipeBlock>();
+        List<Node> nodes = GetConnectedProducts();
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            RecipeBlock block = nodes[i].GetParent();
+            if (blocks.Contains(block))
+            {
+                continue;
+            }
+            blocks.Add(block);
+        }
+        return blocks;
+    }
+    public List<RecipeBlock> GetConnectedProductBlocks()
+    {
+        List<RecipeBlock> blocks = new List<RecipeBlock>();
+        List<Node> nodes = GetConnectedInputs();
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            RecipeBlock block = nodes[i].GetParent();
+            if (blocks.Contains(block))
+            {
+                continue;
+            }
+            blocks.Add(block);
+        }
+        return blocks;
+    }
     public void UpdateFactor()
     {
+        if (!initialized || (!inputLocked && !productLocked))
+        {
+            return;
+        }
         Debug.Log("RecipeBlock: UpdateFactor");
         Fraction greatestFactor = 0;
         if (inputLocked)
@@ -128,7 +210,7 @@ public class RecipeBlock : MonoBehaviour
             for (int i = 0; i < connectedInputs.Count; i++)
             {
                 Debug.Log(connectedInputs[i]);
-                Fraction factor = ResourceGenerator.GetFactor(connectedInputs[i].GetRecipe(), connectedInputs[i].GetItem(), connectedInputs[i].GetDemand());
+                Fraction factor = ResourceGenerator.GetFactor(recipe, connectedInputs[i].GetItem(), connectedInputs[i].GetExcess(connectedInputs[i]));
                 Debug.Log("factor: " + factor);
                 if (factor > greatestFactor)
                 {
@@ -186,10 +268,16 @@ public class RecipeBlock : MonoBehaviour
     {
         Debug.Log(this + ": GetConnectedInputs");
         List<Node> nodes = GetProducts();
+        Debug.Log("nodes.Count: " + nodes.Count);
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            Debug.Log(nodes[i]);
+        }
         List<Node> connectedNodes = new List<Node>();
         for (int i = 0; i < nodes.Count; i++)
         {
             List<Node> nodeConnections = nodes[i].GetNodes();
+            Debug.Log("connected to this node: " + nodeConnections.Count);
             for (int j = 0; j < nodeConnections.Count; j++)
             {
                 connectedNodes.Add(nodeConnections[j]);
@@ -382,7 +470,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void OnFactorLabelPointerClick(BaseEventData d)
     {
-        Debug.Log("Factor label clicked");
+        //Debug.Log("Factor label clicked");
         SetFactorPrompt(true);
     }
     public void SetFactorPrompt(bool inputPrompt)

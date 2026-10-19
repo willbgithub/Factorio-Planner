@@ -59,10 +59,13 @@ public class Node : MonoBehaviour
     {
         return parent.GetRecipe();
     }
+    public RecipeBlock GetParent()
+    {
+        return parent;
+    }
     public void UpdateExcess()
     {
-        Debug.Log(this + ": UpdateExcess");
-        
+        //Debug.Log(this + ": UpdateExcess");
         if (GetExcess() > 0)
         {
             if (nodeType == NODETYPE.INPUT)
@@ -79,18 +82,24 @@ public class Node : MonoBehaviour
             colorBackground.color = intermediateColor;
         }
     }
-    public Fraction GetExcess()
+    public Fraction GetExcess(Node blacklist = null)
     {
-        //Debug.Log(this + " excess = " + (value - GetDemand()));
-        return value - GetDemand();
+        Fraction excess = value - GetDemand(blacklist);
+        Debug.Log(this + " excess = " + excess + "(value = " + value+")");
+        return excess;
     }
     public Fraction GetDemand()
     {
+        Debug.Log(this + ": GetDemand");
         Fraction demand = 0;
+        Debug.Log("There are " + nodes.Count + " connected nodes");
         for (int i = 0; i < nodes.Count; i++)
         {
+            Debug.Log(nodes[i]);
+            Debug.Log(nodes[i].GetDemand(this));
             demand += nodes[i].GetValue() - nodes[i].GetDemand(this);
         }
+        Debug.Log("Returning demand of " + demand);
         return demand;
     }
     public Fraction GetDemand(Node blacklist)
