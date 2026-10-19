@@ -3,11 +3,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using static UnityEngine.EventSystems.PointerEventData;
 
 public class RecipeBlock : MonoBehaviour
 {
     UIPlanner parent;
     Recipe recipe;
+    bool inputLocked = false;
+    bool productLocked = false;
     bool focused = false;
     bool pointed = false;
     bool dragging = false;
@@ -17,6 +20,8 @@ public class RecipeBlock : MonoBehaviour
     [SerializeField] Color focusedColor;
     [SerializeField] Color buttonDefaultColor;
     [SerializeField] Color buttonFocusedColor;
+    [SerializeField] Color buttonEnabledDefaultColor;
+    [SerializeField] Color buttonEnabledFocusedColor;
     [SerializeField] GameObject inputs;
     [SerializeField] GameObject products;
     [SerializeField] TMP_Text recipeLabel;
@@ -24,6 +29,8 @@ public class RecipeBlock : MonoBehaviour
     [SerializeField] TMP_InputField factorInput;
     [SerializeField] Image recipeIcon;
     [SerializeField] Image recipeIconBackground;
+    [SerializeField] Image inputButton;
+    [SerializeField] Image productButton;
     [SerializeField] Image background;
     [SerializeField] GameObject nodePrefab;
     const int CELL_SIZE = 65;
@@ -93,6 +100,30 @@ public class RecipeBlock : MonoBehaviour
         for (int i = 0; i < connectedNotes.Count; i++)
         {
             connectedNotes[i].UpdateExcess();
+        }
+    }
+    public void SetInputLocked(bool inputLocked)
+    {
+        this.inputLocked = inputLocked;
+        if (inputLocked)
+        {
+            inputButton.color = buttonEnabledDefaultColor;
+        }
+        else
+        {
+            inputButton.color = buttonDefaultColor;
+        }
+    }
+    public void SetProductLocked(bool productLocked)
+    {
+        this.productLocked = productLocked;
+        if (productLocked)
+        {
+            productButton.color = buttonEnabledDefaultColor;
+        }
+        else
+        {
+            productButton.color = buttonDefaultColor;
         }
     }
     public List<Node> GetConnectedNodes()
@@ -320,6 +351,70 @@ public class RecipeBlock : MonoBehaviour
     public void OnRecipeIconPointerClick(BaseEventData d)
     {
         Destroy(gameObject);
+    }
+    public void SetInputButtonFocused(bool focus)
+    {
+        SetFocusedChild(focus);
+        if (focus)
+        {
+            inputButton.color = buttonFocusedColor;
+        }
+        else
+        {
+            inputButton.color = buttonDefaultColor;
+        }
+    }
+    public void OnInputButtonPointerEnter(BaseEventData d)
+    {
+        SetInputButtonFocused(true);
+    }
+    public void OnInputButtonPointerExit(BaseEventData d)
+    {
+        SetInputButtonFocused(false);
+    }
+    public void OnInputButtonPointerClick(BaseEventData d)
+    {
+        SetInputLocked(!inputLocked);
+        if (inputLocked)
+        {
+            inputButton.color = buttonEnabledFocusedColor;
+        }
+        else
+        {
+            inputButton.color = buttonFocusedColor;
+        }
+    }
+    public void SetProductButtonFocused(bool focus)
+    {
+        SetFocusedChild(focus);
+        if (focus)
+        {
+            productButton.color = buttonFocusedColor;
+        }
+        else
+        {
+            productButton.color = buttonDefaultColor;
+        }
+    }
+    public void OnProductButtonPointerEnter(BaseEventData d)
+    {
+        SetProductButtonFocused(true);
+    }
+    public void OnProductButtonPointerExit(BaseEventData d)
+    {
+        SetProductButtonFocused(false);
+    }
+    public void OnProductButtonPointerClick(BaseEventData d)
+    {
+        SetProductLocked(!productLocked);
+        if (productLocked)
+        {
+            productButton.color = buttonEnabledFocusedColor;
+        }
+        else
+        {
+            productButton.color = buttonFocusedColor;
+        }
     }
     public void OnArrowGlow(Arrow arrow, bool glow)
     {
