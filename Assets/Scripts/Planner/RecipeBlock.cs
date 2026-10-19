@@ -3,7 +3,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using static UnityEngine.EventSystems.PointerEventData;
 
 public class RecipeBlock : MonoBehaviour
 {
@@ -51,7 +50,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void SetRecipe(Recipe recipe)
     {
-        //Debug.Log("RecipeBlock: SetRecipe");
+        ////Debug.Log("RecipeBlock: SetRecipe");
         this.recipe = recipe;
         // Erase previous nodes
         List<Node> nodes = GetNodes();
@@ -83,9 +82,9 @@ public class RecipeBlock : MonoBehaviour
         recipeLabel.text = recipe.GetEnglishName();
         recipeIcon.sprite = recipe.GetIcon();
     }
-    public void SetFactor(Fraction factor)
+    public void SetFactor(Fraction factor, RecipeBlock blacklist = null)
     {
-        Debug.Log("RecipeBlock: SetFactor");
+        //Debug.Log("RecipeBlock: SetFactor");
         // Update all nodes
         List<Node> inputs = GetInputs();
         for (int i = 0; i < inputs.Count; i++)
@@ -103,21 +102,21 @@ public class RecipeBlock : MonoBehaviour
         factorLabel.text = factor.ToString();
         // Update connected blocks
         List<RecipeBlock> inputBlocks = GetConnectedInputBlocks();
-        Debug.Log(this + " has " + inputBlocks.Count + " input blocks.");
+        //Debug.Log(this + " has " + inputBlocks.Count + " input blocks.");
         for (int i = 0; i < inputBlocks.Count; i++)
         {
-            if (inputBlocks[i].GetProductLocked())
+            if (inputBlocks[i].GetProductLocked() && inputBlocks[i] != blacklist)
             {
-                inputBlocks[i].UpdateFactor();
+                inputBlocks[i].UpdateFactor(this);
             }
         }
         List<RecipeBlock> productBlocks = GetConnectedProductBlocks();
-        Debug.Log(this + " has " + productBlocks.Count + " product blocks.");
+        //Debug.Log(this + " has " + productBlocks.Count + " product blocks.");
         for (int i = 0; i < productBlocks.Count; i++)
         {
-            if (productBlocks[i].GetInputLocked())
+            if (productBlocks[i].GetInputLocked() && productBlocks[i] != blacklist)
             {
-                productBlocks[i].UpdateFactor();
+                productBlocks[i].UpdateFactor(this);
             }
         }
         // Update connected nodes
@@ -126,6 +125,48 @@ public class RecipeBlock : MonoBehaviour
         {
             connectedNotes[i].UpdateExcess();
         }
+    }
+    public void UpdateFactor(RecipeBlock blacklist = null)
+    {
+        if (!initialized || (!inputLocked && !productLocked))
+        {
+            return;
+        }
+        //Debug.Log(this + ": UpdateFactor");
+        Fraction greatestFactor = 0;
+        List<Node> nodes = new List<Node>();
+        if (inputLocked)
+        {
+            List<Node> inputs = GetInputs();
+            for (int i = 0; i < inputs.Count; i++)
+            {
+                nodes.Add(inputs[i]);
+            }
+        }
+        if (productLocked)
+        {
+            List<Node> products = GetProducts();
+            for (int i = 0; i < products.Count; i++)
+            {
+                nodes.Add(products[i]);
+            }
+        }
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            List<Node> connectedNodes = nodes[i].GetNodes();
+            Fraction factor = 0;
+            for (int j = 0; j < connectedNodes.Count; j++)
+            {
+                factor += ResourceGenerator.GetFactor(recipe, nodes[i].GetItem(), connectedNodes[j].GetExcess(nodes[i]));
+                Debug.Log("connectedNodes[j].GetExcess(nodes[i]): " + connectedNodes[j].GetExcess(nodes[i]));
+            }
+            if (greatestFactor < factor)
+            {
+                greatestFactor = factor;
+            }
+        }
+            
+        SetFactor(greatestFactor, blacklist);
     }
     public bool GetInputLocked()
     {
@@ -180,46 +221,6 @@ public class RecipeBlock : MonoBehaviour
         }
         return blocks;
     }
-    public void UpdateFactor()
-    {
-        if (!initialized || (!inputLocked && !productLocked))
-        {
-            return;
-        }
-        Debug.Log("RecipeBlock: UpdateFactor");
-        Fraction greatestFactor = 0;
-        if (inputLocked)
-        {
-            List<Node> connectedProducts = GetConnectedProducts();
-            Debug.Log("Looking at " + connectedProducts.Count + " connected products");
-            for (int i = 0; i < connectedProducts.Count; i++)
-            {
-                Debug.Log(connectedProducts[i]);
-                Fraction factor = ResourceGenerator.GetFactor(connectedProducts[i].GetRecipe(), connectedProducts[i].GetItem(), connectedProducts[i].GetDemand());
-                Debug.Log("factor: " + factor);
-                if (factor > greatestFactor)
-                {
-                    greatestFactor = factor;
-                }
-            }
-        }
-        if (productLocked)
-        {
-            List<Node> connectedInputs = GetConnectedInputs();
-            Debug.Log("Looking at " + connectedInputs.Count + " connected inputs");
-            for (int i = 0; i < connectedInputs.Count; i++)
-            {
-                Debug.Log(connectedInputs[i]);
-                Fraction factor = ResourceGenerator.GetFactor(recipe, connectedInputs[i].GetItem(), connectedInputs[i].GetExcess(connectedInputs[i]));
-                Debug.Log("factor: " + factor);
-                if (factor > greatestFactor)
-                {
-                    greatestFactor = factor;
-                }
-            }
-        }
-        SetFactor(greatestFactor);
-    }
     public Recipe GetRecipe()
     {
         return recipe;
@@ -230,11 +231,14 @@ public class RecipeBlock : MonoBehaviour
         if (inputLocked)
         {
             inputButton.color = buttonEnabledDefaultColor;
-            UpdateFactor();
         }
         else
         {
             inputButton.color = buttonDefaultColor;
+        }
+        if (inputLocked || productLocked)
+        {
+            UpdateFactor();
         }
     }
     public void SetProductLocked(bool productLocked)
@@ -243,11 +247,14 @@ public class RecipeBlock : MonoBehaviour
         if (productLocked)
         {
             productButton.color = buttonEnabledDefaultColor;
-            UpdateFactor();
         }
         else
         {
             productButton.color = buttonDefaultColor;
+        }
+        if (inputLocked || productLocked)
+        {
+            UpdateFactor();
         }
     }
     public List<Node> GetConnectedNodes()
@@ -266,18 +273,18 @@ public class RecipeBlock : MonoBehaviour
     }
     public List<Node> GetConnectedInputs()
     {
-        Debug.Log(this + ": GetConnectedInputs");
-        List<Node> nodes = GetProducts();
-        Debug.Log("nodes.Count: " + nodes.Count);
-        for (int i = 0; i < nodes.Count; i++)
+        //Debug.Log(this + ": GetConnectedInputs");
+        List<Node> productNodes = GetProducts();
+        //Debug.Log(this + " productNodes.Count: " + productNodes.Count);
+        for (int i = 0; i < productNodes.Count; i++)
         {
-            Debug.Log(nodes[i]);
+            //Debug.Log(productNodes[i]);
         }
         List<Node> connectedNodes = new List<Node>();
-        for (int i = 0; i < nodes.Count; i++)
+        for (int i = 0; i < productNodes.Count; i++)
         {
-            List<Node> nodeConnections = nodes[i].GetNodes();
-            Debug.Log("connected to this node: " + nodeConnections.Count);
+            List<Node> nodeConnections = productNodes[i].GetNodes();
+            //Debug.Log(this + " connected to this node: " + nodeConnections.Count);
             for (int j = 0; j < nodeConnections.Count; j++)
             {
                 connectedNodes.Add(nodeConnections[j]);
@@ -315,7 +322,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public List<Node> GetInputs()
     {
-        //Debug.Log("RecipeBlock: GetInputs");
+        ////Debug.Log("RecipeBlock: GetInputs");
         List<Node> list = new List<Node>();
         for (int i = 0; i < inputs.transform.childCount; i++)
         {
@@ -325,7 +332,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public List<Node> GetProducts()
     {
-        //Debug.Log("RecipeBlock: GetProducts");
+        ////Debug.Log("RecipeBlock: GetProducts");
         List<Node> list = new List<Node>();
         for (int i = 0; i < products.transform.childCount; i++)
         {
@@ -363,7 +370,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public List<Node> GetNodes()
     {
-        //Debug.Log("RecipeBlock: GetNodes");
+        ////Debug.Log("RecipeBlock: GetNodes");
         List<Node> list = new List<Node>();
         for (int i = 0; i < inputs.transform.childCount; i++)
         {
@@ -377,7 +384,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public Node CreateNode(Transform parent, NODETYPE nodeType, Item item, Fraction value)
     {
-        //Debug.Log("Node: CreateNode");
+        ////Debug.Log("Node: CreateNode");
         Node node = Instantiate(nodePrefab, parent).GetComponent<Node>();
         node.SetParent(this);
         node.SetNodeType(nodeType);
@@ -433,13 +440,13 @@ public class RecipeBlock : MonoBehaviour
     }
     public void OnPointerEnter(BaseEventData d)
     {
-        //Debug.Log("RecipeBlock: OnPointerEnter");
+        ////Debug.Log("RecipeBlock: OnPointerEnter");
         pointed = true;
         SetFocused(true);
     }
     public void OnPointerExit(BaseEventData d)
     {
-        //Debug.Log("RecipeBlock: OnPointerExit");
+        ////Debug.Log("RecipeBlock: OnPointerExit");
         pointed = false;
         SetFocused(false);
     }
@@ -470,7 +477,7 @@ public class RecipeBlock : MonoBehaviour
     }
     public void OnFactorLabelPointerClick(BaseEventData d)
     {
-        //Debug.Log("Factor label clicked");
+        ////Debug.Log("Factor label clicked");
         SetFactorPrompt(true);
     }
     public void SetFactorPrompt(bool inputPrompt)
@@ -479,6 +486,8 @@ public class RecipeBlock : MonoBehaviour
         factorLabel.gameObject.SetActive(!inputPrompt);
         if (inputPrompt)
         {
+            SetInputLocked(false);
+            SetProductLocked(false);
             factorInput.text = factorLabel.text;
             factorInput.Select();
         }

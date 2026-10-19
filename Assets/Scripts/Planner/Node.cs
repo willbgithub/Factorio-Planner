@@ -32,13 +32,13 @@ public class Node : MonoBehaviour
     [SerializeField] TMP_Text productLabel;
     public void Awake()
     {
-        //Debug.Log("Node: Awake");
+        ////Debug.Log("Node: Awake");
         relatedArrows = new List<Arrow>();
         nodes = new List<Node>();
     }
     public void SetItem(Item item)
     {
-        //Debug.Log("Node: SetItem");
+        ////Debug.Log("Node: SetItem");
         this.item = item;
         itemIcon.sprite = item.GetIcon();
     }
@@ -46,14 +46,60 @@ public class Node : MonoBehaviour
 	public void AddNode(Node node)
     {
         nodes.Add(node);
+        parent.UpdateFactor();
         UpdateExcess();
     }
     // Only called by a node that has already properly disconnected this one
     public void RemoveNode(Node node)
     {
-        Debug.Log(this + ": RemoveNode(" + node + ")");
+        ////Debug.Log(this + ": RemoveNode(" + node + ")");
         nodes.Remove(node);
+        parent.UpdateFactor();
         UpdateExcess();
+    }
+    public void Disconnect(Node node)
+    {
+        ////Debug.Log(this + ": Disconnect(" + node + ")");
+        if (!Contains(node))
+        {
+            Debug.LogError("ERROR: Attempted to disconnect node that wasn't connected!");
+        }
+        nodes.Remove(node);
+        ////Debug.Log(this + ": relatedArrows.Count = " + relatedArrows.Count);
+        for (int i = 0; i < relatedArrows.Count; i++)
+        {
+            if (relatedArrows[i].Contains(node))
+            {
+                Destroy(relatedArrows[i].gameObject);
+                i = relatedArrows.Count;
+            }
+        }
+        if (node.Contains(this))
+        {
+            ////Debug.Log("node.Contains(this) -> true");
+            node.RemoveNode(this);
+        }
+        else
+        {
+            ////Debug.Log("node.Contains(this) -> false");
+        }
+        UpdateExcess();
+    }
+    public void DisconnectAll()
+    {
+        ////Debug.Log(this + ": DisconnectAll");
+        for (int i = 0; i < nodes.Count; i++)
+        {
+            nodes[i].RemoveNode(this);
+        }
+        for (int i = 0; i < relatedArrows.Count; i++)
+        {
+            Destroy(relatedArrows[i].gameObject);
+        }
+    }
+    public void DisconnectArrow(Arrow arrow)
+    {
+        relatedArrows.Remove(arrow);
     }
     public Recipe GetRecipe()
     {
@@ -65,7 +111,7 @@ public class Node : MonoBehaviour
     }
     public void UpdateExcess()
     {
-        //Debug.Log(this + ": UpdateExcess");
+        ////Debug.Log(this + ": UpdateExcess");
         if (GetExcess() > 0)
         {
             if (nodeType == NODETYPE.INPUT)
@@ -85,34 +131,28 @@ public class Node : MonoBehaviour
     public Fraction GetExcess(Node blacklist = null)
     {
         Fraction excess = value - GetDemand(blacklist);
-        Debug.Log(this + " excess = " + excess + "(value = " + value+")");
+        //Debug.Log(this + " excess = " + excess + "(value = " + value+")");  
         return excess;
     }
-    public Fraction GetDemand()
+    public Fraction GetDemand(Node blacklist = null)
     {
-        Debug.Log(this + ": GetDemand");
+        //Debug.Log(this + ": GetDemand");
         Fraction demand = 0;
-        Debug.Log("There are " + nodes.Count + " connected nodes");
+        //Debug.Log(this + " has " + nodes.Count + " nodes connected to it.");
         for (int i = 0; i < nodes.Count; i++)
         {
-            Debug.Log(nodes[i]);
-            Debug.Log(nodes[i].GetDemand(this));
-            demand += nodes[i].GetValue() - nodes[i].GetDemand(this);
-        }
-        Debug.Log("Returning demand of " + demand);
-        return demand;
-    }
-    public Fraction GetDemand(Node blacklist)
-    {
-        Fraction demand = 0;
-        for (int i = 0; i < nodes.Count; i++)
-        {
+            //Debug.Log(this + " Node " + i + ": " + nodes[i]);
             if (nodes[i] == blacklist)
             {
+                //Debug.Log(this + " Skipping this blacklisted node");
                 continue;
             }
-            demand += nodes[i].value;
+            Fraction nodeDemand = nodes[i].GetDemand(this);
+            //Debug.Log(nodes[i] + " has a demand of " + nodeDemand + " (ignoring the calling node)");
+            //Debug.Log(this + " Added " + (nodes[i].GetValue() - nodeDemand) + " to demand");
+            demand += nodes[i].GetValue() - nodeDemand;
         }
+        //Debug.Log(this + " Returning demand of " + demand);
         return demand;
     }
     public string ListToString(List<Node> list)
@@ -155,7 +195,7 @@ public class Node : MonoBehaviour
     }
     public void SetNodeType(NODETYPE nodeType)
     {
-        //Debug.Log("Node: SetNodeType");
+        ////Debug.Log("Node: SetNodeType");
         this.nodeType = nodeType;
         if (nodeType == NODETYPE.INPUT)
         {
@@ -179,7 +219,7 @@ public class Node : MonoBehaviour
     }
     public Item GetItem()
     {
-        //Debug.Log("Node: GetItem");
+        ////Debug.Log("Node: GetItem");
         return item;
     }
     public List<Node> GetNodes()
@@ -188,7 +228,7 @@ public class Node : MonoBehaviour
     }
     public void SetValue(Fraction value)
     {
-        //Debug.Log("Node: SetValue");
+        ////Debug.Log("Node: SetValue");
         this.value = value;
         if (nodeType == NODETYPE.INPUT)
         {
@@ -211,57 +251,14 @@ public class Node : MonoBehaviour
     
     public void OnDestroy()
     {
-        //Debug.Log(this + ": OnDestroy");
+        ////Debug.Log(this + ": OnDestroy");
         if (relatedArrows.IsUnityNull())
         {
             return;
         }
         DisconnectAll();
     }
-    public void DisconnectAll()
-    {
-        //Debug.Log(this + ": DisconnectAll");
-        for (int i = 0; i < nodes.Count; i++)
-        {
-            nodes[i].RemoveNode(this);
-        }
-        for (int i = 0; i < relatedArrows.Count; i++)
-        {
-            Destroy(relatedArrows[i].gameObject);
-        }
-    }
-    public void DisconnectArrow(Arrow arrow)
-    {
-        relatedArrows.Remove(arrow);
-    }
-    public void Disconnect(Node node)
-    {
-        Debug.Log(this + ": Disconnect(" + node + ")");
-        if (!Contains(node))
-        {
-            Debug.LogError("ERROR: Attempted to disconnect node that wasn't connected!");
-        }
-        nodes.Remove(node);
-        Debug.Log(this + ": relatedArrows.Count = " + relatedArrows.Count);
-        for (int i = 0; i < relatedArrows.Count; i++)
-        {
-            if (relatedArrows[i].Contains(node))
-            {
-                Destroy(relatedArrows[i].gameObject);
-                i = relatedArrows.Count;
-            }
-        }
-        if (node.Contains(this))
-        {
-            Debug.Log("node.Contains(this) -> true");
-            node.RemoveNode(this);
-        }
-        else
-        {
-            Debug.Log("node.Contains(this) -> false");
-        }
-        UpdateExcess();
-    }
+    
     public override string ToString()
     {
         if (nodeType == NODETYPE.INPUT)
@@ -297,7 +294,7 @@ public class Node : MonoBehaviour
     }
     public void OnPointerEnter(BaseEventData d)
     {
-        //Debug.Log("Node: OnPointerEnter");
+        ////Debug.Log("Node: OnPointerEnter");
         pointed = true;
         if (parent.IsDragging())
         {
@@ -315,14 +312,14 @@ public class Node : MonoBehaviour
     }
     public void OnPointerExit(BaseEventData d)
     {
-        //Debug.Log("Node: OnPointerExit");
+        ////Debug.Log("Node: OnPointerExit");
         pointed = false;
         SetFocused(false);
         parent.SetFocused(true);
     }
     public void OnPointerClick(BaseEventData d)
     {
-        //Debug.Log("Node: OnPointerClick");
+        ////Debug.Log("Node: OnPointerClick");
         parent.OnNodePointerClick(this, d);
     }
     public List<Arrow> GetRelatedArrows()

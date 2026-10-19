@@ -12,7 +12,7 @@ public class Arrow : MonoBehaviour
     [SerializeField] Color glowColor;
     public void Awake()
     {
-        //Debug.Log("Arrow: Awake");
+        ////Debug.Log("Arrow: Awake");
         line = GetComponent<UILineRenderer>();
         line.points = new Vector2[2];
     }
@@ -40,14 +40,14 @@ public class Arrow : MonoBehaviour
     }
     public void UpdatePosition(float scale)
     {
-        //Debug.Log("Arrow: UpdatePosition");
+        ////Debug.Log("Arrow: UpdatePosition");
         line.points[0] = inputNode.transform.position / scale;
         line.points[1] = productNode.transform.position / scale;
         line.OnRebuildRequested();
     }
     public void OnDestroy()
     {
-        //Debug.Log("Arrow: OnDestroy");
+        ////Debug.Log("Arrow: OnDestroy");
         inputNode.DisconnectArrow(this);
         productNode.DisconnectArrow(this);
     }
